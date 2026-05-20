@@ -36,7 +36,7 @@ export default function Header() {
 
     return (
         <header className="w-full bg-transparent">
-            <div className="max-w-[1440px] mx-auto px-6 md:px-12 py-5 flex justify-between items-center">
+            <div className="max-w-[1440px] mx-auto px-4 lg:px-0 py-5 flex justify-between items-center">
 
                 <Link href={"/"}>
                     <img src="/Samyak_logo.webp" alt="Samyak" width={150} height={50} />
