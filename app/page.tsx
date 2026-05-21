@@ -52,7 +52,7 @@ export default function Home() {
                             <button className="border border-[#133C1E]/30 hover:border-[#133C1E] text-[#133C1E] font-avantgarde font-normal text-[16px] rounded-full px-8 py-4 min-w-[160px] flex items-center justify-center gap-2 transition-colors cursor-pointer outline-none bg-transparent">
                                 {t("btnCatalog")}
 
-                                <IoIosArrowRoundForward size={25}/>
+                                <IoIosArrowRoundForward size={25} />
                             </button>
                         </div>
 
@@ -62,7 +62,7 @@ export default function Home() {
 
                         <div className="absolute bottom-[-100px] right-0 w-full max-w-[639px] h-[460px] sm:h-[620px] lg:h-[650px] bg-[#133C1E] rounded-t-[500px] z-0" />
 
-                        <div className="relative z-10 w-full max-w-[620px] sm:max-w-[700px] lg:max-w-[820px] h-[400px] sm:h-[500px] lg:h-[1000px] flex items-end justify-center px-4 sm:px-6">
+                        <div className="relative z-10 w-full max-w-[620px] sm:max-w-[700px] lg:max-w-[820px] h-[400px] sm:h-[500px]  flex items-end justify-center px-4 sm:px-6">
                             <div className="relative w-full h-full">
                                 <Image
                                     src="/Hero_img.webp"

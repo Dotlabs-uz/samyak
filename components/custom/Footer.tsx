@@ -53,10 +53,10 @@ export default function Footer() {
                     <div className="absolute left-1/2 -translate-x-1/2 w-screen overflow-hidden flex items-center h-28 md:h-36 lg:h-44 bottom-5">
                         <div className="flex whitespace-nowrap min-w-full shrink-0 items-center animate-marquee">
                             {Array(4).fill(null).map((_, outerIdx) => (
-                                <div key={outerIdx} className="flex items-center shrink-0 w-screen h-27 relative">
+                                <div key={outerIdx} className="flex items-center shrink-0 w-screen h-30 relative">
                                     <Image
-                                        src="/Footer_img.webp"
-                                        alt="Hearts Pattern"
+                                        src="/Footer_img.svg"
+                                        alt="Samyak patterns"
                                         fill
                                         className="object-cover object-center"
                                         sizes="100vw"
@@ -89,7 +89,7 @@ export default function Footer() {
                     <div className="pt-8 pb-6 flex flex-col md:flex-row justify-between items-center gap-6">
                         <div className="flex items-center select-none shrink-0">
                             <Image
-                                src="/Footer_logo.webp"
+                                src="/Footer_logo.svg"
                                 alt="Samyak Logo"
                                 width={200}
                                 height={100}
