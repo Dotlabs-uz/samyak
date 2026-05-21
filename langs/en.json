@@ -12,6 +12,14 @@
         "feature3": "Fast delivery service",
         "feature4": "For every day and any occasion"
     },
+    "Philosophy": {
+        "label": "PHILOSOPHY",
+        "subTitle": "We are not just a store.",
+        "text": "Samyak is a destination for selected flavors and high-quality products. We curate only the best goods from top producers, ensuring every purchase is unique.",
+        "button": "Our store",
+        "catalog": "Catalog",
+        "titleWords": ["IMPORT", "PREMIUM QUALITY", "HALAL", "GLUTEN FREE", "SUGAR FREE", "ORGANIC"]
+    },
     "Footer": {
         "addressesTitle": "Our\nlocations",
         "address": "Amir Temur 17A, Samarkand",

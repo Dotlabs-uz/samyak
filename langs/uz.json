@@ -12,6 +12,14 @@
         "feature3": "Tez yetkazib berish xizmati",
         "feature4": "Har kuni va har qanday vaziyat uchun"
     },
+    "Philosophy": {
+        "label": "FALSAFA",
+        "subTitle": "Biz oddiy do'kon emasmiz.",
+        "text": "Samyak — tanlangan ta'mlar va yuqori sifatli mahsulotlar manzili. Biz faqat eng yaxshi ishlab chiqaruvchilardan premium mahsulotlarni tanlaymiz, shunda har bir xaridingiz o'zgacha bo'ladi.",
+        "button": "Bizning do'kon",
+        "catalog": "Katalog",
+        "titleWords": ["IMPORT", "PREMIUM SIFAT", "HALOL", "BEZGLYUTEN", "SHAKARSIZ", "ORGANIK"]
+    },
     "Footer": {
         "addressesTitle": "Bizning\nmanzillarimiz",
         "address": "Amir Temur 17A, Samarkand",
