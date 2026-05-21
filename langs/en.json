@@ -18,7 +18,21 @@
         "text": "Samyak is a destination for selected flavors and high-quality products. We curate only the best goods from top producers, ensuring every purchase is unique.",
         "button": "Our store",
         "catalog": "Catalog",
-        "titleWords": ["IMPORT", "PREMIUM QUALITY", "HALAL", "GLUTEN FREE", "SUGAR FREE", "ORGANIC"]
+        "titleWords": [
+            "IMPORT",
+            "PREMIUM QUALITY",
+            "HALAL",
+            "GLUTEN FREE",
+            "SUGAR FREE",
+            "ORGANIC"
+        ]
+    },
+    "OurGuests": {
+        "label": "OUR GUESTS",
+        "title": "Our guests",
+        "description": "Premium product collection — choose yourself or use a ready-made option",
+        "button": "Go to account",
+        "reels_label": "Reels"
     },
     "Footer": {
         "addressesTitle": "Our\nlocations",

@@ -18,7 +18,21 @@
         "text": "Samyak — tanlangan ta'mlar va yuqori sifatli mahsulotlar manzili. Biz faqat eng yaxshi ishlab chiqaruvchilardan premium mahsulotlarni tanlaymiz, shunda har bir xaridingiz o'zgacha bo'ladi.",
         "button": "Bizning do'kon",
         "catalog": "Katalog",
-        "titleWords": ["IMPORT", "PREMIUM SIFAT", "HALOL", "BEZGLYUTEN", "SHAKARSIZ", "ORGANIK"]
+        "titleWords": [
+            "IMPORT",
+            "PREMIUM SIFAT",
+            "HALOL",
+            "BEZGLYUTEN",
+            "SHAKARSIZ",
+            "ORGANIK"
+        ]
+    },
+    "OurGuests": {
+        "label": "MEHMOLARIMIZ",
+        "title": "Bizning mehmonlarimiz",
+        "description": "Premium mahsulotlar to'plami — o'zingiz tanlaysiz yoki tayyor variantdan foydalanasiz",
+        "button": "Akkauntga o'tish",
+        "reels_label": "Reels"
     },
     "Footer": {
         "addressesTitle": "Bizning\nmanzillarimiz",
