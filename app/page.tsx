@@ -14,7 +14,23 @@ import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
 import { useEffect, useState } from 'react';
 import { IoSparklesSharp } from "react-icons/io5";
-import { GiftCard } from '@/components/custom/GiftCart';
+import { GiftCard } from '@/components/custom/GiftCard';
+import ProductCard from '@/components/custom/ProductCard';
+import { PiStarFourFill } from "react-icons/pi";
+import { GiSevenPointedStar } from "react-icons/gi";
+import { TiStarburst } from "react-icons/ti";
+import { RiBox3Fill } from "react-icons/ri";
+
+const categories = [
+    { key: "snacks", color: "bg-[#E1CDAD]", icon: <PiStarFourFill style={{ color: "#E1CDAD" }} size={20}/> },
+    { key: "fruits", color: "bg-[#50D541]", icon: <TiStarburst style={{ color: "#50D541" }} size={20}/> },
+    { key: "vegetables", color: "bg-[#CE2B53]", icon: <RiBox3Fill style={{ color: "#CE2B53" }} size={20}/> },
+    { key: "drinks", color: "bg-blue-400", icon: <GiSevenPointedStar style={{ color: "#FCB100" }} size={20}/> },
+    { key: "dairy", color: "bg-[#E1CDAD]", icon: <PiStarFourFill style={{ color: "#E1CDAD" }} size={20}/> },
+    { key: "household", color: "bg-[#E1CDAD]", icon: <PiStarFourFill style={{ color: "#E1CDAD" }} size={20}/> },
+    { key: "vitamins", color: "bg-[#50D541]", icon: <TiStarburst style={{ color: "#50D541" }} size={20}/> },
+    { key: "supplements", color: "bg-[#50D541]", icon: <TiStarburst style={{ color: "#50D541" }}size={20}/> },
+]
 
 export default function Home() {
     const t = useTranslations("Hero");
@@ -22,9 +38,11 @@ export default function Home() {
     const o = useTranslations("OurGuests")
     const g = useTranslations("Gastronomy")
     const i = useTranslations("Gift")
+    const r = useTranslations("Products")
 
     const [api, setApi] = useState<CarouselApi>();
     const [activeIndex, setActiveIndex] = useState(0);
+    const [activeCategory, setActiveCategory] = useState("snacks")
 
     useEffect(() => {
         if (!api) return;
@@ -168,7 +186,7 @@ export default function Home() {
                 </div>
 
                 <div
-                    className="w-full rounded-t-[32px] md:rounded-[32px] flex flex-col md:flex-row items-start relative mt-20 min-h-[400px]"
+                    className="w-full rounded-[32px] flex flex-col md:flex-row items-start relative mt-20 min-h-[400px]"
                     style={{
                         background: '#133C1E',
                         boxShadow: '0px 159px 129.4px 0px #02270C inset'
@@ -199,7 +217,7 @@ export default function Home() {
                             {p("text")}
                         </p>
 
-                        <div className="flex flex-wrap items-center gap-4">
+                        <div className="flex items-center gap-4">
                             <button className="bg-[#BF9C66] text-white px-8 py-3 rounded-full hover:bg-[#a88a58] transition cursor-pointer">
                                 {p("button")}
                             </button>
@@ -209,7 +227,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className="absolute bottom-2 left-0 w-full pointer-events-none">
+                    <div className="hidden md:block absolute bottom-2 left-0 w-full pointer-events-none">
                         <Image
                             src="/Footer_img.svg"
                             alt="Pattern"
@@ -218,6 +236,55 @@ export default function Home() {
                             className="w-full object-cover"
                         />
                     </div>
+                </div>
+            </section>
+
+            <section className="py-16 bg-white px-4 rounded-4xl">
+                <h2 className="text-center text-2xl font-bold text-[#C1A176] mb-10 tracking-widest uppercase">
+                    {r("top_products")}
+                </h2>
+
+                <div className="flex flex-wrap justify-center gap-4 mb-12">
+                    {categories.map((cat, idx) => (
+                        <button
+                            key={idx}
+                            onClick={() => setActiveCategory(cat.key)}
+                            className={`flex items-center gap-2 px-5 py-3 rounded-full border transition cursor-pointer
+                        ${activeCategory === cat.key
+                                    ? "bg-[#BF9C66] text-white border-[#BF9C66]"
+                                    : "bg-white text-gray-700 border-gray-200 hover:bg-[#BF9C66] hover:text-white"
+                                }`}
+                        >
+                            {cat.icon}
+                            <span>{r(`categories.${cat.key}`)}</span>
+                        </button>
+                    ))}
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                    {[1, 2, 3, 4].map((i) => (
+                        <ProductCard
+                            key={i}
+                            titleKey="item_title"
+                            image="/lays.png"
+                        />
+                    ))}
+                </div>
+
+                <div className="flex justify-center gap-4">
+                    <button
+                        onClick={() => api?.scrollPrev()}
+                        className="h-14 w-14 rounded-full bg-[#133C1E] flex items-center justify-center text-white hover:bg-[#1f5a2d] transition cursor-pointer"
+                    >
+                        <FaArrowLeft />
+                    </button>
+
+                    <button
+                        onClick={() => api?.scrollNext()}
+                        className="h-14 w-14 rounded-full bg-[#133C1E] flex items-center justify-center text-white hover:bg-[#1f5a2d] transition cursor-pointer"
+                    >
+                        <FaArrowRight />
+                    </button>
                 </div>
             </section>
 

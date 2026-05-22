@@ -27,6 +27,22 @@
             "ORGANIK"
         ]
     },
+    "Products": {
+        "top_products": "TOP MAHSULOTLAR",
+        "categories": {
+            "snacks": "Sneklar",
+            "fruits": "Mevalar",
+            "vegetables": "Sabzavotlar",
+            "drinks": "Ichimliklar",
+            "dairy": "Sut mahsulotlari",
+            "household": "Maishiy kimyo",
+            "vitamins": "Vitaminlar",
+            "supplements": "BADlar"
+        },
+        "item_title": "Lays tuzli chipsi",
+        "halal": "Halal",
+        "gelatin_free": "Jelatin yo'q"
+    },
     "Gift": {
         "badge": "SOVG'A SAVATLARI",
         "titleWords": [

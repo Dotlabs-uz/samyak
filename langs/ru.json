@@ -27,6 +27,22 @@
             "ОРГАНИК"
         ]
     },
+    "Products": {
+        "top_products": "ТОП ПРОДУКТОВ",
+        "categories": {
+            "snacks": "Снеки",
+            "fruits": "Фрукты",
+            "vegetables": "Овощи",
+            "drinks": "Напитки",
+            "dairy": "Молочные продукты",
+            "household": "Бытовая химия",
+            "vitamins": "Витамины",
+            "supplements": "БАДы"
+        },
+        "item_title": "Чипсы Lays с солью",
+        "halal": "Халяль",
+        "gelatin_free": "Без желатина"
+    },
     "Gift": {
         "badge": "ПОДАРОЧНЫЕ НАБОРЫ",
         "titleWords": [

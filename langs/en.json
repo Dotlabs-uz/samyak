@@ -27,6 +27,22 @@
             "ORGANIC"
         ]
     },
+    "Products": {
+        "top_products": "TOP PRODUCTS",
+        "categories": {
+            "snacks": "Snacks",
+            "fruits": "Fruits",
+            "vegetables": "Vegetables",
+            "drinks": "Drinks",
+            "dairy": "Dairy products",
+            "household": "Household chemicals",
+            "vitamins": "Vitamins",
+            "supplements": "Supplements"
+        },
+        "item_title": "Lays Salted Chips",
+        "halal": "Halal",
+        "gelatin_free": "Gelatin free"
+    },
     "Gift": {
         "badge": "GIFT SETS",
         "titleWords": [
