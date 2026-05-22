@@ -27,6 +27,25 @@
             "ORGANIK"
         ]
     },
+    "Gastronomy": {
+        "coffee": {
+            "badge": "SOVG'A SAVATLARI",
+            "title": "Shahardagi eng yaxshi qahva tajribasi",
+            "subtitle": "Premium mahsulot to‘plamlari — o‘zingiz tanlang yoki tayyor variantdan foydalaning"
+        },
+        "gastronomy": {
+            "subtitle": "GASTRONOMIK BUTIK",
+            "title": "Baliq va go‘sht delikateslari",
+            "description": "Dengiz qa’ridan va saralangan fermalardan to‘g‘ridan-to‘g‘ri dasturxoningizga. Oddiy katalog emas, balki haqiqiy ta’m san’ati."
+        },
+        "products": {
+            "ready_set": "TAYYOR TO‘PLAMLAR",
+            "cold_water": "Sovuq suv delikateslari",
+            "item1": "Ajdar baliq, lionfish va anglerfish",
+            "item2": "Goblin akulasi, fugu va quyosh balig‘i",
+            "item3": "Clown triggerfish va parrotfish"
+        }
+    },
     "OurGuests": {
         "label": "MEHMOLARIMIZ",
         "title": "Bizning mehmonlarimiz",

@@ -27,6 +27,25 @@
             "ORGANIC"
         ]
     },
+    "Gastronomy": {
+        "coffee": {
+            "badge": "GIFT SETS",
+            "title": "The city's finest coffee experience",
+            "subtitle": "Curated premium selections — build your own set or choose a ready-made collection"
+        },
+        "gastronomy": {
+            "subtitle": "GASTRONOMIC BOUTIQUE",
+            "title": "Fish and meat delicacies",
+            "description": "From the depths of the ocean and carefully selected farms straight to your table. More than a catalog — a true taste experience."
+        },
+        "products": {
+            "ready_set": "READY-MADE SETS",
+            "cold_water": "Cold-water delicacies",
+            "item1": "Dragonfish, lionfish, and anglerfish",
+            "item2": "Goblin shark, pufferfish, and sunfish",
+            "item3": "Clown triggerfish and parrotfish"
+        }
+    },
     "OurGuests": {
         "label": "OUR GUESTS",
         "title": "Our guests",

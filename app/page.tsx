@@ -13,11 +13,13 @@ import { ReelsCard } from '@/components/custom/ReelsCard';
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
 import { useEffect, useState } from 'react';
+import { IoSparklesSharp } from "react-icons/io5";
 
 export default function Home() {
     const t = useTranslations("Hero");
     const p = useTranslations("Philosophy")
     const o = useTranslations("OurGuests")
+    const g = useTranslations("Gastronomy")
 
     const [api, setApi] = useState<CarouselApi>();
     const [activeIndex, setActiveIndex] = useState(0);
@@ -217,6 +219,133 @@ export default function Home() {
                 </div>
             </section>
 
+            <section className="relative w-full py-20 overflow-hidden">
+                <div className="relative z-10 mx-auto mb-5">
+                    <div className="flex flex-col items-center text-center gap-4">
+                        <span className="text-[#BF9C66] text-xl uppercase font-avantgarde font-bold text-center block">
+                            {g('coffee.badge')}
+                        </span>
+
+                        <h2 className="text-4xl md:text-6xl max-w-2xl text-[#133C1E] font-extrabold font-oceanic">
+                            {g('coffee.title')}
+                        </h2>
+
+                        <p className="text-[#363636] text-lg font-avantgarde max-w-lg mb-10">
+                            {g('coffee.subtitle')}
+                        </p>
+                    </div>
+
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <img
+                            src="/coffee.png"
+                            alt="coffee"
+                            className="rounded-3xl w-full h-auto object-cover"
+                        />
+
+                        <img
+                            src="/coffee.png"
+                            alt="coffee"
+                            className="rounded-3xl w-full h-auto object-cover"
+                        />
+
+                        <img
+                            src="/coffee.png"
+                            alt="coffee"
+                            className="rounded-3xl w-full h-auto object-cover"
+                        />
+
+                        <img
+                            src="/coffee.png"
+                            alt="coffee"
+                            className="rounded-3xl w-full h-auto object-cover"
+                        />
+                    </div>
+                </div>
+
+                <div className="relative rounded-[32px] overflow-hidden">
+                    <div className="absolute inset-0 z-0 overflow-hidden">
+                        <div
+                            className="absolute inset-0 bg-cover bg-center"
+                            style={{
+                                backgroundImage: `url('/Gastronomy_img.png')`
+                            }}
+                        />
+
+                        <div
+                            className="absolute inset-0"
+                            style={{
+                                background: `
+                    linear-gradient(
+                        180deg,
+                        rgba(0, 0, 0, 0.92) 0%,
+                        rgba(0, 0, 0, 0.78) 22%,
+                        rgba(9, 24, 14, 0.68) 55%,
+                        rgba(19, 60, 30, 0.38) 78%,
+                        rgba(0, 0, 0, 0.88) 100%
+                    )
+                    `
+                            }}
+                        />
+
+                        <div className="absolute inset-0 bg-black/20" />
+                    </div>
+
+                    <div className="relative z-10 max-w-7xl mx-auto px-4 py-20">
+                        <div className="max-w-2xl">
+                            <h3 className="text-[#BF9C66] text-xl font-semibold uppercase mb-5 font-avantgarde">
+                                {g('gastronomy.subtitle')}
+                            </h3>
+                        </div>
+
+                        <div className="grid grid-cols-1 lg:grid-cols-2 items-start mb-5 gap-10">
+                            <h2 className="text-4xl md:text-6xl max-w-xl text-white font-oceanic">
+                                {g('gastronomy.title')}
+                            </h2>
+
+                            <p className="text-white text-base md:text-lg font-avantgarde max-w-sm">
+                                {g('gastronomy.description')}
+                            </p>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            {[1, 2, 3, 4].map((i) => (
+                                <div
+                                    key={i}
+                                    className="rounded-[28px] border border-white/10 bg-[#4242424D] backdrop-blur-[2px] p-7 md:p-8 min-h-[260px] flex flex-col justify-between"
+                                >
+                                    <span className="text-[#BF9C66] text-lg uppercase font-bold font-avantgarde">
+                                        {g('products.ready_set')}
+                                    </span>
+
+                                    <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
+                                        <h3 className="text-white text-3xl md:text-[38px] leading-[110%] font-oceanic max-w-[260px]">
+                                            {g('products.cold_water')}
+                                        </h3>
+
+                                        <div className="max-w-[280px]">
+                                            {['item1', 'item2', 'item3'].map((itemKey) => (
+                                                <div
+                                                    key={itemKey}
+                                                    className="flex items-start gap-3 text-[#E7E7E7]"
+                                                >
+                                                    <span className="text-white text-xs mt-[3px] shrink-0">
+                                                        <IoSparklesSharp />
+                                                    </span>
+
+                                                    <span className="text-sm leading-[160%] font-involve">
+                                                        {g(`products.${itemKey}`)}
+                                                    </span>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="py-20 px-4 lg:px-0">
                 <div className="relative">
                     <div className="absolute top-[-50px] left-5 md:top-10 md:-left-20 z-20 hidden md:block">
@@ -225,7 +354,7 @@ export default function Home() {
 
                     <div className="flex flex-col md:flex-row justify-between items-start">
                         <div>
-                            <p className="text-[#BF9C66] uppercase tracking-[0.2em] font-bold text-sm mb-2">
+                            <p className="text-[#BF9C66] uppercase font-bold text-xl">
                                 {o("label")}
                             </p>
                         </div>
