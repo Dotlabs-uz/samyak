@@ -14,12 +14,14 @@ import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
 import { useEffect, useState } from 'react';
 import { IoSparklesSharp } from "react-icons/io5";
+import { GiftCard } from '@/components/custom/GiftCart';
 
 export default function Home() {
     const t = useTranslations("Hero");
     const p = useTranslations("Philosophy")
     const o = useTranslations("OurGuests")
     const g = useTranslations("Gastronomy")
+    const i = useTranslations("Gift")
 
     const [api, setApi] = useState<CarouselApi>();
     const [activeIndex, setActiveIndex] = useState(0);
@@ -216,6 +218,56 @@ export default function Home() {
                             className="w-full object-cover"
                         />
                     </div>
+                </div>
+            </section>
+
+            <section className="w-full py-20 bg-[#F3F3F3]">
+                <div className="flex flex-col items-center text-center gap-5 mb-14">
+                    <span className="text-[#BF9C66] text-xl uppercase font-avantgarde font-bold text-center block">
+                        {i("badge")}
+                    </span>
+
+                    <h2 className="font-oceanic text-4xl md:text-6xl max-w-2xl text-[#133B1D] font-extrabold leading-[1.1]">
+                        {i.raw("titleWords").map((word: any, idx: number) => (
+                            <span
+                                key={idx}
+                                className={`${word.highlight ? "text-[#BF9C66]" : "text-[#133B1D]"} mr-2`}
+                                style={{ fontWeight: 1000 }}
+                            >
+                                {word.text}
+                            </span>
+                        ))}
+                    </h2>
+
+                    <p className="text-[#363636] text-lg font-avantgarde max-w-lg">
+                        {i("subtitle")}
+                    </p>
+                </div>
+
+                <div className="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <GiftCard
+                        title={i("items.tayyor.title")}
+                        price={i("items.tayyor.price")}
+                        description={i("items.tayyor.desc")}
+                    />
+
+                    <GiftCard
+                        title={i("items.toy.title")}
+                        price={i("items.toy.price")}
+                        description={i("items.toy.desc")}
+                    />
+
+                    <GiftCard
+                        title={i("items.premium.title")}
+                        price={i("items.premium.price")}
+                        description={i("items.premium.desc")}
+                    />
+
+                    <GiftCard
+                        title={i("items.corporate.title")}
+                        price={i("items.corporate.price")}
+                        description={i("items.corporate.desc")}
+                    />
                 </div>
             </section>
 

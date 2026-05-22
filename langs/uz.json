@@ -27,6 +27,45 @@
             "ORGANIK"
         ]
     },
+    "Gift": {
+        "badge": "SOVG'A SAVATLARI",
+        "titleWords": [
+            {
+                "text": "Mukammal"
+            },
+            {
+                "text": "sovg'a",
+                "highlight": true
+            },
+            {
+                "text": "har bayram uchun"
+            }
+        ],
+        "subtitle": "Premium mahsulotlar to'plami — o'zingiz tanlaysiz yoki tayyor variantdan foydalanasiz",
+        "button": "Savatni yig‘ish",
+        "items": {
+            "tayyor": {
+                "title": "Tayyor set",
+                "price": "12 000 000 so'm",
+                "desc": "Shirinliklar, qahva, quruq mevalar — har bir ta’bga mos premium to‘plam."
+            },
+            "toy": {
+                "title": "To‘y set",
+                "price": "12 000 000 so'm",
+                "desc": "Bayram uchun maxsus tanlangan premium sovg‘a to‘plami."
+            },
+            "premium": {
+                "title": "Premium",
+                "price": "12 000 000 so'm",
+                "desc": "Eng yuqori sifatli mahsulotlar bilan eksklyuziv to‘plam."
+            },
+            "corporate": {
+                "title": "Korporativ",
+                "price": "12 000 000 so'm",
+                "desc": "Kompaniyalar uchun ideal biznes sovg‘a yechimi."
+            }
+        }
+    },
     "Gastronomy": {
         "coffee": {
             "badge": "SOVG'A SAVATLARI",

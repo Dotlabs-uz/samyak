@@ -27,6 +27,45 @@
             "ORGANIC"
         ]
     },
+    "Gift": {
+        "badge": "GIFT SETS",
+        "titleWords": [
+            {
+                "text": "The perfect"
+            },
+            {
+                "text": "gift",
+                "highlight": true
+            },
+            {
+                "text": "for every occasion"
+            }
+        ],
+        "subtitle": "Premium product sets — choose your own or use a ready-made option",
+        "button": "Build your set",
+        "items": {
+            "tayyor": {
+                "title": "Ready set",
+                "price": "12 000 000 so'm",
+                "desc": "Sweets, coffee, dried fruits — a premium set for every taste."
+            },
+            "toy": {
+                "title": "Wedding set",
+                "price": "12 000 000 so'm",
+                "desc": "Specially curated gift set for celebrations."
+            },
+            "premium": {
+                "title": "Premium",
+                "price": "12 000 000 so'm",
+                "desc": "Exclusive high-quality product collection."
+            },
+            "corporate": {
+                "title": "Corporate",
+                "price": "12 000 000 so'm",
+                "desc": "Perfect business gifting solution."
+            }
+        }
+    },
     "Gastronomy": {
         "coffee": {
             "badge": "GIFT SETS",
