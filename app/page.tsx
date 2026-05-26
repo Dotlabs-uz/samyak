@@ -69,11 +69,26 @@ export default function Home() {
 
     return (
         <div className="container mx-auto max-w-[1440px] px-4 xl:px-0">
-            <section className="w-full overflow-hidden relative pt-10 lg:pt-16 pb-6">
+            <section className="w-full overflow-hidden relative pt-5 lg:pt-16 pb-6">
+
+                <div className="relative w-full lg:hidden">
+                    <div className="absolute top-0 right-0 w-full h-[330px] bg-[#133C1E] rounded-t-[200px] z-0" />
+
+                    <div className="relative z-10 w-full flex justify-center pt-10 mb-6">
+                        <div className="relative w-full max-w-[320px] h-[280px]">
+                            <Image
+                                src="/Hero_img.webp"
+                                alt="Samyak Products"
+                                fill
+                                className="object-contain object-bottom"
+                                priority
+                            />
+                        </div>
+                    </div>
+                </div>
+
                 <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-8 lg:gap-4 mb-12">
-
                     <div className="lg:col-span-6 flex flex-col items-start z-10 text-left">
-
                         <div className="flex items-center gap-2 md:gap-3 font-avantgarde font-bold text-[20px] tracking-[0.08em] uppercase text-[#133C1E] mb-4 md:mb-6">
                             <span>{t("tagImport")}</span>
                             <span>•</span>
@@ -85,9 +100,7 @@ export default function Home() {
                         <h1 className="font-oceanic font-extrabold text-[44px] sm:text-[56px] md:text-[68px] lg:text-[76px] text-[#133C1E] tracking-normal leading-[1.05] mb-6 max-w-[720px]">
                             {t.rich("title", {
                                 gold: (chunks) => (
-                                    <span className="text-[#BF9C66]">
-                                        {chunks}
-                                    </span>
+                                    <span className="text-[#BF9C66]">{chunks}</span>
                                 ),
                                 br: () => <br />
                             })}
@@ -106,18 +119,15 @@ export default function Home() {
 
                             <button className="border border-[#133C1E]/30 hover:border-[#133C1E] text-[#133C1E] font-avantgarde font-normal text-[16px] rounded-full px-8 py-4 min-w-[160px] flex items-center justify-center gap-2 transition-colors cursor-pointer outline-none bg-transparent">
                                 {t("btnCatalog")}
-
                                 <IoIosArrowRoundForward size={25} />
                             </button>
                         </div>
-
                     </div>
 
-                    <div className="lg:col-span-6 w-full flex justify-center lg:justify-end relative mt-6 lg:mt-0">
-
+                    <div className="lg:col-span-6 w-full justify-center lg:justify-end relative mt-6 lg:mt-0 hidden lg:flex">
                         <div className="absolute bottom-[-100px] right-0 w-full max-w-[639px] h-[460px] sm:h-[620px] lg:h-[650px] bg-[#133C1E] rounded-t-[500px] z-0" />
 
-                        <div className="relative z-10 w-full max-w-[620px] sm:max-w-[700px] lg:max-w-[820px] h-[400px] sm:h-[500px]  flex items-end justify-center px-4 sm:px-6">
+                        <div className="relative z-10 w-full max-w-[620px] sm:max-w-[700px] lg:max-w-[820px] h-[400px] sm:h-[500px] flex items-end justify-center px-4 sm:px-6">
                             <div className="relative w-full h-full">
                                 <Image
                                     src="/Hero_img.webp"
@@ -130,14 +140,12 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-
                 </div>
 
                 <div className="relative w-full bg-white rounded-[24px] shadow-[0_10px_40px_rgba(0,0,0,0.03)] px-6 py-6 md:py-8 mt-4 z-1000">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 items-center">
                         <div className="flex items-center gap-4">
                             <BiWorld size={40} />
-
                             <p className="font-involve font-normal text-[15px] text-black text-left">
                                 {t("feature1")}
                             </p>
@@ -145,7 +153,6 @@ export default function Home() {
 
                         <div className="flex items-center gap-4">
                             <MdOutlineShoppingCart size={40} />
-
                             <p className="font-involve font-normal text-[15px] text-black text-left">
                                 {t("feature2")}
                             </p>
@@ -153,7 +160,6 @@ export default function Home() {
 
                         <div className="flex items-center gap-4">
                             <FiBox size={40} />
-
                             <p className="font-involve font-normal text-[15px] text-black text-left">
                                 {t("feature3")}
                             </p>
@@ -161,7 +167,6 @@ export default function Home() {
 
                         <div className="flex items-center gap-4">
                             <GoGift size={40} />
-
                             <p className="font-involve font-normal text-[15px] text-black text-left">
                                 {t("feature4")}
                             </p>
