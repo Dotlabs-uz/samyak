@@ -68,7 +68,7 @@ export default function Home() {
     }, [api]);
 
     return (
-        <div className="container mx-auto max-w-[1440px] px-4 lg:px-0">
+        <div className="container mx-auto max-w-[1440px] px-4 xl:px-0">
             <section className="w-full overflow-hidden relative pt-10 lg:pt-16 pb-6">
                 <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-8 lg:gap-4 mb-12">
 
@@ -210,36 +210,39 @@ export default function Home() {
                         boxShadow: '0px 159px 129.4px 0px #02270C inset'
                     }}
                 >
-                    <div className="absolute top-[-30px] right-5 md:top-10 md:-right-20 z-20 hidden md:block">
+                    <div className="absolute top-[-30px] right-5 z-20 pointer-events-none lg:right-5 md:right-3 sm:right-2 lg:scale-100 md:scale-80 sm:scale-60">
                         <Image src="/bubbles/bubble3.svg" alt="bubble" width={250} height={50} />
                     </div>
 
-                    <div className="relative -mt-12 md:-mt-30 shrink-0 z-20 ml-25">
+                    <div className="relative -mt-12 lg:-mt-30 shrink-0 z-20 md:ml-6 lg:ml-25">
                         <Image
                             src="/person.png"
                             alt="Person"
                             width={400}
                             height={400}
-                            className="object-contain scale-x-[-1]"
+                            className="object-contain scale-x-[-1] md:w-[280px] lg:w-[400px]"
                         />
                     </div>
 
-                    <div className="flex-1 z-10 flex flex-col items-start pt-8 md:pt-16 pr-8 md:pr-16 pl-8 md:pl-0">
+                    <div className="flex-1 z-10 flex flex-col items-start pt-8 md:pt-10 lg:pt-16 pr-6 md:pr-8 lg:pr-16 pl-6 md:pl-0">
                         <h3 className="font-avantgarde text-[#BF9C66] text-lg font-bold uppercase tracking-widest mb-2">
                             {p("label")}
                         </h3>
-                        <h2 className="font-oceanic text-3xl md:text-5xl font-bold mb-4 text-white">
+
+                        <h2 className="font-oceanic text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white leading-tight">
                             {p("subTitle")}
                         </h2>
-                        <p className="font-avantgarde text-base md:text-lg mb-6 max-w-xl text-white">
+
+                        <p className="font-avantgarde text-base md:text-[15px] lg:text-lg mb-6 max-w-xl text-white">
                             {p("text")}
                         </p>
 
                         <div className="flex items-center gap-4 pb-5">
-                            <button className="bg-[#BF9C66] text-white px-6 py-3 rounded-full hover:bg-[#a88a58] transition cursor-pointer">
+                            <button className="bg-[#BF9C66] text-white px-5 py-3 rounded-full hover:bg-[#a88a58] transition cursor-pointer">
                                 {p("button")}
                             </button>
-                            <button className="border border-white text-white px-6 py-3 rounded-full hover:bg-white/10 transition cursor-pointer">
+
+                            <button className="border border-white text-white px-5 py-3 rounded-full hover:bg-white/10 transition cursor-pointer">
                                 {p("button")}
                             </button>
                         </div>
