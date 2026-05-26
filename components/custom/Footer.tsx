@@ -89,7 +89,7 @@ export default function Footer() {
                     <div className="pt-8 pb-6 flex flex-col md:flex-row justify-between items-center gap-6">
                         <div className="flex items-center select-none shrink-0">
                             <Image
-                                src="/Footer_logo.svg"
+                                src="/logos/Footer_logo.svg"
                                 alt="Samyak Logo"
                                 width={200}
                                 height={100}

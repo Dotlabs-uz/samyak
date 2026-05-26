@@ -25,7 +25,7 @@ export function GiftCard({
             <div className="p-5">
                 <div className="rounded-2xl overflow-hidden">
                     <img
-                        src="/Gift.png"
+                        src="/products/Gift.png"
                         alt={title}
                         className="w-full h-[180px] object-cover transition-transform duration-300 group-hover:scale-105"
                     />

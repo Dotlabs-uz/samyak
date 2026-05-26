@@ -39,7 +39,7 @@ export default function Header() {
             <div className="max-w-[1440px] mx-auto px-4 lg:px-0 py-5 flex justify-between items-center">
 
                 <Link href={"/"}>
-                    <img src="/Samyak_logo.svg" alt="Samyak" width={150} height={50} />
+                    <img src="/logos/Samyak_logo.svg" alt="Samyak" width={150} height={50} />
                 </Link>
 
                 <div className="flex items-center gap-3.5">

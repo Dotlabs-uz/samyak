@@ -12,7 +12,7 @@ import Autoplay from "embla-carousel-autoplay"
 import { ReelsCard } from '@/components/custom/ReelsCard';
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { IoSparklesSharp } from "react-icons/io5";
 import { GiftCard } from '@/components/custom/GiftCard';
 import ProductCard from '@/components/custom/ProductCard';
@@ -22,14 +22,14 @@ import { TiStarburst } from "react-icons/ti";
 import { RiBox3Fill } from "react-icons/ri";
 
 const categories = [
-    { key: "snacks", color: "bg-[#E1CDAD]", icon: <PiStarFourFill style={{ color: "#E1CDAD" }} size={20}/> },
-    { key: "fruits", color: "bg-[#50D541]", icon: <TiStarburst style={{ color: "#50D541" }} size={20}/> },
-    { key: "vegetables", color: "bg-[#CE2B53]", icon: <RiBox3Fill style={{ color: "#CE2B53" }} size={20}/> },
-    { key: "drinks", color: "bg-blue-400", icon: <GiSevenPointedStar style={{ color: "#FCB100" }} size={20}/> },
-    { key: "dairy", color: "bg-[#E1CDAD]", icon: <PiStarFourFill style={{ color: "#E1CDAD" }} size={20}/> },
-    { key: "household", color: "bg-[#E1CDAD]", icon: <PiStarFourFill style={{ color: "#E1CDAD" }} size={20}/> },
-    { key: "vitamins", color: "bg-[#50D541]", icon: <TiStarburst style={{ color: "#50D541" }} size={20}/> },
-    { key: "supplements", color: "bg-[#50D541]", icon: <TiStarburst style={{ color: "#50D541" }}size={20}/> },
+    { key: "snacks", color: "bg-[#E1CDAD]", icon: <PiStarFourFill style={{ color: "#E1CDAD" }} size={20} /> },
+    { key: "fruits", color: "bg-[#50D541]", icon: <TiStarburst style={{ color: "#50D541" }} size={20} /> },
+    { key: "vegetables", color: "bg-[#CE2B53]", icon: <RiBox3Fill style={{ color: "#CE2B53" }} size={20} /> },
+    { key: "drinks", color: "bg-blue-400", icon: <GiSevenPointedStar style={{ color: "#FCB100" }} size={20} /> },
+    { key: "dairy", color: "bg-[#E1CDAD]", icon: <PiStarFourFill style={{ color: "#E1CDAD" }} size={20} /> },
+    { key: "household", color: "bg-[#E1CDAD]", icon: <PiStarFourFill style={{ color: "#E1CDAD" }} size={20} /> },
+    { key: "vitamins", color: "bg-[#50D541]", icon: <TiStarburst style={{ color: "#50D541" }} size={20} /> },
+    { key: "supplements", color: "bg-[#50D541]", icon: <TiStarburst style={{ color: "#50D541" }} size={20} /> },
 ]
 
 export default function Home() {
@@ -44,9 +44,27 @@ export default function Home() {
     const [activeIndex, setActiveIndex] = useState(0);
     const [activeCategory, setActiveCategory] = useState("snacks")
 
+    const autoplay = useRef(
+        Autoplay({
+            delay: 3000,
+            stopOnInteraction: false,
+        })
+    );
+
     useEffect(() => {
         if (!api) return;
-        api.on("select", () => setActiveIndex(api.selectedScrollSnap()));
+
+        const onSelect = () => {
+            setActiveIndex(api.selectedScrollSnap());
+        };
+
+        onSelect();
+
+        api.on("select", onSelect);
+
+        return () => {
+            api.off("select", onSelect);
+        };
     }, [api]);
 
     return (
@@ -155,24 +173,24 @@ export default function Home() {
             <section className="relative py-20 px-4 lg:px-0 overflow-visible">
                 <div className="relative mb-24 mx-auto px-4">
                     <Image
-                        src="/bubble1.svg" alt="bubble" width={250} height={60}
+                        src="/bubbles/bubble1.svg" alt="bubble" width={250} height={60}
                         className="absolute -top-16 left-[5%] w-[150px] xl:w-[250px] hidden md:block"
                     />
                     <Image
-                        src="/bubble2.svg" alt="bubble" width={250} height={60}
+                        src="/bubbles/bubble2.svg" alt="bubble" width={250} height={60}
                         className="absolute -bottom-10 right-[5%] xl:right-[10%] w-[150px] xl:w-[250px] hidden md:block"
                     />
 
                     <Image
-                        src="/lays.svg" alt="Lays" width={200} height={200}
+                        src="/bubbles/lays.svg" alt="Lays" width={200} height={200}
                         className="absolute left-0 lg:left-20 bottom-0 w-[100px] lg:w-[200px] hidden md:block"
                     />
                     <Image
-                        src="/lays.svg" alt="Lays" width={200} height={200}
+                        src="/bubbles/lays.svg" alt="Lays" width={200} height={200}
                         className="absolute right-0 lg:-right-10 bottom-0 lg:bottom-30 w-[100px] lg:w-[200px] hidden md:block"
                     />
 
-                    <h1 className="font-oceanic text-[32px] sm:text-[60px] md:text-[80px] leading-[0.9] uppercase text-center text-[#133B1D] tracking-tighter">
+                    <h1 className="font-oceanic text-[42px] sm:text-[60px] md:text-[80px] leading-[0.9] uppercase text-center text-[#133B1D] tracking-tighter">
                         {p.raw("titleWords").map((word: string, i: number) => (
                             <span
                                 key={i}
@@ -193,7 +211,7 @@ export default function Home() {
                     }}
                 >
                     <div className="absolute top-[-30px] right-5 md:top-10 md:-right-20 z-20 hidden md:block">
-                        <Image src="/bubble3.svg" alt="bubble" width={250} height={50} />
+                        <Image src="/bubbles/bubble3.svg" alt="bubble" width={250} height={50} />
                     </div>
 
                     <div className="relative -mt-12 md:-mt-30 shrink-0 z-20 ml-25">
@@ -217,11 +235,11 @@ export default function Home() {
                             {p("text")}
                         </p>
 
-                        <div className="flex items-center gap-4">
-                            <button className="bg-[#BF9C66] text-white px-8 py-3 rounded-full hover:bg-[#a88a58] transition cursor-pointer">
+                        <div className="flex items-center gap-4 pb-5">
+                            <button className="bg-[#BF9C66] text-white px-6 py-3 rounded-full hover:bg-[#a88a58] transition cursor-pointer">
                                 {p("button")}
                             </button>
-                            <button className="border border-white text-white px-8 py-3 rounded-full hover:bg-white/10 transition cursor-pointer">
+                            <button className="border border-white text-white px-6 py-3 rounded-full hover:bg-white/10 transition cursor-pointer">
                                 {p("button")}
                             </button>
                         </div>
@@ -261,12 +279,12 @@ export default function Home() {
                     ))}
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
                     {[1, 2, 3, 4].map((i) => (
                         <ProductCard
                             key={i}
                             titleKey="item_title"
-                            image="/lays.png"
+                            image="/products/lays.png"
                         />
                     ))}
                 </div>
@@ -356,25 +374,25 @@ export default function Home() {
 
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                         <img
-                            src="/coffee.png"
+                            src="/products/coffee.png"
                             alt="coffee"
                             className="rounded-3xl w-full h-auto object-cover"
                         />
 
                         <img
-                            src="/coffee.png"
+                            src="/products/coffee.png"
                             alt="coffee"
                             className="rounded-3xl w-full h-auto object-cover"
                         />
 
                         <img
-                            src="/coffee.png"
+                            src="/products/coffee.png"
                             alt="coffee"
                             className="rounded-3xl w-full h-auto object-cover"
                         />
 
                         <img
-                            src="/coffee.png"
+                            src="/products/coffee.png"
                             alt="coffee"
                             className="rounded-3xl w-full h-auto object-cover"
                         />
@@ -386,7 +404,7 @@ export default function Home() {
                         <div
                             className="absolute inset-0 bg-cover bg-center"
                             style={{
-                                backgroundImage: `url('/Gastronomy_img.png')`
+                                backgroundImage: `url('/products/Gastronomy_img.png')`
                             }}
                         />
 
@@ -468,7 +486,7 @@ export default function Home() {
             <section className="py-20 px-4 lg:px-0">
                 <div className="relative">
                     <div className="absolute top-[-50px] left-5 md:top-10 md:-left-20 z-20 hidden md:block">
-                        <Image src="/bubble1.svg" alt="bubble" width={250} height={50} />
+                        <Image src="/bubbles/bubble1.svg" alt="bubble" width={250} height={50} />
                     </div>
 
                     <div className="flex flex-col md:flex-row justify-between items-start">
@@ -501,22 +519,22 @@ export default function Home() {
                 <Carousel
                     setApi={setApi}
                     opts={{
-                        align: "center"
+                        align: "center",
+                        loop: true,
                     }}
-                    plugins={[
-                        Autoplay({
-                            delay: 3000,
-                            stopOnInteraction: false
-                        })
-                    ]}
+                    plugins={[autoplay.current]}
                     className="w-full mx-auto mt-10"
                 >
                     <CarouselContent className="items-center">
                         {[0, 1, 2, 3, 4].map((index) => (
-                            <CarouselItem key={index} className="md:basis-[330px]">
+                            <CarouselItem
+                                key={index}
+                                className="basis-[306px] flex justify-center"
+                            >
                                 <ReelsCard
-                                    videoSrc="/video.mp4"
+                                    videoSrc="/reels/video.mp4"
                                     isCenter={index === activeIndex}
+                                    autoplay={autoplay.current}
                                 />
                             </CarouselItem>
                         ))}
