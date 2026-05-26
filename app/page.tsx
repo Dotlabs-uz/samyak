@@ -372,29 +372,55 @@ export default function Home() {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div className="hidden md:grid grid-cols-[416fr_306fr_306fr_196fr] gap-4 w-full">
                         <img
-                            src="/products/coffee.png"
+                            src="/products/coffee1.png"
                             alt="coffee"
-                            className="rounded-3xl w-full h-auto object-cover"
+                            className="w-full h-[416px] object-cover rounded-[32px]"
                         />
 
                         <img
-                            src="/products/coffee.png"
+                            src="/products/coffee2.png"
                             alt="coffee"
-                            className="rounded-3xl w-full h-auto object-cover"
+                            className="w-full h-[416px] object-cover rounded-[32px]"
                         />
 
                         <img
-                            src="/products/coffee.png"
+                            src="/products/coffee3.png"
                             alt="coffee"
-                            className="rounded-3xl w-full h-auto object-cover"
+                            className="w-full h-[416px] object-cover rounded-[32px]"
                         />
 
                         <img
-                            src="/products/coffee.png"
+                            src="/products/coffee4.png"
                             alt="coffee"
-                            className="rounded-3xl w-full h-auto object-cover"
+                            className="w-full h-[416px] object-cover rounded-[32px]"
+                        />
+                    </div>
+
+                    <div className="grid md:hidden grid-cols-3 gap-3 w-full">
+                        <img
+                            src="/products/coffee1.png"
+                            alt="coffee"
+                            className="col-span-1 w-full h-[197px] object-cover rounded-[15px]"
+                        />
+
+                        <img
+                            src="/products/coffee4.png"
+                            alt="coffee"
+                            className="col-span-2 w-full h-[197px] object-cover rounded-[15px]"
+                        />
+
+                        <img
+                            src="/products/coffee3.png"
+                            alt="coffee"
+                            className="col-span-2 w-full h-[197px] object-cover rounded-[15px]"
+                        />
+
+                        <img
+                            src="/products/coffee2.png"
+                            alt="coffee"
+                            className="col-span-1 w-full h-[197px] object-cover rounded-[15px]"
                         />
                     </div>
                 </div>
