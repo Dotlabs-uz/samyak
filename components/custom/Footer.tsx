@@ -74,20 +74,31 @@ export default function Footer() {
 
             <div className="w-full bg-[#BF9C66] text-[#3C3120] relative z-10">
                 <div className="max-w-[1440px] mx-auto px-4 xl:px-0 pt-14 pb-6">
-                    <div className="flex flex-col md:flex-row justify-between items-start gap-8 mb-16">
-                        <h2 className="text-4xl md:text-5xl lg:text-[56px] font-oceanic font-black leading-[1.15] max-w-xl whitespace-pre-line tracking-tight text-[#3C3120]">
+                    <div className="flex flex-col md:flex-row justify-between items-start gap-8 md:mb-16">
+                        <h2 className="text-[56px] font-oceanic font-black leading-[1.15] max-w-xl whitespace-pre-line tracking-tight text-[#3C3120]">
                             {t("invite")}
                         </h2>
 
-                        <div className="flex flex-col md:items-end text-sm md:text-base pt-2 shrink-0 text-black font-manrope">
-                            <a href="https://www.instagram.com/samyakuz/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">Instagram</a>
-                            <a href="https://t.me" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">Telegram</a>
-                            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">Youtube</a>
+                        <div className="flex gap-10">
+                            <nav className="md:hidden flex flex-col text-sm md:text-base pt-2 shrink-0 text-black font-manrope">
+                                <Link href="/" className="hover:opacity-70 transition-opacity">{t("home")}</Link>
+                                <Link href="/about" className="hover:opacity-70 transition-opacity">{t("about")}</Link>
+                                <Link href="/project" className="hover:opacity-70 transition-opacity">{t("project")}</Link>
+                                <Link href="/feedback" className="hover:opacity-70 transition-opacity">{t("feedback")}</Link>
+                                <Link href="/blog" className="hover:opacity-70 transition-opacity">{t("blog")}</Link>
+                                <Link href="/contact" className="hover:opacity-70 transition-opacity">{t("contact")}</Link>
+                            </nav>
+
+                            <div className="flex flex-col md:items-end text-sm md:text-base pt-2 shrink-0 text-black font-manrope">
+                                <a href="https://www.instagram.com/samyakuz/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">Instagram</a>
+                                <a href="https://t.me" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">Telegram</a>
+                                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">Youtube</a>
+                            </div>
                         </div>
                     </div>
 
-                    <div className="pt-8 pb-6 flex flex-col md:flex-row justify-between items-center gap-6">
-                        <div className="flex items-center select-none shrink-0">
+                    <div className="pt-8 pb-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+                        <div className="flex select-none shrink-0">
                             <Image
                                 src="/logos/Footer_logo.svg"
                                 alt="Samyak Logo"
@@ -98,7 +109,7 @@ export default function Footer() {
                             />
                         </div>
 
-                        <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-black text-sm tracking-wide font-involve">
+                        <nav className="hidden md:flex flex-wrap justify-center gap-x-6 gap-y-2 text-black text-sm tracking-wide font-involve">
                             <Link href="/" className="hover:opacity-70 transition-opacity">{t("home")}</Link>
                             <Link href="/about" className="hover:opacity-70 transition-opacity">{t("about")}</Link>
                             <Link href="/project" className="hover:opacity-70 transition-opacity">{t("project")}</Link>
