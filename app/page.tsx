@@ -71,7 +71,7 @@ export default function Home() {
 
     return (
         <div className="container mx-auto max-w-[1440px] px-4 2xl:px-0 overflow-hidden">
-            <section className="w-full h-dvh overflow-hidden relative pt-5 lg:pt-16 pb-6">
+            <section className="w-full min-h-dvh relative pt-5 lg:pt-16 pb-6">
 
                 <div className="relative w-full lg:hidden">
                     <div className="absolute top-0 right-0 w-full h-[330px] bg-[#133C1E] rounded-t-[200px] z-0" />
