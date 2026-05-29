@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="relative w-full pt-20">
                 <div className="absolute bottom-0 left-0 w-full h-[450px] md:h-[540px] bg-[#133C1E] rounded-t-[40px] z-10" />
 
-                <div className="max-w-[1440px] mx-auto relative px-4 xl:px-0 pb-14 z-20">
+                <div className="max-w-[1440px] mx-auto relative px-4 2xl:px-0 pb-14 z-20">
 
                     <div className="bg-[#F1F4F8] rounded-[40px] flex flex-col lg:flex-row justify-between items-stretch gap-8 shadow-[0_15px_45px_rgba(0,0,0,0.04)] mb-14 overflow-hidden">
 
@@ -73,7 +73,7 @@ export default function Footer() {
             </div>
 
             <div className="w-full bg-[#BF9C66] text-[#3C3120] relative z-10">
-                <div className="max-w-[1440px] mx-auto px-4 xl:px-0 pt-14 pb-6">
+                <div className="max-w-[1440px] mx-auto px-4 2xl:px-0 pt-14 pb-6">
                     <div className="flex flex-col md:flex-row justify-between items-start gap-8 md:mb-16">
                         <h2 className="text-[56px] font-oceanic font-black leading-[1.15] max-w-xl whitespace-pre-line tracking-tight text-[#3C3120]">
                             {t("invite")}
