@@ -566,8 +566,14 @@ export default function Home() {
 
             <section className="py-20 px-4 lg:px-0">
                 <div className="relative">
-                    <div className="absolute top-[-50px] left-5 md:top-10 md:-left-20 z-20 hidden md:block">
-                        <Image src="/bubbles/bubble1.svg" alt="bubble" width={250} height={50} />
+                    <div className="absolute -top-6 left-2 sm:-top-10 sm:left-4 md:top-10 z-10 pointer-events-none hidden md:block">
+                        <Image
+                            src="/bubbles/bubble1.svg"
+                            alt="bubble"
+                            width={250}
+                            height={50}
+                            className="w-[140px] sm:w-[180px] md:w-[250px] h-auto"
+                        />
                     </div>
 
                     <Reveal direction="up" delay={0}>
