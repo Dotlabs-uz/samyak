@@ -1,19 +1,40 @@
 "use client"
 
 import { useTranslations } from "next-intl"
+import Image from "next/image"
 
-const ProductCard = ({ image, titleKey }: any) => {
+const FIGURES = [
+    "/bubbles/figur1.png",
+    "/bubbles/figur2.png",
+    "/bubbles/figur3.png",
+    "/bubbles/figur4.png",
+]
+
+const ProductCard = ({ image, titleKey, index = 0 }: { image: string; titleKey: string; index?: number }) => {
     const t = useTranslations("Products")
+    const figur = FIGURES[index % FIGURES.length]
 
     return (
         <div className="relative flex flex-col items-center justify-center p-4 rounded-3xl hover:shadow-xl transition cursor-pointer">
-            <img
-                src={image}
-                alt={t(titleKey)}
-                className="w-48 h-auto object-contain mb-6"
-            />
+            <div className="relative flex items-center justify-center mb-6">
+                <div className="absolute w-[160px] h-[160px] pointer-events-none select-none" aria-hidden>
+                    <Image
+                        src={figur}
+                        alt=""
+                        fill
+                        className="object-contain opacity-70"
+                        sizes="160px"
+                    />
+                </div>
+                
+                <img
+                    src={image}
+                    alt={t(titleKey)}
+                    className="relative z-10 w-44 h-auto object-contain drop-shadow-xl"
+                />
+            </div>
 
-            <h3 className="text-xl font-semibold font-oneanic text-[#BF9C66] mb-3 text-center">
+            <h3 className="text-xl font-semibold font-oceanic text-[#BF9C66] mb-3 text-center">
                 {t(titleKey)}
             </h3>
 
@@ -22,7 +43,6 @@ const ProductCard = ({ image, titleKey }: any) => {
                     <span className="w-2 h-2 rounded-full bg-[#BF9C66]" />
                     {t("halal")}
                 </div>
-
                 <div className="flex items-center gap-1">
                     <span className="w-2 h-2 rounded-full bg-[#BF9C66]" />
                     {t("gelatin_free")}
