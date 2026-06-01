@@ -146,6 +146,7 @@
 
   html {
     font-family: 'AvantGarde Bk BT', sans-serif;
+    scroll-behavior: smooth;
   }
 
   .font-oceanic {

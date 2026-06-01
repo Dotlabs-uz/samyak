@@ -6,20 +6,24 @@ type GiftCardProps = {
     title: string;
     price: string;
     description: string;
+    active?: boolean;
 };
 
 export function GiftCard({
     title,
     price,
     description,
+    active = false,
 }: GiftCardProps) {
     const i = useTranslations("Gift");
 
     return (
         <div
             className={clsx(
-                "group rounded-[28px] border border-black/10 bg-white overflow-hidden",
-                "transition-all duration-300 hover:bg-[#133C1E] hover:border-[#133C1E] cursor-pointer"
+                "group rounded-[28px] border overflow-hidden cursor-pointer transition-all duration-500",
+                active
+                    ? "bg-[#133C1E] border-[#133C1E]"
+                    : "bg-white border-black/10 hover:bg-[#133C1E] hover:border-[#133C1E]"
             )}
         >
             <div className="p-5">
@@ -37,15 +41,36 @@ export function GiftCard({
                     {i("badge")}
                 </span>
 
-                <h3 className="font-oceanic font-extrabold text-[34px] leading-[1.1] text-[#133C1E] group-hover:text-[#EAEAEA] transition">
+                <h3
+                    className={clsx(
+                        "font-oceanic font-extrabold text-[34px] leading-[1.1] transition-colors duration-500",
+                        active
+                            ? "text-[#EAEAEA]"
+                            : "text-[#133C1E] group-hover:text-[#EAEAEA]"
+                    )}
+                >
                     {title}
                 </h3>
 
-                <p className="text-[#689674] group-hover:text-[#ADADAD] text-[15px]">
+                <p
+                    className={clsx(
+                        "text-[15px] transition-colors duration-500",
+                        active
+                            ? "text-[#ADADAD]"
+                            : "text-[#689674] group-hover:text-[#ADADAD]"
+                    )}
+                >
                     {price}
                 </p>
 
-                <p className="text-sm group-hover:text-[#EAEAEA] leading-relaxed max-w-[260px]">
+                <p
+                    className={clsx(
+                        "text-sm leading-relaxed max-w-[260px] transition-colors duration-500",
+                        active
+                            ? "text-[#EAEAEA]"
+                            : "group-hover:text-[#EAEAEA]"
+                    )}
+                >
                     {description}
                 </p>
 
