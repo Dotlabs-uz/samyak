@@ -239,6 +239,12 @@ export default function Home() {
                             height={400}
                             className="object-contain scale-x-[-1] md:w-[280px] lg:w-[400px]"
                         />
+                        <div
+                            className="absolute inset-0 md:hidden pointer-events-none"
+                            style={{
+                                background: 'linear-gradient(to bottom, transparent 40%, #133C1E 90%)'
+                            }}
+                        />
                     </motion.div>
 
                     <div className="flex-1 z-10 flex flex-col items-start pt-8 md:pt-10 lg:pt-16 pr-6 md:pr-8 lg:pr-16 pl-6 md:pl-0">
