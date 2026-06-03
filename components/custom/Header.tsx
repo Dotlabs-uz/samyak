@@ -56,12 +56,24 @@ export default function Header() {
 
     return (
         <>
-            <header className="w-full bg-transparent">
+            <header className="w-full bg-transparent relative z-50">
                 <div className="max-w-[1440px] mx-auto px-4 2xl:px-0 py-5 flex justify-between items-center">
 
                     <Link href={"/"}>
                         <img src="/logos/Samyak_logo.svg" alt="Samyak" width={150} height={50} />
                     </Link>
+
+                    <nav className="hidden lg:flex items-center gap-1">
+                        {navLinks.map((link) => (
+                            <Link
+                                key={link.href}
+                                href={link.href}
+                                className="font-involve text-white text-sm font-medium px-4 py-2 rounded-full hover:bg-white/10 transition-colors"
+                            >
+                                {link.label}
+                            </Link>
+                        ))}
+                    </nav>
 
                     <div className="flex items-center gap-3.5">
                         <DropdownMenu>
@@ -128,7 +140,7 @@ export default function Header() {
                             <IoClose className="text-white w-6 h-6" />
                         </button>
                     </div>
-                    
+
                     <div className="mx-6 h-px bg-white/10" />
 
                     <nav className="flex-1 flex flex-col px-6 pt-8 gap-2">

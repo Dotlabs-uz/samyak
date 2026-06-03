@@ -97,9 +97,9 @@ export default function Home() {
     return (
         <div className="container mx-auto max-w-[1440px] px-4 2xl:px-0">
 
-            <section className="w-full relative pt-2 lg:pt-4 pb-0 mb-10 lg:mb-16 overflow-visible">
+            <section className="w-full relative pt-2 lg:pt-4 pb-0 mb-10 lg:mb-16 ">
 
-                <div className="relative w-full lg:hidden overflow-visible">
+                <div className="relative w-full lg:hidden">
                     <motion.div
                         className="absolute top-0 right-0 w-full bg-[#133C1E] rounded-t-[200px] z-0"
                         initial={{ height: 0, opacity: 0 }}
@@ -209,10 +209,10 @@ export default function Home() {
                 </Reveal>
             </section>
 
-            <section className="relative  px-4 lg:px-0" id="philosophy">
+            <section className="relative" id="philosophy">
                 <PhilosophyIntro words={p.raw("titleWords") as string[]} />
                 <div
-                    className="w-full rounded-[32px] flex flex-col md:flex-row items-start relative mt-8 lg:mt-12 min-h-[400px]"
+                    className="w-full rounded-[32px] flex flex-col md:flex-row items-start relative mt-8 lg:mt-12 min-h-[400px] overflow-x-hidden"
                     style={{ background: '#133C1E', boxShadow: '0px 159px 129.4px 0px #02270C inset' }}
                 >
                     <motion.div
