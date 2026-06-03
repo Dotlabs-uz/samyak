@@ -58,7 +58,7 @@ export default function Footer() {
                                         src="/Footer_img.svg"
                                         alt="Samyak patterns"
                                         fill
-                                        className="object-cover object-center"
+                                        className="object-cover object-left md:object-center"
                                         sizes="100vw"
                                         priority
                                     />
@@ -121,7 +121,18 @@ export default function Footer() {
 
                     <div className="border-t border-[#78603C] text-black pt-5 flex flex-col lg:flex-row justify-center items-center gap-4 text-[11px] text-center lg:text-left font-semibold font-involve">
                         <div>
-                            {t("rights")}
+                            {t.rich("rights", {
+                                link: (chunks) => (
+                                    <a
+                                        href="https://dotlabs.uz"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="hover:underline"
+                                    >
+                                        {chunks}
+                                    </a>
+                                ),
+                            })}
                         </div>
 
                         <span className="hidden lg:block">|</span>
