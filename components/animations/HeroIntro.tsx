@@ -1,7 +1,45 @@
-"use client"
+'use client'
 
 import { motion } from "framer-motion"
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
+
+let sharedAc: AudioContext | null = null
+
+function getAudioContext(): AudioContext {
+    if (!sharedAc) {
+        sharedAc = new (window.AudioContext || (window as any).webkitAudioContext)()
+    }
+    return sharedAc
+}
+
+async function tryUnlockAudio() {
+    const ac = getAudioContext()
+    if (ac.state === 'suspended') {
+        try { await ac.resume() } catch (e) { }
+    }
+}
+
+function playWordSound(idx: number, volume = 0.3) {
+    try {
+        const ac = getAudioContext()
+        if (ac.state === 'suspended') return
+
+        const gain = ac.createGain()
+        gain.connect(ac.destination)
+        gain.gain.setValueAtTime(0, ac.currentTime)
+        gain.gain.linearRampToValueAtTime(volume, ac.currentTime + 0.003)
+
+        const osc = ac.createOscillator()
+        osc.connect(gain)
+        const freq = 300 + idx * 18
+        osc.frequency.setValueAtTime(freq, ac.currentTime)
+        osc.frequency.exponentialRampToValueAtTime(freq * 0.6, ac.currentTime + 0.06)
+        gain.gain.exponentialRampToValueAtTime(0.001, ac.currentTime + 0.08)
+        osc.type = 'sine'
+        osc.start(ac.currentTime)
+        osc.stop(ac.currentTime + 0.09)
+    } catch (e) { }
+}
 
 export function HeroIntro({ t, onTitleDone, onDescDone }: { t: any; onTitleDone: () => void; onDescDone: () => void }) {
     const [titleStarted, setTitleStarted] = useState(false)
@@ -9,6 +47,7 @@ export function HeroIntro({ t, onTitleDone, onDescDone }: { t: any; onTitleDone:
     const [visibleCountTitle, setVisibleCountTitle] = useState(0)
     const [goldIdx, setGoldIdx] = useState(-1)
     const [settled, setSettled] = useState(false)
+    const audioReady = useRef(false)
 
     const tags = [t("tagImport"), t("tagPremium"), t("tagTabiiy")]
     const rawTitle: string = t("title")
@@ -24,10 +63,32 @@ export function HeroIntro({ t, onTitleDone, onDescDone }: { t: any; onTitleDone:
     })()
 
     useEffect(() => {
+        tryUnlockAudio().then(() => {
+            audioReady.current = getAudioContext().state === 'running'
+        })
+
+        const unlock = () => {
+            tryUnlockAudio().then(() => {
+                audioReady.current = true
+            })
+        }
+        window.addEventListener('pointerdown', unlock, { once: true })
+        window.addEventListener('keydown', unlock, { once: true })
+        document.addEventListener('visibilitychange', unlock, { once: true })
+
+        return () => {
+            window.removeEventListener('pointerdown', unlock)
+            window.removeEventListener('keydown', unlock)
+            document.removeEventListener('visibilitychange', unlock)
+        }
+    }, [])
+
+    useEffect(() => {
         const timers: ReturnType<typeof setTimeout>[] = []
         tags.forEach((_, i) => {
             timers.push(setTimeout(() => {
                 setVisibleCountTags(i + 1)
+                playWordSound(i)
                 if (i === tags.length - 1) {
                     timers.push(setTimeout(() => setTitleStarted(true), 250))
                 }
@@ -41,12 +102,18 @@ export function HeroIntro({ t, onTitleDone, onDescDone }: { t: any; onTitleDone:
         const timers: ReturnType<typeof setTimeout>[] = []
 
         words.forEach((_, i) => {
-            timers.push(setTimeout(() => setVisibleCountTitle(i + 1), i * 190))
+            timers.push(setTimeout(() => {
+                setVisibleCountTitle(i + 1)
+                playWordSound(i)
+            }, i * 190))
         })
 
         const p2 = words.length * 190 + 280
         words.forEach((_, i) => {
-            timers.push(setTimeout(() => setGoldIdx(i), p2 + i * 210))
+            timers.push(setTimeout(() => {
+                setGoldIdx(i)
+                playWordSound(i)
+            }, p2 + i * 210))
         })
 
         const p3 = p2 + words.length * 210 + 280
@@ -55,11 +122,13 @@ export function HeroIntro({ t, onTitleDone, onDescDone }: { t: any; onTitleDone:
             const wi = words.length - 1 - s
             timers.push(setTimeout(() => {
                 setGoldIdx(wi)
+                playWordSound(wi)
                 if (wi === targetIdx) {
-                    timers.push(setTimeout(() => { setSettled(true); onTitleDone(); onDescDone(); }, 80))
+                    timers.push(setTimeout(() => { setSettled(true); onTitleDone(); onDescDone() }, 80))
                 }
             }, p3 + s * 155))
         }
+
         return () => timers.forEach(clearTimeout)
     }, [titleStarted])
 

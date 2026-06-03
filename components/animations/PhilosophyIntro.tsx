@@ -1,8 +1,37 @@
 "use client"
 
-import { useRef, useEffect, useState } from "react"
-import { motion, MotionValue, useTransform, useInView } from "framer-motion"
+import { useRef, useState } from "react"
+import { motion, MotionValue, useTransform, useScroll, useMotionValueEvent } from "framer-motion"
 import Image from "next/image"
+
+let sharedAc: AudioContext | null = null
+
+function getAudioContext(): AudioContext {
+    if (!sharedAc) {
+        sharedAc = new (window.AudioContext || (window as any).webkitAudioContext)()
+    }
+    return sharedAc
+}
+
+function playWordSound(idx: number, volume = 0.3) {
+    try {
+        const ac = getAudioContext()
+        if (ac.state === 'suspended') return
+        const gain = ac.createGain()
+        gain.connect(ac.destination)
+        gain.gain.setValueAtTime(0, ac.currentTime)
+        gain.gain.linearRampToValueAtTime(volume, ac.currentTime + 0.003)
+        const osc = ac.createOscillator()
+        osc.connect(gain)
+        const freq = 300 + idx * 18
+        osc.frequency.setValueAtTime(freq, ac.currentTime)
+        osc.frequency.exponentialRampToValueAtTime(freq * 0.6, ac.currentTime + 0.06)
+        gain.gain.exponentialRampToValueAtTime(0.001, ac.currentTime + 0.08)
+        osc.type = 'sine'
+        osc.start(ac.currentTime)
+        osc.stop(ac.currentTime + 0.09)
+    } catch (e) { }
+}
 
 export function PhilosophyTitle({
     words,
@@ -75,7 +104,6 @@ function BadgeContent({ direction }: { direction: 1 | -1 }) {
             >
                 <Image src="/bubbles/figur4.png" alt="" fill className="object-contain" />
             </motion.div>
-
             <motion.div
                 className="absolute inset-[-25%]"
                 animate={{ rotate: -360 * direction, y: [0, -8, 0] }}
@@ -96,7 +124,6 @@ function LaysBadge({
     started = true,
 }: {
     className?: string
-    delay?: number
     direction?: 1 | -1
     started?: boolean
 }) {
@@ -113,120 +140,137 @@ function LaysBadge({
 }
 
 export function PhilosophyIntro({ words }: { words: string[] }) {
-    const ref = useRef<HTMLDivElement>(null)
-    const inView = useInView(ref, { once: true, amount: 0.35 })
+    const containerRef = useRef<HTMLDivElement>(null)
     const targetIdx = findPremiumIdx(words)
+    const firedSounds = useRef<Set<number>>(new Set())
+    const firedGoldSounds = useRef<Set<number>>(new Set())
 
-    const [visibleCount, setVisibleCount] = useState(0)
-    const [goldIdx, setGoldIdx] = useState(-1)
-    const [settled, setSettled] = useState(false)
+    const { scrollYProgress } = useScroll({
+        target: containerRef,
+        offset: ["start start", "end end"],
+    })
+
+    const wordCount = words.length
+    const wordStart = (i: number) => 0.05 + (i / wordCount) * 0.55
+    const wordEnd = (i: number) => wordStart(i) + 0.08
+    const decorStart = 0.15
+    const laysStart = 0.68
+    const goldStart = (i: number) => 0.68 + (i / wordCount) * 0.15
+    const goldEnd = (i: number) => goldStart(i) + 0.04
+
+    const [progress, setProgress] = useState(0)
     const [showDecor, setShowDecor] = useState(false)
+    const [showLays, setShowLays] = useState(false)
 
-    useEffect(() => {
-        if (!inView) return
-
-        const timers: ReturnType<typeof setTimeout>[] = []
-
-        words.forEach((_, i) => {
-            timers.push(setTimeout(() => setVisibleCount(i + 1), i * 190))
-        })
-
-        const p2 = words.length * 190 + 280
-
-        timers.push(setTimeout(() => setShowDecor(true), p2))
+    useMotionValueEvent(scrollYProgress, "change", (v) => {
+        setProgress(v)
+        setShowDecor(v >= decorStart)
+        setShowLays(v >= laysStart)
 
         words.forEach((_, i) => {
-            timers.push(setTimeout(() => setGoldIdx(i), p2 + i * 210))
+            const threshold = wordStart(i) + 0.02
+            if (v >= threshold && !firedSounds.current.has(i)) {
+                firedSounds.current.add(i)
+                playWordSound(i)
+            }
+            if (v < wordStart(i) && firedSounds.current.has(i)) {
+                firedSounds.current.delete(i)
+            }
         })
 
-        const p3 = p2 + words.length * 210 + 280
-        const stepsBack = words.length - 1 - targetIdx
+        words.forEach((_, i) => {
+            const threshold = goldStart(i) + 0.01
+            if (v >= threshold && !firedGoldSounds.current.has(i)) {
+                firedGoldSounds.current.add(i)
+                playWordSound(i, 0.2)
+            }
+            if (v < goldStart(i) && firedGoldSounds.current.has(i)) {
+                firedGoldSounds.current.delete(i)
+            }
+        })
+    })
 
-        for (let s = 0; s <= stepsBack; s++) {
-            const wi = words.length - 1 - s
+    function getWordStyle(i: number) {
+        const start = wordStart(i)
+        const end = wordEnd(i)
+        const raw = Math.min(1, Math.max(0, (progress - start) / (end - start)))
+        const opacity = raw
+        const y = (1 - raw) * 32
 
-            timers.push(
-                setTimeout(() => {
-                    setGoldIdx(wi)
+        const gStart = goldStart(i)
+        const gEnd = goldEnd(i)
+        const goldRaw = Math.min(1, Math.max(0, (progress - gStart) / (gEnd - gStart)))
 
-                    if (wi === targetIdx) {
-                        timers.push(setTimeout(() => setSettled(true), 80))
-                    }
-                }, p3 + s * 155)
-            )
-        }
+        const isSettled = progress >= 0.88
+        const isGold = isSettled
+            ? i === targetIdx
+            : goldRaw > 0 && goldRaw < 1
+                ? true
+                : i === targetIdx && progress >= goldStart(targetIdx)
 
-        return () => timers.forEach(clearTimeout)
-    }, [inView, words, targetIdx])
+        return { opacity, y, isGold }
+    }
+
+    const scrollHeight = `${(wordCount + 4) * 60}vh`
 
     return (
-        <div
-            ref={ref}
-            className="relative w-full min-h-[55vh] md:min-h-[65vh] overflow-visible flex items-center justify-center py-10 md:py-16"
-        >
-            <motion.div
-                className="absolute top-[2%] left-[2%] w-[200px] sm:w-[300px] pointer-events-none z-0"
-                initial={{ opacity: 0 }}
-                animate={showDecor ? { opacity: 1 } : { opacity: 0 }}
-                transition={{ duration: 0.6 }}
-            >
-                <Image src="/bubbles/bubble1.svg" alt="" width={400} height={120} className="w-full" />
-            </motion.div>
+        <div ref={containerRef} style={{ height: scrollHeight }} className="relative">
+            <div className="sticky top-0 h-screen w-full overflow-hidden flex items-center justify-center">
+                <motion.div
+                    className="absolute top-[2%] left-[2%] w-[200px] sm:w-[300px] pointer-events-none z-0"
+                    initial={{ opacity: 0 }}
+                    animate={showDecor ? { opacity: 1 } : { opacity: 0 }}
+                    transition={{ duration: 0.6 }}
+                >
+                    <Image src="/bubbles/bubble1.svg" alt="" width={400} height={120} className="w-full" />
+                </motion.div>
 
-            <motion.div
-                className="absolute bottom-[2%] right-[2%] w-[200px] sm:w-[300px] pointer-events-none z-0"
-                initial={{ opacity: 0 }}
-                animate={showDecor ? { opacity: 1 } : { opacity: 0 }}
-                transition={{ duration: 0.6, delay: 0.12 }}
-            >
-                <Image src="/bubbles/bubble2.svg" alt="" width={400} height={120} className="w-full" />
-            </motion.div>
+                <motion.div
+                    className="absolute bottom-[2%] right-[2%] w-[200px] sm:w-[300px] pointer-events-none z-0"
+                    initial={{ opacity: 0 }}
+                    animate={showDecor ? { opacity: 1 } : { opacity: 0 }}
+                    transition={{ duration: 0.6, delay: 0.12 }}
+                >
+                    <Image src="/bubbles/bubble2.svg" alt="" width={400} height={120} className="w-full" />
+                </motion.div>
 
-            <div className="absolute right-[5%] top-[15%] md:top-[30%] md:right-[8%] -translate-y-1/2 z-10">
-                <LaysBadge
-                    className="w-[80px] sm:w-[120px] md:w-[180px]"
-                    direction={-1}
-                    started={showDecor}
-                />
+                <div className="absolute right-[5%] top-[15%] md:top-[30%] md:right-[8%] -translate-y-1/2 z-10">
+                    <LaysBadge
+                        className="w-[80px] sm:w-[120px] md:w-[180px]"
+                        direction={-1}
+                        started={showLays}
+                    />
+                </div>
+
+                <div className="absolute left-[5%] top-[85%] md:top-[70%] md:left-[8%] -translate-y-1/2 z-10">
+                    <LaysBadge
+                        className="w-[80px] sm:w-[120px] md:w-[180px]"
+                        direction={1}
+                        started={showLays}
+                    />
+                </div>
+
+                <h1 className="font-oceanic text-[52px] sm:text-[68px] md:text-[80px] leading-[0.9] uppercase text-center tracking-tighter select-none px-4 text-[#133B1D]">
+                    {words.map((word, i) => {
+                        const { opacity, y, isGold } = getWordStyle(i)
+                        return (
+                            <span
+                                key={i}
+                                className="block"
+                                style={{
+                                    opacity,
+                                    transform: `translateY(${y}px)`,
+                                    fontWeight: 1000,
+                                    color: isGold ? "#BF9C66" : "#133B1D",
+                                    transition: "color 0.22s ease",
+                                }}
+                            >
+                                {word}
+                            </span>
+                        )
+                    })}
+                </h1>
             </div>
-
-            <div className="absolute left-[5%] top-[85%] md:top-[70%] md:left-[8%] -translate-y-1/2 z-10">
-                <LaysBadge
-                    className="w-[80px] sm:w-[120px] md:w-[180px]"
-                    direction={1}
-                    started={showDecor}
-                />
-            </div>
-
-            <h1 className="font-oceanic text-[42px] sm:text-[60px] md:text-[80px] leading-[0.9] uppercase text-center tracking-tighter select-none px-4 text-[#133B1D]">
-                {words.map((word, i) => {
-                    const isGold = settled ? i === targetIdx : goldIdx === i
-
-                    return (
-                        <motion.span
-                            key={i}
-                            className="block"
-                            initial={{ opacity: 0, y: 32 }}
-                            animate={
-                                visibleCount > i
-                                    ? { opacity: 1, y: 0 }
-                                    : { opacity: 0, y: 32 }
-                            }
-                            transition={{
-                                duration: 0.42,
-                                ease: [0.22, 1, 0.36, 1],
-                            }}
-                            style={{
-                                fontWeight: 1000,
-                                color: isGold ? "#BF9C66" : "#133B1D",
-                                transition: "color 0.22s ease",
-                            }}
-                        >
-                            {word}
-                        </motion.span>
-                    )
-                })}
-            </h1>
         </div>
     )
 }

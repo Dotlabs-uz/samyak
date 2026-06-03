@@ -95,7 +95,7 @@ export default function Home() {
     };
 
     return (
-        <div className="container mx-auto max-w-[1440px] px-4 2xl:px-0 overflow-x-hidden">
+        <div className="container mx-auto max-w-[1440px] px-4 2xl:px-0">
 
             <section className="w-full relative pt-2 lg:pt-4 pb-0 mb-10 lg:mb-16 overflow-visible">
 
@@ -209,7 +209,7 @@ export default function Home() {
                 </Reveal>
             </section>
 
-            <section className="relative overflow-visible px-4 lg:px-0" id="philosophy">
+            <section className="relative  px-4 lg:px-0" id="philosophy">
                 <PhilosophyIntro words={p.raw("titleWords") as string[]} />
                 <div
                     className="w-full rounded-[32px] flex flex-col md:flex-row items-start relative mt-8 lg:mt-12 min-h-[400px]"
