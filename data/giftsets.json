@@ -2,51 +2,51 @@
     {
         "id": 1,
         "type": "classic",
-        "image": "/giftsets/classic1.webp"
+        "image": "/giftsets/classicgiftset1.png"
     },
     {
         "id": 2,
         "type": "classic",
-        "image": "/giftsets/classic2.webp"
+        "image": "/giftsets/classicgiftset2.png"
     },
     {
         "id": 3,
         "type": "classic",
-        "image": "/giftsets/classic3.webp"
+        "image": "/giftsets/classicgiftset3.png"
     },
     {
         "id": 4,
         "type": "classic",
-        "image": "/giftsets/classic4.webp"
+        "image": "/giftsets/classicgiftset4.png"
     },
     {
         "id": 5,
         "type": "classic",
-        "image": "/giftsets/classic5.webp"
+        "image": "/giftsets/classicgiftset5.png"
     },
     {
         "id": 6,
         "type": "chocolate",
-        "image": "/giftsets/choco1.webp"
+        "image": "/giftsets/chocogiftset1.png"
     },
     {
         "id": 7,
         "type": "chocolate",
-        "image": "/giftsets/choco2.webp"
+        "image": "/giftsets/chocogiftset2.png"
     },
     {
         "id": 8,
         "type": "chocolate",
-        "image": "/giftsets/choco3.webp"
+        "image": "/giftsets/chocogiftset3.png"
     },
     {
         "id": 9,
         "type": "chocolate",
-        "image": "/giftsets/choco4.webp"
+        "image": "/giftsets/chocogiftset4.png"
     },
     {
         "id": 10,
         "type": "chocolate",
-        "image": "/giftsets/choco5.webp"
+        "image": "/giftsets/chocogiftset5.png"
     }
 ]
