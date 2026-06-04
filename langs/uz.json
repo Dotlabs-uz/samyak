@@ -120,6 +120,10 @@
                 "price": "12 000 000 so'm",
                 "desc": "Kompaniyalar uchun ideal biznes sovg‘a yechimi."
             }
+        },
+        "types": {
+            "classic": "Sovg'a to'plami",
+            "chocolate": "Shokoladli sovg'a to'plami"
         }
     },
     "Gastronomy": {

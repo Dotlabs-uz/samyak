@@ -142,13 +142,11 @@
   body {
     @apply bg-background text-foreground;
     background-color: #F5F5F5;
-    overflow-x: hidden;
   }
 
   html {
     font-family: 'AvantGarde Bk BT', sans-serif;
     scroll-behavior: smooth;
-    overflow-x: hidden;
   }
 
   .font-oceanic {

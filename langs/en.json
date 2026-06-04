@@ -120,6 +120,10 @@
                 "price": "12 000 000 so'm",
                 "desc": "Perfect business gifting solution."
             }
+        },
+        "types": {
+            "classic": "Gift set",
+            "chocolate": "Chocolate gift set"
         }
     },
     "Gastronomy": {

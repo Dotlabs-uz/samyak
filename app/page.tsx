@@ -24,6 +24,14 @@ import { GiftCard } from '@/components/custom/GiftCard';
 import ProductCard from '@/components/custom/ProductCard';
 import { ReelsCard } from '@/components/custom/ReelsCard';
 import { Reveal } from '@/components/animations/Reveal';
+import giftsets from "@/data/giftsets.json";
+
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    type CarouselApi,
+} from "@/components/ui/carousel";
 
 const categories = [
     { key: "snacks", iconColor: "#BF9C66", Icon: PiStarFourFill },
@@ -47,12 +55,28 @@ export default function Home() {
     const [activeIndex, setActiveIndex] = useState(0);
     const [activeCategory, setActiveCategory] = useState("snacks")
     const [productPage, setProductPage] = useState(0);
-    const [giftCarouselIdx, setGiftCarouselIdx] = useState(0);
     const [animationStarted, setAnimationStarted] = useState(false);
     const [activeCard, setActiveCard] = useState(-1);
     const [titleStarted, setTitleStarted] = useState(false);
     const [descVisible, setDescVisible] = useState(false);
     const [reelsPlaying, setReelsPlaying] = useState(false);
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const [api, setApi] = useState<CarouselApi | null>(null);
+    const [canPrev, setCanPrev] = useState(false);
+    const [canNext, setCanNext] = useState(false);
+
+    useEffect(() => {
+        if (!api) return;
+
+        const update = () => {
+            setCanPrev(api.canScrollPrev());
+            setCanNext(api.canScrollNext());
+        };
+
+        update();
+        api.on("select", update);
+        api.on("reInit", update);
+    }, [api]);
 
     const autoplay = useRef<{ stop: () => void; play: () => void }>({ stop: () => { }, play: () => { } });
     useEffect(() => {
@@ -66,33 +90,6 @@ export default function Home() {
         }, 3000);
         return () => clearInterval(interval);
     }, []);
-
-
-    const startGreenAnimation = () => {
-        if (animationStarted) return;
-
-        setAnimationStarted(true);
-
-        let current = 0;
-
-        setActiveCard(0);
-
-        const interval = setInterval(() => {
-            current++;
-
-            if (current >= 4) {
-                clearInterval(interval);
-
-                setTimeout(() => {
-                    setActiveCard(-1);
-                }, 500);
-
-                return;
-            }
-
-            setActiveCard(current);
-        }, 600);
-    };
 
     return (
         <div className="container mx-auto max-w-[1440px] px-4 2xl:px-0">
@@ -339,9 +336,10 @@ export default function Home() {
             <section className="w-full py-20 bg-[#F3F3F3]" id="gifts">
                 <Reveal direction="up" delay={0}>
                     <div className="flex flex-col items-center text-center gap-5 mb-14">
-                        <span className="text-[#BF9C66] text-xl uppercase font-avantgarde font-bold text-center block">
+                        <span className="text-[#BF9C66] text-xl uppercase font-avantgarde font-bold">
                             {i("badge")}
                         </span>
+
                         <h2 className="font-oceanic text-4xl md:text-6xl max-w-2xl text-[#133B1D] font-extrabold leading-[1.1]">
                             {i.raw("titleWords").map((word: any, idx: number) => (
                                 <span
@@ -353,86 +351,60 @@ export default function Home() {
                                 </span>
                             ))}
                         </h2>
-                        <p className="text-[#363636] text-lg font-avantgarde max-w-lg">{i("subtitle")}</p>
+
+                        <p className="text-[#363636] text-lg font-avantgarde max-w-lg">
+                            {i("subtitle")}
+                        </p>
                     </div>
                 </Reveal>
 
-                <div className="hidden md:grid mx-auto grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
-                    {[
-                        { title: i("items.tayyor.title"), price: i("items.tayyor.price"), description: i("items.tayyor.desc") },
-                        { title: i("items.toy.title"), price: i("items.toy.price"), description: i("items.toy.desc") },
-                        { title: i("items.premium.title"), price: i("items.premium.price"), description: i("items.premium.desc") },
-                        { title: i("items.corporate.title"), price: i("items.corporate.price"), description: i("items.corporate.desc") },
-                    ].map((card, idx) => (
-                        <motion.div
-                            key={idx}
-                            initial={{ opacity: 0, y: 40 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true, amount: 0.2 }}
-                            transition={{ duration: 0.6, delay: idx * 0.12, ease: [0.22, 1, 0.36, 1] }}
-                            onAnimationComplete={() => {
-                                if (idx === 3) {
-                                    startGreenAnimation();
-                                }
-                            }}
-                        >
-                            <GiftCard
-                                title={card.title}
-                                price={card.price}
-                                description={card.description}
-                                active={activeCard === idx}
-                            />
-                        </motion.div>
-                    ))}
-                </div>
-
-                {(() => {
-                    const giftCards = [
-                        { title: i("items.tayyor.title"), price: i("items.tayyor.price"), description: i("items.tayyor.desc") },
-                        { title: i("items.toy.title"), price: i("items.toy.price"), description: i("items.toy.desc") },
-                        { title: i("items.premium.title"), price: i("items.premium.price"), description: i("items.premium.desc") },
-                        { title: i("items.corporate.title"), price: i("items.corporate.price"), description: i("items.corporate.desc") },
-                    ];
-                    return (
-                        <div className="md:hidden">
-                            <div className="relative overflow-hidden">
+                <Carousel
+                    setApi={setApi}
+                    opts={{
+                        align: "start",
+                        loop: false,
+                    }}
+                    className="w-full"
+                >
+                    <CarouselContent className="-ml-4">
+                        {giftsets.map((gift, idx) => (
+                            <CarouselItem
+                                key={gift.id}
+                                className="pl-4 basis-full md:basis-1/2 xl:basis-1/4"
+                            >
                                 <motion.div
-                                    className="flex gap-4 px-4"
-                                    animate={{ x: `-${giftCarouselIdx * (100 / giftCards.length)}%` }}
-                                    transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-                                    style={{ width: `${giftCards.length * 85}vw` }}
+                                    initial={{ opacity: 0, y: 40 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true, amount: 0.3 }}
+                                    transition={{
+                                        duration: 0.6,
+                                        delay: idx * 0.08,
+                                        ease: [0.22, 1, 0.36, 1],
+                                    }}
                                 >
-                                    {giftCards.map((card, idx) => (
-                                        <div key={idx} style={{ width: '80vw', flexShrink: 0 }}>
-                                            <GiftCard title={card.title} price={card.price} description={card.description} />
-                                        </div>
-                                    ))}
-                                </motion.div>
-                            </div>
-
-                            <div className="flex justify-center gap-2 mt-4 mb-6">
-                                {giftCards.map((_, idx) => (
-                                    <button
-                                        key={idx}
-                                        onClick={() => setGiftCarouselIdx(idx)}
-                                        className={`w-2 h-2 rounded-full transition-all cursor-pointer ${giftCarouselIdx === idx ? 'bg-[#133C1E] w-6' : 'bg-[#133C1E]/30'}`}
+                                    <GiftCard
+                                        title={i(`types.${gift.type}`)}
+                                        image={gift.image}
                                     />
-                                ))}
-                            </div>
-                        </div>
-                    );
-                })()}
+                                </motion.div>
+                            </CarouselItem>
+                        ))}
+                    </CarouselContent>
+                </Carousel>
 
-                <div className="flex justify-center gap-4 mt-4">
+                <div className="flex justify-center gap-4 mt-8">
                     <button
-                        onClick={() => setGiftCarouselIdx(prev => Math.max(0, prev - 1))}
-                        className="h-14 w-14 rounded-full bg-[#133C1E] flex items-center justify-center text-white hover:bg-[#1f5a2d] transition cursor-pointer"
+                        onClick={() => api?.scrollPrev()}
+                        disabled={!canPrev}
+                        className="h-12 w-12 rounded-full bg-[#133C1E] flex items-center justify-center text-white disabled:opacity-40 cursor-pointer"
                     >
                         <FaArrowLeft />
                     </button>
+
                     <button
-                        onClick={() => setGiftCarouselIdx(prev => Math.min(3, prev + 1))}
-                        className="h-14 w-14 rounded-full bg-[#133C1E] flex items-center justify-center text-white hover:bg-[#1f5a2d] transition cursor-pointer"
+                        onClick={() => api?.scrollNext()}
+                        disabled={!canNext}
+                        className="h-12 w-12 rounded-full bg-[#133C1E] flex items-center justify-center text-white disabled:opacity-40 cursor-pointer"
                     >
                         <FaArrowRight />
                     </button>

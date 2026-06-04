@@ -4,15 +4,13 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 type GiftCardProps = {
     title: string;
-    price: string;
-    description: string;
+    image: string;
     active?: boolean;
 };
 
 export function GiftCard({
     title,
-    price,
-    description,
+    image,
     active = false,
 }: GiftCardProps) {
     const i = useTranslations("Gift");
@@ -29,9 +27,9 @@ export function GiftCard({
             <div className="p-5">
                 <div className="rounded-2xl overflow-hidden">
                     <img
-                        src="/products/Gift.png"
+                        src={image}
                         alt={title}
-                        className="w-full h-[180px] object-cover transition-transform duration-300 group-hover:scale-105"
+                        className="w-full h-[200px] object-contain transition-transform duration-300 group-hover:scale-105"
                     />
                 </div>
             </div>
@@ -52,7 +50,7 @@ export function GiftCard({
                     {title}
                 </h3>
 
-                <p
+                {/* <p
                     className={clsx(
                         "text-[15px] transition-colors duration-500",
                         active
@@ -72,12 +70,12 @@ export function GiftCard({
                     )}
                 >
                     {description}
-                </p>
+                </p> */}
 
                 <button
                     className={clsx(
                         "mt-5 flex items-center gap-2 px-6 py-2.5 rounded-full border transition-all w-full cursor-pointer justify-center",
-                        "border-[#BF9C66] text-[#BF9C66]",
+                        "border-[#BF9C66] text-[#BF9C66]"
                     )}
                 >
                     {i("button")}

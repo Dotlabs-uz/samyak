@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "type": "classic",
+        "image": "/giftsets/classic1.webp"
+    },
+    {
+        "id": 2,
+        "type": "classic",
+        "image": "/giftsets/classic2.webp"
+    },
+    {
+        "id": 3,
+        "type": "classic",
+        "image": "/giftsets/classic3.webp"
+    },
+    {
+        "id": 4,
+        "type": "classic",
+        "image": "/giftsets/classic4.webp"
+    },
+    {
+        "id": 5,
+        "type": "classic",
+        "image": "/giftsets/classic5.webp"
+    },
+    {
+        "id": 6,
+        "type": "chocolate",
+        "image": "/giftsets/choco1.webp"
+    },
+    {
+        "id": 7,
+        "type": "chocolate",
+        "image": "/giftsets/choco2.webp"
+    },
+    {
+        "id": 8,
+        "type": "chocolate",
+        "image": "/giftsets/choco3.webp"
+    },
+    {
+        "id": 9,
+        "type": "chocolate",
+        "image": "/giftsets/choco4.webp"
+    },
+    {
+        "id": 10,
+        "type": "chocolate",
+        "image": "/giftsets/choco5.webp"
+    }
+]
