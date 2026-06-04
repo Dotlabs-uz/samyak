@@ -1,4 +1,44 @@
 {
+    "Header": {
+        "topNav": {
+            "about": "Biz haqimizda",
+            "products": "Mahsulotlar",
+            "gifts": "Sovg'alar",
+            "gastronomy": "Gastronomiya",
+            "reviews": "Sharhlar"
+        },
+        "nav": {
+            "products": {
+                "label": "Mahsulotlar",
+                "desc": "1000+ import mahsulotlari"
+            },
+            "gifts": {
+                "label": "Aksiya va yangiliklar",
+                "desc": "Eng yaxshi takliflar"
+            },
+            "gastronomy": {
+                "label": "Gastronomiya",
+                "desc": "Ta'm va sifat uyg'unligi"
+            },
+            "reviews": {
+                "label": "Sharhlar",
+                "desc": "Mijozlarimiz fikri"
+            },
+            "contact": {
+                "label": "Aloqa",
+                "desc": "Savollaringiz bormi?"
+            }
+        },
+        "promo": {
+            "title": "Premium sifat.",
+            "subtitle": "Jahon brendlari biz bilan.",
+            "cta": "Biz haqimizda"
+        },
+        "social": {
+            "title": "Biz ijtimoiy tarmoqlarda",
+            "hours": "Har kuni 09:00 – 21:00"
+        }
+    },
     "Hero": {
         "tagImport": "Import",
         "tagPremium": "Premium",

@@ -212,7 +212,7 @@ export default function Home() {
             <section className="relative" id="philosophy">
                 <PhilosophyIntro words={p.raw("titleWords") as string[]} />
                 <div
-                    className="w-full rounded-[32px] flex flex-col md:flex-row items-start relative mt-8 lg:mt-12 min-h-[400px] overflow-x-hidden"
+                    className="w-full rounded-[32px] flex flex-col md:flex-row items-start relative mt-8 lg:mt-12 min-h-[400px]"
                     style={{ background: '#133C1E', boxShadow: '0px 159px 129.4px 0px #02270C inset' }}
                 >
                     <motion.div
@@ -226,7 +226,7 @@ export default function Home() {
                     </motion.div>
 
                     <motion.div
-                        className="relative -mt-12 lg:-mt-30 shrink-0 z-20 md:ml-6 lg:ml-25"
+                        className="relative -mt-12 lg:-mt-30 shrink-0 z-20 md:ml-6 lg:ml-25 overflow-x-hidden"
                         initial={{ x: 160, opacity: 0 }}
                         whileInView={{ x: 0, opacity: 1 }}
                         viewport={{ once: false, amount: 0.2 }}

@@ -1,4 +1,44 @@
 {
+    "Header": {
+        "topNav": {
+            "about": "About us",
+            "products": "Products",
+            "gifts": "Gifts",
+            "gastronomy": "Gastronomy",
+            "reviews": "Reviews"
+        },
+        "nav": {
+            "products": {
+                "label": "Products",
+                "desc": "1000+ imported products"
+            },
+            "gifts": {
+                "label": "Promotions & News",
+                "desc": "Best offers for you"
+            },
+            "gastronomy": {
+                "label": "Gastronomy",
+                "desc": "Taste and quality in harmony"
+            },
+            "reviews": {
+                "label": "Reviews",
+                "desc": "What our clients say"
+            },
+            "contact": {
+                "label": "Contact",
+                "desc": "Have any questions?"
+            }
+        },
+        "promo": {
+            "title": "Premium quality.",
+            "subtitle": "World brands with us.",
+            "cta": "About us"
+        },
+        "social": {
+            "title": "Follow us on social media",
+            "hours": "Daily 09:00 – 21:00"
+        }
+    },
     "Hero": {
         "tagImport": "Import",
         "tagPremium": "Premium",
