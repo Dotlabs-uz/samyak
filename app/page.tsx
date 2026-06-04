@@ -25,6 +25,7 @@ import ProductCard from '@/components/custom/ProductCard';
 import { ReelsCard } from '@/components/custom/ReelsCard';
 import { Reveal } from '@/components/animations/Reveal';
 import giftsets from "@/data/giftsets.json";
+import products from "@/data/products.json";
 
 import {
     Carousel,
@@ -55,15 +56,18 @@ export default function Home() {
     const [activeIndex, setActiveIndex] = useState(0);
     const [activeCategory, setActiveCategory] = useState("snacks")
     const [productPage, setProductPage] = useState(0);
-    const [animationStarted, setAnimationStarted] = useState(false);
-    const [activeCard, setActiveCard] = useState(-1);
     const [titleStarted, setTitleStarted] = useState(false);
     const [descVisible, setDescVisible] = useState(false);
-    const [reelsPlaying, setReelsPlaying] = useState(false);
-    const [currentIndex, setCurrentIndex] = useState(0);
     const [api, setApi] = useState<CarouselApi | null>(null);
     const [canPrev, setCanPrev] = useState(false);
     const [canNext, setCanNext] = useState(false);
+    const [productApi, setProductApi] = useState<CarouselApi | null>(null);
+    const [canProductPrev, setCanProductPrev] = useState(false);
+    const [canProductNext, setCanProductNext] = useState(false);
+
+    const filteredProducts = products.filter(
+        (p) => p.category === activeCategory
+    );
 
     useEffect(() => {
         if (!api) return;
@@ -77,6 +81,23 @@ export default function Home() {
         api.on("select", update);
         api.on("reInit", update);
     }, [api]);
+
+    useEffect(() => {
+        if (!productApi) return;
+
+        const update = () => {
+            setCanProductPrev(productApi.canScrollPrev());
+            setCanProductNext(productApi.canScrollNext());
+        };
+
+        update();
+        productApi.on("select", update);
+        productApi.on("reInit", update);
+    }, [productApi]);
+
+    useEffect(() => {
+        productApi?.scrollTo(0);
+    }, [activeCategory, productApi]);
 
     const autoplay = useRef<{ stop: () => void; play: () => void }>({ stop: () => { }, play: () => { } });
     useEffect(() => {
@@ -294,8 +315,8 @@ export default function Home() {
                                     key={cat.key}
                                     onClick={() => setActiveCategory(cat.key)}
                                     className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-avantgarde font-medium transition-all duration-200 cursor-pointer border ${isActive
-                                        ? "bg-[#BF9C66] border-[#BF9C66] text-white"
-                                        : "bg-white border-[#E5E5E5] text-[#133C1E] hover:border-[#BF9C66]"
+                                            ? "bg-[#BF9C66] border-[#BF9C66] text-white"
+                                            : "bg-white border-[#E5E5E5] text-[#133C1E] hover:border-[#BF9C66]"
                                         }`}
                                 >
                                     <cat.Icon
@@ -309,25 +330,54 @@ export default function Home() {
                     </div>
                 </Reveal>
 
-                <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-                    {[1, 2, 3, 4].map((n, idx) => (
-                        <motion.div
-                            key={n}
-                            initial={{ opacity: 0, y: 40 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true, amount: 0.2 }}
-                            transition={{ duration: 0.6, delay: idx * 0.12, ease: [0.22, 1, 0.36, 1] }}
-                        >
-                            <ProductCard titleKey="item_title" image="/bubbles/lays.png" index={idx} />
-                        </motion.div>
-                    ))}
-                </div>
+                <Carousel
+                    setApi={setProductApi}
+                    opts={{
+                        align: "start",
+                        loop: false,
+                    }}
+                    className="w-full"
+                >
+                    <CarouselContent className="-ml-4">
+                        {filteredProducts.map((item, idx) => (
+                            <CarouselItem
+                                key={item.id}
+                                className="pl-4 basis-1/2 md:basis-1/3 lg:basis-1/4"
+                            >
+                                <motion.div
+                                    initial={{ opacity: 0, y: 40 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true, amount: 0.2 }}
+                                    transition={{
+                                        duration: 0.6,
+                                        delay: idx * 0.12,
+                                        ease: [0.22, 1, 0.36, 1],
+                                    }}
+                                >
+                                    <ProductCard
+                                        image={item.image}
+                                        category={item.category}
+                                        index={idx}
+                                    />
+                                </motion.div>
+                            </CarouselItem>
+                        ))}
+                    </CarouselContent>
+                </Carousel>
 
-                <div className="flex justify-center gap-4">
-                    <button onClick={() => setProductPage(prev => Math.max(0, prev - 1))} className="h-14 w-14 rounded-full bg-[#133C1E] flex items-center justify-center text-white hover:bg-[#1f5a2d] transition cursor-pointer">
+                <div className="flex justify-center gap-4 mt-8">
+                    <button
+                        onClick={() => productApi?.scrollPrev()}
+                        disabled={!canProductPrev}
+                        className="h-14 w-14 rounded-full bg-[#133C1E] flex items-center justify-center text-white disabled:opacity-40 hover:bg-[#1f5a2d] transition cursor-pointer"
+                    >
                         <FaArrowLeft />
                     </button>
-                    <button onClick={() => setProductPage(prev => prev + 1)} className="h-14 w-14 rounded-full bg-[#133C1E] flex items-center justify-center text-white hover:bg-[#1f5a2d] transition cursor-pointer">
+                    <button
+                        onClick={() => productApi?.scrollNext()}
+                        disabled={!canProductNext}
+                        className="h-14 w-14 rounded-full bg-[#133C1E] flex items-center justify-center text-white disabled:opacity-40 hover:bg-[#1f5a2d] transition cursor-pointer"
+                    >
                         <FaArrowRight />
                     </button>
                 </div>

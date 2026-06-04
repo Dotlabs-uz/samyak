@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "category": "supplements",
+        "image": "/products/bad1.png"
+    },
+    {
+        "id": 2,
+        "category": "supplements",
+        "image": "/products/bad2.png"
+    },
+    {
+        "id": 3,
+        "category": "supplements",
+        "image": "/products/bad3.png"
+    },
+    {
+        "id": 4,
+        "category": "supplements",
+        "image": "/products/bad4.png"
+    },
+    {
+        "id": 5,
+        "category": "supplements",
+        "image": "/products/bad5.png"
+    },
+    {
+        "id": 6,
+        "category": "supplements",
+        "image": "/products/bad6.png"
+    },
+    {
+        "id": 7,
+        "category": "supplements",
+        "image": "/products/bad7.png"
+    },
+    {
+        "id": 8,
+        "category": "supplements",
+        "image": "/products/bad8.png"
+    },
+    {
+        "id": 9,
+        "category": "supplements",
+        "image": "/products/bad9.png"
+    },
+    {
+        "id": 10,
+        "category": "supplements",
+        "image": "/products/bad10.png"
+    },
+    {
+        "id": 11,
+        "category": "snacks",
+        "image": "/products/choco1.png"
+    },
+    {
+        "id": 12,
+        "category": "snacks",
+        "image": "/products/choco2.png"
+    },
+    {
+        "id": 13,
+        "category": "snacks",
+        "image": "/products/choco3.png"
+    },
+    {
+        "id": 14,
+        "category": "snacks",
+        "image": "/products/choco4.png"
+    },
+    {
+        "id": 15,
+        "category": "snacks",
+        "image": "/products/choco5.png"
+    },
+    {
+        "id": 16,
+        "category": "snacks",
+        "image": "/products/choco6.png"
+    },
+    {
+        "id": 17,
+        "category": "fruits",
+        "image": "/products/honey1.png"
+    },
+    {
+        "id": 18,
+        "category": "fruits",
+        "image": "/products/honey2.png"
+    },
+    {
+        "id": 19,
+        "category": "fruits",
+        "image": "/products/honey3.png"
+    },
+    {
+        "id": 20,
+        "category": "fruits",
+        "image": "/products/honey4.png"
+    },
+    {
+        "id": 21,
+        "category": "fruits",
+        "image": "/products/honey5.png"
+    },
+    {
+        "id": 22,
+        "category": "fruits",
+        "image": "/products/honey6.png"
+    },
+    {
+        "id": 23,
+        "category": "fruits",
+        "image": "/products/honey7.png"
+    },
+    {
+        "id": 24,
+        "category": "fruits",
+        "image": "/products/honey8.png"
+    },
+    {
+        "id": 25,
+        "category": "fruits",
+        "image": "/products/honey9.png"
+    },
+    {
+        "id": 26,
+        "category": "drinks",
+        "image": "/products/tee1.png"
+    },
+    {
+        "id": 27,
+        "category": "drinks",
+        "image": "/products/coffee.png"
+    }
+]
