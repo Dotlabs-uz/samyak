@@ -8,11 +8,7 @@ type GiftCardProps = {
     active?: boolean;
 };
 
-export function GiftCard({
-    title,
-    image,
-    active = false,
-}: GiftCardProps) {
+export function GiftCard({ title, image, active = false }: GiftCardProps) {
     const i = useTranslations("Gift");
 
     return (
@@ -24,63 +20,51 @@ export function GiftCard({
                     : "bg-white border-black/10 hover:bg-[#133C1E] hover:border-[#133C1E]"
             )}
         >
-            <div className="p-5">
-                <div className="rounded-2xl overflow-hidden">
+            <div className="p-3">
+                <div
+                    style={{
+                        width: "100%",
+                        height: 163,
+                        borderRadius: 21,
+                        background: "#eaeae8",
+                        overflow: "hidden",
+                    }}
+                    className="flex items-center justify-center"
+                >
                     <img
                         src={image}
                         alt={title}
-                        className="w-full h-[200px] object-contain transition-transform duration-300 group-hover:scale-105"
+                        style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                        className="transition-transform duration-300 group-hover:scale-105"
                     />
                 </div>
-            </div>
 
-            <div className="px-6 pb-7 flex flex-col items-center text-center gap-3">
-                <span className="text-[#BF9C66] text-xs uppercase tracking-[0.25em] font-avantgarde font-semibold">
-                    {i("badge")}
-                </span>
+                <div className="flex flex-col items-center text-center gap-3 pt-3">
+                    <span className="text-[#BF9C66] text-xs uppercase tracking-[0.25em] font-avantgarde font-semibold">
+                        {i("badge")}
+                    </span>
 
-                <h3
-                    className={clsx(
-                        "font-oceanic font-extrabold text-[34px] leading-[1.1] transition-colors duration-500",
-                        active
-                            ? "text-[#EAEAEA]"
-                            : "text-[#133C1E] group-hover:text-[#EAEAEA]"
-                    )}
-                >
-                    {title}
-                </h3>
+                    <h3
+                        className={clsx(
+                            "font-oceanic font-extrabold text-[34px] leading-[1.1] transition-colors duration-500",
+                            active
+                                ? "text-[#EAEAEA]"
+                                : "text-[#133C1E] group-hover:text-[#EAEAEA]"
+                        )}
+                    >
+                        {title}
+                    </h3>
 
-                {/* <p
-                    className={clsx(
-                        "text-[15px] transition-colors duration-500",
-                        active
-                            ? "text-[#ADADAD]"
-                            : "text-[#689674] group-hover:text-[#ADADAD]"
-                    )}
-                >
-                    {price}
-                </p>
-
-                <p
-                    className={clsx(
-                        "text-sm leading-relaxed max-w-[260px] transition-colors duration-500",
-                        active
-                            ? "text-[#EAEAEA]"
-                            : "group-hover:text-[#EAEAEA]"
-                    )}
-                >
-                    {description}
-                </p> */}
-
-                <button
-                    className={clsx(
-                        "mt-5 flex items-center gap-2 px-6 py-2.5 rounded-full border transition-all w-full cursor-pointer justify-center",
-                        "border-[#BF9C66] text-[#BF9C66]"
-                    )}
-                >
-                    {i("button")}
-                    <FaArrowRightLong size={14} />
-                </button>
+                    <button
+                        className={clsx(
+                            "mt-2 flex items-center gap-2 px-6 py-2.5 rounded-full border transition-all w-full cursor-pointer justify-center",
+                            "border-[#BF9C66] text-[#BF9C66]"
+                        )}
+                    >
+                        {i("button")}
+                        <FaArrowRightLong size={14} />
+                    </button>
+                </div>
             </div>
         </div>
     );

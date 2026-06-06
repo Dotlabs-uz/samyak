@@ -70,17 +70,16 @@
     "Products": {
         "top_products": "TOP PRODUCTS",
         "categories": {
-            "snacks": "Snacks",
-            "fruits": "Fruits",
-            "vegetables": "Vegetables",
-            "drinks": "Drinks",
-            "dairy": "Dairy products",
-            "household": "Household chemicals",
-            "vitamins": "Vitamins",
+            "chocolate": "Samyak Chocolate",
+            "honey": "Honey & Bee Products",
+            "drinks": "Tea & Coffee",
             "supplements": "Supplements"
         },
         "halal": "Halal",
-        "gelatin_free": "Gelatin free"
+        "gelatin_free": "Gelatin free",
+        "currency": "UZS",
+        "add_to_cart": "Add to cart",
+        "price_label": "Price"
     },
     "Gift": {
         "badge": "GIFT SETS",

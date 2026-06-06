@@ -70,18 +70,16 @@
     "Products": {
         "top_products": "TOP MAHSULOTLAR",
         "categories": {
-            "snacks": "Sneklar",
-            "fruits": "Mevalar",
-            "vegetables": "Sabzavotlar",
-            "drinks": "Ichimliklar",
-            "dairy": "Sut mahsulotlari",
-            "household": "Maishiy kimyo",
-            "vitamins": "Vitaminlar",
-            "supplements": "BADlar"
+            "chocolate": "Samyak Shokolad",
+            "honey": "Asal & Arı mahsulotlari",
+            "drinks": "Choy & Qahva",
+            "supplements": "BAD"
         },
-        "item_title": "Lays tuzli chipsi",
-        "halal": "Halal",
-        "gelatin_free": "Jelatin yo'q"
+        "halal": "Halol",
+        "gelatin_free": "Jelatin yo'q",
+        "currency": "so'm",
+        "add_to_cart": "Savatga",
+        "price_label": "Narx"
     },
     "Gift": {
         "badge": "SOVG'A SAVATLARI",

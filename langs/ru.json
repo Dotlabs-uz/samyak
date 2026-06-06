@@ -70,18 +70,16 @@
     "Products": {
         "top_products": "ТОП ПРОДУКТОВ",
         "categories": {
-            "snacks": "Снеки",
-            "fruits": "Фрукты",
-            "vegetables": "Овощи",
-            "drinks": "Напитки",
-            "dairy": "Молочные продукты",
-            "household": "Бытовая химия",
-            "vitamins": "Витамины",
-            "supplements": "БАДы"
+            "chocolate": "Samyak Шоколад",
+            "honey": "Мёд & Пчелопродукты",
+            "drinks": "Чай & Кофе",
+            "supplements": "БАД"
         },
-        "item_title": "Чипсы Lays с солью",
         "halal": "Халяль",
-        "gelatin_free": "Без желатина"
+        "gelatin_free": "Без желатина",
+        "currency": "сум",
+        "add_to_cart": "В корзину",
+        "price_label": "Цена"
     },
     "Gift": {
         "badge": "ПОДАРОЧНЫЕ НАБОРЫ",

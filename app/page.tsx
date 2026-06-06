@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 
 import { BiWorld } from "react-icons/bi";
@@ -35,17 +35,14 @@ import {
 } from "@/components/ui/carousel";
 
 const categories = [
-    { key: "snacks", iconColor: "#BF9C66", Icon: PiStarFourFill },
-    { key: "fruits", iconColor: "#50D541", Icon: TiStarburst },
-    { key: "vegetables", iconColor: "#CE2B53", Icon: RiBox3Fill },
-    { key: "drinks", iconColor: "#FCB100", Icon: GiSevenPointedStar },
-    { key: "dairy", iconColor: "#E1CDAD", Icon: PiStarFourFill },
-    { key: "household", iconColor: "#E1CDAD", Icon: PiStarFourFill },
-    { key: "vitamins", iconColor: "#50D541", Icon: TiStarburst },
-    { key: "supplements", iconColor: "#50D541", Icon: TiStarburst },
+    { key: "chocolate", iconColor: "#BF9C66", Icon: PiStarFourFill },
+    { key: "honey", iconColor: "#FCB100", Icon: GiSevenPointedStar },
+    { key: "drinks", iconColor: "#50D541", Icon: TiStarburst },
+    { key: "supplements", iconColor: "#CE2B53", Icon: RiBox3Fill },
 ]
 
 export default function Home() {
+    const locale = useLocale()
     const t = useTranslations("Hero");
     const p = useTranslations("Philosophy")
     const o = useTranslations("OurGuests")
@@ -54,7 +51,7 @@ export default function Home() {
     const r = useTranslations("Products")
 
     const [activeIndex, setActiveIndex] = useState(0);
-    const [activeCategory, setActiveCategory] = useState("snacks")
+    const [activeCategory, setActiveCategory] = useState("chocolate")
     const [productPage, setProductPage] = useState(0);
     const [titleStarted, setTitleStarted] = useState(false);
     const [descVisible, setDescVisible] = useState(false);
@@ -315,8 +312,8 @@ export default function Home() {
                                     key={cat.key}
                                     onClick={() => setActiveCategory(cat.key)}
                                     className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-avantgarde font-medium transition-all duration-200 cursor-pointer border ${isActive
-                                            ? "bg-[#BF9C66] border-[#BF9C66] text-white"
-                                            : "bg-white border-[#E5E5E5] text-[#133C1E] hover:border-[#BF9C66]"
+                                        ? "bg-[#BF9C66] border-[#BF9C66] text-white"
+                                        : "bg-white border-[#E5E5E5] text-[#133C1E] hover:border-[#BF9C66]"
                                         }`}
                                 >
                                     <cat.Icon
@@ -358,6 +355,9 @@ export default function Home() {
                                         image={item.image}
                                         category={item.category}
                                         index={idx}
+                                        name={item[`name_${locale}` as keyof typeof item] as string}
+                                        price={`${Number(item.priceUZS).toLocaleString()} ${r('currency')}`}
+                                        description={item[`description_${locale}` as keyof typeof item] as string}
                                     />
                                 </motion.div>
                             </CarouselItem>
@@ -478,7 +478,7 @@ export default function Home() {
                     </Reveal>
 
                     <div className="hidden md:grid grid-cols-[416fr_306fr_306fr_196fr] gap-4 w-full">
-                        {["/products/coffee1.png", "/products/coffee2.png", "/products/coffee3.png", "/products/coffee4.png"].map((src, idx) => (
+                        {["/coffee1.png", "/coffee2.png", "/coffee3.png", "/coffee4.png"].map((src, idx) => (
                             <motion.img
                                 key={src}
                                 src={src}
@@ -494,10 +494,10 @@ export default function Home() {
 
                     <div className="grid md:hidden grid-cols-3 gap-3 w-full">
                         {[
-                            { src: "/products/coffee1.png", span: "col-span-1" },
-                            { src: "/products/coffee4.png", span: "col-span-2" },
-                            { src: "/products/coffee3.png", span: "col-span-2" },
-                            { src: "/products/coffee2.png", span: "col-span-1" },
+                            { src: "/coffee1.png", span: "col-span-1" },
+                            { src: "/coffee4.png", span: "col-span-2" },
+                            { src: "/coffee3.png", span: "col-span-2" },
+                            { src: "/coffee2.png", span: "col-span-1" },
                         ].map(({ src, span }, idx) => (
                             <motion.img
                                 key={src}
@@ -515,7 +515,7 @@ export default function Home() {
 
                 <div className="relative rounded-[32px] overflow-hidden">
                     <div className="absolute inset-0 z-0 overflow-hidden">
-                        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('/products/Gastronomy_img.png')` }} />
+                        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('/Gastronomy_img.png')` }} />
                         <div className="absolute inset-0" style={{ background: `linear-gradient(180deg, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.78) 22%, rgba(9,24,14,0.68) 55%, rgba(19,60,30,0.38) 78%, rgba(0,0,0,0.88) 100%)` }} />
                         <div className="absolute inset-0 bg-black/20" />
                     </div>

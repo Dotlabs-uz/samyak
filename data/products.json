@@ -2,136 +2,469 @@
     {
         "id": 1,
         "category": "supplements",
-        "image": "/products/bad1.png"
+        "image": "/products/bad1.png",
+        "priceUZS": 89000,
+        "name_ru": "Омега-3 Форте",
+        "name_uz": "Omega-3 Forte",
+        "name_en": "Omega-3 Forte",
+        "description_ru": "Высококонцентрированный рыбий жир с омега-3 кислотами. Поддерживает работу сердца, мозга и суставов. 60 капсул.",
+        "description_uz": "Yuqori konsentratsiyali baliq yog'i omega-3 kislotalari bilan. Yurak, miya va bo'g'imlar ishini qo'llab-quvvatlaydi. 60 kapsula.",
+        "description_en": "High-concentration fish oil with omega-3 fatty acids. Supports heart, brain and joint function. 60 capsules."
     },
     {
         "id": 2,
         "category": "supplements",
-        "image": "/products/bad2.png"
+        "image": "/products/bad2.png",
+        "priceUZS": 65000,
+        "name_ru": "Витамин D3 2000 МЕ",
+        "name_uz": "D3 Vitamini 2000 XB",
+        "name_en": "Vitamin D3 2000 IU",
+        "description_ru": "Витамин D3 в масляной форме для лучшего усвоения. Укрепляет иммунитет и кости. 90 капсул.",
+        "description_uz": "Yog'li shaklda D3 vitamini, yaxshi so'rilishi uchun. Immunitetni va suyaklarni mustahkamlaydi. 90 kapsula.",
+        "description_en": "Vitamin D3 in oil form for better absorption. Strengthens immunity and bones. 90 capsules."
     },
     {
         "id": 3,
         "category": "supplements",
-        "image": "/products/bad3.png"
+        "image": "/products/bad3.png",
+        "priceUZS": 72000,
+        "name_ru": "Магний B6",
+        "name_uz": "Magniy B6",
+        "name_en": "Magnesium B6",
+        "description_ru": "Магний с витамином B6 для нервной системы и снятия стресса. Улучшает качество сна. 60 таблеток.",
+        "description_uz": "Asab tizimi va stress uchun B6 vitaminli magniy. Uyqu sifatini yaxshilaydi. 60 tabletka.",
+        "description_en": "Magnesium with vitamin B6 for the nervous system and stress relief. Improves sleep quality. 60 tablets."
     },
     {
         "id": 4,
         "category": "supplements",
-        "image": "/products/bad4.png"
+        "image": "/products/bad4.png",
+        "priceUZS": 115000,
+        "name_ru": "Коллаген Пептиды",
+        "name_uz": "Kollagen Peptidlari",
+        "name_en": "Collagen Peptides",
+        "description_ru": "Морской коллаген в порошке для кожи, волос и ногтей. Легко растворяется, без запаха. 200 г.",
+        "description_uz": "Teri, soch va tirnoqlar uchun dengiz kollageni kukuni. Oson eriydi, hidsiz. 200 g.",
+        "description_en": "Marine collagen powder for skin, hair and nails. Easily dissolves, odorless. 200 g."
     },
     {
         "id": 5,
         "category": "supplements",
-        "image": "/products/bad5.png"
+        "image": "/products/bad5.png",
+        "priceUZS": 98000,
+        "name_ru": "Пробиотик Комплекс",
+        "name_uz": "Probiotik Kompleks",
+        "name_en": "Probiotic Complex",
+        "description_ru": "10 штаммов живых бактерий для здоровья кишечника и крепкого иммунитета. 30 капсул.",
+        "description_uz": "Ichak salomatligi va kuchli immunitet uchun 10 tirik bakteriya shtammi. 30 kapsula.",
+        "description_en": "10 strains of live bacteria for gut health and strong immunity. 30 capsules."
     },
     {
         "id": 6,
         "category": "supplements",
-        "image": "/products/bad6.png"
+        "image": "/products/bad6.png",
+        "priceUZS": 54000,
+        "name_ru": "Цинк + Витамин C",
+        "name_uz": "Rux + C Vitamini",
+        "name_en": "Zinc + Vitamin C",
+        "description_ru": "Защитный комплекс для иммунной системы. Природный антиоксидант. 60 жевательных таблеток.",
+        "description_uz": "Immunitet tizimi uchun himoya kompleksi. Tabiiy antioksidant. 60 chaynab yeyiladigan tabletka.",
+        "description_en": "Protective complex for the immune system. Natural antioxidant. 60 chewable tablets."
     },
     {
         "id": 7,
         "category": "supplements",
-        "image": "/products/bad7.png"
+        "image": "/products/bad7.png",
+        "priceUZS": 78000,
+        "name_ru": "Мультивитамин Daily",
+        "name_uz": "Multivitamin Daily",
+        "name_en": "Multivitamin Daily",
+        "description_ru": "Полный комплекс из 23 витаминов и минералов для ежедневной поддержки организма. 60 таблеток.",
+        "description_uz": "Organizmni kundalik qo'llab-quvvatlash uchun 23 vitamin va mineraldan iborat to'liq kompleks. 60 tabletka.",
+        "description_en": "Complete complex of 23 vitamins and minerals for daily body support. 60 tablets."
     },
     {
         "id": 8,
         "category": "supplements",
-        "image": "/products/bad8.png"
+        "image": "/products/bad8.png",
+        "priceUZS": 61000,
+        "name_ru": "Железо Хелат",
+        "name_uz": "Temir Xelat",
+        "name_en": "Iron Chelate",
+        "description_ru": "Легкоусвояемое железо в хелатной форме. Не вызывает раздражения желудка. 60 капсул.",
+        "description_uz": "Xelat shaklida oson so'riladigan temir. Oshqozonga ta'sir qilmaydi. 60 kapsula.",
+        "description_en": "Easily absorbed iron in chelated form. Does not irritate the stomach. 60 capsules."
     },
     {
         "id": 9,
         "category": "supplements",
-        "image": "/products/bad9.png"
+        "image": "/products/bad9.png",
+        "priceUZS": 92000,
+        "name_ru": "Куркумин Актив",
+        "name_uz": "Kurkumin Aktiv",
+        "name_en": "Curcumin Active",
+        "description_ru": "Экстракт куркумы с пиперином для максимального усвоения. Мощный противовоспалительный эффект.",
+        "description_uz": "Maksimal so'rilish uchun piperili zarchova ekstrakti. Kuchli yallig'lanishga qarshi ta'sir.",
+        "description_en": "Turmeric extract with piperine for maximum absorption. Powerful anti-inflammatory effect."
     },
     {
         "id": 10,
         "category": "supplements",
-        "image": "/products/bad10.png"
+        "image": "/products/bad10.png",
+        "priceUZS": 85000,
+        "name_ru": "L-Карнитин 1000",
+        "name_uz": "L-Karnitin 1000",
+        "name_en": "L-Carnitine 1000",
+        "description_ru": "Аминокислота для жирового обмена и энергии. Поддерживает работу сердца и выносливость.",
+        "description_uz": "Yog' almashinuvi va energiya uchun aminokislota. Yurak ishini va chidamlilikni qo'llab-quvvatlaydi.",
+        "description_en": "Amino acid for fat metabolism and energy. Supports heart function and endurance."
     },
     {
         "id": 11,
-        "category": "snacks",
-        "image": "/products/choco1.png"
+        "category": "supplements",
+        "image": "/products/bad11.png",
+        "priceUZS": 88000,
+        "name_ru": "Витамин K2 + D3",
+        "name_uz": "K2 + D3 Vitamini",
+        "name_en": "Vitamin K2 + D3",
+        "description_ru": "Синергетический комплекс для здоровья костей и сосудов. Перенаправляет кальций куда нужно.",
+        "description_uz": "Suyak va qon tomir salomatligi uchun sinergik kompleks. Kaltsiyni to'g'ri yo'naltiradi.",
+        "description_en": "Synergistic complex for bone and vascular health. Directs calcium where it's needed."
     },
     {
         "id": 12,
-        "category": "snacks",
-        "image": "/products/choco2.png"
+        "category": "supplements",
+        "image": "/products/bad12.png",
+        "priceUZS": 96000,
+        "name_ru": "5-HTP Релакс",
+        "name_uz": "5-HTP Relaks",
+        "name_en": "5-HTP Relax",
+        "description_ru": "Натуральный предшественник серотонина. Улучшает настроение, сон и снижает тягу к сладкому.",
+        "description_uz": "Serotonin uchun tabiiy prekursor. Kayfiyat, uyqu yaxshilanadi va shirin taomga ishtaha kamayadi.",
+        "description_en": "Natural serotonin precursor. Improves mood, sleep and reduces sweet cravings."
     },
     {
         "id": 13,
-        "category": "snacks",
-        "image": "/products/choco3.png"
+        "category": "supplements",
+        "image": "/products/bad13.png",
+        "priceUZS": 70000,
+        "name_ru": "Спирулина Органик",
+        "name_uz": "Spirulina Organik",
+        "name_en": "Spirulina Organic",
+        "description_ru": "Спирулина высшего качества — источник белка, железа и антиоксидантов. 120 таблеток.",
+        "description_uz": "Yuqori sifatli spirulina — oqsil, temir va antioksidantlar manbai. 120 tabletka.",
+        "description_en": "Premium quality spirulina — source of protein, iron and antioxidants. 120 tablets."
     },
     {
         "id": 14,
-        "category": "snacks",
-        "image": "/products/choco4.png"
+        "category": "supplements",
+        "image": "/products/bad14.png",
+        "priceUZS": 67000,
+        "name_ru": "Биотин 5000 мкг",
+        "name_uz": "Biotin 5000 mkg",
+        "name_en": "Biotin 5000 mcg",
+        "description_ru": "Витамин красоты для волос, кожи и ногтей. Быстрый заметный эффект уже через 4 недели.",
+        "description_uz": "Soch, teri va tirnoqlar uchun go'zallik vitamini. 4 haftadan so'ng tez ko'rinadigan natija.",
+        "description_en": "Beauty vitamin for hair, skin and nails. Fast visible results in just 4 weeks."
     },
     {
         "id": 15,
-        "category": "snacks",
-        "image": "/products/choco5.png"
+        "category": "supplements",
+        "image": "/products/bad15.png",
+        "priceUZS": 105000,
+        "name_ru": "Ashwagandha KSM-66",
+        "name_uz": "Ashwagandha KSM-66",
+        "name_en": "Ashwagandha KSM-66",
+        "description_ru": "Стандартизированный экстракт ашваганды для снижения кортизола и восстановления энергии.",
+        "description_uz": "Kortizolni kamaytirish va energiyani tiklash uchun standartlashtirilgan ashwagandha ekstrakti.",
+        "description_en": "Standardized ashwagandha extract to reduce cortisol and restore energy."
     },
     {
         "id": 16,
-        "category": "snacks",
-        "image": "/products/choco6.png"
+        "category": "supplements",
+        "image": "/products/bad16.png",
+        "priceUZS": 48000,
+        "name_ru": "Глицин Форте",
+        "name_uz": "Glitsin Forte",
+        "name_en": "Glycine Forte",
+        "description_ru": "Аминокислота для мозга и нервной системы. Снимает тревожность, улучшает концентрацию и сон.",
+        "description_uz": "Miya va asab tizimi uchun aminokislota. Tashvishni kamaytiradi, diqqat va uyquni yaxshilaydi.",
+        "description_en": "Amino acid for brain and nervous system. Reduces anxiety, improves concentration and sleep."
     },
     {
         "id": 17,
-        "category": "fruits",
-        "image": "/products/honey1.png"
+        "category": "chocolate",
+        "image": "/products/choco1.png",
+        "priceUZS": 35000,
+        "name_ru": "Горький шоколад 72%",
+        "name_uz": "Achchiq shokolad 72%",
+        "name_en": "Dark Chocolate 72%",
+        "description_ru": "Бельгийский горький шоколад с высоким содержанием какао. Без сахара, без ГМО. 100 г.",
+        "description_uz": "Yuqori kakao miqdori bilan belgiya achchiq shokoladi. Shakarsiz, GMO yo'q. 100 g.",
+        "description_en": "Belgian dark chocolate with high cocoa content. Sugar-free, non-GMO. 100 g."
     },
     {
         "id": 18,
-        "category": "fruits",
-        "image": "/products/honey2.png"
+        "category": "chocolate",
+        "image": "/products/choco2.png",
+        "priceUZS": 38000,
+        "name_ru": "Молочный с фундуком",
+        "name_uz": "Yong'oqli sut shokoladi",
+        "name_en": "Milk Chocolate with Hazelnuts",
+        "description_ru": "Нежный молочный шоколад с целыми орехами фундука. Халяль, без желатина. 100 г.",
+        "description_uz": "Butun findiqli nozik sut shokoladi. Halol, jelatin yo'q. 100 g.",
+        "description_en": "Tender milk chocolate with whole hazelnuts. Halal, gelatin-free. 100 g."
     },
     {
         "id": 19,
-        "category": "fruits",
-        "image": "/products/honey3.png"
+        "category": "chocolate",
+        "image": "/products/choco3.png",
+        "priceUZS": 40000,
+        "name_ru": "Белый с малиной",
+        "name_uz": "Maliynali oq shokolad",
+        "name_en": "White Chocolate with Raspberry",
+        "description_ru": "Кремовый белый шоколад с кусочками сушёной малины. Яркий вкус и аромат. 90 г.",
+        "description_uz": "Quritilgan malina bo'laklari bilan kremli oq shokolad. Yorqin ta'm va xushbo'y. 90 g.",
+        "description_en": "Creamy white chocolate with pieces of dried raspberry. Bright taste and aroma. 90 g."
     },
     {
         "id": 20,
-        "category": "fruits",
-        "image": "/products/honey4.png"
+        "category": "chocolate",
+        "image": "/products/choco4.png",
+        "priceUZS": 55000,
+        "name_ru": "Трюфельные конфеты",
+        "name_uz": "Tryufel konfetlari",
+        "name_en": "Truffle Chocolates",
+        "description_ru": "Ручные трюфели с бельгийским ганашем. В коробке 12 штук. Отличный подарок.",
+        "description_uz": "Belgiya ganaji bilan qo'lda tayyorlangan tryufellar. Qutida 12 dona. Ajoyib sovg'a.",
+        "description_en": "Handmade truffles with Belgian ganache. 12 pieces per box. A perfect gift."
     },
     {
         "id": 21,
-        "category": "fruits",
-        "image": "/products/honey5.png"
+        "category": "chocolate",
+        "image": "/products/choco5.png",
+        "priceUZS": 42000,
+        "name_ru": "Шоколад с кардамоном",
+        "name_uz": "Kardamonli shokolad",
+        "name_en": "Chocolate with Cardamom",
+        "description_ru": "Тёмный шоколад с восточным ароматом кардамона. Авторский рецепт Samyak. 80 г.",
+        "description_uz": "Sharqona kardamon xushbo'yi bilan to'q shokolad. Samyak muallif retsepti. 80 g.",
+        "description_en": "Dark chocolate with the oriental aroma of cardamom. Samyak signature recipe. 80 g."
     },
     {
         "id": 22,
-        "category": "fruits",
-        "image": "/products/honey6.png"
+        "category": "chocolate",
+        "image": "/products/choco6.png",
+        "priceUZS": 32000,
+        "name_ru": "Горячий шоколад Mix",
+        "name_uz": "Issiq shokolad Mix",
+        "name_en": "Hot Chocolate Mix",
+        "description_ru": "Смесь для приготовления насыщенного горячего шоколада. Без искусственных ароматизаторов. 250 г.",
+        "description_uz": "To'yimli issiq shokolad tayyorlash uchun aralashma. Sun'iy xushbo'ylar yo'q. 250 g.",
+        "description_en": "Mix for making rich hot chocolate. No artificial flavors. 250 g."
     },
     {
         "id": 23,
-        "category": "fruits",
-        "image": "/products/honey7.png"
+        "category": "honey",
+        "image": "/products/honey1.png",
+        "priceUZS": 95000,
+        "name_ru": "Мёд горный цветочный",
+        "name_uz": "Tog' gul asali",
+        "name_en": "Mountain Flower Honey",
+        "description_ru": "Сырой мёд с высокогорных пастбищ. Собран вручную, не нагревался. Богат ферментами. 500 г.",
+        "description_uz": "Baland tog' yaylovlaridan xom asal. Qo'lda yig'ilgan, qizdirilmagan. Fermentlarga boy. 500 g.",
+        "description_en": "Raw honey from high-altitude pastures. Hand-harvested, never heated. Rich in enzymes. 500 g."
     },
     {
         "id": 24,
-        "category": "fruits",
-        "image": "/products/honey8.png"
+        "category": "honey",
+        "image": "/products/honey2.png",
+        "priceUZS": 88000,
+        "name_ru": "Акациевый мёд",
+        "name_uz": "Akatsiya asali",
+        "name_en": "Acacia Honey",
+        "description_ru": "Светлый жидкий мёд с нежным вкусом. Долго не кристаллизуется. Гипоаллергенный. 500 г.",
+        "description_uz": "Nozik ta'mli och rangli suyuq asal. Uzoq vaqt kristallanmaydi. Gipoallergen. 500 g.",
+        "description_en": "Light liquid honey with a delicate taste. Slow to crystallize. Hypoallergenic. 500 g."
     },
     {
         "id": 25,
-        "category": "fruits",
-        "image": "/products/honey9.png"
+        "category": "honey",
+        "image": "/products/honey3.png",
+        "priceUZS": 110000,
+        "name_ru": "Мёд с чёрным тмином",
+        "name_uz": "Qora zira bilan asal",
+        "name_en": "Honey with Black Seed",
+        "description_ru": "Классическое сочетание мёда и нигеллы. Иммунный суперфуд восточной медицины. 350 г.",
+        "description_uz": "Asal va nigella klassik uyg'unligi. Sharq tabobatining immunitet superfudi. 350 g.",
+        "description_en": "Classic combination of honey and nigella. Immune superfood of Eastern medicine. 350 g."
     },
     {
         "id": 26,
-        "category": "drinks",
-        "image": "/products/tee1.png"
+        "category": "honey",
+        "image": "/products/honey4.png",
+        "priceUZS": 105000,
+        "name_ru": "Падевый мёд",
+        "name_uz": "Shudring asali",
+        "name_en": "Honeydew Honey",
+        "description_ru": "Редкий тёмный мёд с высоким содержанием минералов. Особенно ценится в народной медицине.",
+        "description_uz": "Yuqori mineral miqdori bilan noyob to'q asal. Xalq tabobatida alohida qadrlanadi.",
+        "description_en": "Rare dark honey with high mineral content. Especially valued in folk medicine."
     },
     {
         "id": 27,
+        "category": "honey",
+        "image": "/products/honey5.png",
+        "priceUZS": 98000,
+        "name_ru": "Мёд с грецким орехом",
+        "name_uz": "Yong'oqli asal",
+        "name_en": "Honey with Walnuts",
+        "description_ru": "Натуральный мёд с кусочками грецкого ореха. Питательно и вкусно. 400 г.",
+        "description_uz": "Yong'oq bo'laklari bilan tabiiy asal. Ozuqali va mazali. 400 g.",
+        "description_en": "Natural honey with pieces of walnut. Nutritious and delicious. 400 g."
+    },
+    {
+        "id": 28,
+        "category": "honey",
+        "image": "/products/honey6.png",
+        "priceUZS": 85000,
+        "name_ru": "Крем-мёд ваниль",
+        "name_uz": "Vanilli krem-asal",
+        "name_en": "Vanilla Cream Honey",
+        "description_ru": "Взбитый мёд с натуральной ванилью. Нежная текстура, тает во рту. 350 г.",
+        "description_uz": "Tabiiy vanilli ko'pirtirilgan asal. Nozik tekstura, og'izda eriydi. 350 g.",
+        "description_en": "Whipped honey with natural vanilla. Delicate texture, melts in your mouth. 350 g."
+    },
+    {
+        "id": 29,
+        "category": "honey",
+        "image": "/products/honey7.png",
+        "priceUZS": 125000,
+        "name_ru": "Пчелиная перга",
+        "name_uz": "Ari pergasi",
+        "name_en": "Bee Pollen Bread",
+        "description_ru": "Натуральная пчелиная перга — концентрат витаминов и аминокислот. 100 г.",
+        "description_uz": "Tabiiy ari pergasi — vitaminlar va aminokislotalar kontsentrati. 100 g.",
+        "description_en": "Natural bee pollen bread — concentrate of vitamins and amino acids. 100 g."
+    },
+    {
+        "id": 30,
+        "category": "honey",
+        "image": "/products/honey8.png",
+        "priceUZS": 72000,
+        "name_ru": "Прополис настойка",
+        "name_uz": "Propolis tinturasi",
+        "name_en": "Propolis Tincture",
+        "description_ru": "Спиртовая настойка прополиса. Природный антибиотик и иммуностимулятор. 30 мл.",
+        "description_uz": "Spirtli propolis tinturasi. Tabiiy antibiotik va immunostimulyator. 30 ml.",
+        "description_en": "Alcohol propolis tincture. Natural antibiotic and immune stimulant. 30 ml."
+    },
+    {
+        "id": 31,
+        "category": "honey",
+        "image": "/products/honey9.png",
+        "priceUZS": 145000,
+        "name_ru": "Маточное молочко",
+        "name_uz": "Ona ari suti",
+        "name_en": "Royal Jelly",
+        "description_ru": "Свежее маточное молочко в мёде. Максимальная биодоступность активных веществ. 100 г.",
+        "description_uz": "Asaldagi yangi ona ari suti. Faol moddalarning maksimal biologik mavjudligi. 100 g.",
+        "description_en": "Fresh royal jelly in honey. Maximum bioavailability of active substances. 100 g."
+    },
+    {
+        "id": 32,
         "category": "drinks",
-        "image": "/products/coffee.png"
+        "image": "/products/tee1.png",
+        "priceUZS": 45000,
+        "name_ru": "Чай Горный Сбор",
+        "name_uz": "Tog' o'tlari choy",
+        "name_en": "Mountain Herbal Tea",
+        "description_ru": "Купаж 12 горных трав из предгорий Тянь-Шаня. Без ароматизаторов, только натуральное. 50 г.",
+        "description_uz": "Tyan-Shan etaklaridan 12 tog' o'tining aralashmasi. Xushbo'ysiz, faqat tabiiy. 50 g.",
+        "description_en": "Blend of 12 mountain herbs from the Tian Shan foothills. No flavorings, purely natural. 50 g."
+    },
+    {
+        "id": 33,
+        "category": "drinks",
+        "image": "/products/coffee1.png",
+        "priceUZS": 68000,
+        "name_ru": "Эспрессо Интенсо",
+        "name_uz": "Espresso Intenso",
+        "name_en": "Espresso Intenso",
+        "description_ru": "Насыщенный бленд арабики и робусты. Идеально для эспрессо-машины. Помол средний. 250 г.",
+        "description_uz": "Arabika va robusta to'yimli blendi. Espresso mashinasi uchun ideal. O'rta maydalash. 250 g.",
+        "description_en": "Rich blend of arabica and robusta. Perfect for espresso machines. Medium grind. 250 g."
+    },
+    {
+        "id": 34,
+        "category": "drinks",
+        "image": "/products/coffee2.png",
+        "priceUZS": 85000,
+        "name_ru": "Фильтр Эфиопия Ираса",
+        "name_uz": "Filter Efiopiya Irasa",
+        "name_en": "Filter Ethiopia Irasa",
+        "description_ru": "Моносорт из Эфиопии с нотами черники и жасмина. Обжарка светлая, для фильтра. 200 г.",
+        "description_uz": "Efiopiyadan ko'k uzum va yasmin notali monosort. Och qovrish, filtr uchun. 200 g.",
+        "description_en": "Single origin from Ethiopia with blueberry and jasmine notes. Light roast, for filter. 200 g."
+    },
+    {
+        "id": 35,
+        "category": "drinks",
+        "image": "/products/coffee3.png",
+        "priceUZS": 92000,
+        "name_ru": "Колумбия Уила",
+        "name_uz": "Kolumbiya Uila",
+        "name_en": "Colombia Huila",
+        "description_ru": "Яркая арабика из высокогорья Уила. Карамельная сладость, цитрусовая кислотность. 200 г.",
+        "description_uz": "Uila tog'liqlaridan yorqin arabika. Karamel shirinligi, sitrus kislotaligi. 200 g.",
+        "description_en": "Bright arabica from the highlands of Huila. Caramel sweetness, citrus acidity. 200 g."
+    },
+    {
+        "id": 36,
+        "category": "drinks",
+        "image": "/products/coffee4.png",
+        "priceUZS": 75000,
+        "name_ru": "Декаф Бразилия",
+        "name_uz": "Dekaf Braziliya",
+        "name_en": "Decaf Brazil",
+        "description_ru": "Кофе без кофеина, обработка швейцарской водой. Полный вкус без нагрузки на сердце. 250 г.",
+        "description_uz": "Shveytsariya suvi bilan qayta ishlangan kafeinsiz qahva. To'liq ta'm, yurakka yuk yo'q. 250 g.",
+        "description_en": "Caffeine-free coffee, Swiss water processed. Full flavor without strain on the heart. 250 g."
+    },
+    {
+        "id": 37,
+        "category": "drinks",
+        "image": "/products/coffee5.png",
+        "priceUZS": 58000,
+        "name_ru": "Кофе с кардамоном",
+        "name_uz": "Kardamonli qahva",
+        "name_en": "Coffee with Cardamom",
+        "description_ru": "Традиционный арабский кофе с кардамоном. Пряный аромат, мягкая горечь. 200 г.",
+        "description_uz": "Kardamonli an'anaviy arab qahvasi. Ziravorli xushbo'y, yumshoq achchiqlik. 200 g.",
+        "description_en": "Traditional Arabic coffee with cardamom. Spicy aroma, mild bitterness. 200 g."
+    },
+    {
+        "id": 38,
+        "category": "drinks",
+        "image": "/products/coffee6.png",
+        "priceUZS": 48000,
+        "name_ru": "Растворимый Голд",
+        "name_uz": "Eruvchi Gold",
+        "name_en": "Instant Gold",
+        "description_ru": "Сублимированный кофе премиум-класса. Сохраняет аромат свежего зерна. 100 г.",
+        "description_uz": "Premium sublimatsiyali qahva. Yangi donning xushbo'yini saqlaydi. 100 g.",
+        "description_en": "Premium freeze-dried coffee. Preserves the aroma of fresh beans. 100 g."
+    },
+    {
+        "id": 39,
+        "category": "drinks",
+        "image": "/products/coffee7.png",
+        "priceUZS": 55000,
+        "name_ru": "Кофейные капсулы Nespresso",
+        "name_uz": "Nespresso kapsulalari",
+        "name_en": "Nespresso Capsules",
+        "description_ru": "10 капсул формата Nespresso. Интенсивность 8/10. Тёмный шоколад и дымные ноты.",
+        "description_uz": "Nespresso formatida 10 kapsula. Intensivlik 8/10. To'q shokolad va dudli notalar.",
+        "description_en": "10 Nespresso format capsules. Intensity 8/10. Dark chocolate and smoky notes."
     }
 ]

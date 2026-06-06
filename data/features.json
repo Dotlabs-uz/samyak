@@ -1,0 +1,70 @@
+{
+    "chocolate": {
+        "ru": [
+            "Халяль сертификат",
+            "Без желатина",
+            "Без ГМО"
+        ],
+        "uz": [
+            "Halol sertifikat",
+            "Jelatinsiz",
+            "GMO yo'q"
+        ],
+        "en": [
+            "Halal certified",
+            "Gelatin free",
+            "Non-GMO"
+        ]
+    },
+    "honey": {
+        "ru": [
+            "100% натуральный",
+            "Халяль",
+            "Без консервантов"
+        ],
+        "uz": [
+            "100% tabiiy",
+            "Halol",
+            "Konservantlarsiz"
+        ],
+        "en": [
+            "100% natural",
+            "Halal",
+            "No preservatives"
+        ]
+    },
+    "drinks": {
+        "ru": [
+            "Без красителей",
+            "Халяль",
+            "Натуральный состав"
+        ],
+        "uz": [
+            "Bo'yoqsiz",
+            "Halol",
+            "Tabiiy tarkib"
+        ],
+        "en": [
+            "No colorants",
+            "Halal",
+            "Natural ingredients"
+        ]
+    },
+    "supplements": {
+        "ru": [
+            "Без ГМО",
+            "Халяль сертификат",
+            "Без желатина"
+        ],
+        "uz": [
+            "GMO yo'q",
+            "Halol sertifikat",
+            "Jelatinsiz"
+        ],
+        "en": [
+            "Non-GMO",
+            "Halal certified",
+            "Gelatin free"
+        ]
+    }
+}
