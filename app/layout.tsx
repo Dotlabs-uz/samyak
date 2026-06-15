@@ -39,9 +39,11 @@ export default async function RootLayout({
         <html lang={locale}>
             <body>
                 <NextIntlClientProvider locale={locale} messages={messages}>
-                    <Header />
-                    {children}
-                    <Footer />
+                    <div style={{ overflowX: 'clip' }}>
+                        <Header />
+                        {children}
+                        <Footer />
+                    </div>
                 </NextIntlClientProvider>
             </body>
         </html>

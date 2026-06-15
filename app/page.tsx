@@ -33,6 +33,7 @@ import {
     CarouselItem,
     type CarouselApi,
 } from "@/components/ui/carousel";
+import Link from 'next/link';
 
 const categories = [
     { key: "chocolate", iconColor: "#BF9C66", Icon: PiStarFourFill },
@@ -61,6 +62,7 @@ export default function Home() {
     const [productApi, setProductApi] = useState<CarouselApi | null>(null);
     const [canProductPrev, setCanProductPrev] = useState(false);
     const [canProductNext, setCanProductNext] = useState(false);
+    const [selectedGift, setSelectedGift] = useState<typeof giftsets[0] | null>(null);
 
     const filteredProducts = products.filter(
         (p) => p.category === activeCategory
@@ -166,10 +168,10 @@ export default function Home() {
                             <button className="bg-[#133C1E] hover:bg-[#133C1E]/90 text-white font-avantgarde font-normal text-[16px] rounded-full px-8 py-4 min-w-[160px] transition-colors cursor-pointer outline-none">
                                 {t("btnStore")}
                             </button>
-                            <button className="border border-[#133C1E]/30 hover:border-[#133C1E] text-[#133C1E] font-avantgarde font-normal text-[16px] rounded-full px-8 py-4 min-w-[160px] flex items-center justify-center gap-2 transition-colors cursor-pointer outline-none bg-transparent">
+                            <Link href={"#products"} className="border border-[#133C1E]/30 hover:border-[#133C1E] text-[#133C1E] font-avantgarde font-normal text-[16px] rounded-full px-8 py-4 min-w-[160px] flex items-center justify-center gap-2 transition-colors cursor-pointer outline-none bg-transparent">
                                 {t("btnCatalog")}
                                 <IoIosArrowRoundForward size={25} />
-                            </button>
+                            </Link>
                         </motion.div>
                     </div>
 
@@ -248,7 +250,7 @@ export default function Home() {
                         transition={{ duration: 0.75, ease: [0.22, 1, 0.36, 1] }}
                     >
                         <Image
-                            src="/person.png"
+                            src="/person.webp"
                             alt="Person"
                             width={400}
                             height={400}
