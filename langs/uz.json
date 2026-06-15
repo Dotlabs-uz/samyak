@@ -36,7 +36,7 @@
         },
         "social": {
             "title": "Biz ijtimoiy tarmoqlarda",
-            "hours": "Har kuni 09:00 – 21:00"
+            "hours": "Har kuni 24/7"
         }
     },
     "Hero": {
@@ -62,7 +62,7 @@
             "IMPORT",
             "PREMIUM SIFAT",
             "HALOL",
-            "BEZGLYUTEN",
+            "GLYUTENSIZ",
             "SHAKARSIZ",
             "ORGANIK"
         ]
@@ -95,7 +95,7 @@
             }
         ],
         "subtitle": "Premium mahsulotlar to'plami — o'zingiz tanlaysiz yoki tayyor variantdan foydalanasiz",
-        "button": "Savatni yig‘ish",
+        "button": "Batafsil ma'lumot",
         "items": {
             "tayyor": {
                 "title": "Tayyor set",

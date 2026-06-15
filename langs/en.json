@@ -36,7 +36,7 @@
         },
         "social": {
             "title": "Follow us on social media",
-            "hours": "Daily 09:00 – 21:00"
+            "hours": "Every day 24/7"
         }
     },
     "Hero": {
@@ -95,7 +95,7 @@
             }
         ],
         "subtitle": "Premium product sets — choose your own or use a ready-made option",
-        "button": "Build your set",
+        "button": "More details",
         "items": {
             "tayyor": {
                 "title": "Ready set",
