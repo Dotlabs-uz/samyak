@@ -31,9 +31,9 @@ export default function Footer() {
                                     +998 (95) 224-55-22
                                 </div>
 
-                                <button className="bg-[#BF9C66] hover:bg-[#BF9C66]/90 text-white text-sm rounded-full px-8 py-3.5 w-fit transition-colors cursor-pointer outline-none font-avantgarde">
+                                <Link href={"https://www.google.com/maps?cid=2775368452645345711&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF&hl=ru&source=embed"} className="bg-[#BF9C66] hover:bg-[#BF9C66]/90 text-white text-sm rounded-full px-8 py-3.5 w-fit transition-colors cursor-pointer outline-none font-avantgarde">
                                     {t("openMap")}
-                                </button>
+                                </Link>
                             </div>
                         </div>
 
