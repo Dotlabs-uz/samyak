@@ -141,16 +141,6 @@ const ProductCard = ({
                                 exit={{ scale: 0.6, opacity: 0, y: 60 }}
                                 transition={{ delay: 0.28, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                             />
-                            <motion.div
-                                className="absolute bottom-14 right-14 bg-white rounded-2xl px-6 py-4 shadow-xl"
-                                initial={{ opacity: 0, y: 24, scale: 0.85 }}
-                                animate={{ opacity: 1, y: 0, scale: 1 }}
-                                exit={{ opacity: 0 }}
-                                transition={{ delay: 0.7, duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
-                            >
-                                <span className="text-[#133C1E] font-oceanic font-bold text-xl">{price}</span>
-                                <span className="text-[#BF9C66] text-xs font-avantgarde block mt-0.5">{t(`categories.${category}`)}</span>
-                            </motion.div>
                         </motion.div>
 
                         <motion.button
