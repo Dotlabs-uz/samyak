@@ -21,7 +21,7 @@ import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 
 const socialLinks = [
-    { icon: <FaInstagram size={15} />, label: 'Instagram', href: '#' },
+    { icon: <FaInstagram size={15} />, label: 'Instagram', href: 'https://www.instagram.com/samyakuz/' },
     { icon: <FaTelegram size={15} />, label: 'Telegram', href: '#' },
     { icon: <FaFacebook size={15} />, label: 'Facebook', href: '#' },
     { icon: <FaYoutube size={15} />, label: 'YouTube', href: '#' },
@@ -257,7 +257,7 @@ export default function Header() {
                         <div className="flex-1 rounded-2xl p-3.5 flex flex-col justify-center gap-1.5" style={{ background: '#1C4D28' }}>
                             <div className="flex items-center gap-2" style={{ color: '#C9A84C', fontSize: 13.5, fontWeight: 700 }}>
                                 <FaPhone size={13} />
-                                +998 71 123 45 67
+                                +998 (95) 224-55-22
                             </div>
                             <div className="flex items-center gap-2" style={{ color: '#8aad8e', fontSize: 11.5, fontWeight: 500 }}>
                                 <div

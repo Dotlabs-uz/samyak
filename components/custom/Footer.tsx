@@ -28,7 +28,7 @@ export default function Footer() {
 
                             <div className="flex flex-col items-start gap-4 w-full mt-auto">
                                 <div className="text-3xl md:text-[38px] font-manrope font-bold text-black tracking-tighter">
-                                    +998 (88) 877-55-55
+                                    +998 (95) 224-55-22
                                 </div>
 
                                 <button className="bg-[#BF9C66] hover:bg-[#BF9C66]/90 text-white text-sm rounded-full px-8 py-3.5 w-fit transition-colors cursor-pointer outline-none font-avantgarde">
