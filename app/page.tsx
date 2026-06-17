@@ -114,7 +114,7 @@ export default function Home() {
     return (
         <div className="container mx-auto max-w-[1440px] px-4 2xl:px-0">
 
-            <section className="w-full relative pt-2 lg:pt-4 pb-0 mb-10 lg:mb-16 ">
+            <section className="w-full relative pt-20 pb-0 mb-10 lg:mb-16 ">
 
                 <div className="relative w-full lg:hidden">
                     <motion.div
@@ -226,9 +226,10 @@ export default function Home() {
                 </Reveal>
             </section>
 
-            <section className="relative" id="philosophy">
+            <section className="relative">
                 <PhilosophyIntro words={p.raw("titleWords") as string[]} />
                 <div
+                    id="philosophy"
                     className="w-full rounded-[32px] flex flex-col md:flex-row items-start relative mt-8 lg:mt-12 min-h-[400px]"
                     style={{ background: '#133C1E', boxShadow: '0px 159px 129.4px 0px #02270C inset' }}
                 >
@@ -283,9 +284,6 @@ export default function Home() {
                         <Reveal direction="up" delay={0.3}>
                             <div className="flex items-center gap-4 pb-5">
                                 <button className="bg-[#BF9C66] text-white px-5 py-3 rounded-full hover:bg-[#a88a58] transition cursor-pointer">
-                                    {p("button")}
-                                </button>
-                                <button className="border border-white text-white px-5 py-3 rounded-full hover:bg-white/10 transition cursor-pointer">
                                     {p("button")}
                                 </button>
                             </div>
@@ -480,7 +478,7 @@ export default function Home() {
                     </Reveal>
 
                     <div className="hidden md:grid grid-cols-[416fr_306fr_306fr_196fr] gap-4 w-full">
-                        {["/coffee1.png", "/coffee2.png", "/coffee3.png", "/coffee4.png"].map((src, idx) => (
+                        {["/coffee1.webp", "/coffee2.webp", "/coffee3.webp", "/coffee4.webp"].map((src, idx) => (
                             <motion.img
                                 key={src}
                                 src={src}
@@ -496,10 +494,10 @@ export default function Home() {
 
                     <div className="grid md:hidden grid-cols-3 gap-3 w-full">
                         {[
-                            { src: "/coffee1.png", span: "col-span-1" },
-                            { src: "/coffee4.png", span: "col-span-2" },
-                            { src: "/coffee3.png", span: "col-span-2" },
-                            { src: "/coffee2.png", span: "col-span-1" },
+                            { src: "/coffee1.webp", span: "col-span-1" },
+                            { src: "/coffee4.webp", span: "col-span-2" },
+                            { src: "/coffee3.webp", span: "col-span-2" },
+                            { src: "/coffee2.webp", span: "col-span-1" },
                         ].map(({ src, span }, idx) => (
                             <motion.img
                                 key={src}
@@ -517,7 +515,7 @@ export default function Home() {
 
                 <div className="relative rounded-[32px] overflow-hidden">
                     <div className="absolute inset-0 z-0 overflow-hidden">
-                        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('/Gastronomy_img.png')` }} />
+                        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('/Gastronomy_img.webp')` }} />
                         <div className="absolute inset-0" style={{ background: `linear-gradient(180deg, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.78) 22%, rgba(9,24,14,0.68) 55%, rgba(19,60,30,0.38) 78%, rgba(0,0,0,0.88) 100%)` }} />
                         <div className="absolute inset-0 bg-black/20" />
                     </div>
