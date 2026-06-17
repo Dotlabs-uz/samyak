@@ -63,6 +63,7 @@ export default function Home() {
     const [canProductPrev, setCanProductPrev] = useState(false);
     const [canProductNext, setCanProductNext] = useState(false);
     const [selectedGift, setSelectedGift] = useState<typeof giftsets[0] | null>(null);
+    const [loaded, setLoaded] = useState(false);
 
     const filteredProducts = products.filter(
         (p) => p.category === activeCategory
@@ -243,27 +244,7 @@ export default function Home() {
                         <Image src="/bubbles/bubble3.svg" alt="bubble" width={250} height={50} />
                     </motion.div>
 
-                    <motion.div
-                        className="relative -mt-12 lg:-mt-30 shrink-0 z-20 md:ml-6 lg:ml-25 overflow-x-hidden"
-                        initial={{ x: 160, opacity: 0 }}
-                        whileInView={{ x: 0, opacity: 1 }}
-                        viewport={{ once: false, amount: 0.2 }}
-                        transition={{ duration: 0.75, ease: [0.22, 1, 0.36, 1] }}
-                    >
-                        <Image
-                            src="/person.webp"
-                            alt="Person"
-                            width={400}
-                            height={400}
-                            className="object-contain scale-x-[-1] md:w-[280px] lg:w-[400px]"
-                        />
-                        <div
-                            className="absolute inset-0 md:hidden pointer-events-none"
-                            style={{
-                                background: 'linear-gradient(to bottom, transparent 40%, #133C1E 90%)'
-                            }}
-                        />
-                    </motion.div>
+                    <motion.div className="relative -mt-12 lg:-mt-30 shrink-0 z-20 md:ml-6 lg:ml-25 overflow-x-hidden" initial={{ x: 160, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} viewport={{ once: false, amount: 0.2 }} transition={{ duration: 0.75, ease: [0.22, 1, 0.36, 1] }} > <Image src="/person.webp" alt="Person" width={400} height={400} className="object-contain scale-x-[-1] md:w-[280px] lg:w-[400px]" /> <div className="absolute inset-0 md:hidden pointer-events-none" style={{ background: 'linear-gradient(to bottom, transparent 40%, #133C1E 90%)' }} /> </motion.div>
 
                     <div className="flex-1 z-10 flex flex-col items-start pt-8 md:pt-10 lg:pt-16 pr-6 md:pr-8 lg:pr-16 pl-6 md:pl-0">
                         <Reveal direction="up" delay={0}>

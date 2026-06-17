@@ -241,7 +241,7 @@ export function PhilosophyIntro({ words }: { words: string[] }) {
                         className="w-[80px] sm:w-[120px] md:w-[180px]"
                         direction={-1}
                         started={showLays}
-                        image="/bubbles/badge1.png"
+                        image="/bubbles/badgeimg1.png"
                     />
                 </div>
 
@@ -250,7 +250,7 @@ export function PhilosophyIntro({ words }: { words: string[] }) {
                         className="w-[80px] sm:w-[120px] md:w-[180px]"
                         direction={1}
                         started={showLays}
-                        image="/bubbles/badge2.png"
+                        image="/bubbles/badgeimg2.png"
                     />
                 </div>
 
