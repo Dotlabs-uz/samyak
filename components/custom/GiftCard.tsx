@@ -19,20 +19,31 @@ const FIGURES = [
 type GiftCardProps = {
     title: string;
     image: string;
+    figur?: string;
     active?: boolean;
     onClick?: () => void;
 };
 
-export function GiftCard({ title, image, active = false, onClick }: GiftCardProps) {
+export function GiftCard({
+    title,
+    image,
+    figur = FIGURES[0],
+    active = false,
+    onClick,
+}: GiftCardProps) {
     const i = useTranslations("Gift");
     const [open, setOpen] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
-    const [figur] = useState(() => FIGURES[Math.floor(Math.random() * FIGURES.length)]);
+    const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
+        setMounted(true);
+
         const check = () => setIsMobile(window.innerWidth < 768);
+
         check();
         window.addEventListener("resize", check);
+
         return () => window.removeEventListener("resize", check);
     }, []);
 
@@ -147,7 +158,7 @@ export function GiftCard({ title, image, active = false, onClick }: GiftCardProp
                     </button>
                 </div>
             </div>
-            {typeof window !== "undefined" && createPortal(isMobile ? mobileSheet : desktopModal, document.body)}
+            {mounted && createPortal(isMobile ? mobileSheet : desktopModal, document.body)}
         </div>
     );
 }

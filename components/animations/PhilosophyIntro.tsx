@@ -94,7 +94,7 @@ function findPremiumIdx(words: string[]) {
     return idx >= 0 ? idx : 1
 }
 
-function BadgeContent({ direction }: { direction: 1 | -1 }) {
+function BadgeContent({ direction, image }: { direction: 1 | -1; image: string }) {
     return (
         <div className="relative w-full h-full">
             <motion.div
@@ -112,20 +112,22 @@ function BadgeContent({ direction }: { direction: 1 | -1 }) {
                     y: { duration: 3, repeat: Infinity, ease: "easeInOut" },
                 }}
             >
-                <Image src="/bubbles/lays.png" alt="Lays" fill className="object-contain" />
+                <Image src={image} alt="Badge" fill className="object-contain" />
             </motion.div>
         </div>
     )
 }
 
-function LaysBadge({
+function ProductBadge({
     className,
     direction = 1,
     started = true,
+    image,
 }: {
     className?: string
     direction?: 1 | -1
     started?: boolean
+    image: string
 }) {
     return (
         <motion.div
@@ -134,7 +136,7 @@ function LaysBadge({
             animate={started ? { opacity: 1, scale: 1.2 } : { opacity: 0, scale: 0.8 }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
         >
-            <BadgeContent direction={direction} />
+            <BadgeContent direction={direction} image={image} />
         </motion.div>
     )
 }
@@ -235,18 +237,20 @@ export function PhilosophyIntro({ words }: { words: string[] }) {
                 </motion.div>
 
                 <div className="absolute right-[5%] top-[15%] md:top-[30%] md:right-[8%] -translate-y-1/2 z-10">
-                    <LaysBadge
+                    <ProductBadge
                         className="w-[80px] sm:w-[120px] md:w-[180px]"
                         direction={-1}
                         started={showLays}
+                        image="/bubbles/badge1.png"
                     />
                 </div>
 
                 <div className="absolute left-[5%] top-[85%] md:top-[70%] md:left-[8%] -translate-y-1/2 z-10">
-                    <LaysBadge
+                    <ProductBadge
                         className="w-[80px] sm:w-[120px] md:w-[180px]"
                         direction={1}
                         started={showLays}
+                        image="/bubbles/badge2.png"
                     />
                 </div>
 
