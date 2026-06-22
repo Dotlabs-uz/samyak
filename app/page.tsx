@@ -42,6 +42,16 @@ const categories = [
     { key: "supplements", iconColor: "#CE2B53", Icon: RiBox3Fill },
 ]
 
+
+const reelsVideos = [
+    "/reels/video1.webm",
+    "/reels/video2.webm",
+    "/reels/video3.webm",
+    "/reels/video4.webm",
+    "/reels/video.mp4",
+];
+
+
 export default function Home() {
     const locale = useLocale()
     const t = useTranslations("Hero");
@@ -133,12 +143,12 @@ export default function Home() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.7, ease: [0.22, 1, 0.36, 1] }}
                     >
-                        <div className="relative w-full max-w-[340px] h-[320px] -mb-10">
+                        <div className="relative w-full max-w-[420px] h-[300px]">
                             <Image
-                                src="/Hero_img.webp"
+                                src="/Hero_img.png"
                                 alt="Samyak Products"
                                 fill
-                                className="object-contain object-bottom-left"
+                                className="object-contain object-bottom-left scale-125"
                                 priority
                             />
                         </div>
@@ -184,14 +194,14 @@ export default function Home() {
                             transition={{ duration: 1.0, ease: [0.22, 1, 0.36, 1] }}
                         />
                         <motion.div
-                            className="absolute left-0 right-0 -top-20 xl:-top-28 bottom-0 z-10"
+                            className="absolute left-0 right-0 -top-32 xl:-top-44 -bottom-10 z-10"
                             initial={{ opacity: 0, y: 24 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.9, delay: 0.6, ease: [0.22, 1, 0.36, 1] }}
                         >
-                            <div className="relative mx-auto h-full w-full max-w-full pl-2 xl:pl-4">
+                            <div className="relative mx-auto h-full w-full max-w-full pl-2 xl:pl-4 scale-110 origin-bottom">
                                 <Image
-                                    src="/Hero_img.webp"
+                                    src="/Hero_img.png"
                                     alt="Samyak Products"
                                     fill
                                     className="object-contain object-bottom-left"
@@ -619,7 +629,7 @@ export default function Home() {
                                     }}
                                 >
                                     <ReelsCard
-                                        videoSrc="/reels/video.mp4"
+                                        videoSrc={reelsVideos[cardIdx]}
                                         isCenter={isCenter}
                                         onPlay={() => autoplay.current.stop()}
                                         onPause={() => autoplay.current.play()}

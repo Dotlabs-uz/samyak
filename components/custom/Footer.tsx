@@ -28,7 +28,7 @@ export default function Footer() {
 
                             <div className="flex flex-col items-start gap-4 w-full mt-auto">
                                 <div className="text-3xl md:text-[38px] font-manrope font-bold text-black tracking-tighter">
-                                    +998 (95) 224-55-22
+                                    +998 (88) 877-55-55
                                 </div>
 
                                 <Link href={"https://www.google.com/maps?cid=2775368452645345711&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF&hl=ru&source=embed"} className="bg-[#BF9C66] hover:bg-[#BF9C66]/90 text-white text-sm rounded-full px-8 py-3.5 w-fit transition-colors cursor-pointer outline-none font-avantgarde">
@@ -89,7 +89,7 @@ export default function Footer() {
                             </nav>
 
                             <div className="flex flex-col md:items-end text-sm md:text-base pt-2 shrink-0 text-black font-manrope">
-                                <a href="https://www.instagram.com/samyakuz/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">Instagram</a>
+                                <a href="https://www.instagram.com/samyak.uz?igsh=aGxuamJybHZnNHBw" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">Instagram</a>
                             </div>
                         </div>
                     </div>

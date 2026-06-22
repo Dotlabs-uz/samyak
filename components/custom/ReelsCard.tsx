@@ -1,15 +1,15 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { FaPlay, FaPause } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 interface ReelsCardProps {
     videoSrc: string;
     isCenter: boolean;
-    onPlay?: () => void;   
-    onPause?: () => void; 
+    onPlay?: () => void;
+    onPause?: () => void;
 }
 
 export function ReelsCard({ videoSrc, isCenter, onPlay, onPause }: ReelsCardProps) {
@@ -17,11 +17,13 @@ export function ReelsCard({ videoSrc, isCenter, onPlay, onPause }: ReelsCardProp
     const videoRef = useRef<HTMLVideoElement>(null);
     const [isPlaying, setIsPlaying] = useState(false);
 
-    if (!isCenter && isPlaying && videoRef.current) {
-        videoRef.current.pause();
-        videoRef.current.currentTime = 0;
-        setIsPlaying(false);
-    }
+    useEffect(() => {
+        if (!isCenter && isPlaying && videoRef.current) {
+            videoRef.current.pause();
+            videoRef.current.currentTime = 0;
+            setIsPlaying(false);
+        }
+    }, [isCenter, isPlaying]);
 
     const togglePlay = (e: React.MouseEvent) => {
         e.stopPropagation();
@@ -55,7 +57,8 @@ export function ReelsCard({ videoSrc, isCenter, onPlay, onPause }: ReelsCardProp
             <video
                 ref={videoRef}
                 src={videoSrc}
-                className="w-full h-full object-cover"
+                preload="metadata"
+                className="w-full h-full object-cover rounded-[32px]"
                 loop
                 playsInline
                 muted
@@ -63,7 +66,7 @@ export function ReelsCard({ videoSrc, isCenter, onPlay, onPause }: ReelsCardProp
 
             <div className="absolute bottom-6 left-0 w-full px-4 flex items-center justify-center gap-2 z-20">
                 <a
-                    href="https://www.instagram.com/samyakuz/"
+                    href="https://www.instagram.com/samyak.uz?igsh=aGxuamJybHZnNHBw"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}

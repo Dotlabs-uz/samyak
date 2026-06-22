@@ -21,7 +21,7 @@ import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 
 const socialLinks = [
-    { icon: <FaInstagram size={15} />, label: 'Instagram', href: 'https://www.instagram.com/samyakuz/' },
+    { icon: <FaInstagram size={15} />, label: 'Instagram', href: 'https://www.instagram.com/samyak.uz?igsh=aGxuamJybHZnNHBw' },
 ];
 
 type Line = {
@@ -329,7 +329,7 @@ export default function Header() {
                         style={{ color: '#C9A84C', fontSize: 11, fontWeight: 700 }}
                     >
                         <FaPhone size={10} className="shrink-0" />
-                        <span className="truncate">+998 (95) 224-55-22</span>
+                        <span className="truncate">+998 (88) 877-55-55</span>
                     </a>
                     <div className="flex items-center gap-1.5 min-w-0" style={{ color: '#8aad8e', fontSize: 10, fontWeight: 500 }}>
                         <div style={{ width: 5, height: 5, borderRadius: '50%', border: '1.5px solid #8aad8e', flexShrink: 0 }} />
