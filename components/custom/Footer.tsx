@@ -89,7 +89,7 @@ export default function Footer() {
                             </nav>
 
                             <div className="flex flex-col md:items-end text-sm md:text-base pt-2 shrink-0 text-black font-manrope">
-                                <a href="https://www.instagram.com/samyak.uz?igsh=aGxuamJybHZnNHBw" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">Instagram</a>
+                                <a href="https://www.instagram.com/samyak.uz/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition-opacity">Instagram</a>
                             </div>
                         </div>
                     </div>

@@ -21,7 +21,7 @@ import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 
 const socialLinks = [
-    { icon: <FaInstagram size={15} />, label: 'Instagram', href: 'https://www.instagram.com/samyak.uz?igsh=aGxuamJybHZnNHBw' },
+    { icon: <FaInstagram size={15} />, label: 'Instagram', href: 'https://www.instagram.com/samyak.uz/' },
 ];
 
 type Line = {

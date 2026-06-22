@@ -66,7 +66,7 @@ export function ReelsCard({ videoSrc, isCenter, onPlay, onPause }: ReelsCardProp
 
             <div className="absolute bottom-6 left-0 w-full px-4 flex items-center justify-center gap-2 z-20">
                 <a
-                    href="https://www.instagram.com/samyak.uz?igsh=aGxuamJybHZnNHBw"
+                    href="https://www.instagram.com/samyak.uz/"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
