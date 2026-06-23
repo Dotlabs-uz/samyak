@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { FaPlay, FaPause } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -33,6 +34,7 @@ export function ReelsCard({ videoSrc, isCenter, onPlay, onPause }: ReelsCardProp
             setIsPlaying(false);
             onPause?.();
         } else {
+            videoRef.current.muted = false;
             videoRef.current.play();
             setIsPlaying(true);
             onPlay?.();
@@ -61,7 +63,6 @@ export function ReelsCard({ videoSrc, isCenter, onPlay, onPause }: ReelsCardProp
                 className="w-full h-full object-cover rounded-[32px]"
                 loop
                 playsInline
-                muted
             />
 
             <div className="absolute bottom-6 left-0 w-full px-4 flex items-center justify-center gap-2 z-20">
@@ -71,8 +72,15 @@ export function ReelsCard({ videoSrc, isCenter, onPlay, onPause }: ReelsCardProp
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
                     className="bg-white/90 backdrop-blur-md rounded-[47px] px-5 py-2.5 text-[#133C1E] flex items-center justify-center gap-2 text-sm font-medium whitespace-nowrap"
-                    style={{ flex: 1, maxWidth: "200px", height: "41px" }}
+                    style={{ flex: 1, maxWidth: "220px", height: "41px" }}
                 >
+                    <Image
+                        src="/logos/Instagram_logo.svg"
+                        alt="Instagram"
+                        width={18}
+                        height={18}
+                        className="shrink-0"
+                    />
                     <span className="truncate">{t("button")}</span>
                     <FaArrowRightLong className="shrink-0" size={12} />
                 </a>

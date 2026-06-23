@@ -176,9 +176,9 @@ export default function Home() {
                             animate={descVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 18 }}
                             transition={{ duration: 0.55, delay: 0.18, ease: [0.22, 1, 0.36, 1] }}
                         >
-                            <button className="bg-[#133C1E] hover:bg-[#133C1E]/90 text-white font-avantgarde font-normal text-[16px] rounded-full px-8 py-4 min-w-[160px] transition-colors cursor-pointer outline-none">
+                            <Link href="#footer" className="bg-[#133C1E] hover:bg-[#133C1E]/90 text-white font-avantgarde font-normal text-[16px] rounded-full px-8 py-4 min-w-[160px] flex items-center justify-center transition-colors cursor-pointer outline-none">
                                 {t("btnStore")}
-                            </button>
+                            </Link>
                             <Link href={"#products"} className="border border-[#133C1E]/30 hover:border-[#133C1E] text-[#133C1E] font-avantgarde font-normal text-[16px] rounded-full px-8 py-4 min-w-[160px] flex items-center justify-center gap-2 transition-colors cursor-pointer outline-none bg-transparent">
                                 {t("btnCatalog")}
                                 <IoIosArrowRoundForward size={25} />
@@ -274,9 +274,9 @@ export default function Home() {
                         </Reveal>
                         <Reveal direction="up" delay={0.3}>
                             <div className="flex items-center gap-4 pb-5">
-                                <button className="bg-[#BF9C66] text-white px-5 py-3 rounded-full hover:bg-[#a88a58] transition cursor-pointer">
+                                <Link href="#footer" className="bg-[#BF9C66] text-white px-5 py-3 rounded-full hover:bg-[#a88a58] transition cursor-pointer inline-block">
                                     {p("button")}
-                                </button>
+                                </Link>
                             </div>
                         </Reveal>
                     </div>
