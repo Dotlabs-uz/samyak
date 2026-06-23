@@ -1,6 +1,6 @@
 "use client"
 
-import { useRef, useState } from "react"
+import { useRef, useState, useEffect } from "react"
 import { motion, MotionValue, useTransform, useScroll, useMotionValueEvent } from "framer-motion"
 import Image from "next/image"
 
@@ -33,15 +33,20 @@ function playWordSound(idx: number, volume = 0.3) {
     } catch (e) { }
 }
 
-export function PhilosophyTitle({
-    words,
-    progress,
-}: {
-    words: string[]
-    progress: MotionValue<number>
-}) {
-    const step = 0.65 / words.length
+function useIsMobile(breakpoint = 768) {
+    const [isMobile, setIsMobile] = useState(false)
+    useEffect(() => {
+        const mq = window.matchMedia(`(max-width: ${breakpoint - 1}px)`)
+        setIsMobile(mq.matches)
+        const handler = (e: MediaQueryListEvent) => setIsMobile(e.matches)
+        mq.addEventListener("change", handler)
+        return () => mq.removeEventListener("change", handler)
+    }, [breakpoint])
+    return isMobile
+}
 
+export function PhilosophyTitle({ words, progress }: { words: string[]; progress: MotionValue<number> }) {
+    const step = 0.65 / words.length
     return (
         <div>
             <h1 className="font-oceanic text-[42px] sm:text-[60px] md:text-[80px] leading-[0.9] uppercase text-center text-[#133B1D] tracking-tighter">
@@ -53,28 +58,14 @@ export function PhilosophyTitle({
     )
 }
 
-function WordLine({
-    word,
-    index,
-    progress,
-    step,
-}: {
-    word: string
-    index: number
-    progress: MotionValue<number>
-    step: number
-}) {
+function WordLine({ word, index, progress, step }: { word: string; index: number; progress: MotionValue<number>; step: number }) {
     const start = 0.08 + index * step
     const end = start + step * 0.85
     const color = useTransform(progress, [start, end], ["#133B1D", "#BF9C66"])
     const y = useTransform(progress, [0, start], [40, 0])
     const opacity = useTransform(progress, [0, start * 0.6], [0, 1])
-
     return (
-        <motion.span
-            className="block relative overflow-hidden"
-            style={{ fontWeight: 1000, opacity, y }}
-        >
+        <motion.span className="block relative overflow-hidden" style={{ fontWeight: 1000, opacity, y }}>
             <motion.span style={{ color }}>{word}</motion.span>
         </motion.span>
     )
@@ -84,10 +75,8 @@ function findPremiumIdx(words: string[]) {
     const idx = words.findIndex((w) => {
         const lower = w.toLowerCase()
         return (
-            lower.includes("premium") ||
-            lower.includes("sifat") ||
-            lower.includes("quality") ||
-            lower.includes("качество") ||
+            lower.includes("premium") || lower.includes("sifat") ||
+            lower.includes("quality") || lower.includes("качество") ||
             lower.includes("премиум")
         )
     })
@@ -118,16 +107,8 @@ function BadgeContent({ direction, image }: { direction: 1 | -1; image: string }
     )
 }
 
-function ProductBadge({
-    className,
-    direction = 1,
-    started = true,
-    image,
-}: {
-    className?: string
-    direction?: 1 | -1
-    started?: boolean
-    image: string
+function ProductBadge({ className, direction = 1, started = true, image }: {
+    className?: string; direction?: 1 | -1; started?: boolean; image: string
 }) {
     return (
         <motion.div
@@ -141,16 +122,138 @@ function ProductBadge({
     )
 }
 
-export function PhilosophyIntro({ words }: { words: string[] }) {
+function useInViewTrigger(threshold = 0.3) {
+    const ref = useRef<HTMLDivElement>(null)
+    const [triggered, setTriggered] = useState(false)
+
+    useEffect(() => {
+        const el = ref.current
+        if (!el) return
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting && !triggered) {
+                    setTriggered(true)
+                }
+            },
+            { threshold }
+        )
+        observer.observe(el)
+        return () => observer.disconnect()
+    }, [threshold, triggered])
+
+    return { ref, triggered }
+}
+
+const WORD_STAGGER = 0.13
+const DECOR_DELAY = 0.3
+const LAYS_DELAY_AFTER_LAST = 0.4
+
+function MobilePhilosophyIntro({ words }: { words: string[] }) {
+    const targetIdx = findPremiumIdx(words)
+    const wordCount = words.length
+    const lastWordDelay = wordCount * WORD_STAGGER
+    const laysDelay = lastWordDelay + LAYS_DELAY_AFTER_LAST
+
+    const [goldIdx, setGoldIdx] = useState<number | null>(null)
+    const [showDecor, setShowDecor] = useState(false)
+    const [showLays, setShowLays] = useState(false)
+    const [animStarted, setAnimStarted] = useState(false)
+
+    const timersRef = useRef<ReturnType<typeof setTimeout>[]>([])
+    const { ref, triggered } = useInViewTrigger(0.3)
+
+    useEffect(() => {
+        if (!triggered || animStarted) return
+        setAnimStarted(true)
+
+        words.forEach((_, i) => {
+            const t = setTimeout(() => playWordSound(i), i * WORD_STAGGER * 1000 + 80)
+            timersRef.current.push(t)
+        })
+
+        const decorT = setTimeout(() => setShowDecor(true), 100)
+        timersRef.current.push(decorT)
+
+        const laysT = setTimeout(() => setShowLays(true), laysDelay * 1000)
+        timersRef.current.push(laysT)
+
+        const goldT = setTimeout(() => setGoldIdx(targetIdx), lastWordDelay * 1000 + 350)
+        timersRef.current.push(goldT)
+
+        return () => timersRef.current.forEach(clearTimeout)
+    }, [triggered])
+
+    return (
+        <div ref={ref} className="relative w-full flex items-center justify-center py-20 overflow-hidden min-h-[60vh]">
+
+            <div className="absolute right-3 top-8 z-10">
+                <ProductBadge
+                    className="w-[85px]"
+                    direction={-1}
+                    started={showLays}
+                    image="/bubbles/badgeimg1.png"
+                />
+            </div>
+
+            <div className="absolute left-3 bottom-8 z-10">
+                <ProductBadge
+                    className="w-[85px]"
+                    direction={1}
+                    started={showLays}
+                    image="/bubbles/badgeimg2.png"
+                />
+            </div>
+
+            <motion.div
+                className="absolute top-0 left-0 w-[140px] pointer-events-none z-0"
+                initial={{ opacity: 0 }}
+                animate={showDecor ? { opacity: 0.85 } : { opacity: 0 }}
+                transition={{ duration: 0.8 }}
+            >
+                <Image src="/bubbles/bubble1.svg" alt="" width={400} height={120} className="w-full" />
+            </motion.div>
+            <motion.div
+                className="absolute bottom-0 right-0 w-[140px] pointer-events-none z-0"
+                initial={{ opacity: 0 }}
+                animate={showDecor ? { opacity: 0.85 } : { opacity: 0 }}
+                transition={{ duration: 0.8, delay: 0.15 }}
+            >
+                <Image src="/bubbles/bubble2.svg" alt="" width={400} height={120} className="w-full" />
+            </motion.div>
+
+            <h1 className="font-oceanic text-[52px] leading-[0.9] uppercase text-center tracking-tighter select-none px-14 text-[#133B1D] relative z-20">
+                {words.map((word, i) => (
+                    <motion.span
+                        key={i}
+                        className="block"
+                        initial={{ opacity: 0, y: 32 }}
+                        animate={animStarted ? { opacity: 1, y: 0 } : { opacity: 0, y: 32 }}
+                        transition={{
+                            duration: 0.45,
+                            delay: i * WORD_STAGGER,
+                            ease: [0.22, 1, 0.36, 1],
+                        }}
+                        style={{
+                            fontWeight: 1000,
+                            color: goldIdx !== null && i === targetIdx ? "#BF9C66" : "#133B1D",
+                            transition: "color 0.3s ease",
+                        }}
+                    >
+                        {word}
+                    </motion.span>
+                ))}
+            </h1>
+        </div>
+    )
+}
+
+function DesktopPhilosophyIntro({ words }: { words: string[] }) {
     const containerRef = useRef<HTMLDivElement>(null)
     const targetIdx = findPremiumIdx(words)
     const firedSounds = useRef<Set<number>>(new Set())
     const firedGoldSounds = useRef<Set<number>>(new Set())
 
-    const { scrollYProgress } = useScroll({
-        target: containerRef,
-        offset: ["start start", "end end"],
-    })
+    const { scrollYProgress } = useScroll({ target: containerRef, offset: ["start start", "end end"] })
 
     const wordCount = words.length
     const wordStart = (i: number) => 0.05 + (i / wordCount) * 0.55
@@ -219,16 +322,15 @@ export function PhilosophyIntro({ words }: { words: string[] }) {
         <div ref={containerRef} style={{ height: scrollHeight }} className="relative">
             <div className="sticky top-0 h-screen w-full overflow-hidden flex items-center justify-center">
                 <motion.div
-                    className="absolute top-[2%] left-[2%] w-[200px] sm:w-[300px] pointer-events-none z-0"
+                    className="absolute top-[2%] left-[2%] w-[300px] pointer-events-none z-0"
                     initial={{ opacity: 0 }}
                     animate={showDecor ? { opacity: 1 } : { opacity: 0 }}
                     transition={{ duration: 0.6 }}
                 >
                     <Image src="/bubbles/bubble1.svg" alt="" width={400} height={120} className="w-full" />
                 </motion.div>
-
                 <motion.div
-                    className="absolute bottom-[2%] right-[2%] w-[200px] sm:w-[300px] pointer-events-none z-0"
+                    className="absolute bottom-[2%] right-[2%] w-[300px] pointer-events-none z-0"
                     initial={{ opacity: 0 }}
                     animate={showDecor ? { opacity: 1 } : { opacity: 0 }}
                     transition={{ duration: 0.6, delay: 0.12 }}
@@ -236,25 +338,14 @@ export function PhilosophyIntro({ words }: { words: string[] }) {
                     <Image src="/bubbles/bubble2.svg" alt="" width={400} height={120} className="w-full" />
                 </motion.div>
 
-                <div className="absolute right-[5%] top-[15%] md:top-[30%] md:right-[8%] -translate-y-1/2 z-10">
-                    <ProductBadge
-                        className="w-[80px] sm:w-[120px] md:w-[180px]"
-                        direction={-1}
-                        started={showLays}
-                        image="/bubbles/badgeimg1.png"
-                    />
+                <div className="absolute right-[8%] top-[30%] -translate-y-1/2 z-10">
+                    <ProductBadge className="w-[180px]" direction={-1} started={showLays} image="/bubbles/badgeimg1.png" />
+                </div>
+                <div className="absolute left-[8%] top-[70%] -translate-y-1/2 z-10">
+                    <ProductBadge className="w-[180px]" direction={1} started={showLays} image="/bubbles/badgeimg2.png" />
                 </div>
 
-                <div className="absolute left-[5%] top-[85%] md:top-[70%] md:left-[8%] -translate-y-1/2 z-10">
-                    <ProductBadge
-                        className="w-[80px] sm:w-[120px] md:w-[180px]"
-                        direction={1}
-                        started={showLays}
-                        image="/bubbles/badgeimg2.png"
-                    />
-                </div>
-
-                <h1 className="font-oceanic text-[52px] sm:text-[68px] md:text-[80px] leading-[0.9] uppercase text-center tracking-tighter select-none px-4 text-[#133B1D]">
+                <h1 className="font-oceanic text-[68px] md:text-[80px] leading-[0.9] uppercase text-center tracking-tighter select-none px-4 text-[#133B1D]">
                     {words.map((word, i) => {
                         const { opacity, y, isGold } = getWordStyle(i)
                         return (
@@ -277,4 +368,13 @@ export function PhilosophyIntro({ words }: { words: string[] }) {
             </div>
         </div>
     )
+}
+
+export function PhilosophyIntro({ words }: { words: string[] }) {
+    const isMobile = useIsMobile()
+
+    if (isMobile) {
+        return <MobilePhilosophyIntro words={words} />
+    }
+    return <DesktopPhilosophyIntro words={words} />
 }
