@@ -64,7 +64,7 @@ export function SummerHeroCanopy() {
                     className="relative w-full h-full"
                     {...useSway(8, 0, 0.7, 'top right')}
                 >
-                    <Image src="/seasons/summer/summer2.png" alt="" fill className="object-contain object-top-right" sizes="420px" priority />
+                    <Image src="/seasons/summer/summer2.png" alt="" fill className="object-contain object-top-right" sizes="(min-width: 1024px) 500px, 200px" />
                 </motion.div>
             </motion.div>
 
@@ -79,7 +79,7 @@ export function SummerHeroCanopy() {
                     {...useSway(6.5, 0.2, 1.3, 'top center')}
                 >
                     <div className="relative w-full h-full" style={{ transform: 'rotate(16deg)' }}>
-                        <Image src="/seasons/summer/summer5.png" alt="" fill className="object-contain -rotate-150" sizes="300px" priority />
+                        <Image src="/seasons/summer/summer5.png" alt="" fill className="object-contain -rotate-150" sizes="(min-width: 1024px) 250px, 100px" />
                     </div>
                 </motion.div>
             </motion.div>
@@ -95,7 +95,7 @@ export function SummerHeroCanopy() {
                     {...useSway(6.5, 0.2, 1.3, 'top center')}
                 >
                     <div className="relative w-full h-full" style={{ transform: 'rotate(270deg)' }}>
-                        <Image src="/seasons/summer/summer3.png" alt="" fill className="object-contain" sizes="300px" priority />
+                        <Image src="/seasons/summer/summer3.png" alt="" fill className="object-contain" sizes="(min-width: 1024px) 250px, 100px" />
                     </div>
                 </motion.div>
             </motion.div>
@@ -110,7 +110,7 @@ export function SummerHeroCanopy() {
                     className="relative w-full h-full"
                     {...useSway(7, 0.15, 1.2, 'top left')}
                 >
-                    <Image src="/seasons/summer/summer1.png" alt="" fill className="object-contain rotate-25" sizes="300px" priority />
+                    <Image src="/seasons/summer/summer1.png" alt="" fill className="object-contain rotate-25" sizes="(min-width: 1024px) 300px, 120px" />
                 </motion.div>
             </motion.div>
 
@@ -126,7 +126,7 @@ export function SummerHeroCanopy() {
                     transition={{ duration: 4.5, repeat: Infinity, ease: 'easeInOut', delay: 1.2 }}
                     style={{ transformOrigin: 'center center' }}
                 >
-                    <Image src="/seasons/summer/summer6.png" alt="" fill className="object-contain" sizes="100px" />
+                    <Image src="/seasons/summer/summer6.png" alt="" fill className="object-contain" sizes="(min-width: 1024px) 80px, 34px" />
                 </motion.div>
             </motion.div>
 
@@ -155,7 +155,7 @@ export function SummerHeroGreenEdge({ variant = 'desktop' }: { variant?: 'deskto
                     {...useSway(6, 0.5, 1.2, 'bottom left')}
                 >
                     <div className="relative w-full h-full" style={{ transform: 'rotate(-24deg)' }}>
-                        <Image src="/seasons/summer/summer3.png" alt="" fill className="object-contain" sizes="140px" />
+                        <Image src="/seasons/summer/summer3.png" alt="" fill className="object-contain" sizes="(min-width: 1024px) 200px, 74px" />
                     </div>
                 </motion.div>
             </motion.div>
@@ -176,7 +176,7 @@ export function SummerHeroGreenEdge({ variant = 'desktop' }: { variant?: 'deskto
                     {...useSway(6.5, 0.6, 1.1, 'bottom center')}
                 >
                     <div className="relative w-full h-full" style={{ transform: 'rotate(-8deg)' }}>
-                        <Image src="/seasons/summer/summer5.png" alt="" fill className="object-contain" sizes="350px" />
+                        <Image src="/seasons/summer/summer5.png" alt="" fill className="object-contain" sizes="(min-width: 1024px) 300px, 111px" />
                     </div>
                 </motion.div>
             </motion.div>
@@ -198,7 +198,7 @@ export function SummerHeroGreenEdge({ variant = 'desktop' }: { variant?: 'deskto
                     transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut', delay: 1.5 }}
                     style={{ transformOrigin: 'center center' }}
                 >
-                    <Image src="/seasons/summer/summer6.png" alt="" fill className="object-contain" sizes="100px" />
+                    <Image src="/seasons/summer/summer6.png" alt="" fill className="object-contain" sizes="(min-width: 1024px) 100px, 37px" />
                 </motion.div>
             </motion.div>
 
@@ -218,7 +218,7 @@ export function SummerHeroGreenEdge({ variant = 'desktop' }: { variant?: 'deskto
                     {...useSway(6, 0.7, 1.2, 'bottom right')}
                 >
                     <div className="relative w-full h-full" style={{ transform: 'rotate(100deg) scaleX(-1)' }}>
-                        <Image src="/seasons/summer/summer4.png" alt="" fill className="object-contain" sizes="350px" />
+                        <Image src="/seasons/summer/summer4.png" alt="" fill className="object-contain" sizes="(min-width: 1024px) 250px, 93px" />
                     </div>
                 </motion.div>
             </motion.div>
