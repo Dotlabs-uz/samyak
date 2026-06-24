@@ -19,6 +19,7 @@ import { TiStarburst } from "react-icons/ti";
 import { RiBox3Fill } from "react-icons/ri";
 
 import { HeroIntro } from '@/components/animations/HeroIntro';
+import { SummerHeroCanopy, SummerHeroGreenEdge } from '@/components/animations/SummerHeroDecor';
 import { PhilosophyIntro } from '@/components/animations/PhilosophyIntro';
 import { GiftCard } from '@/components/custom/GiftCard';
 import ProductCard from '@/components/custom/ProductCard';
@@ -73,7 +74,7 @@ export default function Home() {
     const [canProductPrev, setCanProductPrev] = useState(false);
     const [canProductNext, setCanProductNext] = useState(false);
     const [selectedGift, setSelectedGift] = useState<typeof giftsets[0] | null>(null);
-    const [loaded, setLoaded] = useState(false);
+    const season = "summer";
 
     const filteredProducts = products.filter(
         (p) => p.category === activeCategory
@@ -123,20 +124,24 @@ export default function Home() {
     }, []);
 
     return (
-        <div className="container mx-auto max-w-[1440px] px-4 2xl:px-0">
+        <div className="container relative mx-auto max-w-[1440px] px-4 2xl:px-0">
 
-            <section className="w-full relative pt-20 pb-0 mb-10 lg:mb-16 ">
+            {season === "summer" && <SummerHeroCanopy />}
 
-                <div className="relative w-full lg:hidden">
+            <section className="w-full relative pt-20 pb-0 mb-10 lg:mb-16 overflow-visible">
+
+                <div className="relative w-full lg:hidden overflow-visible">
                     <motion.div
-                        className="absolute top-0 right-0 w-full bg-[#133C1E] rounded-t-[200px] z-0"
+                        className="absolute top-0 right-0 w-full bg-[#133C1E] rounded-t-[200px] z-0 overflow-visible"
                         initial={{ height: 0, opacity: 0 }}
                         animate={{ height: 300, opacity: 1 }}
                         transition={{
                             duration: 0.9,
                             ease: [0.22, 1, 0.36, 1],
                         }}
-                    />
+                    >
+                        {season === "summer" && <SummerHeroGreenEdge variant="mobile" />}
+                    </motion.div>
                     <motion.div
                         className="relative z-10 w-full flex justify-start px-4 pt-2 mb-2"
                         initial={{ opacity: 0, y: 30 }}
@@ -188,11 +193,13 @@ export default function Home() {
 
                     <div className="relative hidden lg:block h-[600px] xl:h-[680px] min-w-0 overflow-visible">
                         <motion.div
-                            className="absolute inset-x-0 bottom-0 top-6 bg-[#133C1E] rounded-tl-[400px] rounded-tr-[400px] z-0"
+                            className="absolute inset-x-0 bottom-0 top-6 bg-[#133C1E] rounded-tl-[400px] rounded-tr-[400px] z-0 overflow-visible"
                             initial={{ y: "100%" }}
                             animate={{ y: 0 }}
                             transition={{ duration: 1.0, ease: [0.22, 1, 0.36, 1] }}
-                        />
+                        >
+                            {season === "summer" && <SummerHeroGreenEdge variant="desktop" />}
+                        </motion.div>
                         <motion.div
                             className="absolute left-0 right-0 -top-32 xl:-top-44 -bottom-10 z-10"
                             initial={{ opacity: 0, y: 24 }}
