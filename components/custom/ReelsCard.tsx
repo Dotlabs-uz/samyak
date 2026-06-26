@@ -22,6 +22,7 @@ export function ReelsCard({ videoSrc, isCenter, onPlay, onPause }: ReelsCardProp
         if (!isCenter && isPlaying && videoRef.current) {
             videoRef.current.pause();
             videoRef.current.currentTime = 0;
+            videoRef.current.muted = true;
             setIsPlaying(false);
         }
     }, [isCenter, isPlaying]);
@@ -59,7 +60,8 @@ export function ReelsCard({ videoSrc, isCenter, onPlay, onPause }: ReelsCardProp
             <video
                 ref={videoRef}
                 src={videoSrc}
-                preload="metadata"
+                preload="auto"
+                muted                 
                 className="w-full h-full object-cover rounded-[32px]"
                 loop
                 playsInline

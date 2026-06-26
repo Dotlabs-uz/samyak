@@ -58,7 +58,7 @@ export function SummerHeroCanopy() {
                 className="absolute top-0 right-0 pointer-events-none z-10 w-[200px] h-[202px] lg:w-[500px] lg:h-[505px]"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1.1, delay: 0.05, ease }}
+                transition={{ duration: 0.45, delay: 0, ease }}
             >
                 <motion.div
                     className="relative w-full h-full"
@@ -72,7 +72,7 @@ export function SummerHeroCanopy() {
                 className="absolute pointer-events-none z-9 top-[-37px] right-[130px] w-[100px] h-[108px] lg:top-[-100px] lg:right-[350px] lg:w-[250px] lg:h-[270px]"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1.1, delay: 0.2, ease }}
+                transition={{ duration: 0.45, delay: 0.08, ease }}
             >
                 <motion.div
                     className="relative w-full h-full"
@@ -88,7 +88,7 @@ export function SummerHeroCanopy() {
                 className="absolute pointer-events-none z-9 top-[-37px] right-[296px] w-[100px] h-[108px] lg:top-[-100px] lg:right-[800px] lg:w-[250px] lg:h-[270px]"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1.1, delay: 0.2, ease }}
+                transition={{ duration: 0.45, delay: 0.08, ease }}
             >
                 <motion.div
                     className="relative w-full h-full"
@@ -104,7 +104,7 @@ export function SummerHeroCanopy() {
                 className="absolute pointer-events-none z-10 top-[-74px] right-[196px] w-[120px] h-[150px] lg:top-[-200px] lg:right-[530px] lg:w-[300px] lg:h-[375px]"
                 initial={{ opacity: 0, y: -15 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1.1, delay: 0.1, ease }}
+                transition={{ duration: 0.45, delay: 0.04, ease }}
             >
                 <motion.div
                     className="relative w-full h-full"
@@ -118,7 +118,7 @@ export function SummerHeroCanopy() {
                 className="absolute pointer-events-none z-11 top-[-16px] right-[152px] w-[34px] h-[34px] lg:top-[-42px] lg:right-[410px] lg:w-[80px] lg:h-[80px]"
                 initial={{ opacity: 0, scale: 0.7 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1, delay: 0.4, ease }}
+                transition={{ duration: 0.4, delay: 0.15, ease }}
             >
                 <motion.div
                     className="relative w-full h-full"
@@ -148,7 +148,7 @@ export function SummerHeroGreenEdge({ variant = 'desktop' }: { variant?: 'deskto
                 ].join(' ')}
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1, delay: 0.55, ease }}
+                transition={{ duration: 0.45, delay: 0.2, ease }}
             >
                 <motion.div
                     className="relative w-full h-full"
@@ -169,7 +169,7 @@ export function SummerHeroGreenEdge({ variant = 'desktop' }: { variant?: 'deskto
                 ].join(' ')}
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1, delay: 0.68, ease }}
+                transition={{ duration: 0.45, delay: 0.25, ease }}
             >
                 <motion.div
                     className="relative w-full h-full"
@@ -190,7 +190,7 @@ export function SummerHeroGreenEdge({ variant = 'desktop' }: { variant?: 'deskto
                 ].join(' ')}
                 initial={{ opacity: 0, scale: 0.7 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1, delay: 0.88, ease }}
+                transition={{ duration: 0.4, delay: 0.3, ease }}
             >
                 <motion.div
                     className="relative w-full h-full"
@@ -211,7 +211,7 @@ export function SummerHeroGreenEdge({ variant = 'desktop' }: { variant?: 'deskto
                 ].join(' ')}
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1, delay: 0.72, ease }}
+                transition={{ duration: 0.45, delay: 0.27, ease }}
             >
                 <motion.div
                     className="relative w-full h-full"
