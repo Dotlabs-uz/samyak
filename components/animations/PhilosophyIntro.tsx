@@ -64,10 +64,82 @@ function WordLine({ word, index, progress, step }: { word: string; index: number
     const color = useTransform(progress, [start, end], ["#133B1D", "#BF9C66"])
     const y = useTransform(progress, [0, start], [40, 0])
     const opacity = useTransform(progress, [0, start * 0.6], [0, 1])
+    const image = getWordImage(word)
     return (
-        <motion.span className="block relative overflow-hidden" style={{ fontWeight: 1000, opacity, y }}>
+        <motion.span className="flex items-center justify-center gap-3 relative overflow-hidden" style={{ fontWeight: 1000, opacity, y }}>
+            {image && <WordBadge src={image} className="opacity-80" />}
             <motion.span style={{ color }}>{word}</motion.span>
+            {image && <WordBadge src={image} className="opacity-80" />}
         </motion.span>
+    )
+}
+
+
+function getWordImage(word: string): string | null {
+    const lower = word.toLowerCase()
+
+    if (lower.includes("import") || lower.includes("импорт")) {
+        return "/logos/Import_logo.webp"
+    }
+
+    if (
+        lower.includes("premium") ||
+        lower.includes("sifat") ||
+        lower.includes("quality") ||
+        lower.includes("качество") ||
+        lower.includes("премиум")
+    ) {
+        return "/logos/Premium_logo.webp"
+    }
+
+    if (
+        lower.includes("halal") ||
+        lower.includes("халал") ||
+        lower.includes("ҳалол") ||
+        lower.includes("halol")
+    ) {
+        return "/logos/Halal_logo.webp"
+    }
+
+    if (
+        lower.includes("gluten") ||
+        lower.includes("глютен") ||
+        lower.includes("glyuten")
+    ) {
+        return "/logos/GlutenFree_logo.webp"
+    }
+
+    if (
+        lower.includes("sugar") ||
+        lower.includes("сахар") ||
+        lower.includes("shakar")
+    ) {
+        return "/logos/SugarFree_logo.webp"
+    }
+
+    if (
+        lower.includes("organic") ||
+        lower.includes("органик") ||
+        lower.includes("organik")
+    ) {
+        return "/logos/Organic_logo.webp"
+    }
+
+    if (lower.includes("vegan") || lower.includes("веган")) {
+        return "/logos/Vegan_logo.webp"
+    }
+
+    return null
+}
+
+function WordBadge({ src, sizeEm = 0.55, className = "" }: { src: string; sizeEm?: number; className?: string }) {
+    return (
+        <span
+            className={`relative inline-block shrink-0 ${className}`}
+            style={{ width: `${sizeEm}em`, height: `${sizeEm}em` }}
+        >
+            <Image src={src} alt="" fill className="object-contain" />
+        </span>
     )
 }
 
@@ -222,26 +294,32 @@ function MobilePhilosophyIntro({ words }: { words: string[] }) {
             </motion.div>
 
             <h1 className="font-oceanic text-[52px] leading-[0.9] uppercase text-center tracking-tighter select-none px-14 text-[#133B1D] relative z-20">
-                {words.map((word, i) => (
-                    <motion.span
-                        key={i}
-                        className="block"
-                        initial={{ opacity: 0, y: 32 }}
-                        animate={animStarted ? { opacity: 1, y: 0 } : { opacity: 0, y: 32 }}
-                        transition={{
-                            duration: 0.45,
-                            delay: i * WORD_STAGGER,
-                            ease: [0.22, 1, 0.36, 1],
-                        }}
-                        style={{
-                            fontWeight: 1000,
-                            color: goldIdx !== null && i === targetIdx ? "#BF9C66" : "#133B1D",
-                            transition: "color 0.3s ease",
-                        }}
-                    >
-                        {word}
-                    </motion.span>
-                ))}
+                {words.map((word, i) => {
+                    const image = getWordImage(word)
+                    const isGold = goldIdx !== null && i === targetIdx
+                    return (
+                        <motion.span
+                            key={i}
+                            className="flex items-center justify-center gap-2"
+                            initial={{ opacity: 0, y: 32 }}
+                            animate={animStarted ? { opacity: 1, y: 0 } : { opacity: 0, y: 32 }}
+                            transition={{
+                                duration: 0.45,
+                                delay: i * WORD_STAGGER,
+                                ease: [0.22, 1, 0.36, 1],
+                            }}
+                            style={{
+                                fontWeight: 1000,
+                                color: isGold ? "#BF9C66" : "#133B1D",
+                                transition: "color 0.3s ease",
+                            }}
+                        >
+                            {image && <WordBadge src={image} sizeEm={0.5} />}
+                            {word}
+                            {image && <WordBadge src={image} sizeEm={0.5} />}
+                        </motion.span>
+                    )
+                })}
             </h1>
         </div>
     )
@@ -348,10 +426,11 @@ function DesktopPhilosophyIntro({ words }: { words: string[] }) {
                 <h1 className="font-oceanic text-[68px] md:text-[80px] leading-[0.9] uppercase text-center tracking-tighter select-none px-4 text-[#133B1D]">
                     {words.map((word, i) => {
                         const { opacity, y, isGold } = getWordStyle(i)
+                        const image = getWordImage(word)
                         return (
                             <span
                                 key={i}
-                                className="block"
+                                className="flex items-center justify-center gap-4"
                                 style={{
                                     opacity,
                                     transform: `translateY(${y}px)`,
@@ -360,7 +439,9 @@ function DesktopPhilosophyIntro({ words }: { words: string[] }) {
                                     transition: "color 0.22s ease",
                                 }}
                             >
+                                {image && <WordBadge src={image} sizeEm={0.55} />}
                                 {word}
+                                {image && <WordBadge src={image} sizeEm={0.55} />}
                             </span>
                         )
                     })}
