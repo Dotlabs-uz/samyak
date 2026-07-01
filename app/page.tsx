@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { useLocale, useTranslations } from 'next-intl';
-import { motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 
 import { BiWorld } from "react-icons/bi";
 import { MdOutlineShoppingCart } from "react-icons/md";
@@ -17,6 +17,13 @@ import { PiStarFourFill } from "react-icons/pi";
 import { GiSevenPointedStar } from "react-icons/gi";
 import { TiStarburst } from "react-icons/ti";
 import { RiBox3Fill } from "react-icons/ri";
+import { IoClose, IoGridOutline } from "react-icons/io5"
+import {
+    GiChocolateBar, GiHoneypot, GiCoffeeCup, GiMedicinePills,
+    GiIceCreamCone, GiCheeseWedge, GiCigar, GiFishCooked,
+    GiOilDrum, GiWheat, GiCubeforce, GiFruitBowl,
+    GiMuscleUp, GiPillDrop, GiCupcake, GiPerfumeBottle,
+} from "react-icons/gi"
 
 import { HeroIntro } from '@/components/animations/HeroIntro';
 import { SummerHeroCanopy, SummerHeroGreenEdge } from '@/components/animations/SummerHeroDecor';
@@ -35,14 +42,30 @@ import {
     type CarouselApi,
 } from "@/components/ui/carousel";
 import Link from 'next/link';
+import { createPortal } from 'react-dom';
+import LuxuryCanvas from '@/components/animations/LuxuryCanvas';
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+
+
 
 const categories = [
-    { key: "chocolate", iconColor: "#BF9C66", Icon: PiStarFourFill },
-    { key: "honey", iconColor: "#FCB100", Icon: GiSevenPointedStar },
-    { key: "drinks", iconColor: "#50D541", Icon: TiStarburst },
-    { key: "supplements", iconColor: "#CE2B53", Icon: RiBox3Fill },
+    { key: "chocolate", Icon: GiChocolateBar, iconColor: "#7B4B2A" },
+    { key: "honey", Icon: GiHoneypot, iconColor: "#D9A441" },
+    { key: "drinks", Icon: GiCoffeeCup, iconColor: "#6F4E37" },
+    { key: "supplements", Icon: GiMedicinePills, iconColor: "#4B9CD3" },
+    { key: "icecream", Icon: GiIceCreamCone, iconColor: "#F7B2C4" },
+    { key: "cheese", Icon: GiCheeseWedge, iconColor: "#F5C242" },
+    { key: "caviar", Icon: GiCigar, iconColor: "#2E2E2E" },
+    { key: "fish", Icon: GiFishCooked, iconColor: "#3F72AF" },
+    { key: "oils", Icon: GiOilDrum, iconColor: "#A67C52" },
+    { key: "glutenfree", Icon: GiWheat, iconColor: "#C9A227" },
+    { key: "sugarfree", Icon: GiCubeforce, iconColor: "#8FBF8F" },
+    { key: "vegan", Icon: GiFruitBowl, iconColor: "#5CA35C" },
+    { key: "protein", Icon: GiMuscleUp, iconColor: "#B5651D" },
+    { key: "medicine", Icon: GiPillDrop, iconColor: "#4B9CD3" },
+    { key: "pastry", Icon: GiCupcake, iconColor: "#7B4B2A" },
+    { key: "care", Icon: GiPerfumeBottle, iconColor: "#BF9C66" },
 ]
-
 
 const reelsVideos = [
     "/reels/video1.webm",
@@ -74,7 +97,12 @@ export default function Home() {
     const [canProductPrev, setCanProductPrev] = useState(false);
     const [canProductNext, setCanProductNext] = useState(false);
     const [selectedGift, setSelectedGift] = useState<typeof giftsets[0] | null>(null);
+    const [showAllCategories, setShowAllCategories] = useState(false);
     const season = "summer";
+
+    const VISIBLE_CATEGORY_COUNT = 5;
+    const visibleCategories = categories.slice(0, VISIBLE_CATEGORY_COUNT);
+    const restCategories = categories.slice(VISIBLE_CATEGORY_COUNT);
 
     const filteredProducts = products.filter(
         (p) => p.category === activeCategory
@@ -317,7 +345,7 @@ export default function Home() {
 
                 <Reveal direction="up" delay={0.1}>
                     <div className="flex flex-wrap justify-center gap-3 mb-12">
-                        {categories.map((cat) => {
+                        {visibleCategories.map((cat) => {
                             const isActive = activeCategory === cat.key;
                             return (
                                 <button
@@ -336,9 +364,56 @@ export default function Home() {
                                 </button>
                             );
                         })}
+
+                        <button
+                            onClick={() => setShowAllCategories(true)}
+                            className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-avantgarde font-medium transition-all duration-200 cursor-pointer border ${restCategories.some((c) => c.key === activeCategory)
+                                ? "bg-[#BF9C66] border-[#BF9C66] text-white"
+                                : "bg-white border-[#E5E5E5] text-[#133C1E] hover:border-[#BF9C66]"
+                                }`}
+                        >
+                            <IoGridOutline size={16} />
+                            {r("all_categories")}
+                        </button>
                     </div>
                 </Reveal>
 
+                <Dialog open={showAllCategories} onOpenChange={setShowAllCategories}>
+                    <DialogContent className="max-w-[92vw] sm:max-w-[640px] lg:max-w-[820px] xl:max-w-[960px] max-h-[80vh] overflow-y-auto rounded-3xl p-7 bg-white border-0">
+                        <DialogHeader>
+                            <DialogTitle className="font-oceanic text-xl font-bold text-[#133C1E] text-left">
+                                {r("choose_category")}
+                            </DialogTitle>
+                        </DialogHeader>
+
+                        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2.5 mt-3">
+                            {categories.map((cat) => {
+                                const isActive = activeCategory === cat.key;
+                                return (
+                                    <button
+                                        key={cat.key}
+                                        onClick={() => {
+                                            setActiveCategory(cat.key)
+                                            setShowAllCategories(false)
+                                        }}
+                                        className={`flex items-center gap-2 px-4 py-3 rounded-2xl text-sm font-avantgarde font-medium text-left whitespace-nowrap transition border cursor-pointer ${isActive
+                                                ? "bg-[#BF9C66] border-[#BF9C66] text-white"
+                                                : "bg-[#F8F6F2] border-transparent text-[#133C1E] hover:border-[#BF9C66]"
+                                            }`}
+                                    >
+                                        <cat.Icon
+                                            size={16}
+                                            className="shrink-0"
+                                            style={{ color: isActive ? "#fff" : cat.iconColor }}
+                                        />
+                                        <span className="truncate">{r(`categories.${cat.key}`)}</span>
+                                    </button>
+                                );
+                            })}
+                        </div>
+                    </DialogContent>
+                </Dialog>
+                
                 <Carousel
                     setApi={setProductApi}
                     opts={{

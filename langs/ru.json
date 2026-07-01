@@ -71,15 +71,30 @@
     "Products": {
         "top_products": "ТОП ПРОДУКТОВ",
         "categories": {
-            "chocolate": "Samyak Шоколад",
-            "honey": "Мёд & Пчелопродукты",
-            "drinks": "Чай & Кофе",
-            "supplements": "БАД"
+            "chocolate": "Samyak Chocolate",
+            "honey": "Мёд и продукты пчеловодства",
+            "drinks": "Чай и кофе",
+            "supplements": "Добавки",
+            "icecream": "Мороженое",
+            "cheese": "Сыр",
+            "caviar": "Икра",
+            "fish": "Рыбный ассортимент",
+            "oils": "Масла",
+            "glutenfree": "Без глютена",
+            "sugarfree": "Без сахара",
+            "vegan": "Веган товары",
+            "protein": "Протеин",
+            "medicine": "Лекарства",
+            "pastry": "Шоколадная выпечка",
+            "care": "Средства ухода за собой"
         },
         "halal": "Халяль",
         "gelatin_free": "Без желатина",
         "currency": "сум",
-        "price_label": "Цена"
+        "price_label": "Цена",
+        "all_categories": "Все категории",
+        "choose_category": "Выберите категорию",
+        "close": "Закрыть"
     },
     "Gift": {
         "badge": "ПОДАРОЧНЫЕ НАБОРЫ",

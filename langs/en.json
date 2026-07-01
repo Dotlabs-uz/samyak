@@ -74,12 +74,27 @@
             "chocolate": "Samyak Chocolate",
             "honey": "Honey & Bee Products",
             "drinks": "Tea & Coffee",
-            "supplements": "Supplements"
+            "supplements": "Supplements",
+            "icecream": "Ice Cream",
+            "cheese": "Cheese",
+            "caviar": "Caviar",
+            "fish": "Fish Assortment",
+            "oils": "Oils",
+            "glutenfree": "Gluten-Free",
+            "sugarfree": "Sugar-Free",
+            "vegan": "Vegan Products",
+            "protein": "Protein",
+            "medicine": "Medicine",
+            "pastry": "Chocolate Pastry",
+            "care": "Personal Care"
         },
         "halal": "Halal",
         "gelatin_free": "Gelatin free",
         "currency": "UZS",
-        "price_label": "Price"
+        "price_label": "Price",
+        "all_categories": "All categories",
+        "choose_category": "Choose category",
+        "close": "Close"
     },
     "Gift": {
         "badge": "GIFT SETS",

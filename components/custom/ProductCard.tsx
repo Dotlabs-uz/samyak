@@ -5,7 +5,7 @@ import Image from "next/image"
 import { useState, useEffect } from "react"
 import { createPortal } from "react-dom"
 import { motion, AnimatePresence } from "framer-motion"
-import { IoSparklesSharp, IoClose } from "react-icons/io5"
+import { IoSparklesSharp, IoClose, IoGridOutline } from "react-icons/io5"
 import { FaArrowRightLong } from "react-icons/fa6"
 import categoryFeatures from '@/data/features.json'
 
@@ -15,6 +15,135 @@ const FIGURES = [
     "/bubbles/figur3.png",
     "/bubbles/figur4.png",
 ]
+
+export const CATEGORY_ORDER = [
+    "chocolate", "honey", "drinks", "supplements", "icecream",
+    "cheese", "caviar", "fish", "oils", "glutenfree",
+    "sugarfree", "vegan", "protein", "medicine", "pastry", "care",
+] as const
+
+const VISIBLE_COUNT = 5
+
+export const CategoryTabs = ({
+    active,
+    onChange,
+}: {
+    active: string
+    onChange: (category: string) => void
+}) => {
+    const t = useTranslations("Products")
+    const [open, setOpen] = useState(false)
+
+    const visible = CATEGORY_ORDER.slice(0, VISIBLE_COUNT)
+    const rest = CATEGORY_ORDER.slice(VISIBLE_COUNT)
+
+    const Pill = ({ cat }: { cat: string }) => (
+        <button
+            onClick={() => onChange(cat)}
+            className={`px-4 py-2 rounded-full text-sm font-involve whitespace-nowrap transition border ${active === cat
+                ? "bg-[#133C1E] text-white border-[#133C1E]"
+                : "bg-transparent text-[#133C1E] border-[#BF9C66]/40 hover:border-[#BF9C66]"
+                }`}
+        >
+            {t(`categories.${cat}`)}
+        </button>
+    )
+
+    return (
+        <>
+            <div className="flex items-center gap-2 overflow-x-auto pb-2 md:flex-wrap md:overflow-visible">
+                {visible.map((cat) => (
+                    <Pill key={cat} cat={cat} />
+                ))}
+
+                <button
+                    onClick={() => setOpen(true)}
+                    className="flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-involve whitespace-nowrap bg-[#F0EDE8] text-[#133C1E] border border-[#BF9C66]/40 hover:border-[#BF9C66] transition"
+                >
+                    <IoGridOutline size={15} />
+                    {t("all_categories")}
+                </button>
+            </div>
+
+            {typeof window !== "undefined" &&
+                createPortal(
+                    <AnimatePresence>
+                        {open && (
+                            <>
+                                <motion.div
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    exit={{ opacity: 0 }}
+                                    transition={{ duration: 0.3 }}
+                                    onClick={() => setOpen(false)}
+                                    style={{
+                                        position: "fixed",
+                                        inset: 0,
+                                        background: "rgba(0,0,0,0.45)",
+                                        backdropFilter: "blur(6px)",
+                                        zIndex: 9998,
+                                    }}
+                                />
+                                <motion.div
+                                    initial={{ opacity: 0, scale: 0.95, y: 20 }}
+                                    animate={{ opacity: 1, scale: 1, y: 0 }}
+                                    exit={{ opacity: 0, scale: 0.95, y: 20 }}
+                                    transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+                                    style={{
+                                        position: "fixed",
+                                        top: "50%",
+                                        left: "50%",
+                                        transform: "translate(-50%, -50%)",
+                                        zIndex: 9999,
+                                        width: "min(560px, 92vw)",
+                                        maxHeight: "80vh",
+                                        background: "#fff",
+                                        borderRadius: 24,
+                                        padding: 28,
+                                        overflowY: "auto",
+                                    }}
+                                >
+                                    <div className="flex items-center justify-between mb-5">
+                                        <h3 className="font-oceanic text-xl font-bold text-[#133C1E]">
+                                            {t("choose_category")}
+                                        </h3>
+                                        <button
+                                            onClick={() => setOpen(false)}
+                                            className="w-9 h-9 rounded-full bg-[#F0EDE8] flex items-center justify-center text-[#133C1E] hover:bg-[#BF9C66]/20 transition"
+                                            aria-label={t("close")}
+                                        >
+                                            <IoClose size={18} />
+                                        </button>
+                                    </div>
+
+                                    <div className="grid grid-cols-2 gap-2.5">
+                                        {[...visible, ...rest].map((cat) => (
+                                            <button
+                                                key={cat}
+                                                onClick={() => {
+                                                    onChange(cat)
+                                                    setOpen(false)
+                                                }}
+                                                className={`px-4 py-3 rounded-2xl text-sm font-involve text-left transition border ${active === cat
+                                                    ? "bg-[#133C1E] text-white border-[#133C1E]"
+                                                    : "bg-[#F0EDE8] text-[#133C1E] border-transparent hover:border-[#BF9C66]"
+                                                    }`}
+                                            >
+                                                {t(`categories.${cat}`)}
+                                            </button>
+                                        ))}
+                                    </div>
+                                </motion.div>
+                            </>
+                        )}
+                    </AnimatePresence>,
+                    document.body
+                )}
+        </>
+    )
+}
+
+
 
 const ProductCard = ({
     image,

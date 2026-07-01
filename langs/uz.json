@@ -71,15 +71,30 @@
     "Products": {
         "top_products": "TOP MAHSULOTLAR",
         "categories": {
-            "chocolate": "Samyak Shokolad",
-            "honey": "Asal & Arı mahsulotlari",
-            "drinks": "Choy & Qahva",
-            "supplements": "BAD"
+            "chocolate": "Samyak Chocolate",
+            "honey": "Asal va asalarichilik mahsulotlari",
+            "drinks": "Choy va kofe",
+            "supplements": "Qo'shimchalar",
+            "icecream": "Muzqaymoq",
+            "cheese": "Pishloq",
+            "caviar": "Ikra",
+            "fish": "Baliq mahsulotlari",
+            "oils": "Yog'lar",
+            "glutenfree": "Glutensiz",
+            "sugarfree": "Shakarsiz",
+            "vegan": "Vegan mahsulotlar",
+            "protein": "Protein",
+            "medicine": "Dorilar",
+            "pastry": "Shokoladli konditer",
+            "care": "Shaxsiy parvarish vositalari"
         },
         "halal": "Halol",
         "gelatin_free": "Jelatin yo'q",
         "currency": "so'm",
-        "price_label": "Narx"
+        "price_label": "Narx",
+        "all_categories": "Barcha kategoriyalar",
+        "choose_category": "Kategoriyani tanlang",
+        "close": "Yopish"
     },
     "Gift": {
         "badge": "SOVG'A SAVATLARI",
