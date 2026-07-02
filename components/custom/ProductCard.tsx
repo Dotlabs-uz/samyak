@@ -18,7 +18,7 @@ const FIGURES = [
 
 export const CATEGORY_ORDER = [
     "chocolate", "honey", "drinks", "supplements", "icecream",
-    "cheese", "caviar", "fish", "oils", "glutenfree",
+    "cheese", "fish", "oils", "glutenfree",
     "sugarfree", "vegan", "protein", "medicine", "pastry", "care",
 ] as const
 
@@ -230,16 +230,6 @@ const ProductCard = ({
                                         {f}
                                     </div>
                                 ))}
-                            </motion.div>
-                            <motion.div
-                                className="flex items-end gap-8"
-                                initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.62, duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-                            >
-                                <div>
-                                    <span className="text-white/40 text-xs font-avantgarde uppercase tracking-widest block mb-2">{t('price_label')}</span>
-                                    <span className="text-[#BF9C66] text-4xl font-oceanic font-extrabold">{price}</span>
-                                </div>
                             </motion.div>
                         </motion.div>
 

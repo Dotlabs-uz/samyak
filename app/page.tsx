@@ -13,14 +13,10 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
 import { IoSparklesSharp } from "react-icons/io5";
-import { PiStarFourFill } from "react-icons/pi";
-import { GiSevenPointedStar } from "react-icons/gi";
-import { TiStarburst } from "react-icons/ti";
-import { RiBox3Fill } from "react-icons/ri";
 import { IoClose, IoGridOutline } from "react-icons/io5"
 import {
     GiChocolateBar, GiHoneypot, GiCoffeeCup, GiMedicinePills,
-    GiIceCreamCone, GiCheeseWedge, GiCigar, GiFishCooked,
+    GiIceCreamCone, GiCheeseWedge, GiFishCooked,
     GiOilDrum, GiWheat, GiCubeforce, GiFruitBowl,
     GiMuscleUp, GiPillDrop, GiCupcake, GiPerfumeBottle,
 } from "react-icons/gi"
@@ -42,8 +38,6 @@ import {
     type CarouselApi,
 } from "@/components/ui/carousel";
 import Link from 'next/link';
-import { createPortal } from 'react-dom';
-import LuxuryCanvas from '@/components/animations/LuxuryCanvas';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 
 
@@ -55,7 +49,6 @@ const categories = [
     { key: "supplements", Icon: GiMedicinePills, iconColor: "#4B9CD3" },
     { key: "icecream", Icon: GiIceCreamCone, iconColor: "#F7B2C4" },
     { key: "cheese", Icon: GiCheeseWedge, iconColor: "#F5C242" },
-    { key: "caviar", Icon: GiCigar, iconColor: "#2E2E2E" },
     { key: "fish", Icon: GiFishCooked, iconColor: "#3F72AF" },
     { key: "oils", Icon: GiOilDrum, iconColor: "#A67C52" },
     { key: "glutenfree", Icon: GiWheat, iconColor: "#C9A227" },

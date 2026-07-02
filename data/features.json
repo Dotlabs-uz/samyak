@@ -66,5 +66,209 @@
             "Halal certified",
             "Gelatin free"
         ]
+    },
+    "icecream": {
+        "ru": [
+            "Халяль сертификат",
+            "Без желатина",
+            "Натуральные сливки"
+        ],
+        "uz": [
+            "Halol sertifikat",
+            "Jelatinsiz",
+            "Tabiiy qaymoq"
+        ],
+        "en": [
+            "Halal certified",
+            "Gelatin free",
+            "Natural cream"
+        ]
+    },
+    "cheese": {
+        "ru": [
+            "Халяль сычужный фермент",
+            "Натуральное молоко",
+            "Без консервантов"
+        ],
+        "uz": [
+            "Halol renin fermenti",
+            "Tabiiy sut",
+            "Konservantlarsiz"
+        ],
+        "en": [
+            "Halal rennet",
+            "Natural milk",
+            "No preservatives"
+        ]
+    },
+    "caviar": {
+        "ru": [
+            "Премиум качество",
+            "Без консервантов",
+            "Экологичный вылов"
+        ],
+        "uz": [
+            "Premium sifat",
+            "Konservantlarsiz",
+            "Ekologik tutilgan"
+        ],
+        "en": [
+            "Premium quality",
+            "No preservatives",
+            "Sustainably sourced"
+        ]
+    },
+    "fish": {
+        "ru": [
+            "Свежий вылов",
+            "Халяль обработка",
+            "Без искусственных добавок"
+        ],
+        "uz": [
+            "Yangi tutilgan",
+            "Halol ishlov",
+            "Sun'iy qo'shimchalarsiz"
+        ],
+        "en": [
+            "Fresh catch",
+            "Halal processed",
+            "No artificial additives"
+        ]
+    },
+    "oils": {
+        "ru": [
+            "Холодный отжим",
+            "Без ГМО",
+            "100% натуральное"
+        ],
+        "uz": [
+            "Sovuq siqilgan",
+            "GMO yo'q",
+            "100% tabiiy"
+        ],
+        "en": [
+            "Cold pressed",
+            "Non-GMO",
+            "100% natural"
+        ]
+    },
+    "glutenfree": {
+        "ru": [
+            "Без глютена",
+            "Халяль сертификат",
+            "Безопасно для целиакии"
+        ],
+        "uz": [
+            "Glutensiz",
+            "Halol sertifikat",
+            "Sialikiya uchun xavfsiz"
+        ],
+        "en": [
+            "Gluten-free",
+            "Halal certified",
+            "Celiac safe"
+        ]
+    },
+    "sugarfree": {
+        "ru": [
+            "Без сахара",
+            "Низкий гликемический индекс",
+            "Халяль"
+        ],
+        "uz": [
+            "Shakarsiz",
+            "Past glikemik indeks",
+            "Halol"
+        ],
+        "en": [
+            "Sugar-free",
+            "Low glycemic index",
+            "Halal"
+        ]
+    },
+    "vegan": {
+        "ru": [
+            "100% растительное",
+            "Без животных продуктов",
+            "Без ГМО"
+        ],
+        "uz": [
+            "100% o'simlik asosli",
+            "Hayvon mahsulotlarisiz",
+            "GMO yo'q"
+        ],
+        "en": [
+            "100% plant-based",
+            "No animal products",
+            "Non-GMO"
+        ]
+    },
+    "protein": {
+        "ru": [
+            "Высокое содержание белка",
+            "Халяль сертификат",
+            "Без искусственных добавок"
+        ],
+        "uz": [
+            "Yuqori protein miqdori",
+            "Halol sertifikat",
+            "Sun'iy qo'shimchalarsiz"
+        ],
+        "en": [
+            "High protein content",
+            "Halal certified",
+            "No artificial additives"
+        ]
+    },
+    "medicine": {
+        "ru": [
+            "Сертифицировано",
+            "Халяль состав",
+            "Клинически проверено"
+        ],
+        "uz": [
+            "Sertifikatlangan",
+            "Halol tarkib",
+            "Klinik tekshirilgan"
+        ],
+        "en": [
+            "Certified",
+            "Halal formulation",
+            "Clinically tested"
+        ]
+    },
+    "pastry": {
+        "ru": [
+            "Халяль сертификат",
+            "Без желатина",
+            "Натуральный шоколад"
+        ],
+        "uz": [
+            "Halol sertifikat",
+            "Jelatinsiz",
+            "Tabiiy shokolad"
+        ],
+        "en": [
+            "Halal certified",
+            "Gelatin free",
+            "Natural chocolate"
+        ]
+    },
+    "care": {
+        "ru": [
+            "Халяль сертификат",
+            "Без спирта",
+            "Без животных компонентов"
+        ],
+        "uz": [
+            "Halol sertifikat",
+            "Spirtsiz",
+            "Hayvon komponentlarisiz"
+        ],
+        "en": [
+            "Halal certified",
+            "Alcohol-free",
+            "No animal-derived ingredients"
+        ]
     }
 }
