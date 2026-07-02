@@ -390,8 +390,8 @@ export default function Home() {
                                             setShowAllCategories(false)
                                         }}
                                         className={`flex items-center gap-2 px-4 py-3 rounded-2xl text-sm font-avantgarde font-medium text-left whitespace-nowrap transition border cursor-pointer ${isActive
-                                                ? "bg-[#BF9C66] border-[#BF9C66] text-white"
-                                                : "bg-[#F8F6F2] border-transparent text-[#133C1E] hover:border-[#BF9C66]"
+                                            ? "bg-[#BF9C66] border-[#BF9C66] text-white"
+                                            : "bg-[#F8F6F2] border-transparent text-[#133C1E] hover:border-[#BF9C66]"
                                             }`}
                                     >
                                         <cat.Icon
@@ -406,7 +406,7 @@ export default function Home() {
                         </div>
                     </DialogContent>
                 </Dialog>
-                
+
                 <Carousel
                     setApi={setProductApi}
                     opts={{
@@ -557,11 +557,16 @@ export default function Home() {
                     </Reveal>
 
                     <div className="hidden md:grid grid-cols-[416fr_306fr_306fr_196fr] gap-4 w-full">
-                        {["/coffee1.webp", "/coffee2.webp", "/coffee3.webp", "/coffee4.webp"].map((src, idx) => (
+                        {[
+                            { src: "/coffee1.webp", alt: "Premium ground coffee beans in gift packaging" },
+                            { src: "/coffee2.webp", alt: "Espresso coffee set with premium blend" },
+                            { src: "/coffee3.webp", alt: "Coffee gift box with assorted flavors" },
+                            { src: "/coffee4.webp", alt: "Fresh roasted coffee beans close-up" },
+                        ].map(({ src, alt }, idx) => (
                             <motion.img
                                 key={src}
                                 src={src}
-                                alt="coffee"
+                                alt={alt}
                                 className="w-full h-[416px] object-cover rounded-[32px]"
                                 initial={{ opacity: 0, y: 50 }}
                                 whileInView={{ opacity: 1, y: 0 }}
@@ -573,15 +578,15 @@ export default function Home() {
 
                     <div className="grid md:hidden grid-cols-3 gap-3 w-full">
                         {[
-                            { src: "/coffee1.webp", span: "col-span-1" },
-                            { src: "/coffee4.webp", span: "col-span-2" },
-                            { src: "/coffee3.webp", span: "col-span-2" },
-                            { src: "/coffee2.webp", span: "col-span-1" },
-                        ].map(({ src, span }, idx) => (
+                            { src: "/coffee1.webp", alt: "Premium ground coffee beans in gift packaging", span: "col-span-1" },
+                            { src: "/coffee4.webp", alt: "Fresh roasted coffee beans close-up", span: "col-span-2" },
+                            { src: "/coffee3.webp", alt: "Coffee gift box with assorted flavors", span: "col-span-2" },
+                            { src: "/coffee2.webp", alt: "Espresso coffee set with premium blend", span: "col-span-1" },
+                        ].map(({ src, alt, span }, idx) => (
                             <motion.img
                                 key={src}
                                 src={src}
-                                alt="coffee"
+                                alt={alt}
                                 className={`${span} w-full h-[197px] object-cover rounded-[15px]`}
                                 initial={{ opacity: 0, y: 40 }}
                                 whileInView={{ opacity: 1, y: 0 }}
@@ -613,9 +618,14 @@ export default function Home() {
                         </Reveal>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            {[1, 2, 3, 4].map((n, idx) => (
+                            {[
+                                'variant_1_caviar_and_seafood',
+                                'variant_2_gourmet_selection',
+                                'variant_3_ocean_depths',
+                                'variant_4_minimalist_clean',
+                            ].map((variantKey, idx) => (
                                 <motion.div
-                                    key={n}
+                                    key={variantKey}
                                     className="rounded-[28px] border border-white/10 bg-[#4242424D] backdrop-blur-[2px] p-7 md:p-8 min-h-[260px] flex flex-col justify-between"
                                     initial={{ opacity: 0, y: 50 }}
                                     whileInView={{ opacity: 1, y: 0 }}
@@ -623,17 +633,19 @@ export default function Home() {
                                     transition={{ duration: 0.65, delay: idx * 0.14, ease: [0.22, 1, 0.36, 1] }}
                                 >
                                     <span className="text-[#BF9C66] text-lg uppercase font-bold font-avantgarde">
-                                        {g('products.ready_set')}
+                                        {g(`products_options.${variantKey}.ready_set`)}
                                     </span>
                                     <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
-                                        <h3 className="text-white text-3xl md:text-[38px] leading-[110%] font-oceanic max-w-[260px]">
-                                            {g('products.cold_water')}
+                                        <h3 className="text-white text-3xl md:text-[30px] leading-[110%] font-oceanic max-w-[260px]">
+                                            {g(`products_options.${variantKey}.cold_water`)}
                                         </h3>
                                         <div className="max-w-[280px]">
                                             {['item1', 'item2', 'item3'].map((itemKey) => (
                                                 <div key={itemKey} className="flex items-start gap-3 text-[#E7E7E7]">
                                                     <span className="text-white text-xs mt-[3px] shrink-0"><IoSparklesSharp /></span>
-                                                    <span className="text-sm leading-[160%] font-involve">{g(`products.${itemKey}`)}</span>
+                                                    <span className="text-sm leading-[160%] font-involve">
+                                                        {g(`products_options.${variantKey}.${itemKey}`)}
+                                                    </span>
                                                 </div>
                                             ))}
                                         </div>
@@ -644,7 +656,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-
+            
             <section className="py-20 overflow-hidden" id="guests">
                 <div className="px-4 lg:px-0 relative mb-12">
                     <div className="absolute top-[-50px] left-5 md:top-10 z-20 hidden md:block">

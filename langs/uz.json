@@ -149,12 +149,35 @@
             "title": "Baliq va go‘sht delikateslari",
             "description": "Dengiz qa’ridan va saralangan fermalardan to‘g‘ridan-to‘g‘ri dasturxoningizga. Oddiy katalog emas, balki haqiqiy ta’m san’ati."
         },
-        "products": {
-            "ready_set": "TAYYOR TO‘PLAMLAR",
-            "cold_water": "Sovuq suv delikateslari",
-            "item1": "Ajdar baliq, lionfish va anglerfish",
-            "item2": "Goblin akulasi, fugu va quyosh balig‘i",
-            "item3": "Clown triggerfish va parrotfish"
+        "products_options": {
+            "variant_1_caviar_and_seafood": {
+                "ready_set": "TAYYOR TO'PLAMLAR",
+                "cold_water": "Premium ikra va dengiz mahsulotlari",
+                "item1": "Beluga, osyotr qora ikrasi va qizil ikra",
+                "item2": "Yovvoyi Argentina va yo'lbars krevetkalari",
+                "item3": "Patagoniya kalmarlari va mayin sakkizoyoq"
+            },
+            "variant_2_gourmet_selection": {
+                "ready_set": "GURMANLAR TANLOVI",
+                "cold_water": "Svuq suv ajoyibotlari",
+                "item1": "«Carskaya» beluga va premium osyotr ikrasi",
+                "item2": "Dudlangan nerka va ziravorli pishirilgan losos",
+                "item3": "Patagoniya kalmarlari va chuqur dengiz krevetkalari"
+            },
+            "variant_3_ocean_depths": {
+                "ready_set": "EKSKLYUZIV KOLLEKSIYA",
+                "cold_water": "Okean xazinalari",
+                "item1": "Saralangan qora va losos qizil ikrasi",
+                "item2": "«Shaxmat» uslubidagi baliq mozaikasi va ruletlar",
+                "item3": "Yovvoyi Argentina krevetkalari va sakkizoyoq"
+            },
+            "variant_4_minimalist_clean": {
+                "ready_set": "SHEF-PAZAR TANLOVI",
+                "cold_water": "Elita dengiz delikateslari",
+                "item1": "Premium osyotr ikrasi kolleksiyasi",
+                "item2": "Sovuq dudlangan va pishirilgan baliq filelari",
+                "item3": "Yovvoyi Patagoniya dengiz mahsulotlari va krevetkalar"
+            }
         }
     },
     "OurGuests": {

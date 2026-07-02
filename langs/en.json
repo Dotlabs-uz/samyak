@@ -149,12 +149,35 @@
             "title": "Fish and meat delicacies",
             "description": "From the depths of the ocean and carefully selected farms straight to your table. More than a catalog — a true taste experience."
         },
-        "products": {
-            "ready_set": "READY-MADE SETS",
-            "cold_water": "Cold-water delicacies",
-            "item1": "Dragonfish, lionfish, and anglerfish",
-            "item2": "Goblin shark, pufferfish, and sunfish",
-            "item3": "Clown triggerfish and parrotfish"
+        "products_options": {
+            "variant_1_caviar_and_seafood": {
+                "ready_set": "READY-MADE SETS",
+                "cold_water": "Premium Seafood & Caviar",
+                "item1": "Beluga, Osetra, and Salmon Caviar",
+                "item2": "Wild Argentine Shrimps & Tiger Shrimps",
+                "item3": "Patagonian Squid & Tender Octopus"
+            },
+            "variant_2_gourmet_selection": {
+                "ready_set": "GOURMET SELECTION",
+                "cold_water": "Cold-Water Masterpieces",
+                "item1": "Tsarskaya Beluga & Premium Osetra",
+                "item2": "Smoked Sockeye & Spiced Baked Salmon",
+                "item3": "Patagonian Squid & Deep-Sea Shrimps"
+            },
+            "variant_3_ocean_depths": {
+                "ready_set": "EXCLUSIVE COLLECTION",
+                "cold_water": "Treasures of the Ocean",
+                "item1": "Selected Black & Red Salmon Caviar",
+                "item2": "Mosaic Seafood Chessboard & Fish Assorti",
+                "item3": "Wild Argentine Shrimps & Cooked Octopus"
+            },
+            "variant_4_minimalist_clean": {
+                "ready_set": "CHEF'S CHOISE",
+                "cold_water": "Elite Marine Delicacies",
+                "item1": "Premium Sturgeon Caviar Selection",
+                "item2": "Artisan Cold-Smoked & Baked Fish Fillets",
+                "item3": "Wild Patagonian Seafood & Shrimps"
+            }
         }
     },
     "OurGuests": {
