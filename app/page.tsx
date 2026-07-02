@@ -436,7 +436,6 @@ export default function Home() {
                                         category={item.category}
                                         index={idx}
                                         name={item[`name_${locale}` as keyof typeof item] as string}
-                                        price={`${Number(item.priceUZS).toLocaleString()} ${r('currency')}`}
                                         description={item[`description_${locale}` as keyof typeof item] as string}
                                     />
                                 </motion.div>
