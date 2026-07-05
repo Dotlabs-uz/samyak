@@ -171,7 +171,7 @@ export default function Home() {
                     >
                         <div className="relative w-full max-w-[420px] h-[300px]">
                             <Image
-                                src="/Hero_img.png"
+                                src="/Hero_img.webp"
                                 alt="Samyak Products"
                                 fill
                                 className="object-contain object-bottom-left scale-125"
@@ -229,7 +229,7 @@ export default function Home() {
                         >
                             <div className="relative mx-auto h-full w-full max-w-full pl-2 xl:pl-4 scale-110 origin-bottom">
                                 <Image
-                                    src="/Hero_img.png"
+                                    src="/Hero_img.webp"
                                     alt="Samyak Products"
                                     fill
                                     className="object-contain object-bottom-left"
