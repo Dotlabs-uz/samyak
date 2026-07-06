@@ -150,14 +150,12 @@ const ProductCard = ({
     category,
     index = 0,
     name,
-    price,
     description,
 }: {
     image: string
     category: string
     index?: number
     name?: string
-    price?: string
     description?: string
 }) => {
     const locale = useLocale()
@@ -395,19 +393,6 @@ const ProductCard = ({
                                         <span style={{ wordBreak: "break-word" }}>{f}</span>
                                     </div>
                                 ))}
-                            </motion.div>
-
-                            <motion.div
-                                style={{ paddingTop: 12, borderTop: "1px solid rgba(255,255,255,0.1)" }}
-                                initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.4, duration: 0.4 }}
-                            >
-                                <span className="font-avantgarde" style={{ display: "block", color: "rgba(255,255,255,0.35)", fontSize: 10, letterSpacing: "0.15em", textTransform: "uppercase", marginBottom: 4 }}>
-                                    {t('price_label')}
-                                </span>
-                                <span className="font-oceanic" style={{ color: "#BF9C66", fontSize: 24, fontWeight: 800 }}>
-                                    {price}
-                                </span>
                             </motion.div>
                         </div>
                     </motion.div>

@@ -1730,66 +1730,66 @@
         "id": 158,
         "category": "chocolate",
         "image": "/products/chocolate/choco1.webp",
-        "name_ru": "Multifloral Manuka Honey MGO 50+ (Egmont Honey)",
-        "name_uz": "Multifloral Manuka Honey MGO 50+ (Egmont Honey)",
-        "name_en": "Multifloral Manuka Honey MGO 50+ (Egmont Honey)",
-        "description_ru": "Натуральный неочищенный новозеландский мед манука из нескольких видов цветов. Обладает метиог text-устойчивостью MGO 50+.",
-        "description_uz": "Yangi Zelandiyaning tabiiy, xom va pasterizatsiya qilinmagan ko'p gulli manukaasali. MGO 50+ faollikka ega.",
-        "description_en": "Raw and unpasteurized multifloral Manuka honey from New Zealand with MGO 50+ certified activity."
+        "name_ru": "Samyak Premium Chocolate — золотая упаковка",
+        "name_uz": "Samyak Premium Chocolate — oltin qadoq",
+        "name_en": "Samyak Premium Chocolate — Gold Wrap",
+        "description_ru": "Премиальный шоколад Samyak в элегантной золотой фольге. Халяль сертификат, без желатина и ГМО. Идеален для подарка или дегустации.",
+        "description_uz": "Samyak premium shokoladi — nafis oltin folga qadoqda. Halol sertifikat, jelatinsiz va GMO yo'q. Sovg'a yoki degustatsiya uchun ideal.",
+        "description_en": "Samyak premium chocolate in elegant gold foil wrapping. Halal certified, gelatin-free and non-GMO. Perfect for gifting or tasting."
     },
     {
         "id": 159,
         "category": "chocolate",
         "image": "/products/chocolate/choco2.webp",
-        "name_ru": "Manuka Honey UMF 12+ / MGO 354+ (Comvita)",
-        "name_uz": "Manuka Honey UMF 12+ / MGO 354+ (Comvita)",
-        "name_en": "Manuka Honey UMF 12+ / MGO 354+ (Comvita)",
-        "description_ru": "Сертифицированный чистый новозеландский мед манука премиум-класса с высоким уровнем активности UMF 12+ (MGO 354+).",
-        "description_uz": "UMF 12+ va MGO 354+ yuqori faollik sertifikatiga ega bo'lgan Yangi Zelandiyaning premium toza manuka asali.",
-        "description_en": "Premium raw & certified New Zealand Manuka honey with UMF 12+ and MGO 354+ rating for guaranteed purity and quality."
+        "name_ru": "Samyak Premium Chocolate — медная упаковка",
+        "name_uz": "Samyak Premium Chocolate — mis qadoq",
+        "name_en": "Samyak Premium Chocolate — Copper Wrap",
+        "description_ru": "Квадратный шоколад Samyak в медной фольге с золотой лентой. Богатый вкус премиального какао, халяль состав.",
+        "description_uz": "Mis folga va oltin lenta bilan o'ralgan kvadrat shakldagi Samyak shokoladi. Premium kakao ta'mi, halol tarkib.",
+        "description_en": "Square Samyak chocolate in copper foil with a gold band. Rich premium cocoa flavor with halal ingredients."
     },
     {
         "id": 160,
         "category": "chocolate",
         "image": "/products/chocolate/choco3.webp",
-        "name_ru": "Monofloral Manuka Honey KFactor 16 (Wedderspoon) - 250г",
-        "name_uz": "Monofloral Manuka Honey KFactor 16 (Wedderspoon) - 250g",
-        "name_en": "Monofloral Manuka Honey KFactor 16 (Wedderspoon) - 250g",
-        "description_ru": "Raw монофлорный мед манука премиального качества. Соответствует стандарту KFactor 16, гарантирующему высокую концентрацию пыльцы мануки.",
-        "description_uz": "Yuqori sifatli xom monofloral manuka asali. Manuka gul changining yuqori konsentratsiyasini kafolatlovchi KFactor 16 standartiga mos keladi.",
-        "description_en": "Premium raw, unpasteurized monofloral Manuka honey. Non-GMO project verified with KFactor 16 for high pollen count."
+        "name_ru": "Samyak Pistachio Chocolate Wafer",
+        "name_uz": "Samyak Pistachio Chocolate Wafer",
+        "name_en": "Samyak Pistachio Chocolate Wafer",
+        "description_ru": "Хрустящая вафля с фисташковым шоколадом Samyak в треугольной подарочной упаковке. Натуральный фисташковый вкус и халяль сертификат.",
+        "description_uz": "Samyak fistic shokoladli xrustali vafli — uchburchak sovg'a qadoqida. Tabiiy fistic ta'mi va halol sertifikat.",
+        "description_en": "Crispy wafer with Samyak pistachio chocolate in a triangular gift box. Natural pistachio flavor with halal certification."
     },
     {
         "id": 161,
         "category": "chocolate",
         "image": "/products/chocolate/choco4.webp",
-        "name_ru": "Акациевый мед с сотами (Bihophar)",
-        "name_uz": "Akatsiya asali ari uyasi bo'lagi bilan (Bihophar)",
-        "name_en": "Acacia Honey with Comb (Bihophar)",
-        "description_ru": "Немецкий прозрачный акациевый мед нежного вкуса с цельным куском натуральных медовых сот внутри банки.",
-        "description_uz": "Bankaning ichida tabiiy ari uyasi (katak) bo'lagi bo'lgan, mayin ta'mli va shaffof nemis akatsiya asali.",
-        "description_en": "Premium German acacia honey (Akazien-Honig) featuring a real piece of natural honeycomb inside the jar."
+        "name_ru": "Samyak Premium Chocolate — классическая упаковка",
+        "name_uz": "Samyak Premium Chocolate — klassik qadoq",
+        "name_en": "Samyak Premium Chocolate — Classic Wrap",
+        "description_ru": "Классический квадратный шоколад Samyak в золотой фольге с геометрическим орнаментом. Премиальное качество и халяль состав.",
+        "description_uz": "Geometrik naqshli oltin folga qadoqdagi klassik kvadrat Samyak shokoladi. Premium sifat va halol tarkib.",
+        "description_en": "Classic square Samyak chocolate in gold foil with a geometric pattern band. Premium quality with halal ingredients."
     },
     {
         "id": 162,
         "category": "chocolate",
         "image": "/products/chocolate/choco5.webp",
-        "name_ru": "Monofloral Manuka Honey KFactor 16 (Wedderspoon) - Оборотная сторона",
-        "name_uz": "Monofloral Manuka Honey KFactor 16 (Wedderspoon) - Orqa tomoni",
-        "name_en": "Monofloral Manuka Honey KFactor 16 (Wedderspoon) - Back View",
-        "description_ru": "Информационная упаковка монофлорного меда манука KFactor 16 с указанием веса (250г), штрих-кода и сертификатов качества.",
-        "description_uz": "KFactor 16 monofloral manuka asalining og'irligi (250g), shtrix-kodi va sifat sertifikatlari ko'rsatilgan orqa tomoni.",
-        "description_en": "Back view of the Wedderspoon KFactor 16 Manuka honey jar, displaying nutritional information, barcode, and net weight of 250g."
+        "name_ru": "Samyak Premium Chocolate — мятная упаковка",
+        "name_uz": "Samyak Premium Chocolate — yashil qadoq",
+        "name_en": "Samyak Premium Chocolate — Mint Wrap",
+        "description_ru": "Шоколад Samyak в светло-зелёной фольге с фирменной лентой. Нежная текстура и насыщенный вкус премиального какао.",
+        "description_uz": "Yengil yashil folga va brend lentasi bilan o'ralgan Samyak shokoladi. Mayin tuzilish va boy premium kakao ta'mi.",
+        "description_en": "Samyak chocolate in light green foil with the signature brand band. Smooth texture and rich premium cocoa flavor."
     },
     {
         "id": 163,
         "category": "chocolate",
         "image": "/products/chocolate/choco6.webp",
-        "name_ru": "Новозеландский мед манука MGO 100+ (Langnese)",
-        "name_uz": "Yangi Zelandiya manuka asali MGO 100+ (Langnese)",
-        "name_en": "New Zealand Manuka Honey MGO 100+ (Langnese)",
-        "description_ru": "Высококачественный мед манука из Новой Зеландии от известного бренда Langnese с гарантированным уровнем метилглиоксаля MGO 100+.",
-        "description_uz": "Taniqli Langnese brendidan kafolatlangan MGO 100+ metilglioksal darajasiga ega bo'lgan Yangi Zelandiya manuka asali.",
-        "description_en": "High-quality New Zealand Manuka honey by Langnese, featuring a guaranteed activity level of MGO 100+."
+        "name_ru": "Samyak Premium Chocolate — коллекционная упаковка",
+        "name_uz": "Samyak Premium Chocolate — kolleksion qadoq",
+        "name_en": "Samyak Premium Chocolate — Collector's Wrap",
+        "description_ru": "Элегантный шоколад Samyak в тёмно-зелёной упаковке с золотым орнаментом. Эксклюзивный дизайн и халяль сертификат.",
+        "description_uz": "Oltin naqshli to'q yashil qadoqdagi nafis Samyak shokoladi. Eksklyuziv dizayn va halol sertifikat.",
+        "description_en": "Elegant Samyak chocolate in dark green packaging with gold ornament. Exclusive design with halal certification."
     }
 ]
