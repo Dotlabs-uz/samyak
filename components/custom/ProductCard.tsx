@@ -171,7 +171,7 @@ const ProductCard = ({
     }, [])
 
     const figur = FIGURES[index % FIGURES.length]
-    const features = (categoryFeatures[category as keyof typeof categoryFeatures] ?? categoryFeatures.supplements)[locale as 'ru' | 'uz' | 'en']
+    const features = (categoryFeatures[category as keyof typeof categoryFeatures] ?? categoryFeatures.supplements)[locale as 'ru' | 'uz' | 'en' | 'zh']
 
     const desktopModal = (
         <AnimatePresence>

@@ -14,6 +14,11 @@
             "Halal certified",
             "Gelatin free",
             "Non-GMO"
+        ],
+        "zh": [
+            "清真认证",
+            "不含明胶",
+            "非转基因"
         ]
     },
     "honey": {
@@ -31,6 +36,11 @@
             "100% natural",
             "Halal",
             "No preservatives"
+        ],
+        "zh": [
+            "100%天然",
+            "清真",
+            "不含防腐剂"
         ]
     },
     "drinks": {
@@ -48,6 +58,11 @@
             "No colorants",
             "Halal",
             "Natural ingredients"
+        ],
+        "zh": [
+            "不含色素",
+            "清真",
+            "天然配方"
         ]
     },
     "supplements": {
@@ -65,6 +80,11 @@
             "Non-GMO",
             "Halal certified",
             "Gelatin free"
+        ],
+        "zh": [
+            "非转基因",
+            "清真认证",
+            "不含明胶"
         ]
     },
     "icecream": {
@@ -82,6 +102,11 @@
             "Halal certified",
             "Gelatin free",
             "Natural cream"
+        ],
+        "zh": [
+            "清真认证",
+            "不含明胶",
+            "天然奶油"
         ]
     },
     "cheese": {
@@ -99,6 +124,11 @@
             "Halal rennet",
             "Natural milk",
             "No preservatives"
+        ],
+        "zh": [
+            "清真凝乳酶",
+            "天然牛奶",
+            "不含防腐剂"
         ]
     },
     "caviar": {
@@ -116,6 +146,11 @@
             "Premium quality",
             "No preservatives",
             "Sustainably sourced"
+        ],
+        "zh": [
+            "优质品质",
+            "不含防腐剂",
+            "可持续捕捞"
         ]
     },
     "fish": {
@@ -133,6 +168,11 @@
             "Fresh catch",
             "Halal processed",
             "No artificial additives"
+        ],
+        "zh": [
+            "新鲜捕捞",
+            "清真加工",
+            "不含人工添加剂"
         ]
     },
     "oils": {
@@ -150,6 +190,11 @@
             "Cold pressed",
             "Non-GMO",
             "100% natural"
+        ],
+        "zh": [
+            "冷压榨",
+            "非转基因",
+            "100%天然"
         ]
     },
     "glutenfree": {
@@ -167,6 +212,11 @@
             "Gluten-free",
             "Halal certified",
             "Celiac safe"
+        ],
+        "zh": [
+            "无麸质",
+            "清真认证",
+            "适合乳糜泻患者"
         ]
     },
     "sugarfree": {
@@ -184,6 +234,11 @@
             "Sugar-free",
             "Low glycemic index",
             "Halal"
+        ],
+        "zh": [
+            "无糖",
+            "低升糖指数",
+            "清真"
         ]
     },
     "vegan": {
@@ -201,6 +256,11 @@
             "100% plant-based",
             "No animal products",
             "Non-GMO"
+        ],
+        "zh": [
+            "100%植物基",
+            "不含动物成分",
+            "非转基因"
         ]
     },
     "protein": {
@@ -218,6 +278,11 @@
             "High protein content",
             "Halal certified",
             "No artificial additives"
+        ],
+        "zh": [
+            "高蛋白",
+            "清真认证",
+            "不含人工添加剂"
         ]
     },
     "medicine": {
@@ -235,6 +300,11 @@
             "Certified",
             "Halal formulation",
             "Clinically tested"
+        ],
+        "zh": [
+            "认证产品",
+            "清真配方",
+            "临床验证"
         ]
     },
     "pastry": {
@@ -252,6 +322,11 @@
             "Halal certified",
             "Gelatin free",
             "Natural chocolate"
+        ],
+        "zh": [
+            "清真认证",
+            "不含明胶",
+            "天然巧克力"
         ]
     },
     "care": {
@@ -269,6 +344,11 @@
             "Halal certified",
             "Alcohol-free",
             "No animal-derived ingredients"
+        ],
+        "zh": [
+            "清真认证",
+            "不含酒精",
+            "不含动物来源成分"
         ]
     }
 }

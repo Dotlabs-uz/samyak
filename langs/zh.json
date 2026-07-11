@@ -1,0 +1,210 @@
+{
+    "Header": {
+        "topNav": {
+            "about": "关于我们",
+            "products": "产品",
+            "gifts": "礼品",
+            "gastronomy": "美食",
+            "reviews": "评价"
+        },
+        "nav": {
+            "products": {
+                "label": "产品",
+                "desc": "1000多种进口商品"
+            },
+            "gifts": {
+                "label": "促销与新闻",
+                "desc": "为您呈现的最佳优惠"
+            },
+            "gastronomy": {
+                "label": "美食",
+                "desc": "口味与品质的和谐统一"
+            },
+            "reviews": {
+                "label": "评价",
+                "desc": "客户怎么说"
+            },
+            "contact": {
+                "label": "联系我们",
+                "desc": "有任何问题？"
+            }
+        },
+        "promo": {
+            "title": "卓越品质。",
+            "subtitle": "与我们一起体验世界品牌。",
+            "cta": "关于我们"
+        },
+        "social": {
+            "title": "关注我们的社交媒体",
+            "hours": "每天24小时营业"
+        }
+    },
+    "Hero": {
+        "tagImport": "进口",
+        "tagPremium": "高端",
+        "tagTabiiy": "天然",
+        "titleWords": [
+            "健康生活",
+            "优质产品"
+        ],
+        "description": "我们精选来自世界顶级制造商的高端产品。",
+        "btnStore": "我们的商店",
+        "btnCatalog": "产品目录",
+        "feature1": "我们为您带来世界顶级品牌",
+        "feature2": "精选可靠的优质产品",
+        "feature3": "快速配送服务",
+        "feature4": "适用于日常与各种场合"
+    },
+    "Philosophy": {
+        "label": "理念",
+        "subTitle": "我们不仅仅是一家商店。",
+        "text": "Samyak是精选风味与高品质产品的目的地。我们只精选顶级生产商的最佳商品，确保每一次购买都独一无二。",
+        "button": "我们的商店",
+        "catalog": "产品目录",
+        "titleWords": [
+            "进口",
+            "优质品质",
+            "清真",
+            "无麸质",
+            "无糖",
+            "有机",
+            "纯素"
+        ]
+    },
+    "Products": {
+        "top_products": "热门产品",
+        "categories": {
+            "chocolate": "Samyak 巧克力",
+            "honey": "蜂蜜及蜂产品",
+            "drinks": "茶与咖啡",
+            "supplements": "营养补充剂",
+            "icecream": "冰淇淋",
+            "cheese": "奶酪",
+            "fish": "海鲜什锦",
+            "oils": "食用油",
+            "glutenfree": "无麸质食品",
+            "sugarfree": "无糖食品",
+            "vegan": "纯素产品",
+            "protein": "蛋白质产品",
+            "medicine": "药品",
+            "pastry": "巧克力糕点",
+            "care": "个人护理"
+        },
+        "halal": "清真",
+        "gelatin_free": "不含明胶",
+        "currency": "苏姆",
+        "price_label": "价格",
+        "all_categories": "所有分类",
+        "choose_category": "选择分类",
+        "close": "关闭"
+    },
+    "Gift": {
+        "badge": "礼品套装",
+        "titleWords": [
+            {
+                "text": "为每个场合"
+            },
+            {
+                "text": "打造",
+                "highlight": true
+            },
+            {
+                "text": "完美礼物"
+            }
+        ],
+        "subtitle": "高端产品套装——自由搭配或选择现成套装",
+        "button": "了解更多",
+        "items": {
+            "tayyor": {
+                "title": "现成套装",
+                "price": "12,000,000 苏姆",
+                "desc": "甜品、咖啡、干果——满足各种口味的高端套装。"
+            },
+            "toy": {
+                "title": "婚礼套装",
+                "price": "12,000,000 苏姆",
+                "desc": "专为庆典活动精心打造的礼品套装。"
+            },
+            "premium": {
+                "title": "尊享套装",
+                "price": "12,000,000 苏姆",
+                "desc": "独家高品质产品珍藏系列。"
+            },
+            "corporate": {
+                "title": "企业套装",
+                "price": "12,000,000 苏姆",
+                "desc": "完美的商务馈赠方案。"
+            }
+        },
+        "types": {
+            "classic": "礼品套装",
+            "chocolate": "巧克力礼品套装"
+        }
+    },
+    "Gastronomy": {
+        "coffee": {
+            "badge": "礼品套装",
+            "title": "城中极致咖啡体验",
+            "subtitle": "精选高端组合——自由搭配或选择现成套装"
+        },
+        "gastronomy": {
+            "subtitle": "美食精品店",
+            "title": "鱼类与肉类珍馐",
+            "description": "从深海到精选农场，直达您的餐桌。不仅仅是一份目录——更是一场真正的味觉体验。"
+        },
+        "products_options": {
+            "variant_1_caviar_and_seafood": {
+                "ready_set": "现成套装",
+                "cold_water": "高端海鲜与鱼子酱",
+                "item1": "贝鲁加、奥希特拉与三文鱼子酱",
+                "item2": "野生阿根廷虾与老虎虾",
+                "item3": "巴塔哥尼亚鱿鱼与嫩章鱼"
+            },
+            "variant_2_gourmet_selection": {
+                "ready_set": "美食精选",
+                "cold_water": "冷水杰作",
+                "item1": "沙皇贝鲁加与优质奥希特拉鱼子酱",
+                "item2": "烟熏红鲑鱼与香料烤三文鱼",
+                "item3": "巴塔哥尼亚鱿鱼与深海虾"
+            },
+            "variant_3_ocean_depths": {
+                "ready_set": "尊享珍藏",
+                "cold_water": "海洋珍宝",
+                "item1": "精选黑红三文鱼子酱",
+                "item2": "拼盘海鲜棋盘与什锦鱼",
+                "item3": "野生阿根廷虾与熟章鱼"
+            },
+            "variant_4_minimalist_clean": {
+                "ready_set": "主厨之选",
+                "cold_water": "尊贵海洋珍馐",
+                "item1": "精选鲟鱼子酱",
+                "item2": "匠心冷熏与烤鱼片",
+                "item3": "野生巴塔哥尼亚海鲜与虾"
+            }
+        }
+    },
+    "OurGuests": {
+        "label": "我们的客人",
+        "title": "我们的客人",
+        "description": "高端产品系列——自由搭配或选择现成套装",
+        "button": "前往账户",
+        "reels_label": "视频集锦"
+    },
+    "Footer": {
+        "addressesTitle": "我们的\n门店地址",
+        "address": "撒马尔罕，阿米尔帖木儿17A号",
+        "openMap": "打开地图",
+        "invite": "我们全天24小时\n恭候您的光临！",
+        "home": "首页",
+        "products": "我们的产品",
+        "about": "关于我们",
+        "feedback": "反馈",
+        "contact": "联系方式",
+        "rights": "© 2026 Samyak. 保留所有权利",
+        "cookie": "Cookie 设置",
+        "spam": "反垃圾邮件",
+        "privacy": "隐私政策",
+        "agreement": "用户协议",
+        "legal": "法律声明与责任披露"
+    }
+}

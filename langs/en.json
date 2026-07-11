@@ -43,7 +43,14 @@
         "tagImport": "Import",
         "tagPremium": "Premium",
         "tagTabiiy": "Natural",
-        "title": "Quality products for a healthy life",
+        "titleWords": [
+            "Quality",
+            "products",
+            "for",
+            "a",
+            "healthy",
+            "life"
+        ],
         "description": "We select premium class products from the world's best manufacturers.",
         "btnStore": "Our store",
         "btnCatalog": "Catalog",

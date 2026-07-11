@@ -74,29 +74,34 @@ function WordLine({ word, index, progress, step }: { word: string; index: number
     )
 }
 
-
 function getWordImage(word: string): string | null {
     const lower = word.toLowerCase()
 
-    if (lower.includes("import") || lower.includes("импорт")) {
+    if (
+        lower.includes("import") ||
+        lower.includes("импорт") ||
+        lower.includes("进口")
+    ) {
         return "/logos/Import_logo.webp"
     }
 
     if (
         lower.includes("premium") ||
-        lower.includes("sifat") ||
         lower.includes("quality") ||
         lower.includes("качество") ||
-        lower.includes("премиум")
+        lower.includes("премиум") ||
+        lower.includes("sifat") ||
+        lower.includes("优质") ||
+        lower.includes("品质")
     ) {
         return "/logos/Premium_logo.webp"
     }
 
     if (
         lower.includes("halal") ||
+        lower.includes("halol") ||
         lower.includes("халал") ||
-        lower.includes("ҳалол") ||
-        lower.includes("halol")
+        lower.includes("清真")
     ) {
         return "/logos/Halal_logo.webp"
     }
@@ -104,7 +109,8 @@ function getWordImage(word: string): string | null {
     if (
         lower.includes("gluten") ||
         lower.includes("глютен") ||
-        lower.includes("glyuten")
+        lower.includes("glyuten") ||
+        lower.includes("无麸质")
     ) {
         return "/logos/GlutenFree_logo.webp"
     }
@@ -112,7 +118,8 @@ function getWordImage(word: string): string | null {
     if (
         lower.includes("sugar") ||
         lower.includes("сахар") ||
-        lower.includes("shakar")
+        lower.includes("shakar") ||
+        lower.includes("无糖")
     ) {
         return "/logos/SugarFree_logo.webp"
     }
@@ -120,12 +127,17 @@ function getWordImage(word: string): string | null {
     if (
         lower.includes("organic") ||
         lower.includes("органик") ||
-        lower.includes("organik")
+        lower.includes("organik") ||
+        lower.includes("有机")
     ) {
         return "/logos/Organic_logo.webp"
     }
 
-    if (lower.includes("vegan") || lower.includes("веган")) {
+    if (
+        lower.includes("vegan") ||
+        lower.includes("веган") ||
+        lower.includes("纯素")
+    ) {
         return "/logos/Vegan_logo.webp"
     }
 

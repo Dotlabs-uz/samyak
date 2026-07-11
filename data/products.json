@@ -8,7 +8,8 @@
         "name_en": "Multifloral Manuka Honey MGO 50+ (Egmont Honey)",
         "description_ru": "Натуральный неочищенный новозеландский мед манука из нескольких видов цветов. Обладает метиог text-устойчивостью MGO 50+.",
         "description_uz": "Yangi Zelandiyaning tabiiy, xom va pasterizatsiya qilinmagan ko'p gulli manukaasali. MGO 50+ faollikka ega.",
-        "description_en": "Raw and unpasteurized multifloral Manuka honey from New Zealand with MGO 50+ certified activity."
+        "description_en": "Raw and unpasteurized multifloral Manuka honey from New Zealand with MGO 50+ certified activity.",
+        "description_zh": "新西兰天然未经过滤的多花种Manuka蜂蜜，具有MGO 50+认证活性。"
     },
     {
         "id": 2,
@@ -19,7 +20,8 @@
         "name_en": "Manuka Honey UMF 12+ / MGO 354+ (Comvita)",
         "description_ru": "Сертифицированный чистый новозеландский мед манука премиум-класса с высоким уровнем активности UMF 12+ (MGO 354+).",
         "description_uz": "UMF 12+ va MGO 354+ yuqori faollik sertifikatiga ega bo'lgan Yangi Zelandiyaning premium toza manuka asali.",
-        "description_en": "Premium raw & certified New Zealand Manuka honey with UMF 12+ and MGO 354+ rating for guaranteed purity and quality."
+        "description_en": "Premium raw & certified New Zealand Manuka honey with UMF 12+ and MGO 354+ rating for guaranteed purity and quality.",
+        "description_zh": "新西兰认证的纯净的新西兰Manuka蜂蜜，具有UMF 12+和MGO 354+评级，保证纯度和质量。"
     },
     {
         "id": 3,
@@ -30,7 +32,8 @@
         "name_en": "Monofloral Manuka Honey KFactor 16 (Wedderspoon) - 250g",
         "description_ru": "Raw монофлорный мед манука премиального качества. Соответствует стандарту KFactor 16, гарантирующему высокую концентрацию пыльцы мануки.",
         "description_uz": "Yuqori sifatli xom monofloral manuka asali. Manuka gul changining yuqori konsentratsiyasini kafolatlovchi KFactor 16 standartiga mos keladi.",
-        "description_en": "Premium raw, unpasteurized monofloral Manuka honey. Non-GMO project verified with KFactor 16 for high pollen count."
+        "description_en": "Premium raw, unpasteurized monofloral Manuka honey. Non-GMO project verified with KFactor 16 for high pollen count.",
+        "description_zh": "优质未经过滤的单花种Manuka蜂蜜。非转基因项目经KFactor 16验证，具有高花粉含量。"
     },
     {
         "id": 4,
@@ -41,7 +44,8 @@
         "name_en": "Acacia Honey with Comb (Bihophar)",
         "description_ru": "Немецкий прозрачный акациевый мед нежного вкуса с цельным куском натуральных медовых сот внутри банки.",
         "description_uz": "Bankaning ichida tabiiy ari uyasi (katak) bo'lagi bo'lgan, mayin ta'mli va shaffof nemis akatsiya asali.",
-        "description_en": "Premium German acacia honey (Akazien-Honig) featuring a real piece of natural honeycomb inside the jar."
+        "description_en": "Premium German acacia honey (Akazien-Honig) featuring a real piece of natural honeycomb inside the jar.",
+        "description_zh": "优质德国Acacia蜂蜜，具有天然蜂蜜内部的真实蜂巢块。"
     },
     {
         "id": 5,
@@ -52,7 +56,8 @@
         "name_en": "Monofloral Manuka Honey KFactor 16 (Wedderspoon) - Back View",
         "description_ru": "Информационная упаковка монофлорного меда манука KFactor 16 с указанием веса (250г), штрих-кода и сертификатов качества.",
         "description_uz": "KFactor 16 monofloral manuka asalining og'irligi (250g), shtrix-kodi va sifat sertifikatlari ko'rsatilgan orqa tomoni.",
-        "description_en": "Back view of the Wedderspoon KFactor 16 Manuka honey jar, displaying nutritional information, barcode, and net weight of 250g."
+        "description_en": "Back view of the Wedderspoon KFactor 16 Manuka honey jar, displaying nutritional information, barcode, and net weight of 250g.",
+        "description_zh": "Wedderspoon KFactor 16 Manuka蜂蜜罐的背面视图，显示营养信息、条形码和250g净重。"
     },
     {
         "id": 6,
@@ -63,7 +68,8 @@
         "name_en": "New Zealand Manuka Honey MGO 100+ (Langnese)",
         "description_ru": "Высококачественный мед манука из Новой Зеландии от известного бренда Langnese с гарантированным уровнем метилглиоксаля MGO 100+.",
         "description_uz": "Taniqli Langnese brendidan kafolatlangan MGO 100+ metilglioksal darajasiga ega bo'lgan Yangi Zelandiya manuka asali.",
-        "description_en": "High-quality New Zealand Manuka honey by Langnese, featuring a guaranteed activity level of MGO 100+."
+        "description_en": "High-quality New Zealand Manuka honey by Langnese, featuring a guaranteed activity level of MGO 100+.",
+        "description_zh": "高品质的新西兰Manuka蜂蜜来自Langnese，具有保证的MGO 100+活性水平。"
     },
     {
         "id": 7,
@@ -74,7 +80,8 @@
         "name_en": "Monofloral Manuka Honey 10+ NPA (Queen Bee)",
         "description_ru": "Монофлорный мед манука весом 454г. Обладает подтвержденным антибактериальным фактором 10+ NPA и содержанием MGO 263+.",
         "description_uz": "454g hajmdagi monofloral manuka asali. Tasdiqlangan 10+ NPA antibakterial faktorga va MGO 263+ ko'rsatkichiga ega.",
-        "description_en": "Monofloral Manuka honey (454g) with a certified 10+ NPA (Non-Peroxide Activity) and MGO 263+ rating."
+        "description_en": "Monofloral Manuka honey (454g) with a certified 10+ NPA (Non-Peroxide Activity) and MGO 263+ rating.",
+        "description_zh": "单花种Manuka蜂蜜（454g），具有认证的10+ NPA（非过氧化物活性）和MGO 263+评级。"
     },
     {
         "id": 8,
@@ -85,7 +92,8 @@
         "name_en": "Organic Manuka Honey Drops Lemon (Wedderspoon)",
         "description_ru": "Органические леденцы для горла с лимоном, оригинальным медом манука и пчелиным прополисом (25 мг). В упаковке 60 штук.",
         "description_uz": "Tomoq uchun limon, haqiqiy manuka asali va ari propolisi (25 mg) qo'shilgan organik konfetlar. Qutida 60 ta drop mavjud.",
-        "description_en": "Organic throat drops formulated with genuine New Zealand Manuka honey, lemon, and 25mg of bee propolis. Contains 60 drops."
+        "description_en": "Organic throat drops formulated with genuine New Zealand Manuka honey, lemon, and 25mg of bee propolis. Contains 60 drops.",
+        "description_zh": "由真正的新西兰Manuka蜂蜜、柠檬和25mg蜂胶制成的有机喉咙滴剂。含有60滴。"
     },
     {
         "id": 9,
@@ -96,7 +104,8 @@
         "name_en": "M&S Collection New Zealand Manuka Honey MGO 100+",
         "description_ru": "Новозеландский мед манука премиальной линейки Marks & Spencer Collection с сертифицированной активностью MGO 100+ в шестигранной баночке.",
         "description_uz": "Marks & Spencer Collection premium liniyasidan olti burchakli bankadagi Yangi Zelandiya manuka asali, MGO 100+ sertifikatiga ega.",
-        "description_en": "Premium New Zealand Manuka honey from the M&S Collection, features a certified MGO 100+ rating, packaged in an elegant hexagonal jar."
+        "description_en": "Premium New Zealand Manuka honey from the M&S Collection, features a certified MGO 100+ rating, packaged in an elegant hexagonal jar.",
+        "description_zh": "M&S Collection premium系列的新西兰Manuka蜂蜜，具有认证的MGO 100+评级，包装在优雅的六角形罐中。"
     },
     {
         "id": 10,
@@ -107,7 +116,8 @@
         "name_en": "illy Classico Coffee Beans (Classic Roast) - 250g",
         "description_ru": "Премиальный итальянский кофе в зернах из 100% арабики. Классическая средняя обжарка с мягким, сбалансированным вкусом и нотками карамели в металлической банке.",
         "description_uz": "100% arabikadan tayyorlangan premium Italiya qahva donalari. Metall bankada taqdim etilgan, karamel hidli, mayin va muvozanatli klassik o'rtacha qovurilgan qahva.",
-        "description_en": "Premium Italian 100% Arabica whole bean coffee. Classic medium roast featuring a smooth, balanced flavor with notes of caramel, packaged in a pressurized tin."
+        "description_en": "Premium Italian 100% Arabica whole bean coffee. Classic medium roast featuring a smooth, balanced flavor with notes of caramel, packaged in a pressurized tin.",
+        "description_zh": "意大利100%阿拉比卡咖啡豆，经典中烘焙，具有柔和、平衡的风味，带有焦糖味，包装在压力罐中。"
     },
     {
         "id": 11,
@@ -118,7 +128,8 @@
         "name_en": "Nescafe Rich Instant Coffee - 475g",
         "description_ru": "Растворимый гранулированный кофе с глубоким насыщенным вкусом и классическим ароматом. Большая экономичная упаковка весом 475 грамм.",
         "description_uz": "Chuqur va boy ta'mga hamda klassik xushbo'ylikka ega bo'lgan granulalangan tez eriydigan qahva. 475 grammli katta tejamkor qadoq.",
-        "description_en": "Granulated instant coffee delivering a deep, rich flavor and signature aroma. Large economical 475g canister."
+        "description_en": "Granulated instant coffee delivering a deep, rich flavor and signature aroma. Large economical 475g canister.",
+        "description_zh": "颗粒状即溶咖啡，具有深沉、丰富的风味和标志性香气。大型经济实惠的475g罐装。"
     },
     {
         "id": 12,
@@ -129,7 +140,8 @@
         "name_en": "Gorilla Bar Crema Coffee Beans (Joerges) - 1kg",
         "description_ru": "Немецкий премиальный зерновой кофе темной обжарки. Крепкий, интенсивный вкус с плотной пенкой крема, идеально подходит для эспрессо и автоматических кофемашин.",
         "description_uz": "Germaniyaning to'q qovurilgan premium donali qahvasi. Espresso va avtomat qahva mashinalari uchun ideal bo'lgan, qalin krem ko'pikli, achchiq va intensiv ta'm.",
-        "description_en": "Premium German roasted whole bean coffee. Strong, intense dark roast with a thick crema, perfect for espresso and automatic coffee makers."
+        "description_en": "Premium German roasted whole bean coffee. Strong, intense dark roast with a thick crema, perfect for espresso and automatic coffee makers.",
+        "description_zh": "德国优质烘焙的咖啡豆，具有浓郁、深沉的风味，带有厚重的奶油味，非常适合浓缩咖啡和自动咖啡机。"
     },
     {
         "id": 13,
@@ -140,7 +152,8 @@
         "name_en": "% Arabica Blend Coffee Beans",
         "description_ru": "Фирменный купаж кофейных зерен от знаменитого мирового бренда % Arabica. Свежая обжарка премиум-класса в крафтовом пакете.",
         "description_uz": "Mashhur dunyo brendi % Arabica'dan maxsus qahva donalari aralashmasi. Kraft paketdagi yangi qovurilgan premium sifatli qahva.",
-        "description_en": "Signature premium coffee bean blend from the globally renowned % Arabica specialty coffee brand, packaged in a craft paper bag."
+        "description_en": "Signature premium coffee bean blend from the globally renowned % Arabica specialty coffee brand, packaged in a craft paper bag.",
+        "description_zh": "全球知名的% Arabica品牌特选咖啡豆混合，包装在手工纸袋中。"
     },
     {
         "id": 14,
@@ -151,7 +164,8 @@
         "name_en": "illy Classico Ground Coffee (Classic Roast) - 250g",
         "description_ru": "Итальянский молотый кофе из 100% арабики. Классическая обжарка, мягкий и сбалансированный вкус. Специальный помол для приготовления в фильтр-кофеварках и френч-прессе.",
         "description_uz": "100% arabikadan tayyorlangan Italiya maydalangan qahvasi. Klassik o'rta qovurilgan, yumshoq va muvozanatli ta'm. Filtrli qahva va french-press uchun maxsus maydalangan.",
-        "description_en": "Italian ground coffee made from 100% Arabica selection. Classic roast offering a mild and balanced taste, finely ground for optimal brewing."
+        "description_en": "Italian ground coffee made from 100% Arabica selection. Classic roast offering a mild and balanced taste, finely ground for optimal brewing.",
+        "description_zh": "意大利100%阿拉比卡咖啡豆，经典中烘焙，具有柔和、平衡的风味，非常适合滤泡咖啡和法式压榨。"
     },
     {
         "id": 15,
@@ -162,7 +176,8 @@
         "name_en": "M&S Decaf Gold Instant Coffee - 100g",
         "description_ru": "Сублимированный растворимый кофе без кофеина премиальной линейки Marks & Spencer. 100% арабика средней обжарки с мягким и гармоничным вкусом.",
         "description_uz": "Marks & Spencer premium liniyasidan kofeinsiz muzlatib quritilgan tez eriydigan qahva. Mayin va yoqimli ta'mga ega 100% o'rta qovurilgan arabika.",
-        "description_en": "Premium freeze-dried instant decaffeinated coffee from Marks & Spencer. Medium roast 100% Arabica delivering a smooth and balanced taste without caffeine."
+        "description_en": "Premium freeze-dried instant decaffeinated coffee from Marks & Spencer. Medium roast 100% Arabica delivering a smooth and balanced taste without caffeine.",
+        "description_zh": "Marks & Spencer premium系列的脱咖啡因冷冻干燥即溶咖啡，100%阿拉比卡中烘焙，具有柔和、平衡的风味，无咖啡因。"
     },
     {
         "id": 16,
@@ -173,7 +188,8 @@
         "name_en": "Starbucks Sunsera Blend Ground Coffee (Blonde Roast)",
         "description_ru": "Светлая обжарка (Blonde Roast) от Starbucks со вкусовыми нотами ярких цитрусовых и жареного миндаля. 100% натуральный молотый кофе.",
         "description_uz": "Starbucks'dan yorqin sitrus va qovurilgan bodom ta'miga ega bo'lgan och qovurilgan (Blonde Roast) qahva. 100% tabiiy maydalangan qahva.",
-        "description_en": "Starbucks Blonde Roast ground coffee featuring bright citrus notes and a toasted almond finish. 100% Arabica sourced coffee beans."
+        "description_en": "Starbucks Blonde Roast ground coffee featuring bright citrus notes and a toasted almond finish. 100% Arabica sourced coffee beans.",
+        "description_zh": "Starbucks Blonde Roast咖啡豆，具有明亮柑橘风味和烤杏仁余味。100%阿拉比卡咖啡豆。"
     },
     {
         "id": 17,
@@ -184,7 +200,8 @@
         "name_en": "Mayorga Organic Café Cubano Whole Bean Coffee (Dark Roast) - 2 lb",
         "description_ru": "Органический сертифицированный кофе в зернах темной кубинской обжарки. Обладает плотным телом, глубоким вкусом с нотками какао и сладким послевкусием.",
         "description_uz": "To'q kubacha qovurilgan sertifikatlangan organik qahva donalari. Kakao hidli, quyuq va shirin ta'mga ega bo'lgan katta qadoqdagi qahva.",
-        "description_en": "USDA Organic certified specialty grade whole bean coffee. Cuban style dark roast featuring a full body, deep cacao flavor notes, and a sweet, smooth finish."
+        "description_en": "USDA Organic certified specialty grade whole bean coffee. Cuban style dark roast featuring a full body, deep cacao flavor notes, and a sweet, smooth finish.",
+        "description_zh": "USDA有机认证的特级咖啡豆，古巴风格深烘焙，具有全身体、深巧克力风味和甜、顺滑的余味。"
     },
     {
         "id": 18,
@@ -195,7 +212,8 @@
         "name_en": "Calcium, Magnesium & Zinc with Vitamin D3 (Nature's Bounty) - 100 Caplets",
         "description_ru": "Комплекс незаменимых минералов для поддержки здоровья костей, зубов, иммунной системы и правильной работы мышц.",
         "description_uz": "Suyaklar, tishlar, immun tizimi va mushaklarning to'g'ri ishlashini qo'llab-quvvatlash uchun muhim minerallar majmuasi.",
-        "description_en": "A vital mineral complex formulated to support bone and muscle health, as well as boosting immune system function."
+        "description_en": "A vital mineral complex formulated to support bone and muscle health, as well as boosting immune system function.",
+        "description_zh": "维生素D3、钙、镁和锌的复合矿物质，用于支持骨骼和肌肉健康，以及增强免疫系统功能。"
     },
     {
         "id": 19,
@@ -206,7 +224,8 @@
         "name_en": "Vitamin D3 125 mcg / 5000 IU (Nature's Bounty) - 150 Softgels",
         "description_ru": "Высокоэффективный витамин D3 в быстрорастворимых гелевых капсулах для укрепления иммунитета и улучшения усвоения кальция.",
         "description_uz": "Immunitetni mustahkamlash va kalsiy so'rilishini yaxshilash uchun tez eruvchan gel kapsulalardagi yuqori samarali vitamin D3.",
-        "description_en": "High-potency Vitamin D3 in rapid-release softgels to support immune health and promote strong teeth and bones."
+        "description_en": "High-potency Vitamin D3 in rapid-release softgels to support immune health and promote strong teeth and bones.",
+        "description_zh": "维生素D3 125 mcg / 5000 IU（Nature's Bounty）- 150软胶囊，用于增强免疫健康和促进强壮的牙齿和骨骼。"
     },
     {
         "id": 20,
@@ -217,7 +236,8 @@
         "name_en": "Fish Oil Omega-3 1200 mg (Nature's Bounty) - 200 Softgels",
         "description_ru": "Очищенный от ртути натуральный рыбий жир. Содержит незаменимые жирные кислоты EPA и DHA для здоровья сердца и сосудов.",
         "description_uz": "Simobdan tozalangan tabiiy baliq yog'i. Yurak va tomirlar salomatligi uchun muhim bo'lgan EPA va DHA yog' kislotalarini o'z ichiga oladi.",
-        "description_en": "Purified to eliminate mercury, providing heart-healthy EPA and DHA essential fatty acids in rapid-release softgels."
+        "description_en": "Purified to eliminate mercury, providing heart-healthy EPA and DHA essential fatty acids in rapid-release softgels.",
+        "description_zh": "净化去汞的天然鱼油，提供心脏健康EPA和DHA必需脂肪酸，在快速释放软胶囊中。"
     },
     {
         "id": 21,
@@ -228,7 +248,8 @@
         "name_en": "Melatonin 5 mg (Nature's Bounty) - 90 Tablets",
         "description_ru": "Естественная поддержка здорового сна. Помогает быстрее уснуть, улучшает качество отдыха и регулирует циркадные ритмы.",
         "description_uz": "Sog'lom uyquni tabiiy ravishda qo'llab-quvvatlash. Tezroq uxlashga yordam beradi va uyqu sifatini yaxshilaydi.",
-        "description_en": "Clinically studied ingredient that works in harmony with your natural sleep cycle to promote restful and quality sleep."
+        "description_en": "Clinically studied ingredient that works in harmony with your natural sleep cycle to promote restful and quality sleep.",
+        "description_zh": "临床研究成分，与自然睡眠周期和谐工作，促进休息和高质量睡眠。"
     },
     {
         "id": 22,
@@ -239,7 +260,8 @@
         "name_en": "Hair, Skin & Nails Gummies Strawberry Flavor (Nature's Bounty) - 80 Gummies",
         "description_ru": "Вкусные мармеладки с биотином и антиоксидантами (витамины C и E) для поддержания естественной красоты изнутри.",
         "description_uz": "Tabiiy go'zallikni ichkaridan qo'llab-quvvatlash uchun biotin va antioksidantlar (C va E vitaminlari) bo'lgan mazali chaynash vitaminlari.",
-        "description_en": "Delicious strawberry flavored gummies packed with biotin and vital antioxidants (Vitamins C & E) to support your beauty routine."
+        "description_en": "Delicious strawberry flavored gummies packed with biotin and vital antioxidants (Vitamins C & E) to support your beauty routine.",
+        "description_zh": "美味草莓味软糖，富含生物素和重要抗氧化剂（维生素C和E），支持您的美丽习惯。"
     },
     {
         "id": 23,
@@ -250,7 +272,8 @@
         "name_en": "Hydrolyzed Collagen with Vitamin C (Nature's Bounty) - 90 Tablets",
         "description_ru": "Коллаген 1 и 3 типа для поддержки молодости кожи, а также здоровья суставов и связок. Витамин C стимулирует синтез собственного коллагена.",
         "description_uz": "Yoshi ko'rinishni saqlash, bo'g'im va paylar salomatligi uchun 1 va 3-turdagi kollagen. Vitamin C tana kollagen ishlab chiqarishini kuchaytiradi.",
-        "description_en": "Provides Types 1 and 3 collagen for vibrant skin and joint support, enriched with Vitamin C to aid natural collagen production."
+        "description_en": "Provides Types 1 and 3 collagen for vibrant skin and joint support, enriched with Vitamin C to aid natural collagen production.",
+        "description_zh": "提供类型1和3胶原蛋白，支持皮肤和关节健康，富含维生素C以促进自然胶原蛋白生产。"
     },
     {
         "id": 24,
@@ -261,7 +284,8 @@
         "name_en": "Magnesium 500 mg (Nature's Bounty) - 100 Tablets",
         "description_ru": "Высокая дозировка магния для поддержания здоровья нервной системы, снятия мышечного напряжения и укрепления костной ткани.",
         "description_uz": "Asab tizimini qo'llab-quvvatlash, mushaklar zo'riqishini kamaytirish va suyak to'qimasini mustahkamlash uchun yuqori dozali magniy.",
-        "description_en": "High-dose magnesium tablets to support optimal nerve and muscle function, bone health, and cellular energy regulation."
+        "description_en": "High-dose magnesium tablets to support optimal nerve and muscle function, bone health, and cellular energy regulation.",
+        "description_zh": "高剂量镁片支持最佳神经和肌肉功能、骨骼健康和细胞能量调节。"
     },
     {
         "id": 25,
@@ -272,7 +296,8 @@
         "name_en": "Zinc Picolinate 50 mg (Puritan's Pride) - 100 Caplets",
         "description_ru": "Высокоусвояемая форма цинка для мощной поддержки иммунитета, антиоксидантной защиты организма и здоровья кожи.",
         "description_uz": "Kuchli immun tizimi, organizm antioksidant himoyasi va teri salomatligi uchun ruxning yuqori darajada so'riluvchi shakli.",
-        "description_en": "Highly bioavailable form of zinc providing robust immune support, antioxidant defense, and promoting overall skin health."
+        "description_en": "Highly bioavailable form of zinc providing robust immune support, antioxidant defense, and promoting overall skin health.",
+        "description_zh": "高生物利用度形式的锌提供强大的免疫支持、抗氧化防御和促进整体皮肤健康。"
     },
     {
         "id": 26,
@@ -283,7 +308,8 @@
         "name_en": "Ginkgo Biloba Standardized Extract 120 mg (Puritan's Pride) - 100 Softgels",
         "description_ru": "Стандартизированный экстракт для улучшения мозгового кровообращения, поддержки памяти, концентрации внимания и когнитивных функций.",
         "description_uz": "Miya qon aylanishini yaxshilash, xotira, diqqatni jamlash va kognitiv funksiyalarni qo'llab-quvvatlash uchun standartlashtirilgan ekstrakt.",
-        "description_en": "Standardized extract formulated to help support mental alertness, healthy brain function, memory, and peripheral circulation."
+        "description_en": "Standardized extract formulated to help support mental alertness, healthy brain function, memory, and peripheral circulation.",
+        "description_zh": "标准化提取物，旨在帮助支持精神警觉、健康的大脑功能、记忆和周围循环。"
     },
     {
         "id": 27,
@@ -294,7 +320,8 @@
         "name_en": "Antarctic Krill Oil Premium Blend 500 mg (California Gold Nutrition) - 120 Fish Softgels",
         "description_ru": "Высокоэффективное масло антарктического криля, богатое Омега-3, фосфолипидами и астаксантином. Поддерживает сердце, мозг, печень и суставы.",
         "description_uz": "Omega-3, fosfolipidlar va astaksantinga boy bo'lgan yuqori samarali antarktika krill yog'i. Yurak, miya va bo'g'imlarni qo'llab-quvvatlaydi.",
-        "description_en": "Premium Antarctic Krill Oil featuring bioavailable Omega-3s, phospholipids, and astaxanthin to assist heart, brain, liver, and joint health."
+        "description_en": "Premium Antarctic Krill Oil featuring bioavailable Omega-3s, phospholipids, and astaxanthin to assist heart, brain, liver, and joint health.",
+        "description_zh": "高品质的南极洲海虾油，富含Omega-3、磷脂和虾青素，有助于心脏、大脑、肝脏和关节健康。"
     },
     {
         "id": 28,
@@ -305,7 +332,8 @@
         "name_en": "Plant-Based Vitamin D3 + K2 (Sports Research) - 160 Veggie Softgels",
         "description_ru": "Синергетический комплекс на основе кокосового масла MCT. Содержит 125 мкг (5000 ME) растительного D3 и 100 мкг K2 (в форме MK-7) для укрепления костей и поддержки иммунитета.",
         "description_uz": "Kakos MCT yog'i asosidagi sinergetik majmua. Suyaklarni mustahkamlash va immunitetni qo'llab-quvvatlash uchun 125 mkg (5000 ME) o'simlik D3 va 100 mkg K2 (MK-7 shaklida) o'z ichiga oladi.",
-        "description_en": "A synergistic blend formulated with coconut MCT oil. Contains 125 mcg (5000 IU) of plant-based D3 and 100 mcg of K2 as MK-7 to effectively support bone and immune health."
+        "description_en": "A synergistic blend formulated with coconut MCT oil. Contains 125 mcg (5000 IU) of plant-based D3 and 100 mcg of K2 as MK-7 to effectively support bone and immune health.",
+        "description_zh": "基于椰子MCT油的协同混合物。含有125 mcg（5000 IU）的植物D3和100 mcg K2作为MK-7，有效支持骨骼和免疫健康。"
     },
     {
         "id": 29,
@@ -316,7 +344,8 @@
         "name_en": "Multi Collagen With Biotin (Sports Research) - 90 Capsules",
         "description_ru": "Комплекс из 5 типов коллагена, усиленный биотином (3000 мкг), гиалуроновой кислотой и витамином C. Идеален для поддержания молодости кожи, красоты волос и прочности ногтей.",
         "description_uz": "Biotin (3000 mkg), gialuron kislotasi va vitamin C bilan boyitilgan 5 turdagi kollagen majmuasi. Teri yoshligi, soch go'zalligi va tirnoqlar mustahkamligi uchun ideal.",
-        "description_en": "Featuring 5 collagen types enhanced with 3000 mcg of Biotin, Hyaluronic Acid, and Vitamin C. Formulated to deeply support hair, skin, and nail health."
+        "description_en": "Featuring 5 collagen types enhanced with 3000 mcg of Biotin, Hyaluronic Acid, and Vitamin C. Formulated to deeply support hair, skin, and nail health.",
+        "description_zh": "5种胶原蛋白类型，增强3000 mcg生物素、透明质酸和维生素C。旨在深入支持头发、皮肤和指甲健康。"
     },
     {
         "id": 30,
@@ -327,7 +356,8 @@
         "name_en": "Liposomal Vitamin C High Potency 1000 mg (Sports Research) - 180 Liquid Veggie Capsules",
         "description_ru": "Высокоэффективный липосомальный витамин C (PureWay-C) в жидких растительных капсулах. Обладает повышенной биодоступностью, обеспечивает мощную защиту иммунитета и антиоксидантный барьер.",
         "description_uz": "Suyuq o'simlik kapsulalaridagi yuqori samarali liposomal vitamin C (PureWay-C). Yuqori biologik so'rilishga ega bo'lib, kuchli immun himoyasi va antioksidant to'siqni ta'minlaydi.",
-        "description_en": "High-potency liposomal Vitamin C utilizing PureWay-C in liquid veggie capsules. Designed for enhanced bioavailability to support optimal immune and antioxidant health."
+        "description_en": "High-potency liposomal Vitamin C utilizing PureWay-C in liquid veggie capsules. Designed for enhanced bioavailability to support optimal immune and antioxidant health.",
+        "description_zh": "高 potency liposomal维生素C利用PureWay-C在液体植物胶囊中。设计用于增强生物利用度，以支持最佳免疫和抗氧化健康。"
     },
     {
         "id": 31,
@@ -338,7 +368,8 @@
         "name_en": "Magtein Magnesium L-Threonat Advanced Formula (Sports Research) - 180 Veggie Capsules",
         "description_ru": "Улучшенная формула магния Magtein, способная проникать через гематоэнцефалический барьер. Направлена на улучшение памяти, концентрации и общую поддержку когнитивного здоровья.",
         "description_uz": "Gematofatik to'siqdan o'ta oladigan Magtein magniyining takomillashtirilgan formulasi. Xotira, diqqatni jamlash va kognitiv salomatlikni yaxshilashga qaratilgan.",
-        "description_en": "Advanced formula featuring Magtein Magnesium L-Threonate, specifically designed to cross the blood-brain barrier to support cognitive health, memory, and focus."
+        "description_en": "Advanced formula featuring Magtein Magnesium L-Threonate, specifically designed to cross the blood-brain barrier to support cognitive health, memory, and focus.",
+        "description_zh": "先进的Magtein镁L-苏氨酸配方，专门设计穿过血脑屏障，支持认知健康、记忆和专注。"
     },
     {
         "id": 32,
@@ -349,7 +380,8 @@
         "name_en": "Weider Prime Prostate Health with Saw Palmetto - 120 Veggie Capsules",
         "description_ru": "Клинически протестированный мужской комплекс двойного действия с экстрактом Со Пальметто (Saw Palmetto). Поддерживает нормальную функцию простаты и здоровый отток мочи.",
         "description_uz": "Saw Palmetto ekstraktiga ega, klinik sinovdan o'tgan ikki tomonlama ta'sirli erkaklar majmuasi. Prostata funksiyasini va siydik yo'llari salomatligini qo'llab-quvvatlaydi.",
-        "description_en": "Clinically tested dual-action dietary supplement containing Saw Palmetto. Formulated to promote normal urinary flow and overall prostate health for men."
+        "description_en": "Clinically tested dual-action dietary supplement containing Saw Palmetto. Formulated to promote normal urinary flow and overall prostate health for men.",
+        "description_zh": "临床测试的双作用膳食补充剂，含有Saw Palmetto。旨在促进正常的尿液流动和整体前列腺健康。"
     },
     {
         "id": 33,
@@ -360,7 +392,8 @@
         "name_en": "Triple Strength Omega-3 Fish Oil (Sports Research) - 180 Softgels",
         "description_ru": "Концентрированный рыбий жир премиум-класса из дикой рыбы. Каждая капсула содержит 1250 мг очищенного рыбьего жира (1055 мг Омега-3) для здоровья мозга и сердечно-сосудистой системы.",
         "description_uz": "Yovvoyi baliqlardan olingan yuqori sifatli konsentrlangan baliq yog'i. Har bir kapsula miya va yurak-qon tomir tizimi uchun 1250 mg tozalangan baliq yog'ini (1055 mg Omega-3) o'z ichiga oladi.",
-        "description_en": "Premium dietary supplement sourced from wild-caught fish. Delivers 1250 mg of total fish oil per softgel, yielding 1055 mg of triple-strength Omega-3s to support heart and brain health."
+        "description_en": "Premium dietary supplement sourced from wild-caught fish. Delivers 1250 mg of total fish oil per softgel, yielding 1055 mg of triple-strength Omega-3s to support heart and brain health.",
+        "description_zh": "优质膳食补充剂来自野生捕捞的鱼类。每软胶囊提供1250 mg的总鱼油，产生1055 mg的三倍强度Omega-3，支持心脏和大脑健康。"
     },
     {
         "id": 34,
@@ -371,7 +404,8 @@
         "name_en": "Buongiorno Hand and Body Wash (Acqua di Parma) - 300 ml",
         "description_ru": "Премиальный очищающий гель для рук и тела с бодрящим ароматом итальянского утра. Мягко очищает, сохраняя естественный гидролипидный баланс кожи.",
         "description_uz": "Italiya tongining tetiklashtiruvchi iforiga ega qo'l va tana uchun premium yuvish geli. Terining tabiiy gidrolipid balansini saqlagan holda yumshoq tozalaydi.",
-        "description_en": "A premium hand and body wash infused with the uplifting scent of an Italian morning. Gently cleanses while preserving the skin's natural moisture barrier."
+        "description_en": "A premium hand and body wash infused with the uplifting scent of an Italian morning. Gently cleanses while preserving the skin's natural moisture barrier.",
+        "description_zh": "高品质的意大利早晨提升香味的洗手液和身体洗液，温和清洁，保持皮肤自然水分屏障。"
     },
     {
         "id": 35,
@@ -382,7 +416,8 @@
         "name_en": "Gabrielle Chanel Foaming Shower Gel - 200 ml",
         "description_ru": "Парфюмированный пенящийся гель для душа, который нежно очищает кожу и оставляет на ней тонкий шлейф роскошного цветочного аромата Gabrielle.",
         "description_uz": "Terini muloyimlik bilan tozalaydigan va unda Gabrielle hashamatli gul iforining mayin hidini qoldiradigan parfyumlangan ko'pikli dush geli.",
-        "description_en": "A fragranced foaming shower gel that gently cleanses the skin, leaving behind the luminous and deeply luxurious floral notes of Gabrielle Chanel."
+        "description_en": "A fragranced foaming shower gel that gently cleanses the skin, leaving behind the luminous and deeply luxurious floral notes of Gabrielle Chanel.",
+        "description_zh": "香氛泡沫浴液，温和清洁皮肤，留下Gabrielle Chanel的璀璨和深沉奢华的花香。"
     },
     {
         "id": 36,
@@ -393,7 +428,8 @@
         "name_en": "The Musc by Calice Becker Liquid Body & Hand Soap (Essential Parfums) - 500 ml",
         "description_ru": "Натуральное жидкое мыло в эстетичном флаконе из темного стекла. Обладает утонченным мускусным ароматом от парфюмера Калис Беккер и бережно ухаживает за кожей.",
         "description_uz": "To'q rangli shisha idishdagi tabiiy suyuq sovun. Parfumer Kalis Bekker tomonidan yaratilgan nafis mushk iforiga ega va terini ehtiyotkorlik bilan parvarish qiladi.",
-        "description_en": "Natural liquid soap in an elegant amber bottle. Infused with a sophisticated musky fragrance by Calice Becker, providing a gentle and soothing cleanse."
+        "description_en": "Natural liquid soap in an elegant amber bottle. Infused with a sophisticated musky fragrance by Calice Becker, providing a gentle and soothing cleanse.",
+        "description_zh": "天然液体皂在优雅的琥珀色瓶中。由Calice Becker精心调配的奢华麝香香氛，提供温和舒缓的清洁。"
     },
     {
         "id": 37,
@@ -404,7 +440,8 @@
         "name_en": "Basil Shampoo (Le Labo) - 250 ml",
         "description_ru": "Растительный премиум-шампунь с освежающим ароматом базилика и вербены. Обогащен маслом макадамии и растительными экстрактами для глубокого очищения и смягчения волос.",
         "description_uz": "Rayhon va verbena tetiklashtiruvchi iforiga ega o'simlik asosidagi premium shampun. Sochni chuqur tozalash va yumshatish uchun makadamiya yog'i va o'simlik ekstraktlari bilan boyitilgan.",
-        "description_en": "A plant-based premium shampoo with a refreshing scent of basil and verbena. Enriched with macadamia oil and botanical extracts to gently cleanse and soften hair."
+        "description_en": "A plant-based premium shampoo with a refreshing scent of basil and verbena. Enriched with macadamia oil and botanical extracts to gently cleanse and soften hair.",
+        "description_zh": "植物基础的优质洗发水，具有清新香气的薰衣草和迷迭香。富含马卡迪亚油和植物提取物，温和清洁和软化头发。"
     },
     {
         "id": 38,
@@ -415,7 +452,8 @@
         "name_en": "Chanel N°5 The Shower Gel - 200 ml",
         "description_ru": "Эксклюзивный гель для душа, повторяющий культовые альдегидно-цветочные аккорды легендарного парфюма Chanel N°5. Превращает ежедневный уход в роскошный ритуал.",
         "description_uz": "Afsonaviy Chanel N°5 parfyumining unutilmas aldegid-gul notalarini takrorlovchi eksklyuziv dush geli. Kundalik parvarishni hashamatli ritualga aylantiradi.",
-        "description_en": "An exclusive shower gel embodying the iconic aldehyde-floral accords of the legendary Chanel N°5 fragrance, transforming your daily routine into a luxurious ritual."
+        "description_en": "An exclusive shower gel embodying the iconic aldehyde-floral accords of the legendary Chanel N°5 fragrance, transforming your daily routine into a luxurious ritual.",
+        "description_zh": "独特的沐浴露，再现传奇的Chanel N°5醛花香调，将您的日常护理转变为奢华仪式。"
     },
     {
         "id": 39,
@@ -426,7 +464,8 @@
         "name_en": "Bergamote 22 Shower Gel (Le Labo) - 237 ml / 8 Fl.Oz.",
         "description_ru": "Парфюмированный гель для душа, обогащенный витамином E, экстрактами белого чая и льняного семени. Обладает ярким, свежим и многогранным цитрусовым ароматом бергамота.",
         "description_uz": "Vitamin E, oq choy va zig'ir urug'i ekstraktlari bilan boyitilgan parfyumlangan dush geli. Bergamotning yorqin va ko'p qirrali sitrus iforiga ega.",
-        "description_en": "An enriched formula with Vitamin E, white tea, and flaxseed extracts. Cleanses both the body and mind with the vibrant, fresh, and multifaceted citrus scent of Bergamote 22."
+        "description_en": "An enriched formula with Vitamin E, white tea, and flaxseed extracts. Cleanses both the body and mind with the vibrant, fresh, and multifaceted citrus scent of Bergamote 22.",
+        "description_zh": "富含维生素E、白茶和亚麻籽提取物的配方，用充满活力的柑橘香气清洁身体和心灵。"
     },
     {
         "id": 40,
@@ -437,7 +476,8 @@
         "name_en": "Santal 33 Perfuming Shower Gel (Le Labo) - 237 ml / 8 Fl.Oz.",
         "description_ru": "Парфюмированный гель для душа с культовым древесно-кожаным ароматом Santal 33. Обогащен витамином E и алоэ вера для мягкого очищения, питания и увлажнения кожи.",
         "description_uz": "Mashhur Santal 33 yog'och-teri iforiga ega parfyumlangan dush geli. Terini yumshoq tozalash, oziqlantirish va namlash uchun vitamin E va aloe vera bilan boyitilgan.",
-        "description_en": "A luxurious perfuming shower gel enriched with Vitamin E and aloe vera. Gently cleanses and hydrates while enveloping the body in the iconic woody-leather notes of Santal 33."
+        "description_en": "A luxurious perfuming shower gel enriched with Vitamin E and aloe vera. Gently cleanses and hydrates while enveloping the body in the iconic woody-leather notes of Santal 33.",
+        "description_zh": "奢华的香水浴液，富含维生素E和芦荟，温和清洁和滋润，同时包裹身体在传奇的木皮香气中。"
     },
     {
         "id": 41,
@@ -448,7 +488,8 @@
         "name_en": "Another 13 Perfuming Shower Gel (Le Labo) - 237 ml / 8 Fl.Oz.",
         "description_ru": "Гель для душа с завораживающим гипнотическим ароматом Another 13 (амброксан, мускус, мох). Формула с алоэ и витамином E бережно очищает кожу, делая её гладкой.",
         "description_uz": "Another 13 (ambroksan, mushk, yo'sin) sehrli va gipnotik iforiga ega dush geli. Aloe va vitamin E o'z ichiga olgan formula terini muloyimlik bilan tozalaydi va silliq qiladi.",
-        "description_en": "A perfuming shower gel loaded with the mesmerizing and addictive notes of Another 13. Enriched with aloe and Vitamin E to leave your skin feeling completely clean and smooth."
+        "description_en": "A perfuming shower gel loaded with the mesmerizing and addictive notes of Another 13. Enriched with aloe and Vitamin E to leave your skin feeling completely clean and smooth.",
+        "description_zh": "充满迷人而诱人的Another 13香气的香水浴液，富含芦荟和维生素E，使皮肤感觉完全清洁和光滑。"
     },
     {
         "id": 42,
@@ -459,7 +500,8 @@
         "name_en": "Marvis Garden Collection Sinuous Lily Toothpaste - 75 ml / 4.0 oz",
         "description_ru": "Эксклюзивная зубная паста из лимитированной садовой коллекции. Сочетает изысканный элегантный букет белой лилии со свежестью классической мяты для безупречной улыбки.",
         "description_uz": "Cheklangan bog' to'plamidan eksklyuziv tish pastasi. Mukammal tabassum uchun oq nilufarning nafis guldastasini klassik yalpiz tetikligi bilan birlashtiradi.",
-        "description_en": "An exclusive toothpaste from the limited-edition Garden Collection. Captures the refined and elegant floral notes of white lily combined with the crisp freshness of classic mint."
+        "description_en": "An exclusive toothpaste from the limited-edition Garden Collection. Captures the refined and elegant floral notes of white lily combined with the crisp freshness of classic mint.",
+        "description_zh": "限量版Garden Collection的独家牙膏，结合优雅的白百合花香和经典薄荷的清新。"
     },
     {
         "id": 43,
@@ -470,7 +512,8 @@
         "name_en": "Chanel Allure Homme Sport Shower Gel - 200 ml",
         "description_ru": "Освежающий мужской гель для душа, воссоздающий динамичный, бодрящий и чувственный аромат Allure Homme Sport с яркими цитрусовыми и древесными аккордами.",
         "description_uz": "Yorqin sitrus va yog'och notalariga ega, Allure Homme Sport dinamik va tetiklashtiruvchi iforini o'zida mujassam etgan erkaklar uchun dush geli.",
-        "description_en": "A refreshing shower gel for men that revives the dynamic, fresh, and deeply sensual citrus-woody accords of the Allure Homme Sport fragrance."
+        "description_en": "A refreshing shower gel for men that revives the dynamic, fresh, and deeply sensual citrus-woody accords of the Allure Homme Sport fragrance.",
+        "description_zh": "清新男性沐浴露，再现Allure Homme Sport的动态、清新和深沉的柑橘木香气。"
     },
     {
         "id": 44,
@@ -481,7 +524,8 @@
         "name_en": "Maison Francis Kurkdjian Aqua Vitae Cologne forte Scented Soap - 150g",
         "description_ru": "Роскошное парфюмированное мыло, излучающее солнечную свежесть и легкие цитрусово-мускусные ноты. Деликатно очищает кожу, окутывая её нежным благоуханием.",
         "description_uz": "Quyoshli tetiklik va mayin sitrus-mushk notalarini taratuvchi hashamatli parfyumlangan sovun. Terini muloyimlik bilan tozalaydi va uni nafis ifor bilan qoplaydi.",
-        "description_en": "A luxurious scented soap emitting solar freshness and bright citrus-musk notes. It gently cleanses the skin while leaving behind a delicate, luminous fragrance wrapper."
+        "description_en": "A luxurious scented soap emitting solar freshness and bright citrus-musk notes. It gently cleanses the skin while leaving behind a delicate, luminous fragrance wrapper.",
+        "description_zh": "奢华的香水皂，散发着太阳的清新和明亮的柑橘木香气。轻轻清洁皮肤，留下精致的、闪亮的香水包装。"
     },
     {
         "id": 45,
@@ -492,7 +536,8 @@
         "name_en": "Chanel Allure Homme Savon Soap - 200g",
         "description_ru": "Мужское парфюмированное мыло с классическим, элегантным и харизматичным ароматом Allure Homme. Образует густую пену, очищает и мягко освежает кожу.",
         "description_uz": "Allure Homme klassik, nafis va xarizmatik iforiga ega erkaklar parfyumlangan sovuni. Quyuq ko'pik hosil qilib, terini yumshoq tozalaydi va tetiklashtiradi.",
-        "description_en": "A masculine scented soap featuring the classic, elegant, and charismatic notes of Allure Homme. Generates a rich lather that gently cleanses and refreshes the skin."
+        "description_en": "A masculine scented soap featuring the classic, elegant, and charismatic notes of Allure Homme. Generates a rich lather that gently cleanses and refreshes the skin.",
+        "description_zh": "男性香水皂，具有经典、优雅和迷人的Allure Homme香气。产生丰富的泡沫，轻轻清洁和刷新皮肤。"
     },
     {
         "id": 46,
@@ -503,7 +548,8 @@
         "name_en": "Hermès Terre d'Hermès Hair and Body Shower Gel - 200ml",
         "description_ru": "Универсальный гель для тела и волос, повторяющий культовый древесно-минеральный аккорд Terre d'Hermès. Дарит заряд энергии и ощущение свежести на весь день.",
         "description_uz": "Terre d'Hermès afsonaviy yog'och-mineral notalarini takrorlovchi tana va soch uchun universal gel. Kun bo'yi energiya va tetiklik hissini bag'ishlaydi.",
-        "description_en": "An all-over hair and body shower gel that revives the iconic woody-mineral accord of Terre d'Hermès, providing an instant burst of dynamic freshness."
+        "description_en": "An all-over hair and body shower gel that revives the iconic woody-mineral accord of Terre d'Hermès, providing an instant burst of dynamic freshness.",
+        "description_zh": "全身沐浴露，再现传奇的Terre d'Hermès木质矿物香气，提供瞬间的动态新鲜感。"
     },
     {
         "id": 47,
@@ -514,7 +560,8 @@
         "name_en": "Jo Malone London Lime Basil & Mandarin Soap - 100g",
         "description_ru": "Культовое парфюмированное мыло с ярким ароматом лайма, пикантного базилика и сочного мандарина. Мягко ухаживает за кожей благодаря кондиционирующим компонентам.",
         "description_uz": "Laym, achchiq rayhon va sershira mandarinning yorqin iforiga ega mashhur parfyumlangan sovun. Tarkibidagi yumshatuvchi moddalar tufayli terini muloyim parvarish qiladi.",
-        "description_en": "An iconic scented soap infused with the vibrant signature notes of lime, peppery basil, and juicy mandarin. Gently cleanses while conditioning the skin."
+        "description_en": "An iconic scented soap infused with the vibrant signature notes of lime, peppery basil, and juicy mandarin. Gently cleanses while conditioning the skin.",
+        "description_zh": "传奇的香水皂，蕴含明亮的柠檬、辛辣的迷迭香和多汁的柑橘香气。温和清洁，同时滋润皮肤。"
     },
     {
         "id": 48,
@@ -525,7 +572,8 @@
         "name_en": "Hermès Un Jardin sur le Nil Hair and Body Shower Gel - 200ml",
         "description_ru": "Парфюмированный гель для душа и волос с освежающим акватически-фруктовым ароматом «Садов Нила». Легкая текстура бережно очищает кожу и оставляет тонкий шлейф.",
         "description_uz": "«Nil bog'lari»ning tetiklashtiruvchi akvatik-mevali iforiga ega parfyumlangan tana va soch geli. Yengil tekstura terini ohista tozalaydi va mayin hid qoldiradi.",
-        "description_en": "A fluid hair and body shower gel that translates the refreshing, aquatic-fruity notes of Un Jardin sur le Nil into a generous and gentle cleansing lather."
+        "description_en": "A fluid hair and body shower gel that translates the refreshing, aquatic-fruity notes of Un Jardin sur le Nil into a generous and gentle cleansing lather.",
+        "description_zh": "液体头发和身体沐浴露，将清爽的、水生水果的香气转化为丰富的、温和的清洁泡沫。"
     },
     {
         "id": 49,
@@ -536,7 +584,8 @@
         "name_en": "Hermès Eau d'orange verte Hand and Body Cleansing Gel - 300ml",
         "description_ru": "Пенящийся очищающий гель в удобном флаконе с дозатором. Обладает классическим взрывным цитрусовым ароматом зеленого апельсина, мяты и древесных нот.",
         "description_uz": "Dozatorli qulay idishdagi ko'pikli tozalovchi gel. Yashil apelsin, yalpiz va yog'och notalarining klassik portlovchi sitrus iforiga ega.",
-        "description_en": "A foaming cleansing gel housed in a convenient pump bottle. Smoothly cleanses and scents the skin with the timeless citrus burst of green orange, mint, and woody undertones."
+        "description_en": "A foaming cleansing gel housed in a convenient pump bottle. Smoothly cleanses and scents the skin with the timeless citrus burst of green orange, mint, and woody undertones.",
+        "description_zh": "泡沫清洁剂，方便的泵瓶，温和清洁和香气皮肤，具有永恒的柑橘爆发的绿色橙子、薄荷和木质底色。"
     },
     {
         "id": 50,
@@ -547,7 +596,8 @@
         "name_en": "Diptyque Philosykos Scented Soap - 150g",
         "description_ru": "Растительное парфюмированное мыло с легендарным ароматом Philosykos, передающим всю свежесть листьев и сладость плодов инжира. Обогащено маслом сладкого миндаля.",
         "description_uz": "Anjir barglarining tetikligi va mevasining shirinligini aks ettiruvchi afsonaviy Philosykos iforiga ega o'simlik asosidagi sovun. Shirin bodom yog'i bilan boyitilgan.",
-        "description_en": "A plant-based scented soap displaying the legendary Philosykos aroma of fresh fig leaves and sweet fruit. Enriched with sweet almond oil for a soft finish."
+        "description_en": "A plant-based scented soap displaying the legendary Philosykos aroma of fresh fig leaves and sweet fruit. Enriched with sweet almond oil for a soft finish.",
+        "description_zh": "植物基础的香水皂，展示传奇的Philosykos香气，传递新鲜无花果叶和甜水果的全部新鲜感。富含甜杏仁油，提供柔软的结束。"
     },
     {
         "id": 51,
@@ -558,7 +608,8 @@
         "name_en": "Hermès Barénia Perfumed Body Soap - 125g",
         "description_ru": "Эксклюзивное мыло для тела с чувственным шипровым ароматом Barénia, сочетающим ноты белой лилии и благородной древесины. Оставляет кожу шелковистой.",
         "description_uz": "Oq nilufar va aslzoda yog'och notalarini birlashtirgan Barénia hissiy shipr iforiga ega eksklyuziv tana sovuni. Terini ipakdek mayin qiladi.",
-        "description_en": "An exclusive body soap carrying the sensual chypre expression of Barénia, blending white lily with warm, noble woods to leave skin beautifully soft and clean."
+        "description_en": "An exclusive body soap carrying the sensual chypre expression of Barénia, blending white lily with warm, noble woods to leave skin beautifully soft and clean.",
+        "description_zh": "独家身体皂，携带Barénia的感性查普尔表达，将白百合与温暖的、贵族的木材混合，留下柔软、美丽的皮肤。"
     },
     {
         "id": 52,
@@ -569,7 +620,8 @@
         "name_en": "Kilian Love, don't be shy Hand and Body Shower Gel - 250ml",
         "description_ru": "Парфюмированный гель для душа со знаменитым гурманским ароматом сладкого маршмеллоу, нероли и флердоранжа. Превращает очищение в чувственное удовольствие.",
         "description_uz": "Shirin marshmellou, neroli va flerdoranjning mashhur gurman iforiga ega parfyumlangan dush geli. Tozalash jarayonini ajoyib hissiy zavqqa aylantiradi.",
-        "description_en": "A highly perfumed shower gel containing the delicious, iconic gourmand notes of sweet marshmallow, neroli, and orange blossom for a truly sensory escape."
+        "description_en": "A highly perfumed shower gel containing the delicious, iconic gourmand notes of sweet marshmallow, neroli, and orange blossom for a truly sensory escape.",
+        "description_zh": "高度香氛的沐浴露，包含甜美的、标志性的美食笔记，如甜棉花糖、橙花和橘子花，带来真正的感官逃离。"
     },
     {
         "id": 53,
@@ -580,7 +632,8 @@
         "name_en": "Marvis Sensitive Gums Gentle Mint Toothpaste - 75ml / 4.0 oz",
         "description_ru": "Специализированная деликатная зубная паста для чувствительных десен. Мягко очищает эмаль и снижает чувствительность, даря нежный мятный вкус.",
         "description_uz": "Nozik milklar uchun mo'ljallangan maxsus tish pastasi. Emalni ohista tozalaydi va sezuvchanlikni kamaytiradi, mayin yalpiz ta'mini qoldiradi.",
-        "description_en": "A specialized, delicate formula designed specifically for sensitive gums. Gently cleanses the enamel while delivering a soft, non-irritating mint flavor."
+        "description_en": "A specialized, delicate formula designed specifically for sensitive gums. Gently cleanses the enamel while delivering a soft, non-irritating mint flavor.",
+        "description_zh": "专门为敏感牙龈设计的高度精细的牙膏配方。轻轻清洁牙釉质，同时提供柔软、不刺激的薄荷口味。"
     },
     {
         "id": 54,
@@ -591,7 +644,8 @@
         "name_en": "Marvis Cinnamon Mint Toothpaste - 85ml / 4.5 oz",
         "description_ru": "Знаменитая итальянская зубная паста с необычным и интригующим вкусом корицы и освежающей мяты. Обеспечивает надежную защиту от кариеса и надолго освежает дыхание.",
         "description_uz": "Dolchin va tetiklashtiruvchi yalpizning g'ayritabiiy hamda jozibali ta'miga ega mashhur Italiya tish pastasi. Kariesdan ishonchli himoya qiladi va nafasni uzoq vaqtga tozalaydi.",
-        "description_en": "An intriguing Italian toothpaste blending the exotic sweetness of cinnamon with the refreshing liveliness of mint. Protects against tooth decay while ensuring long-lasting fresh breath."
+        "description_en": "An intriguing Italian toothpaste blending the exotic sweetness of cinnamon with the refreshing liveliness of mint. Protects against tooth decay while ensuring long-lasting fresh breath.",
+        "description_zh": "令人着迷的意大利牙膏，融合了异国情调的甜味和清凉的薄荷味。保护牙齿免受蛀牙，确保长时间清新呼吸。"
     },
     {
         "id": 55,
@@ -602,7 +656,8 @@
         "name_en": "Marvis Smokers Whitening Mint Toothpaste - 85ml / 4.4 oz",
         "description_ru": "Специализированная отбеливающая паста для любителей кофе, чая и курящих. Эффективно борется с пигментацией эмали, возвращая зубам естественную белизну, и дарит экстра-мятную свежесть.",
         "description_uz": "Kofe, choy ixlosmandlari va chekuvchilar uchun maxsus oqartiruvchi tish pastasi. Emaldagi pigmentatsiyaga qarshi samarali kurashib, tishlarning tabiiy oqligini qaytaradi va kuchli yalpiz tetikligini beradi.",
-        "description_en": "A targeted whitening formula created specifically to counteract stains caused by smoking, coffee, or tea. Restores natural enamel brightness and offers an extra-rich mint blast."
+        "description_en": "A targeted whitening formula created specifically to counteract stains caused by smoking, coffee, or tea. Restores natural enamel brightness and offers an extra-rich mint blast.",
+        "description_zh": "专门针对吸烟、咖啡或茶引起的污渍创建的特定美白配方。恢复自然牙釉质亮度，提供额外丰富的薄荷爆发。"
     },
     {
         "id": 56,
@@ -613,7 +668,8 @@
         "name_en": "Marvis Jasmin Mint Toothpaste - 85ml / 4.5 oz",
         "description_ru": "Утонченное сочетание сладких цветочных нот жасмина и свежести мяты. Изысканная паста бережно очищает, защищает от налета и делает ежедневный уход особенным.",
         "description_uz": "Yoqimli yoqutsimon jasmin gullari notalari va yalpiz tetikligining nafis uyg'unligi. Nozik tish pastasi tishlarni ohista tozalaydi, karashlardan himoya qiladi va kundalik parvarishni o'zgacha qiladi.",
-        "description_en": "A sophisticated combination of sweet floral jasmine notes and crisp mint. This exquisite toothpaste gently cleanses teeth, fights plaque, and elevates your daily oral routine."
+        "description_en": "A sophisticated combination of sweet floral jasmine notes and crisp mint. This exquisite toothpaste gently cleanses teeth, fights plaque, and elevates your daily oral routine.",
+        "description_zh": "精致的花香茉莉和清凉薄荷的结合。这种精美的牙膏轻轻清洁牙齿，对抗牙菌斑，提升您的日常口腔护理。"
     },
     {
         "id": 57,
@@ -624,7 +680,8 @@
         "name_en": "Listerine Freshburst Antiseptic Mouthwash - 250ml / 8.5 Fl Oz",
         "description_ru": "Антисептический ополаскиватель с интенсивным вкусом курчавой мяты. Уничтожает до 99.9% бактерий, вызывающих неприятный запах изо рта, налет и проблемы с деснами.",
         "description_uz": "Yalpizning intensiv ta'miga ega antiseptik chayish vositasi. Og'izdan keladigan yoqimsiz hid, tish toshlari va milk muammolarini keltirib chiqaradigan bakteriyalarni 99.9% gacha yo'q qiladi.",
-        "description_en": "An intense, spearmint-flavored antiseptic mouthwash. Formulated to eliminate up to 99.9% of germs that cause bad breath, plaque buildup, and gingivitis."
+        "description_en": "An intense, spearmint-flavored antiseptic mouthwash. Formulated to eliminate up to 99.9% of germs that cause bad breath, plaque buildup, and gingivitis.",
+        "description_zh": "强烈的薄荷味抗菌漱口水。旨在消除导致口臭、牙菌斑和牙龈炎的细菌高达99.9%。"
     },
     {
         "id": 58,
@@ -635,7 +692,8 @@
         "name_en": "Listerine Cool Mint Antiseptic Mouthwash - 250ml / 8.5 Fl Oz",
         "description_ru": "Культовый антисептический ополаскиватель для глубокого очищения полости рта. Защищает от налета на 24 часа и обеспечивает мощный заряд ледяной свежести.",
         "description_uz": "Og'iz bo'shlig'ini chuqur tozalash uchun afsonaviy antiseptik chayish vositasi. 24 soat davomida karashlardan himoya qiladi va muzdek kuchli tetiklik bag'ishlaydi.",
-        "description_en": "An iconic antiseptic mouthwash providing full oral coverage. Offers 24-hour plaque protection and leaves behind a powerful, deeply refreshing cool mint feel."
+        "description_en": "An iconic antiseptic mouthwash providing full oral coverage. Offers 24-hour plaque protection and leaves behind a powerful, deeply refreshing cool mint feel.",
+        "description_zh": "经典的抗菌漱口水，提供全面的口腔保护。提供24小时牙菌斑保护，留下强大的、深沉的清凉薄荷感觉。"
     },
     {
         "id": 59,
@@ -646,7 +704,8 @@
         "name_en": "Oral-B Complete Lasting Freshness Arctic Mint Mouthwash - 250ml",
         "description_ru": "Комплексный ополаскиватель со вкусом арктической мяты. Защищает от бактериального налета и дарит длительное ощущение чистоты и свежести в полости рта.",
         "description_uz": "Arktika yalpizi ta'miga ega kompleks chayish vositasi. Bakterial karashlardan himoya qiladi va og'iz bo'shlig'ida uzoq muddatli tozalik hamda tetiklik hissini beradi.",
-        "description_en": "A comprehensive oral rinse featuring a crisp Arctic Mint flavor. Helps guard against bacterial plaque while keeping your mouth feeling clean and refreshed for hours."
+        "description_en": "A comprehensive oral rinse featuring a crisp Arctic Mint flavor. Helps guard against bacterial plaque while keeping your mouth feeling clean and refreshed for hours.",
+        "description_zh": "全面的漱口水，具有清新的北极薄荷口味。帮助抵御细菌牙菌斑，同时保持口腔感觉清洁和新鲜数小时。"
     },
     {
         "id": 60,
@@ -657,7 +716,8 @@
         "name_en": "Crest Pro-Health Complete Clean Clean Mint Mouthwash - 250ml / 8.4 Fl Oz",
         "description_ru": "Безалкогольный ополаскиватель для всесторонней защиты зубов и десен. Эффективно борется с бактериями, укрепляет эмаль и оставляет мягкий мятный вкус без жжения.",
         "description_uz": "Tish va milklarni har tomonlama himoya qilish uchun spirtsiz chayish vositasi. Bakteriyalarga qarshi samarali kurashadi, emalni mustahkamlaydi va achishtirmasdan yumshoq yalpiz ta'mini qoldiradi.",
-        "description_en": "An alcohol-free multi-protection rinse designed for comprehensive tooth and gum health. Fights germs, strengthens enamel, and delivers a smooth mint taste without the burn."
+        "description_en": "An alcohol-free multi-protection rinse designed for comprehensive tooth and gum health. Fights germs, strengthens enamel, and delivers a smooth mint taste without the burn.",
+        "description_zh": "无酒精的多重保护漱口水，用于全面的牙齿和牙龈健康。对抗细菌，增强牙釉质，提供光滑的薄荷口味，没有烧灼感。"
     },
     {
         "id": 61,
@@ -668,7 +728,8 @@
         "name_en": "M&S Scottish Shortbread Assortment - 500g",
         "description_ru": "Традиционное шотландское песочное печенье, приготовленное по классическому рецепту на основе натурального сливочного масла. Поставляется в изящной золотистой жестяной коробке с изображением оленя.",
         "description_uz": "Tabiiy sariyog' asosida klassik retsept bo'yicha tayyorlangan an'anaviy Shotlandiya qumloq pechenyesi. Bug'u tasviri tushirilgan nafis oltin rangli tunuka qutida taqdim etiladi.",
-        "description_en": "Traditional Scottish shortbread assortment baked in Edinburgh using a classic all-butter recipe. Housed in an elegant golden collectible tin featuring a majestic stag."
+        "description_en": "Traditional Scottish shortbread assortment baked in Edinburgh using a classic all-butter recipe. Housed in an elegant golden collectible tin featuring a majestic stag.",
+        "description_zh": "传统的苏格兰短饼干组合，在爱丁堡使用经典的全黄油配方烘焙。装在一个优雅的金色可收藏的罐子里，上面有雄伟的鹿。"
     },
     {
         "id": 62,
@@ -679,7 +740,8 @@
         "name_en": "Walkers Pure Butter Shortbread Scottie Dogs - 220g / 7.8 oz",
         "description_ru": "Легендарное шотландское песочное печенье в форме забавных скотч-терьеров. Обладает нежным сливочным вкусом и упаковано в фирменную красную жестяную коробку с тартаном.",
         "description_uz": "Quvnoq skotch-tererlar shaklidagi afsonaviy Shotlandiya qumloq pechenyesi. Mayin sariyog'li ta'mga ega va brendning katakli qizil tunuka qutisiga qadoqlangan.",
-        "description_en": "Iconic Scottish pure butter shortbread baked into playful Scottish Terrier shapes. Delivers a rich, crumbly texture and comes in a vibrant red tartan presentation tin."
+        "description_en": "Iconic Scottish pure butter shortbread baked into playful Scottish Terrier shapes. Delivers a rich, crumbly texture and comes in a vibrant red tartan presentation tin.",
+        "description_zh": "传奇的苏格兰纯黄油短饼干，烘焙成有趣的苏格兰梗形状。提供丰富的、碎屑的质地，并以鲜艳的红方格图案罐装。"
     },
     {
         "id": 63,
@@ -690,7 +752,8 @@
         "name_en": "La Sablésienne Petits Sablés Chocolate Chips - 250g",
         "description_ru": "Изысканное французское песочное печенье Сабле с добавлением кусочков настоящего шоколада. Оформлено в живописную парижскую жестяную шкатулку с бабочкой и Эйфелевой башней.",
         "description_uz": "Haqiqiy shokolad bo'lakchalari qo'shilgan nafis fransuzcha Sable qumloq pechenyesi. Kapalak va Eyfel minorasi tasvirlangan go'zal Parij uslubidagi tunuka qutiga joylangan.",
-        "description_en": "Exquisite French Sablé shortbread biscuits studded with rich chocolate chips. Presented in a beautifully illustrated Parisian souvenir tin featuring the Eiffel Tower and butterflies."
+        "description_en": "Exquisite French Sablé shortbread biscuits studded with rich chocolate chips. Presented in a beautifully illustrated Parisian souvenir tin featuring the Eiffel Tower and butterflies.",
+        "description_zh": "精致的法国Sable短饼干，镶嵌着丰富的巧克力碎片。以美丽的巴黎纪念品罐装，上面有埃菲尔铁塔和蝴蝶。"
     },
     {
         "id": 64,
@@ -701,7 +764,8 @@
         "name_en": "La Sablésienne 1670 Marquise de Sablé Tin - 300g",
         "description_ru": "Премиальное французское песочное печенье, созданное в честь исторического рецепта 1670 года. Поставляется в роскошной кубической банке, украшенной винтажным цветочным принтом.",
         "description_uz": "1670-yilgi tarixiy retsept sharafiga yaratilgan oliy navli fransuz qumloq pechenyesi. Vintage gulli naqshlar bilan bezatilgan hashamatli kub shaklidagi qutida taqdim etiladi.",
-        "description_en": "Premium French shortbread biscuits crafted in homage to the historic 1670 recipe. Packed in a luxurious, archive-inspired cubic tin adorned with vintage floral and avian motifs."
+        "description_en": "Premium French shortbread biscuits crafted in homage to the historic 1670 recipe. Packed in a luxurious, archive-inspired cubic tin adorned with vintage floral and avian motifs.",
+        "description_zh": "优质法国短饼干，致敬历史1670年配方。包装在豪华、档案启发的立方罐中，装饰着复古花卉和鸟类图案。"
     },
     {
         "id": 65,
@@ -712,7 +776,8 @@
         "name_en": "Desobry Luxury Belgian Biscuits Assortment - 375g / 13.2 oz",
         "description_ru": "Эксклюзивный праздничный набор, включающий 13 изысканных сортов бельгийского печенья в сочетании с белым, молочным и темным шоколадом. Упакован в премиальную золотую коробку.",
         "description_uz": "Oq, sutli va achchiq shokolad bilan uyg'unlashgan 13 turdagi eng sara Belgiya pechenyelarini o'z ichiga olgan eksklyuziv bayramona to'plam. Premium oltin rangli qutiga qadoqlangan.",
-        "description_en": "An exclusive Belgian biscuit assortment featuring 13 refined varieties dressed in premium white, milk, and dark chocolate. Beautifully presented in a minimalist matte gold gift tin."
+        "description_en": "An exclusive Belgian biscuit assortment featuring 13 refined varieties dressed in premium white, milk, and dark chocolate. Beautifully presented in a minimalist matte gold gift tin.",
+        "description_zh": "精选比利时饼干礼盒，囊括13款精致风味，分别裹以优质白巧克力、牛奶巧克力及黑巧克力。礼盒采用极简风格的哑光金质感设计，外观精美雅致。"
     },
     {
         "id": 66,
@@ -723,7 +788,8 @@
         "name_en": "Theraflu Severe Cold Relief Honey Lemon Flavor - 6 Packets",
         "description_ru": "Горячее жидкое средство для быстрого облегчения симптомов сильной простуды и гриппа со вкусом меда и лимона. Эффективно борется с кашлем, болью в горле, головной болью и высокой температурой.",
         "description_uz": "Asal va limon ta'miga ega, kuchli shamollash va gripp belgilarini tezda bartaraf etish uchun issiq suyuq dori. Yo'tal, tomoq og'rig'i, bosh og'rig'i va yuqori isitmaga qarshi samarali kurashadi.",
-        "description_en": "Hot liquid therapy that provides fast relief from severe cold and flu symptoms. Formulated with honey lemon flavor to effectively relieve cough, sore throat pain, head and body aches, and fever."
+        "description_en": "Hot liquid therapy that provides fast relief from severe cold and flu symptoms. Formulated with honey lemon flavor to effectively relieve cough, sore throat pain, head and body aches, and fever.",
+        "description_zh": "热饮疗法，可迅速缓解重度感冒及流感症状。采用蜂蜜柠檬口味配方，有效缓解咳嗽、咽喉疼痛、头痛身痛及发烧症状。"
     },
     {
         "id": 67,
@@ -734,7 +800,8 @@
         "name_en": "Strepsils Orange with Vitamin C 100mg Lozenges - 36 Lozenges",
         "description_ru": "Антисептические леденцы с приятным апельсиновым вкусом и повышенным содержанием витамина C. Смягчают горло при первых признаках простуды и уничтожают бактерии.",
         "description_uz": "Yoqimli apelsin ta'mi va yuqori vitamin C tarkibiga ega antiseptik shirinliklar. Shamollashning dastlabki belgilarida tomoqni yumshatadi va bakteriyalarni yo'q qiladi.",
-        "description_en": "Antiseptic lozenges featuring a refreshing orange flavor and 100mg of Vitamin C. Designed to deliver soothing, effective relief at the very first signs of a sore throat."
+        "description_en": "Antiseptic lozenges featuring a refreshing orange flavor and 100mg of Vitamin C. Designed to deliver soothing, effective relief at the very first signs of a sore throat.",
+        "description_zh": "这款抗菌润喉糖带有清爽的橙子风味，并含有100毫克维生素C。专为在喉咙痛初显症状时提供舒缓且有效的缓解作用而设计。"
     },
     {
         "id": 68,
@@ -745,7 +812,8 @@
         "name_en": "Kool 'n' Soothe Migraine Cooling Gel Sheets - 4 Pack",
         "description_ru": "Немедикаментозные гелевые пластыри, разработанные специально для быстрого облегчения сильной головной боли и мигрени. Обеспечивают до 8 часов непрерывного охлаждения.",
         "description_uz": "Kuchli bosh og'rig'i va migrenni tezda yengillashtirish uchun maxsus ishlab chiqilgan dorisiz gelli plasterlar. 8 soatgacha uzluksiz sovutish samarasini beradi.",
-        "description_en": "Non-medicinal gel sheets scientifically formulated to provide immediate soothing and comforting relief for severe headaches and migraines. Offers up to 8 hours of continuous cooling."
+        "description_en": "Non-medicinal gel sheets scientifically formulated to provide immediate soothing and comforting relief for severe headaches and migraines. Offers up to 8 hours of continuous cooling.",
+        "description_zh": "采用科学配方研制的非药物凝胶贴，能为严重头痛及偏头痛提供即时的舒缓与舒适感，并提供长达8小时的持续冷却效果。"
     },
     {
         "id": 69,
@@ -756,7 +824,8 @@
         "name_en": "Afrin No Drip Severe Congestion Nasal Pump Mist - 20ml / 2/3 Fl Oz",
         "description_ru": "Эффективный назальный спрей направленного действия с ментолом против сильной заложенности носа. Специальная формула предотвращает вытекание, а действие начинается за секунды и длится до 12 часов.",
         "description_uz": "Kuchli burun bitishiga qarshi mentolli samarali nazal sprey. Maxsus formula oqib ketishning oldini oladi, ta'siri esa bir necha soniyada boshlanib, 12 soatgacha davom etadi.",
-        "description_en": "A powerful nasal pump mist with added menthol that unblocks severe congestion and sinus pressure in seconds. The targeted no-drip formula stays in your nose and lasts for up to 12 hours."
+        "description_en": "A powerful nasal pump mist with added menthol that unblocks severe congestion and sinus pressure in seconds. The targeted no-drip formula stays in your nose and lasts for up to 12 hours.",
+        "description_zh": "这款强效喷雾（含薄荷成分）能迅速缓解严重的鼻塞及鼻窦压力。其定向喷射、不滴流配方能附着于鼻腔内部，药效持续长达12小时。"
     },
     {
         "id": 70,
@@ -767,7 +836,8 @@
         "name_en": "Kirkland Signature Ibuprofen Tablets USP 200mg - 500 Tablets",
         "description_ru": "Высокоэффективное обезболивающее и жаропонижающее средство (НПВП) в экономичной упаковке. Помогает справиться с мышечной, зубной, головной болью и симптомами простуды.",
         "description_uz": "Tejamkor qadoqdagi yuqori samarali og'riqsizlantiruvchi va isitma tushiruvchi vosita (YANSV). Muskul, tish, bosh og'rig'i va shamollash belgilarini yengishda yordam beradi.",
-        "description_en": "A highly effective pain reliever and fever reducer (NSAID) comparing to the active ingredient of Advil. Ideal for treating muscle aches, headaches, toothaches, and menstrual cramps."
+        "description_en": "A highly effective pain reliever and fever reducer (NSAID) comparing to the active ingredient of Advil. Ideal for treating muscle aches, headaches, toothaches, and menstrual cramps.",
+        "description_zh": "高效止痛退烧药（NSAID），经济装。可有效缓解肌肉疼痛、牙痛、头痛及感冒症状。"
     },
     {
         "id": 71,
@@ -778,7 +848,8 @@
         "name_en": "Kirkland Signature Mini Ibuprofen Liqui-Gels 200mg - 500 Capsules",
         "description_ru": "Жидкие гелевые капсулы ибупрофена в мини-формате, которые легче проглатывать. Быстро растворяются и начинают действовать, снимая очаги боли и воспаления.",
         "description_uz": "Yutish osonroq bo'lgan mini-formatdagi suyuq gelli ibuprofen kapsulalari. Og'riq va yallig'lanish o'choqlarini bartaraf etib, tezda eriydi va ta'sir qila boshlaydi.",
-        "description_en": "Solubilized ibuprofen mini liquid-filled capsules that provide the same strength as regular size but are much easier to swallow. Fast-acting formula for rapid temporary pain relief."
+        "description_en": "Solubilized ibuprofen mini liquid-filled capsules that provide the same strength as regular size but are much easier to swallow. Fast-acting formula for rapid temporary pain relief.",
+        "description_zh": "迷你液体布洛芬胶囊，更易吞咽。快速溶解并迅速起效，有效缓解疼痛和炎症。"
     },
     {
         "id": 72,
@@ -789,7 +860,8 @@
         "name_en": "Kirkland Signature Naproxen Sodium Tablets USP 220mg - 400 Caplets",
         "description_ru": "Сильнодействующий анальгетик длительного действия. Всего одна продолговатая таблетка способна блокировать боль и снижать жар на протяжении 12 часов.",
         "description_uz": "Uzoq muddat ta'sir qiluvchi kuchli og'riq qoldiruvchi vosita. Atigi bitta cho'zinchoq tabletka 12 soat davomida og'riqni bloklash va isitmani tushirishga qodir.",
-        "description_en": "A long-lasting nonsteroidal anti-inflammatory drug (NSAID) comparing to Aleve. Provides multi-symptom continuous pain relief and fever reduction for up to 12 full hours."
+        "description_en": "A long-lasting nonsteroidal anti-inflammatory drug (NSAID) comparing to Aleve. Provides multi-symptom continuous pain relief and fever reduction for up to 12 full hours.",
+        "description_zh": "长效非甾体抗炎止痛药（NSAID）。一片即可持续缓解疼痛并退烧长达12小时。"
     },
     {
         "id": 73,
@@ -800,7 +872,8 @@
         "name_en": "Advil Dual Action with Acetaminophen and Ibuprofen - Combination Tablets",
         "description_ru": "Инновационное средство, объединяющее два мощных компонента: ацетаминофен для блокировки болевых сигналов и ибупрофен для снятия воспаления. Обеспечивает мощный синергетический эффект.",
         "description_uz": "Ikkita kuchli komponentni birlashtirgan innovatsion vosita: og'riq signallarini bloklash uchun paratsetamol va yallig'lanishni kamaytirish uchun ibuprofen. Kuchli sinergik samara beradi.",
-        "description_en": "The first and only formula that combines two trusted medicine ingredients, Acetaminophen and Ibuprofen, to fight pain from multiple angles for maximum clinical efficacy."
+        "description_en": "The first and only formula that combines two trusted medicine ingredients, Acetaminophen and Ibuprofen, to fight pain from multiple angles for maximum clinical efficacy.",
+        "description_zh": "创新双重配方，结合对乙酰氨基酚与布洛芬，从多个角度缓解疼痛并减轻炎症，发挥更强的协同效果。"
     },
     {
         "id": 74,
@@ -811,7 +884,8 @@
         "name_en": "Nasacort Allergy 24HR Triamcinolone Acetonide Nasal Spray - 60 Sprays",
         "description_ru": "Глюкокортикоидный назальный спрей суточного действия. Эффективно снимает самые тяжелые симптомы аллергии, включая заложенность носа, зуд, чихание и насморк.",
         "description_uz": "Kunlik ta'sirga ega glyukokortikoid burun spreyi. Burun bitishi, qichishish, aksirish va burun oqishi kabi eng og'ir allergiya belgilarini samarali ravishda yo'q qiladi.",
-        "description_en": "A full-prescription strength 24-hour non-drowsy nasal allergy spray. Relieves tough allergy symptoms, including nasal congestion, sneezing, runny nose, and itchy nose."
+        "description_en": "A full-prescription strength 24-hour non-drowsy nasal allergy spray. Relieves tough allergy symptoms, including nasal congestion, sneezing, runny nose, and itchy nose.",
+        "description_zh": "全天24小时作用的糖皮质激素鼻喷剂。有效缓解鼻塞、鼻痒、打喷嚏和流鼻涕等严重过敏症状。"
     },
     {
         "id": 75,
@@ -822,7 +896,8 @@
         "name_en": "Flonase Allergy Relief Fluticasone Propionate Nasal Spray - 72 Sprays",
         "description_ru": "Премиальный назальный спрей полного спектра действия. Блокирует 6 ключевых аллергических веществ, избавляя от заложенности носа, слезотечения и зуда в глазах на круглые сутки.",
         "description_uz": "To'liq spektrli yuqori sifatli burun spreyi. 6 ta asosiy allergik moddalarni bloklaydi, sutka davomida burun bitishi, ko'z yoshlanishi va ko'z qichishishidan xalos etadi.",
-        "description_en": "A non-drowsy allergy relief nasal spray that acts on 6 key inflammatory substances. Provides 24-hour multi-symptom relief from congestion, sneezing, itchy, and watery eyes."
+        "description_en": "A non-drowsy allergy relief nasal spray that acts on 6 key inflammatory substances. Provides 24-hour multi-symptom relief from congestion, sneezing, itchy, and watery eyes.",
+        "description_zh": "高效全方位抗过敏鼻喷剂，可抑制6种关键过敏介质，全天24小时缓解鼻塞、流泪及眼部瘙痒。"
     },
     {
         "id": 76,
@@ -833,7 +908,8 @@
         "name_en": "Kneipp Valériane Spray Bonne Nuit - 30ml",
         "description_ru": "Натуральный сублингвальный спрей для быстрого засыпания и улучшения качества ночного сна. Формула на основе экстрактов валерианы и хмеля обогащена маслом конопли (cannabis sativa), витамином B6 и ниацином для поддержки нервной системы. Обладает приятным апельсиновым ароматом.",
         "description_uz": "Tez uxlab qolish va tungi uyqu sifatini yaxshilash uchun tabiiy sublingual sprey. Valeriana va xmel ekstraktlari asosidagi formula asab tizimini qo'llab-quvvatlash uchun nasha moyi (cannabis sativa), vitamin B6 va natsin bilan boyitilgan. Yoqimli apelsin iforiga ega.",
-        "description_en": "A natural sublingual spray formulated for fast sleep onset and improved rest. Blends valerian and hops extracts with hemp seed oil (cannabis sativa), vitamin B6, and niacin to soothe the nervous system. Features a pleasant orange aroma."
+        "description_en": "A natural sublingual spray formulated for fast sleep onset and improved rest. Blends valerian and hops extracts with hemp seed oil (cannabis sativa), vitamin B6, and niacin to soothe the nervous system. Features a pleasant orange aroma.",
+        "description_zh": "天然舌下喷雾，帮助快速入睡并改善睡眠质量。含缬草、啤酒花、大麻籽油、维生素B6和烟酸，并带有怡人的橙子香气。"
     },
     {
         "id": 77,
@@ -844,7 +920,8 @@
         "name_en": "Premier Protein Shake Chocolate Flavor - 11 Fl Oz (325ml)",
         "description_ru": "Питательный протеиновый коктейль со вкусом насыщенного шоколада. Содержит 30 г высококачественного белка и всего 160 калорий, а также обогащен 25 витаминами и минералами для поддержки энергии и иммунитета без добавления сахара.",
         "description_uz": "To'yingan shokolad ta'miga ega to'ymli proteinli kokteyl. Tarkibida 30 g yuqori sifatli oqsil va bor-yo'g'i 160 kaloriya bor, shuningdek, shakar qo'shilmagan holda energiya va immunitetni qo'llab-quvvatlash uchun 25 ta vitamin va minerallar bilan boyitilgan.",
-        "description_en": "A delicious and nutrient-rich protein shake packed with 30g of high-quality protein to curb hunger, featuring 160 calories, 25 vitamins & minerals, and no added sugar for energy and immune health support."
+        "description_en": "A delicious and nutrient-rich protein shake packed with 30g of high-quality protein to curb hunger, featuring 160 calories, 25 vitamins & minerals, and no added sugar for energy and immune health support.",
+        "description_zh": "浓郁巧克力口味高蛋白奶昔，含30克优质蛋白，仅160卡路里，并富含25种维生素和矿物质，不添加糖分。"
     },
     {
         "id": 78,
@@ -855,7 +932,8 @@
         "name_en": "More Protein Satisbites Dark Cookie Crumble Flavour Bar",
         "description_ru": "Хрустящий протеиновый батончик со вкусом темного печенья и нежной начинкой внутри. Содержит 13 г белка на порцию и не содержит добавленного сахара, помогая контролировать вес благодаря глюкоманнану.",
         "description_uz": "To'q rangli pechenye ta'miga va ichida yumshoq nachinkaga ega bo'lgan qarsildoq oqsilli batoncha. Har bir porsiyada 13 g oqsil mavjud va shakar qo'shilmagan, glyukomannan yordamida vaznni nazorat qilishga ko'maklashadi.",
-        "description_en": "A crispy protein bar featuring a decadent dark cookie crumble flavor with a rich, gooey filling. Delivers 13g of protein per serving, 0 added sugar, and weight loss support thanks to glucomannan."
+        "description_en": "A crispy protein bar featuring a decadent dark cookie crumble flavor with a rich, gooey filling. Delivers 13g of protein per serving, 0 added sugar, and weight loss support thanks to glucomannan.",
+        "description_zh": "香脆黑巧克力曲奇风味蛋白棒，内含柔软夹心。每份含13克蛋白质，无添加糖，并含有葡甘露聚糖，有助于体重管理。"
     },
     {
         "id": 79,
@@ -866,7 +944,8 @@
         "name_en": "Max Sport Raw Paleo Hazelnut & Cocoa Bar - 50g",
         "description_ru": "100% натуральный веганский палео-батончик, изготовленный из отборных орехов и сухофруктов без термической обработки. Без добавления сахара и глютена — чистая энергия природы.",
         "description_uz": "Termik ishlov berilmagan, saralangan yong'oqlar va quritilgan mevalardan tayyorlangan 100% tabiiy vegan paleo-batonchasi. Shakar va glyuten qo'shilmagan — tabiatning toza energiyasi.",
-        "description_en": "A 100% natural, vegan-friendly raw paleo bar made with premium hazelnuts and cocoa. Contains no added sugar or gluten, providing a wholesome, clean energy source."
+        "description_en": "A 100% natural, vegan-friendly raw paleo bar made with premium hazelnuts and cocoa. Contains no added sugar or gluten, providing a wholesome, clean energy source.",
+        "description_zh": "100%天然纯素生酮能量棒，由精选坚果和干果制成，无热加工，不含添加糖和麸质，提供纯净天然能量。"
     },
     {
         "id": 80,
@@ -877,7 +956,8 @@
         "name_en": "Grenade High Protein Low Sugar Bar Salted Caramel Flavour - 60g",
         "description_ru": "Знаменитый многослойный батончик с высоким содержанием протеина (20 г) и минимальным количеством сахара (всего 1.4 г). Сочетает в себе нежную карамель, хрустящие криспы и глазурь из молочного шоколада.",
         "description_uz": "Yuqori oqsil (20 g) va minimal shakar (atigi 1.4 g) tarkibiga ega mashhur ko'p qatlamli batoncha. Yumshoq karamel, qarsildoq krisplar va sutli shokoladli glazurni o'zida birlashtiradi.",
-        "description_en": "A premium, triple-layered crunchy protein bar packed with 20g of protein and only 1.4g of sugar. Perfectly balances rich, sweet, and salty caramel notes coated in smooth milk chocolate."
+        "description_en": "A premium, triple-layered crunchy protein bar packed with 20g of protein and only 1.4g of sugar. Perfectly balances rich, sweet, and salty caramel notes coated in smooth milk chocolate.",
+        "description_zh": "经典多层高蛋白棒，每根含20克蛋白质，仅1.4克糖，融合焦糖、酥脆颗粒和牛奶巧克力外层。"
     },
     {
         "id": 81,
@@ -888,7 +968,8 @@
         "name_en": "Trek Protein Flapjack Lotus Biscoff - 50g",
         "description_ru": "Овсяный батончик флэпджек из натуральных ингредиентов с добавлением легендарной карамельной пасты Lotus Biscoff. Насыщен 9 г растительного протеина и является отличным источником клетчатки.",
         "description_uz": "Afsonaviy Lotus Biscoff karamel pastasi qo'shilgan, tabiiy ingredientlardan tayyorlangan suli unli flapjek batonchasi. 9 g o'simlik oqsili bilan to'yingan va kletchatkaning ajoyib manbaidir.",
-        "description_en": "A wholesome oat flapjack combining the iconic, irresistible taste of Lotus Biscoff caramelised biscuit spread with 9g of plant-based protein. Made with natural ingredients and high in fibre."
+        "description_en": "A wholesome oat flapjack combining the iconic, irresistible taste of Lotus Biscoff caramelised biscuit spread with 9g of plant-based protein. Made with natural ingredients and high in fibre.",
+        "description_zh": "天然燕麦蛋白棒，加入经典Lotus Biscoff焦糖酱。富含9克植物蛋白和膳食纤维，是健康零食的理想选择。"
     },
     {
         "id": 82,
@@ -899,7 +980,8 @@
         "name_en": "Quest Protein Bar Blueberry Muffin Flavored - 2.12 Oz (60g)",
         "description_ru": "Высокобелковый батончик со вкусом свежевыпеченного черничного маффина. Содержит 20 г протеина, всего 2 г сахара и 5 г чистых углеводов, делая его идеальным перекусом для фитнеса.",
         "description_uz": "Yangi pishirilgan chernikali maffin ta'miga ega yuqori oqsilli batoncha. Tarkibida 20 g oqsil, bor-yo'g'i 2 g shakar va 5 g sof uglevodlar mavjud bo'lib, fitnes uchun ideal gazak hisoblanadi.",
-        "description_en": "Indulge in the flavor of a bakery-fresh muffin with 20g of protein, 5g of net carbs, and only 2g of sugar per bar. Made with real dried blueberries and protein isolates."
+        "description_en": "Indulge in the flavor of a bakery-fresh muffin with 20g of protein, 5g of net carbs, and only 2g of sugar per bar. Made with real dried blueberries and protein isolates.",
+        "description_zh": "蓝莓玛芬风味高蛋白棒，每根含20克蛋白质、2克糖和5克净碳水，是健身人士的理想零食。"
     },
     {
         "id": 83,
@@ -910,7 +992,8 @@
         "name_en": "Oikos Protein Shake Vanilla Flavored - 12 Fl Oz (355ml)",
         "description_ru": "Освежающий питьевой йогуртный коктейль с ярким ванильным вкусом. Содержит 30 г белка, всего 1 г сахара и дополнен 5 г пребиотической клетчатки. Без искусственных подсластителей.",
         "description_uz": "Yorqin vanil ta'miga ega tetiklantiruvchi ichimli yogurtli kokteyl. Tarkibida 30 g oqsil, atigi 1 g shakar bor va 5 g prebiotik kletchatka bilan to'ldirilgan. Sun'iy shirinlashtiruvchilarsiz.",
-        "description_en": "A smooth, vanilla-flavored protein beverage packed with 30g of protein, 1g of sugar, and 5g of prebiotic fiber. Free from artificial sweeteners, perfect for post-workout or on-the-go fuel."
+        "description_en": "A smooth, vanilla-flavored protein beverage packed with 30g of protein, 1g of sugar, and 5g of prebiotic fiber. Free from artificial sweeteners, perfect for post-workout or on-the-go fuel.",
+        "description_zh": "香草风味酸奶蛋白饮品，含30克蛋白质、1克糖及5克益生元膳食纤维，不含人工甜味剂。"
     },
     {
         "id": 84,
@@ -921,7 +1004,8 @@
         "name_en": "Ensure Original Nutrition Shake Vanilla Flavor - 8 Fl Oz (237ml)",
         "description_ru": "Сбалансированный восстанавливающий напиток от бренда №1, рекомендуемого врачами. Обеспечивает 9 г белка, 220 калорий и комплекс из 26 важнейших витаминов и минералов для поддержания сил и здоровья.",
         "description_uz": "Shifokorlar tomonidan tavsiya etilgan №1 brenddan muvozanatlashgan tiklovchi ichimlik. Kuch va salomatlikni saqlash uchun 9 g oqsil, 220 kaloriya va 26 ta muhim vitamin hamda minerallar majmuasini ta'minlaydi.",
-        "description_en": "Complete, balanced nutrition from the #1 doctor-recommended brand. Each shake features 9g of high-quality protein, 220 calories, and 26 essential vitamins and minerals to support strength and energy."
+        "description_en": "Complete, balanced nutrition from the #1 doctor-recommended brand. Each shake features 9g of high-quality protein, 220 calories, and 26 essential vitamins and minerals to support strength and energy.",
+        "description_zh": "来自医生推荐品牌的均衡营养奶昔，每瓶含9克蛋白质、220卡路里以及26种重要维生素和矿物质。"
     },
     {
         "id": 85,
@@ -932,7 +1016,8 @@
         "name_en": "Eurocake Premium beFIT Protein Keto Brownie Cocoa Orange - 40g",
         "description_ru": "Мягкое и насыщенное протеиновое кето-брауни со вкусом какао и апельсина. Содержит 10 г белка, отличается высоким содержанием клетчатки и отсутствием добавленного сахара, идеально вписываясь в кетогенную диету.",
         "description_uz": "Kakao va apelsin ta'miga ega bo'lgan yumshoq va to'yingan proteinli keto-bravni. Tarkibida 10 g oqsil mavjud, yuqori kletchatka va shakar qo'shilmaganligi bilan ajralib turadi, ketogenik parhezga ideal mos keladi.",
-        "description_en": "A soft, rich keto-friendly protein brownie bursting with a vibrant cocoa orange flavor. Packed with 10g of protein, high fiber, and absolutely no added sugar, making it the perfect low-carb guilt-free indulgence."
+        "description_en": "A soft, rich keto-friendly protein brownie bursting with a vibrant cocoa orange flavor. Packed with 10g of protein, high fiber, and absolutely no added sugar, making it the perfect low-carb guilt-free indulgence.",
+        "description_zh": "可可橙子风味生酮蛋白布朗尼，含10克蛋白质、高膳食纤维且无添加糖，非常适合生酮饮食。"
     },
     {
         "id": 86,
@@ -943,7 +1028,8 @@
         "name_en": "TRUBAR Cocoa for Coconuts Flavored Protein Bar - 1.76 Oz (50g)",
         "description_ru": "Невероятно вкусный растительный батончик, напоминающий кокосовое пирожное в шоколаде. Содержит 12 г протеина и 14 г клетчатки. Полностью веганский продукт без глютена, сои и сахарных спиртов.",
         "description_uz": "Shokoladdagi kokosli pirojniyni eslatuvchi ajoyib ta'mli o'simlik batonchasi. Tarkibida 12 g oqsil va 14 g kletchatka bor. Glyuten, soya va shakar spirtlarisiz tayyorlangan to'liq vegan mahsulot.",
-        "description_en": "A delicious, plant-based protein bar that tastes just like a chocolate-dipped coconut macaroon. Offers 12g of protein and 14g of fiber, keeping it dairy-free, gluten-free, soy-free, and non-GMO."
+        "description_en": "A delicious, plant-based protein bar that tastes just like a chocolate-dipped coconut macaroon. Offers 12g of protein and 14g of fiber, keeping it dairy-free, gluten-free, soy-free, and non-GMO.",
+        "description_zh": "植物基蛋白棒，口感如巧克力椰子甜点。含12克蛋白质和14克膳食纤维，纯素配方，不含麸质、大豆和糖醇。"
     },
     {
         "id": 87,
@@ -954,7 +1040,8 @@
         "name_en": "Snickers Hi Protein Chocolate Caramel & Peanut Flavour Whey Protein Powder - 455g",
         "description_ru": "Высококачественный сывороточный протеин с легендарным вкусом батончика Сникерс: сочетание шоколада, карамели и арахиса. Каждая порция содержит 20 г белка и всего 135 калорий для эффективного восстановления.",
         "description_uz": "Klassik Snikers batonchasining afsonaviy shokolad, karamel va araxis ta'miga ega bo'lgan yuqori sifatli zardob oqsili. Samarali tiklanish uchun har bir porsiyada 20 g oqsil va bor-yo'g'i 135 kaloriya mavjud.",
-        "description_en": "Premium whey protein powder delivering the iconic, unmistakable taste of a Snickers bar with rich chocolate, caramel, and peanut notes. Features 20g of protein and only 135 calories per serving."
+        "description_en": "Premium whey protein powder delivering the iconic, unmistakable taste of a Snickers bar with rich chocolate, caramel, and peanut notes. Features 20g of protein and only 135 calories per serving.",
+        "description_zh": "优质乳清蛋白粉，拥有经典士力架巧克力、焦糖和花生风味。每份含20克蛋白质，仅135卡路里。"
     },
     {
         "id": 88,
@@ -965,7 +1052,8 @@
         "name_en": "Bounty Hi Protein Chocolate & Coconut Flavour Whey Protein Powder - 455g",
         "description_ru": "Протеиновый порошок премиум-класса, воссоздающий тропический вкус Баунти из нежного шоколада и кокоса. Обеспечивает 20 г белка и 130 калорий на порцию, помогая поддерживать мышечный тонус со вкусом.",
         "description_uz": "Nozik shokolad va kokosning tropik Bounty ta'mini o'zida mujassam etgan premium darajadagi protein kukuni. Mushaklar tonusini mazali qo'llab-quvvatlash uchun har bir porsiyada 20 g oqsil va 130 kaloriya taqdim etadi.",
-        "description_en": "A premium whey protein blend that captures the tropical, indulgent taste of a Bounty bar with smooth chocolate and sweet coconut. Delivers 20g of protein and 130 calories per serving for post-workout recovery."
+        "description_en": "A premium whey protein blend that captures the tropical, indulgent taste of a Bounty bar with smooth chocolate and sweet coconut. Delivers 20g of protein and 130 calories per serving for post-workout recovery.",
+        "description_zh": "优质乳清蛋白粉，融合细腻巧克力与椰子热带风味。每份提供20克蛋白质和130卡路里，有助于运动后恢复。"
     },
     {
         "id": 89,
@@ -976,7 +1064,8 @@
         "name_en": "Snickers Hi Protein White Chocolate Caramel & Peanut Flavour Whey Protein Powder - 455g",
         "description_ru": "Сывороточный протеин премиум-качества со вкусом Сникерса в белом шоколаде. Сбалансированный микс карамели, арахиса и нежного белого шоколада, дающий 20 г протеина и 135 калорий в одной порции.",
         "description_uz": "Oq shokoladdagi Snikersning ajoyib ta'miga ega bo'lgan premium sifatli zardob oqsili. Har bir porsiyada 20 g oqsil va 135 kaloriya beradigan karamel, araxis va nozik oq shokoladning muvozanatlashgan miksi.",
-        "description_en": "Delicious high-protein whey powder featuring the rich, sweet taste of White Chocolate Snickers with caramel and peanut notes. Each serving packs 20g of high-quality protein and 135 calories."
+        "description_en": "Delicious high-protein whey powder featuring the rich, sweet taste of White Chocolate Snickers with caramel and peanut notes. Each serving packs 20g of high-quality protein and 135 calories.",
+        "description_zh": "优质乳清蛋白粉，带有白巧克力士力架风味，融合焦糖、花生和白巧克力，每份含20克蛋白质和135卡路里。"
     },
     {
         "id": 90,
@@ -987,7 +1076,8 @@
         "name_en": "Twix Hi Protein Chocolate Caramel & Biscuit Flavour Whey Protein Powder - 455g",
         "description_ru": "Сывороточный протеин премиум-качества со вкусом Twix. Идеальное сочетание молочного шоколада, карамели и хрустящего печенья, обеспечивающее 20 г высококачественного белка и всего 135 калорий в одной порции.",
         "description_uz": "Twix ta'miga ega premium sifatli zardob oqsili. Sutli shokolad, karamel va qarsildoq pechenyening mukammal uyg'unligi har bir porsiyada 20 g yuqori sifatli oqsil va atigi 135 kaloriya beradi.",
-        "description_en": "Premium-quality whey protein inspired by the classic Twix flavour. A delicious blend of milk chocolate, caramel, and crunchy biscuit, delivering 20g of high-quality protein and just 135 calories per serving."
+        "description_en": "Premium-quality whey protein inspired by the classic Twix flavour. A delicious blend of milk chocolate, caramel, and crunchy biscuit, delivering 20g of high-quality protein and just 135 calories per serving.",
+        "description_zh": "Twix风味优质乳清蛋白粉，融合牛奶巧克力、焦糖与酥脆饼干风味，每份提供20克优质蛋白，仅135卡路里。"
     },
     {
         "id": 91,
@@ -998,7 +1088,8 @@
         "name_en": "Layenberger Fit+Feelgood Slim Shake Schokolade - 330ml",
         "description_ru": "Готовый к употреблению диетический протеиновый коктейль с насыщенным шоколадным вкусом. Разработан для контроля и снижения веса, содержит минимум лактозы и обеспечивает полноценную замену одного приема пищи.",
         "description_uz": "To'yingan shokolad ta'miga ega, iste'molga tayyor parhezbop protein kokteyli. Vaznni nazorat qilish va kamaytirish uchun ishlab chiqilgan, minimal laktoza miqdoriga ega va bir vaqtlik ovqat o'rnini to'liq bosa oladi.",
-        "description_en": "A ready-to-drink, low-lactose meal replacement shake with a rich chocolate flavor. Specially formulated under German quality standards to support weight loss and weight management while providing vital nutrients."
+        "description_en": "A ready-to-drink, low-lactose meal replacement shake with a rich chocolate flavor. Specially formulated under German quality standards to support weight loss and weight management while providing vital nutrients.",
+        "description_zh": "即饮型巧克力代餐蛋白奶昔，低乳糖配方，专为体重控制设计，可作为一餐的完整替代品。"
     },
     {
         "id": 92,
@@ -1009,7 +1100,8 @@
         "name_en": "PediaSure Grow & Gain Vanilla Shake with Immune Support - 8 Fl Oz (237ml)",
         "description_ru": "Сбалансированный детский коктейль со вкусом ванили для здорового роста и укрепления иммунитета. Содержит 7 г белка, 27 важнейших витаминов и минералов, без искусственных гормонов роста и ГМО.",
         "description_uz": "Sog'lom o'sish va immunitetni mustahkamlash uchun vanil ta'miga ega muvozanatlashgan bolalar kokteyli. Tarkibida 7 g oqsil, 27 ta muhim vitamin va minerallar bor, sun'iy o'sish gormonlarisiz va GMOsiz tayyorlangan.",
-        "description_en": "A clinically proven nutrition shake designed to help kids grow and provide immune support. Features a delicious vanilla flavor, 7g of protein, 27 essential vitamins and minerals, and non-GMO ingredients."
+        "description_en": "A clinically proven nutrition shake designed to help kids grow and provide immune support. Features a delicious vanilla flavor, 7g of protein, 27 essential vitamins and minerals, and non-GMO ingredients.",
+        "description_zh": "专为儿童健康成长设计的香草营养奶昔，含7克蛋白质及27种维生素和矿物质，不含转基因成分和人工生长激素。"
     },
     {
         "id": 93,
@@ -1020,7 +1112,8 @@
         "name_en": "Orgain Chocolate Fudge Flavored Milk Protein Shake - 11 Fl Oz (330ml)",
         "description_ru": "Питательный молочно-протеиновый коктейль со вкусом нежной шоколадной помадки. Содержит 30 г высококачественного белка, всего 1 г сахара и 160 калорий. Без искусственных подсластителей и вкусовых добавок.",
         "description_uz": "Yumshoq shokoladli fudj (pomadka) ta'miga ega to'ymli sutli-proteinli kokteyl. Tarkibida 30 g yuqori sifatli oqsil, atigi 1 g shakar va 160 kaloriya mavjud. Sun'iy shirinlashtiruvchilar va ta'm beruvchilarsiz.",
-        "description_en": "A clean, ultra-smooth milk protein shake loaded with 30g of high-quality protein and a rich chocolate fudge flavor. Contains only 160 calories, 1g of sugar, and absolutely no artificial sweeteners or flavors."
+        "description_en": "A clean, ultra-smooth milk protein shake loaded with 30g of high-quality protein and a rich chocolate fudge flavor. Contains only 160 calories, 1g of sugar, and absolutely no artificial sweeteners or flavors.",
+        "description_zh": "丝滑巧克力软糖风味牛奶蛋白奶昔，含30克优质蛋白，仅1克糖和160卡路里，不含人工甜味剂和香料。"
     },
     {
         "id": 94,
@@ -1031,7 +1124,8 @@
         "name_en": "YumEarth Organic Lollipops Strawberry Flavor - 14 Count",
         "description_ru": "Натуральные органические леденцы со вкусом спелой клубники. Не содержат глютена, ГМО, искусственных красителей и топ-8 главных аллергенов, являясь абсолютно веганским и безопасным лакомством для детей и взрослых.",
         "description_uz": "Pishgan qulpnay ta'miga ega tabiiy organik konfet-muzqaymoqlar. Tarkibida glyuten, GMO, sun'iy bo'yoqlar va top-8 ta asosiy allergenlar mavjud emas, bolalar va kattalar uchun to'liq vegan hamda xavfsiz shirinlik hisoblanadi.",
-        "description_en": "Wholesome, allergy-friendly organic lollipops bursting with real strawberry flavor. Certified USDA Organic, Vegan, and Gluten-Free, crafted without artificial dyes, high fructose corn syrup, or major allergens."
+        "description_en": "Wholesome, allergy-friendly organic lollipops bursting with real strawberry flavor. Certified USDA Organic, Vegan, and Gluten-Free, crafted without artificial dyes, high fructose corn syrup, or major allergens.",
+        "description_zh": "天然有机草莓味棒棒糖，不含麸质、转基因成分、人工色素及八大常见过敏原，适合儿童和成人。"
     },
     {
         "id": 95,
@@ -1042,7 +1136,8 @@
         "name_en": "Zolli Gum Popz The Clean Teeth Pops Strawberry Flavor - 10 Count (160g)",
         "description_ru": "Инновационные леденцы без сахара, которые заботятся о чистоте зубов. Кето-френдли продукт на основе натуральных ароматизаторов, который помогает нормализовать уровень pH в полости рта после еды. Полностью веганский состав.",
         "description_uz": "Tishlar tozaligini saqlaydigan shakarsiz innovatsion konfetlar. Ovqatdan keyin og'iz bo'shlig'idagi pH darajasini normallashtirishga yordam beradigan, tabiiy aromatizatorlar asosida tayyorlangan keto va vegan mahsulot.",
-        "description_en": "The ultimate smile-friendly treat that naturally cleans teeth! Zero sugar, keto, and vegan pops made with natural plant-based flavors and sweeteners like xylitol and erythritol to keep your pH balanced."
+        "description_en": "The ultimate smile-friendly treat that naturally cleans teeth! Zero sugar, keto, and vegan pops made with natural plant-based flavors and sweeteners like xylitol and erythritol to keep your pH balanced.",
+        "description_zh": "创新无糖棒棒糖，有助于保持牙齿清洁并平衡口腔pH值。采用天然植物成分制作，适合生酮和纯素饮食。"
     },
     {
         "id": 96,
@@ -1053,7 +1148,8 @@
         "name_en": "Jealous Sweets Fizzy Lips Grapefruit and Peach Flavor - 125g",
         "description_ru": "Мягкий и сочный жевательный мармелад в форме губ со вкусом грейпфрута и персика в кислой обсыпке. Изготовлен на 100% из растительных компонентов без использования желатина и искусственных добавок.",
         "description_uz": "Nordon sepmasiga ega, greypfrut va shaftoli ta'mli lab shaklidagi yumshoq va sersuv chaynaydigan marmelad. Jelatin va sun'iy qo'shimchalarsiz, 100% o'simlik komponentlaridan tayyorlangan.",
-        "description_en": "Irresistibly soft and tangy plant-based gummy sweets shaped like lips, combining bittersweet grapefruit and juicy peach flavors. Free from gelatin, gluten, and artificial nasties, approved by the Vegan Society."
+        "description_en": "Irresistibly soft and tangy plant-based gummy sweets shaped like lips, combining bittersweet grapefruit and juicy peach flavors. Free from gelatin, gluten, and artificial nasties, approved by the Vegan Society.",
+        "description_zh": "柔软多汁的葡萄柚与桃子风味酸味软糖，采用100%植物成分制成，不含明胶及人工添加剂。"
     },
     {
         "id": 97,
@@ -1064,7 +1160,8 @@
         "name_en": "Fini Selection Mix Jelly Sweets Assorted Variety",
         "description_ru": "Яркое ассорти фигурного жевательного мармелада от европейского бренда. Продукт не содержит жиров и глютена, предлагая разнообразие фруктовых вкусов и забавных форм в удобной упаковке с зип-замком.",
         "description_uz": "Yevropa brendidan turli shakldagi yorqin chaynaydigan marmeladlar to'plami. Mahsulot tarkibida yog' va glyuten mavjud emas, qulay zip-qulflPackage ichida turli xil meva ta'mlari va qiziqarli shakllarni taqdim etadi.",
-        "description_en": "A colorful and playful assortment of delicious fruit-flavored gummy candies in various fun shapes. Crafted to be fat-free and gluten-free, sealed in a convenient zip-lock pouch for lasting freshness."
+        "description_en": "A colorful and playful assortment of delicious fruit-flavored gummy candies in various fun shapes. Crafted to be fat-free and gluten-free, sealed in a convenient zip-lock pouch for lasting freshness.",
+        "description_zh": "欧洲品牌水果软糖组合，口味丰富、造型有趣，不含脂肪和麸质，并采用方便保存的自封袋包装。"
     },
     {
         "id": 98,
@@ -1075,7 +1172,8 @@
         "name_en": "Katjes Peace & Love Vegan Fruit Gummies",
         "description_ru": "100% веганские жевательные мармеладки в форме сердечек и знаков мира. Изготовлены полностью без животного желатина, с использованием натуральных соков и красителей растительного происхождения.",
         "description_uz": "Yurakchalar va tinchlik belgilari shaklidagi 100% vegan chaynaydigan marmeladlar. To'liq hayvon jelatinisiz, tabiiy sharbatlar va o'simliklardan olingan bo'yoqlar yordamida tayyorlangan.",
-        "description_en": "Spread good vibes with 100% vegan fruit gummies shaped as hearts and peace signs. Made entirely without animal gelatin, featuring natural fruit juices and plant-derived colors for a guilt-free treat."
+        "description_en": "Spread good vibes with 100% vegan fruit gummies shaped as hearts and peace signs. Made entirely without animal gelatin, featuring natural fruit juices and plant-derived colors for a guilt-free treat.",
+        "description_zh": "100%纯素水果软糖，采用爱心和和平标志造型，不含动物明胶，使用天然果汁和植物色素制作。"
     },
     {
         "id": 99,
@@ -1086,7 +1184,8 @@
         "name_en": "Jolly Rancher Zero Sugar Hard Candy Original Flavors Variety Pack",
         "description_ru": "Знаменитые американские твердые леденцы в версии без сахара. Классический микс ярких фруктовых вкусов: зеленое яблоко, голубая малина, виноград и арбуз в удобной большой упаковке.",
         "description_uz": "Mashhur Amerika qattiq konfetlarining shakarsiz versiyasi. Qulay katta qadoqda klassik yorqin meva ta'mlari miksi: yashil olma, ko'k moruq, uzum va tarvuz.",
-        "description_en": "The legendary bold, long-lasting flavors of Jolly Rancher hard candy, now with zero sugar. Features a delicious variety pack including Apple, Raspberry, Grape, and Watermelon sweet treats."
+        "description_en": "The legendary bold, long-lasting flavors of Jolly Rancher hard candy, now with zero sugar. Features a delicious variety pack including Apple, Raspberry, Grape, and Watermelon sweet treats.",
+        "description_zh": "经典Jolly Rancher无糖硬糖组合，包含青苹果、蓝树莓、葡萄和西瓜等多种水果口味。"
     },
     {
         "id": 100,
@@ -1097,7 +1196,8 @@
         "name_en": "Farabella le Ciambelline Oat and Almond Cookies - 200g",
         "description_ru": "Итальянское безглютеновое печенье в форме колечек с добавлением овсяных хлопьев и миндаля. Не содержит сахара и лактозы, является отличным источником пищевых волокон для здорового перекуса.",
         "description_uz": "Suli parchalari va bodom bo'lakchalari qo'shilgan, halqa shaklidagi Italiya glyutensiz pechenyesi. Tarkibida shakar va laktoza mavjud emas, sog'lom tamaddi uchun parhezbop tola manbai hisoblanadi.",
-        "description_en": "Authentic Italian gluten-free ring cookies crafted with oats and almonds. Made without sugar or lactose, these crispy biscuits serve as an excellent source of dietary fiber."
+        "description_en": "Authentic Italian gluten-free ring cookies crafted with oats and almonds. Made without sugar or lactose, these crispy biscuits serve as an excellent source of dietary fiber.",
+        "description_zh": "意大利无麸质燕麦杏仁环形饼干，不含糖和乳糖，富含膳食纤维，是健康零食的理想选择。"
     },
     {
         "id": 101,
@@ -1108,7 +1208,8 @@
         "name_en": "Farabella Le Stelle Yogurt and Cocoa Cookies - 200g",
         "description_ru": "Безглютеновое печенье в форме звездочек, сочетающее нежный вкус йогурта и ароматного какао. Изготовлено в Италии по рецепту без добавления сахара.",
         "description_uz": "Yogurtning mayin ta'mi va xushbo'y kakaoni o'zida mujassam etgan yulduzcha shaklidagi glyutensiz pechenye. Italiyada shakar qo'shilmagan maxsus retsept bo'yicha tayyorlangan.",
-        "description_en": "Star-shaped gluten-free biscuits from Italy featuring a delicate blend of yogurt flavor and premium cocoa. Perfectly baked with zero added sugar."
+        "description_en": "Star-shaped gluten-free biscuits from Italy featuring a delicate blend of yogurt flavor and premium cocoa. Perfectly baked with zero added sugar.",
+        "description_zh": "意大利星星形无麸质饼干，融合酸奶的细腻口感与香浓可可风味。不添加糖，采用意大利传统工艺制作。"
     },
     {
         "id": 102,
@@ -1119,7 +1220,8 @@
         "name_en": "Lazzaroni Pasticcini Cookies with Milk Chocolate - 100g",
         "description_ru": "Изысканное итальянское печенье, покрытое слоем нежного молочного шоколада. Изготовлено без использования глютена и пальмового масла.",
         "description_uz": "Mayin sutli shokolad qatlami bilan qoplangan nafis Italiya pechenyesi. Tarkibida glyuten va palma yog'i mavjud emas.",
-        "description_en": "Exquisite Italian gluten-free cookies topped with rich, velvety milk chocolate. Carefully baked to be entirely palm oil free."
+        "description_en": "Exquisite Italian gluten-free cookies topped with rich, velvety milk chocolate. Carefully baked to be entirely palm oil free.",
+        "description_zh": "精致的意大利无麸质饼干，外层裹有浓郁顺滑的牛奶巧克力。不含棕榈油，口感香醇。"
     },
     {
         "id": 103,
@@ -1130,7 +1232,8 @@
         "name_en": "Schär Mix It Universal All-Purpose Flour - 1kg",
         "description_ru": "Высококачественная универсальная мучная смесь без глютена и лактозы. Идеально подходит для приготовления домашнего хлеба, пирогов, пасты и соусов.",
         "description_uz": "Glyuten va laktozasiz yuqori sifatli universal un aralashmasi. Uy sharoitida non, piroglar, pasta va souslar tayyorlash uchun juda mos keladi.",
-        "description_en": "Premium gluten-free and lactose-free all-purpose flour mix. The perfect wheat substitute for all your baking and cooking needs, from homemade bread to sauces."
+        "description_en": "Premium gluten-free and lactose-free all-purpose flour mix. The perfect wheat substitute for all your baking and cooking needs, from homemade bread to sauces.",
+        "description_zh": "优质无麸质、无乳糖通用面粉混合物，非常适合制作自制面包、蛋糕、意面及各种酱汁。"
     },
     {
         "id": 104,
@@ -1141,7 +1244,8 @@
         "name_en": "Schär Mix C Pâtisserie Gluten-Free Cake & Biscuit Flour - 1kg",
         "description_ru": "Специализированная смесь безглютеновой муки для выпечки тортов, пирожных, печенья и кексов. Обеспечивает воздушную текстуру десертов без пшеницы и лактозы.",
         "description_uz": "Tort, pirojniy, pechenye va keks pishirish uchun maxsus tayyorlangan glyutensiz un aralashmasi. Bug'doy va laktozasiz pishiriqlarning mayin va yumshoq chiqishini ta'minlaydi.",
-        "description_en": "Specialized wheat-free and lactose-free baking mix tailored for cakes, biscuits, and delicate pastries, ensuring a light and fluffy texture."
+        "description_en": "Specialized wheat-free and lactose-free baking mix tailored for cakes, biscuits, and delicate pastries, ensuring a light and fluffy texture.",
+        "description_zh": "专为蛋糕、饼干和糕点烘焙设计的无麸质面粉混合物，不含小麦和乳糖，轻松打造松软细腻的口感。"
     },
     {
         "id": 105,
@@ -1152,7 +1256,8 @@
         "name_en": "Sarchio Vital Nature Coconut Drink Sugar Free - 1L",
         "description_ru": "Органический растительный напиток на основе кокоса без добавления сахара. Полностью натуральный продукт без глютена для здорового питания и веганских рецептов.",
         "description_uz": "Shakar qo'shilmagan kokos asosidagi organik o'simlik ichimligi. Sog'lom ovqatlanish va vegan retseptlari uchun mo'ljallangan, tarkibida glyuten bo'lmagan mutlaqo tabiiy mahsulot.",
-        "description_en": "Organic, plant-based coconut drink crafted with no added sugar. Naturally gluten-free, low-calorie, and perfect for vegan diets, coffee, or smoothies."
+        "description_en": "Organic, plant-based coconut drink crafted with no added sugar. Naturally gluten-free, low-calorie, and perfect for vegan diets, coffee, or smoothies.",
+        "description_zh": "有机椰子植物饮料，不添加糖，天然无麸质，是健康饮食、纯素食谱、咖啡和奶昔的理想选择。"
     },
     {
         "id": 106,
@@ -1163,7 +1268,8 @@
         "name_en": "Sarchio Vital Nature Oat Drink Gluten Free - 1L",
         "description_ru": "Натуральный овсяный напиток с низким содержанием жиров. Произведен из сертифицированного безглютенового овса без добавления сахара.",
         "description_uz": "Kam yog'li tabiiy suli ichimligi. Tarkibida shakar qo'shilmagan, sertifikatlangan glyutensiz suli donlaridan ishlab chiqarilgan.",
-        "description_en": "100% plant-based, low-fat oat drink made from certified gluten-free oats. A healthy dairy alternative with no added sugars."
+        "description_en": "100% plant-based, low-fat oat drink made from certified gluten-free oats. A healthy dairy alternative with no added sugars.",
+        "description_zh": "采用认证无麸质燕麦制成的天然植物燕麦饮料，低脂肪、不添加糖，是健康的乳制品替代品。"
     },
     {
         "id": 107,
@@ -1174,7 +1280,8 @@
         "name_en": "Schär Penne Gluten-Free Pasta - 250g",
         "description_ru": "Классическая итальянская паста перья (пенне), изготовленная из безглютенового сырья без использования пшеницы. Отлично сохраняет форму при варке 10-12 минут.",
         "description_uz": "Bug'doy ishlatmasdan, glyutensiz xomashyodan tayyorlangan klassik Italiya pasta patlari (penne). 10-12 daqiqa davomida qaynatilganda shaklini juda yaxshi saqlaydi.",
-        "description_en": "Traditional Italian penne pasta crafted from selected gluten-free grains. Wheat-free and delicious, cooking to perfect al dente texture in 10-12 minutes."
+        "description_en": "Traditional Italian penne pasta crafted from selected gluten-free grains. Wheat-free and delicious, cooking to perfect al dente texture in 10-12 minutes.",
+        "description_zh": "经典意大利无麸质通心粉（Penne），采用精选无麸质谷物制成，不含小麦，煮10–12分钟仍能保持劲道口感。"
     },
     {
         "id": 108,
@@ -1185,7 +1292,8 @@
         "name_en": "Lazzaroni Frollini Cookies with Hazelnuts and Cocoa - 200g",
         "description_ru": "Хрустящее безглютеновое печенье с насыщенным шоколадным вкусом, кусочками фундука и декоративной глазурью. Рецептура не содержит пальмового масла.",
         "description_uz": "To'yingan shokolad ta'mi, o'rmon yong'og'i bo'lakchalari va bezakli sharbat qoplamasiga ega qarsildoq glyutensiz pechenye. Retseptida palma yog'i ishlatilmagan.",
-        "description_en": "Crispy gluten-free Italian shortbread cookies featuring a rich cocoa flavor blended with real hazelnut pieces, crafted completely palm oil free."
+        "description_en": "Crispy gluten-free Italian shortbread cookies featuring a rich cocoa flavor blended with real hazelnut pieces, crafted completely palm oil free.",
+        "description_zh": "香脆无麸质意大利饼干，融合浓郁可可风味、真实榛子颗粒和精致糖霜，不含棕榈油。"
     },
     {
         "id": 109,
@@ -1196,7 +1304,8 @@
         "name_en": "Schär Corn Flakes Gluten-Free Cereal - 250g",
         "description_ru": "Хрустящие кукурузные хлопья без глютена и лактозы, обогащенные витаминами группы B. Идеальный и быстрый вариант для здорового завтрака.",
         "description_uz": "B guruh vitaminlari bilan boyitilgan, tarkibida glyuten va laktoza bo'lmagan qarsildoq makkajo'xori parchalari. Sog'lom nonushta uchun ajoyib va tezkor tanlov.",
-        "description_en": "Crunchy gluten-free and lactose-free corn flakes cereal, high in essential B vitamins. A classic breakfast choice for energy and vitality."
+        "description_en": "Crunchy gluten-free and lactose-free corn flakes cereal, high in essential B vitamins. A classic breakfast choice for energy and vitality.",
+        "description_zh": "香脆无麸质玉米片，富含B族维生素，不含乳糖，是健康快捷早餐的理想选择。"
     },
     {
         "id": 110,
@@ -1207,7 +1316,8 @@
         "name_en": "Schär Choco Balls Gluten-Free Cereal - 250g",
         "description_ru": "Хрустящие готовые завтраки в виде шоколадных шариков из безглютенового сырья. Источник пищевых волокон, не содержат пшеницы и лактозы.",
         "description_uz": "Glyutensiz xomashyodan tayyorlangan shokoladli sharchalar ko'rinishidagi qarsildoq tayyor nonushta. Bug'doy va laktozasiz, parhezbop tola manbai.",
-        "description_en": "Crunchy gluten-free chocolate ball cereal. Free from wheat and lactose, providing a delicious source of dietary fiber for a perfect morning breakfast."
+        "description_en": "Crunchy gluten-free chocolate ball cereal. Free from wheat and lactose, providing a delicious source of dietary fiber for a perfect morning breakfast.",
+        "description_zh": "香脆无麸质巧克力球早餐麦片，不含小麦和乳糖，富含膳食纤维，为每天早晨带来美味与活力。"
     },
     {
         "id": 111,
@@ -1218,7 +1328,8 @@
         "name_en": "Schär Salinis Gluten-Free Pretzels - 60g",
         "description_ru": "Классические хрустящие крендельки с солью, приготовленные без использования глютена и лактозы. Идеальный вариант для легкого перекуса в дороге.",
         "description_uz": "Tarkibida glyuten va laktoza bo'lmagan klassik qarsildoq sho'r pretsellar (krendellar). Yo'lda engil tamaddi qilish uchun ajoyib tanlov.",
-        "description_en": "Classic, crispy salted pretzels baked entirely gluten-free and lactose-free. A savory and delightful snack perfect for on-the-go munching."
+        "description_en": "Classic, crispy salted pretzels baked entirely gluten-free and lactose-free. A savory and delightful snack perfect for on-the-go munching.",
+        "description_zh": "经典香脆无麸质椒盐脆饼，不含麸质和乳糖，是外出携带的理想咸味零食。"
     },
     {
         "id": 112,
@@ -1229,7 +1340,8 @@
         "name_en": "Schär Knäcke Hafer Gluten-Free Crispbread - 215g",
         "description_ru": "Традиционные шведские хрустящие хлебцы из сертифицированного безглютенового овса. Высокое содержание клетчатки, без лактозы.",
         "description_uz": "Sertifikatlangan glyutensiz suli donlaridan tayyorlangan an'anaviy Shvetsiya qarsildoq nonchalari. Biriktiruvchi tolalarga boy va laktozasiz.",
-        "description_en": "Traditional Swedish crispbread made from certified gluten-free oats. High in fiber and completely lactose-free, ideal for healthy toppings."
+        "description_en": "Traditional Swedish crispbread made from certified gluten-free oats. High in fiber and completely lactose-free, ideal for healthy toppings.",
+        "description_zh": "传统瑞典风味无麸质燕麦脆饼，采用认证无麸质燕麦制成，富含膳食纤维且不含乳糖。"
     },
     {
         "id": 113,
@@ -1240,7 +1352,8 @@
         "name_en": "Schär Wild Biscuits Gluten-Free Animal Cookies - 115g",
         "description_ru": "Вкусное и забавное детское безглютеновое печенье в форме диких животных. В упаковке 5 индивидуальных порций, без пшеницы и лактозы.",
         "description_uz": "Yovvoyi hayvonlar shaklidagi shirin va qiziqarli bolalar glyutensiz pechenyesi. Qadoq ichida 5 ta alohida porsiya mavjud, bug'doy va laktozasiz.",
-        "description_en": "Fun and tasty animal-shaped gluten-free biscuits for kids. Packed into 5 convenient individual portion packs, crafted wheat-free and lactose-free."
+        "description_en": "Fun and tasty animal-shaped gluten-free biscuits for kids. Packed into 5 convenient individual portion packs, crafted wheat-free and lactose-free.",
+        "description_zh": "趣味十足的儿童动物造型无麸质饼干，独立5小包装，不含小麦和乳糖。"
     },
     {
         "id": 114,
@@ -1251,7 +1364,8 @@
         "name_en": "Schär Wild Biscuits Gluten-Free Snack Pack - 23g",
         "description_ru": "Индивидуальная порция хрустящего детского фигурного печенья без глютена. Удобный формат, чтобы взять с собой в школу или на прогулку.",
         "description_uz": "Qarsildoq shaklli bolalar glyutensiz pechenyesining bir martalik qadog'i. Maktabga yoki sayrga olib yurish uchun juda qulay format.",
-        "description_en": "A single-serve portion pack of crunchy, fun animal-shaped gluten-free biscuits. The ultimate allergy-safe snack for school lunchboxes or walks."
+        "description_en": "A single-serve portion pack of crunchy, fun animal-shaped gluten-free biscuits. The ultimate allergy-safe snack for school lunchboxes or walks.",
+        "description_zh": "儿童专享独立装无麸质动物造型饼干，方便携带，非常适合上学或外出食用。"
     },
     {
         "id": 115,
@@ -1262,7 +1376,8 @@
         "name_en": "Schär Pausa Ciok Gluten-Free Cake Bars - 350g",
         "description_ru": "Нежные безглютеновые бисквиты с прослойкой из легкого молочного крема, покрытые глазурью из какао. В упаковке 10 индивидуальных порций.",
         "description_uz": "Yengil sutli krem bilan to'ldirilgan va kakao sharbati bilan qoplangan mayin glyutensiz biskvitli pirojniylar. Qadoqda 10 ta alohida porsiya mavjud.",
-        "description_en": "Fluffy gluten-free sponge cakes layered with a delicate milk cream filling and covered in a rich cocoa coating. Comes in a pack of 10 individual treats."
+        "description_en": "Fluffy gluten-free sponge cakes layered with a delicate milk cream filling and covered in a rich cocoa coating. Comes in a pack of 10 individual treats.",
+        "description_zh": "松软无麸质海绵蛋糕，夹有细腻牛奶奶油，并覆以浓郁可可外层。每盒含10份独立包装。"
     },
     {
         "id": 116,
@@ -1273,7 +1388,8 @@
         "name_en": "Schär Gris & Ciocc Gluten-Free Breadsticks & Cocoa Dip - 52g",
         "description_ru": "Удобный снек-бокс: хрустящие безглютеновые хлебные палочки в комплекте с нежной шоколадно-ореховой пастой. Изготовлено без пальмового масла.",
         "description_uz": "Qulay ta'm qutisi: mayin shokolad-yong'oq pastasi bilan birga taqdim etiladigan qarsildoq glyutensiz non tayoqchalari. Palma yog'isiz tayyorlangan.",
-        "description_en": "An on-the-go snack pack pairing crispy gluten-free breadsticks with a smooth cocoa-hazelnut dip. Made entirely lactose-free and palm oil free."
+        "description_en": "An on-the-go snack pack pairing crispy gluten-free breadsticks with a smooth cocoa-hazelnut dip. Made entirely lactose-free and palm oil free.",
+        "description_zh": "便携式零食组合，香脆无麸质面包棒搭配顺滑巧克力榛子酱，不含棕榈油。"
     },
     {
         "id": 117,
@@ -1284,7 +1400,8 @@
         "name_en": "Babushkina Pastila Plum Smokva Fruit Leather - 30g",
         "description_ru": "Традиционное натуральное лакомство из спелых слив, приготовленное методом бережной сушки. Продукт ручной работы, не содержит добавленного сахара и консервантов.",
         "description_uz": "Pishgan olxo'rilardan ehtiyotkorlik bilan quritish usulida tayyorlangan an'anaviy tabiiy shirinlik. Qo'l mehnati mahsuli bo'lib, tarkibida shakar va konservantlar mavjud emas.",
-        "description_en": "Traditional, all-natural fruit leather handmade from ripe plums using a gentle drying process. Made with zero added sugar or artificial preservatives."
+        "description_en": "Traditional, all-natural fruit leather handmade from ripe plums using a gentle drying process. Made with zero added sugar or artificial preservatives.",
+        "description_zh": "采用成熟李子经低温慢烘制成的天然果丹皮，纯手工制作，不含添加糖和防腐剂。"
     },
     {
         "id": 118,
@@ -1295,7 +1412,8 @@
         "name_en": "Belevskaya Pastila Baked Apple & Berry Meringues",
         "description_ru": "Воздушный десерт, состоящий на 99% из запеченных яблок и спелых ягод. Легкое лакомство без добавления муки, жиров и сахара.",
         "description_uz": "99% pishgan olma va rezavor mevalardan iborat bo'lgan mayin shirinlik. Tarkibida un, yog' va shakar bo'lmagan yengil desert.",
-        "description_en": "Airy and delicate dessert crafted from 99% baked apples and wild berries. A guilt-free treat entirely free from flour, fat, or added sugar."
+        "description_en": "Airy and delicate dessert crafted from 99% baked apples and wild berries. A guilt-free treat entirely free from flour, fat, or added sugar.",
+        "description_zh": "轻盈蓬松的甜点，99%由烤苹果和浆果制成，不含面粉、脂肪和添加糖。"
     },
     {
         "id": 119,
@@ -1306,7 +1424,8 @@
         "name_en": "Santiveri Digestive Cocoa Biscuits",
         "description_ru": "Испанское овсяное печенье с насыщенным вкусом какао без добавления сахара. Не содержит транжиров и холестерина, всего 39 ккал в одном печенье.",
         "description_uz": "Shakar qo'shilmagan, to'yingan kakao ta'mli Ispaniya suli pechenyesi. Tarkibida transyog'lar va xolesterin mavjud emas, har bir pechenye atigi 39 kkal.",
-        "description_en": "Spanish whole grain oat biscuits featuring a rich cocoa flavor with 0% added sugar. Formulated with zero trans fats or cholesterol, containing just 39 kcal per biscuit."
+        "description_en": "Spanish whole grain oat biscuits featuring a rich cocoa flavor with 0% added sugar. Formulated with zero trans fats or cholesterol, containing just 39 kcal per biscuit.",
+        "description_zh": "西班牙燕麦可可饼干，不添加糖，浓郁可可风味，不含反式脂肪和胆固醇，每块仅39千卡。"
     },
     {
         "id": 120,
@@ -1317,7 +1436,8 @@
         "name_en": "Gullón Zero Sugar Free Fibre Biscuits - 170g",
         "description_ru": "Хрустящее пшеничное печенье с высоким содержанием пищевых волокон (клетчатки). Изготовлено на высокоолеиновом подсолнечном масле, подходит для веганов.",
         "description_uz": "Tarkibida parhezbop tolalar (kletchatka) miqdori yuqori bo'lgan qarsildoq bug'doy pechenyesi. Yuqori oleinli kungaboqar yog'ida tayyorlangan, veganlar uchun mos keladi.",
-        "description_en": "High-fiber wheat biscuits baked with 0% sugar. Crafted with heart-healthy high-oleic sunflower oil, making them a perfectly crunchy, vegan-friendly snack."
+        "description_en": "High-fiber wheat biscuits baked with 0% sugar. Crafted with heart-healthy high-oleic sunflower oil, making them a perfectly crunchy, vegan-friendly snack.",
+        "description_zh": "高纤维无糖小麦饼干，采用高油酸葵花籽油烘焙，适合纯素饮食。"
     },
     {
         "id": 121,
@@ -1328,7 +1448,8 @@
         "name_en": "Russell Stover Sugar Free Coconut Chocolate Candies - 284g",
         "description_ru": "Изысканные конфеты с нежной кокосовой начинкой, покрытые шоколадом. Изготовлены без сахара с использованием натурального экстракта стевии. В упаковке 20 порций.",
         "description_uz": "Mayin kokosli nachinka bilan to'ldirilgan va shokolad bilan qoplangan nafis konfetlar. Tabiiy steyviya ekstrakti yordamida shakarsiz tayyorlangan. Qadoqda 20 ta porsiya bor.",
-        "description_en": "Exquisite chocolate candies filled with a luscious coconut center. Sweetened cleanly with natural Stevia extract and individually wrapped into 20 convenient pieces."
+        "description_en": "Exquisite chocolate candies filled with a luscious coconut center. Sweetened cleanly with natural Stevia extract and individually wrapped into 20 convenient pieces.",
+        "description_zh": "精致巧克力糖果，内含细腻椰子夹心，采用天然甜菊糖调味，不添加糖，每盒20颗独立包装。"
     },
     {
         "id": 122,
@@ -1339,7 +1460,8 @@
         "name_en": "Gullón Zero Sugar Free Digestive Oaty Biscuits - 410g",
         "description_ru": "Традиционное овсяное печенье диджестив без добавления сахара. Отличный источник клетчатки, приготовленный на растительном масле без продуктов животного происхождения.",
         "description_uz": "Shakar qo'shilmagan an'anaviy suli didjestiv pechenyesi. O'simlik yog'ida hayvonot mahsulotlarisiz tayyorlangan, kletchatkaning ajoyib manbai.",
-        "description_en": "Classic digestive oat biscuits baked to perfection with zero sugar added. Exceptionally high in fiber and made with plant-based ingredients suitable for vegetarians."
+        "description_en": "Classic digestive oat biscuits baked to perfection with zero sugar added. Exceptionally high in fiber and made with plant-based ingredients suitable for vegetarians.",
+        "description_zh": "经典无糖燕麦消化饼干，富含膳食纤维，采用植物配方制作，不含动物成分。"
     },
     {
         "id": 123,
@@ -1350,7 +1472,8 @@
         "name_en": "Britannia Digestive Sugar Free Biscuits",
         "description_ru": "Классическое пшеничное печенье диджестив без содержания сахара. Изготовлено из цельнозерновой муки, не содержит трансжиров и искусственных красителей.",
         "description_uz": "Tarkibida shakar bo'lmagan klassik bug'doy didjestiv pechenyesi. Butun donli undan tayyorlangan bo'lib, transyog'lar va sun'iy bo'yoqlarni o'z ichiga olmaydi.",
-        "description_en": "Traditional wheat digestive biscuits formulated with 0% sugar. Baked using premium whole wheat flour with zero trans fats or artificial colorings."
+        "description_en": "Traditional wheat digestive biscuits formulated with 0% sugar. Baked using premium whole wheat flour with zero trans fats or artificial colorings.",
+        "description_zh": "经典无糖全麦消化饼干，采用优质全麦面粉烘焙，不含反式脂肪和人工色素。"
     },
     {
         "id": 124,
@@ -1361,7 +1484,8 @@
         "name_en": "Russell Stover Sugar Free Fruit Chews - 127g",
         "description_ru": "Мягкие жевательные конфеты со вкусами вишни, клубники, лимона и апельсина. Изготовлены на основе экстракта стевии без добавления сахара. В упаковке 21 конфеты.",
         "description_uz": "Gilos, qulupnay, limon va apelsin ta'mli yumshoq chaynash konfetlari. Shakar qo'shmasdan, steyviya ekstrakti asosida tayyorlangan. Qadoqda 21 ta konfet mavjud.",
-        "description_en": "Assorted chewy fruit candies featuring vibrant cherry, strawberry, lemon, and orange flavors. Sweetened with natural Stevia extract, providing 21 individually wrapped treats."
+        "description_en": "Assorted chewy fruit candies featuring vibrant cherry, strawberry, lemon, and orange flavors. Sweetened with natural Stevia extract, providing 21 individually wrapped treats.",
+        "description_zh": "柔软水果软糖，包含樱桃、草莓、柠檬和橙子口味，采用天然甜菊糖调味，不含添加糖，共21颗独立包装。"
     },
     {
         "id": 125,
@@ -1372,7 +1496,8 @@
         "name_en": "Lago Be-Goodie Mini Party Hazelnut Wafers - 125g",
         "description_ru": "Итальянские хрустящие мини-вафли с нежной кремовой начинкой из фундука. Легкий десерт без добавления сахара для приятного чаепития.",
         "description_uz": "Mayin o'rmon yong'oqli krem bilan to'ldirilgan Italiya qarsildoq mini-vaflilari. Yoqimli choyxo'rlik uchun shakar qo'shilmagan yengil shirinlik.",
-        "description_en": "Bite-sized Italian wafer cubes layered with a velvety hazelnut cream filling. Delicately baked without sugar to deliver an authentic European pastry experience."
+        "description_en": "Bite-sized Italian wafer cubes layered with a velvety hazelnut cream filling. Delicately baked without sugar to deliver an authentic European pastry experience.",
+        "description_zh": "意大利迷你榛子夹心威化饼，香脆外层搭配丝滑榛子奶油，不添加糖，是下午茶的理想甜点。"
     },
     {
         "id": 126,
@@ -1383,7 +1508,8 @@
         "name_en": "Kirkland Signature Sharp Cheddar Cheese - 907g",
         "description_ru": "Традиционный американский острый чеддер из коровьего молока. Выдержан более 6 месяцев, обладает выразительным пикантным вкусом и плотной текстурой. Без глютена.",
         "description_uz": "Sigir sutidan tayyorlangan an'anaviy Amerika o'tkir cheddari. 6 oydan ortiq muddat davomida yetiltirilgan, yorqin porsiyalik ta'mga va zich tuzilishga ega. Glyutensiz.",
-        "description_en": "Traditional American sharp cheddar made from high-quality cow's milk. Aged for over 6 months to develop its characteristically bold, rich flavor profile. Gluten-free."
+        "description_en": "Traditional American sharp cheddar made from high-quality cow's milk. Aged for over 6 months to develop its characteristically bold, rich flavor profile. Gluten-free.",
+        "description_zh": "传统美式陈年切达奶酪，采用优质牛奶制成，熟成超过6个月，风味浓郁醇厚，且不含麸质。"
     },
     {
         "id": 127,
@@ -1394,7 +1520,8 @@
         "name_en": "Great British Cheeses Selection Box - Assorted",
         "description_ru": "Подарочный набор традиционных британских сыров в брусочках. Включает популярные сорта, такие как Чеддер, Венслидейл и Глостер, демонстрирующие лучшие традиции сыроварения Великобритании.",
         "description_uz": "Bochkacha shaklidagi an'anaviy Britaniya pishloqlarining sovg'abop to'plami. Buyuk Britaniyaning eng yaxshi pishloqchilik an'analarini ko'rsatuvchi Chedder, Venslideyl va Gloster kabi mashhur navlarni o'z ichiga oladi.",
-        "description_en": "A curated gift selection of traditional British cheese trucks. Features regional favorites like Cheddar, Wensleydale, and Gloucester, celebrating the finest of British cheese-making heritage."
+        "description_en": "A curated gift selection of traditional British cheese trucks. Features regional favorites like Cheddar, Wensleydale, and Gloucester, celebrating the finest of British cheese-making heritage.",
+        "description_zh": "精选英国传统奶酪礼盒，包含切达、温斯利代尔、格洛斯特等经典品种，展现英国奶酪工艺精华。"
     },
     {
         "id": 128,
@@ -1405,7 +1532,8 @@
         "name_en": "Parmigiano Reggiano Cheese - Wedge",
         "description_ru": "Настоящий итальянский Пармезан высочайшего качества, сертифицированный консорциумом сыроделов (DOP). Обладает глубоким зернистым вкусом и насыщенным ароматом. Идеален для пасты и ризотто.",
         "description_uz": "Pishloq ishlab chiqaruvchilar konsorsiumi (DOP) tomonidan sertifikatlangan haqiqiy Italiya parmezani. Chuqur donador ta'm va boy hidga ega. Pasta va rizotto uchun juda mos keladi.",
-        "description_en": "Authentic Italian Parmesan cheese certified with Protected Designation of Origin (DOP) status. Delivers a deeply savory, crystalline texture and complex aroma, perfect for grating over pasta or risottos."
+        "description_en": "Authentic Italian Parmesan cheese certified with Protected Designation of Origin (DOP) status. Delivers a deeply savory, crystalline texture and complex aroma, perfect for grating over pasta or risottos.",
+        "description_zh": "正宗意大利帕玛森奶酪（DOP认证），拥有丰富颗粒口感和浓郁香气，非常适合搭配意面和意式烩饭。"
     },
     {
         "id": 129,
@@ -1416,7 +1544,8 @@
         "name_en": "Jacks Cheese Tricolore with Paprika",
         "description_ru": "Оригинальный голландский полутвердый сыр в стиле «Триколор». Эффектный мозаичный внешний вид сочетается с мягким сливочным вкусом, дополненным пикантными нотками сладкой паприки.",
         "description_uz": "\"Trikolor\" uslubidagi original Gollandiya yarim qattiq pishlog'i. Jozibador mozaik ko'rinishi shirin paprikaning o'tkir notalari bilan to'ldirilgan yumshoq qaymoqli ta'm bilan uyg'unlashadi.",
-        "description_en": "Eye-catching Dutch semi-hard cheese inspired by the tricolor palette. The vibrant mosaic appearance delivers a smooth, creamy flavor profile elevated by a sweet and savory paprika infusion."
+        "description_en": "Eye-catching Dutch semi-hard cheese inspired by the tricolor palette. The vibrant mosaic appearance delivers a smooth, creamy flavor profile elevated by a sweet and savory paprika infusion.",
+        "description_zh": "荷兰三色半硬质奶酪，外观色彩鲜艳，融合柔滑奶香与甜椒的微辣风味，为奶酪拼盘增添特色。"
     },
     {
         "id": 130,
@@ -1427,7 +1556,8 @@
         "name_en": "Jacks Cheese Green Pesto",
         "description_ru": "Традиционный голландский сыр Гауда насыщенного зеленого цвета, приготовленный с добавлением ароматного базилика и кедровых орешков по рецепту соуса песто. Придает изюминку любой сырной тарелке.",
         "description_uz": "Xushbo'y rayhon va kedr yong'oqlari qo'shilgan, pesto qaylasi retsepti bo'yicha tayyorlangan to'yingan yashil rangli Gollandiya Gouda pishlog'i. Har qanday pishloq likopchasiga o'zgacha ko'rk bag'ishlaydi.",
-        "description_en": "Classic Dutch Gouda colorfully transformed with aromatic basil and pine nuts following an authentic Italian green pesto recipe. Adds a fragrant, herbal punch and striking visual to any cheese board."
+        "description_en": "Classic Dutch Gouda colorfully transformed with aromatic basil and pine nuts following an authentic Italian green pesto recipe. Adds a fragrant, herbal punch and striking visual to any cheese board.",
+        "description_zh": "经典荷兰高达奶酪加入罗勒和松子，采用意式青酱配方制作，散发浓郁草本香气，是奶酪拼盘的点睛之选。"
     },
     {
         "id": 131,
@@ -1438,7 +1568,8 @@
         "name_en": "Jacks Cheese Red Tomato & Olives",
         "description_ru": "Яркий голландский полутвердый сыр с выразительным средиземноморским характером. В состав входят высушенные на солнце томаты, кусочки спелых оливок и чеснок, придающие сыру насыщенный красный оттенок и пряный вкус.",
         "description_uz": "O'rta yer dengizi xarakteriga ega bo'lgan yorqin Gollandiya yarim qattiq pishlog'i. Tarkibiga quyoshda quritilgan pomidorlar, pishgan zaytun bo'laklari va sarimsoq kiradi, bular pishloqqa to'yingan qizil tus va xushbo'y ta'm beradi.",
-        "description_en": "Vibrant Dutch semi-hard cheese infused with a Mediterranean flair. Crafted with sun-ripened tomatoes, savory black olive pieces, and garlic, giving the cheese its bold crimson color and rich, savory palate."
+        "description_en": "Vibrant Dutch semi-hard cheese infused with a Mediterranean flair. Crafted with sun-ripened tomatoes, savory black olive pieces, and garlic, giving the cheese its bold crimson color and rich, savory palate.",
+        "description_zh": "荷兰半硬质奶酪，融入地中海风味，加入风干番茄、成熟橄榄和大蒜，呈现浓郁的红色与丰富辛香口感。"
     },
     {
         "id": 132,
@@ -1449,7 +1580,8 @@
         "name_en": "Ben & Jerry's Cookie Dough Ice Cream",
         "description_ru": "Знаменитое ванильное мороженое с кусочками шоколадного печенья и шоколадной крошкой. Изготовлено из отборных ингредиентов по стандартам Fairtrade.",
         "description_uz": "Shokoladli pechenye bo'laklari va shokolad qirindilari bo'lgan mashhur vanilli muzqaymoq. Fairtrade standartlari asosida saralangan masalliqlardan tayyorlangan.",
-        "description_en": "Legendary vanilla ice cream packed with delicious chunks of chocolate chip cookie dough and chocolatey chips. Responsibly sourced with Fairtrade certified ingredients."
+        "description_en": "Legendary vanilla ice cream packed with delicious chunks of chocolate chip cookie dough and chocolatey chips. Responsibly sourced with Fairtrade certified ingredients.",
+        "description_zh": "经典香草冰淇淋，加入巧克力曲奇面团块和巧克力碎粒，采用公平贸易认证原料制作。"
     },
     {
         "id": 133,
@@ -1460,7 +1592,8 @@
         "name_en": "SQUP Nocciola Hazelnut Ice Cream",
         "description_ru": "100% растительное итальянское мороженое со вкусом лесного ореха. Без добавления сахара и без лактозы, идеальный выбор для здорового питания. Всего 162 ккал на порцию.",
         "description_uz": "100% o'simlik asosidagi, findiq ta'mli Italiya muzqaymog'i. Shakar qo'shilmagan va laktosasiz, sog'lom ovqatlanish uchun ajoyib tanlov. Har bir porsiyasi bor-yo'g'i 162 kkal.",
-        "description_en": "100% plant-based Italian hazelnut ice cream. Made with no added sugar and completely lactose-free, offering a guilt-free treat at just 162 kcal per serving."
+        "description_en": "100% plant-based Italian hazelnut ice cream. Made with no added sugar and completely lactose-free, offering a guilt-free treat at just 162 kcal per serving.",
+        "description_zh": "100%植物基意大利榛子冰淇淋，不添加糖、不含乳糖，每份仅162千卡，是健康美味的选择。"
     },
     {
         "id": 134,
@@ -1471,7 +1604,8 @@
         "name_en": "Sammontana Gruvi Mitico Croccantino Ice Cream Bars (4 pack)",
         "description_ru": "Итальянское мороженое премиум-класса на палочке. Нежная ванильная основа покрыта роскошной глазурью из соленой карамели, измельченного миндаля и хрустящего печенья.",
         "description_uz": "Tayoqchadagi premium klassga mansub Italiya muzqaymog'i. Mayin vanilli asos tuzli karamel, maydalangan bodom va qarsilloq pechenye sirlangan qoplama bilan qoplangan.",
-        "description_en": "Premium Italian ice cream on a stick. Features a smooth vanilla center wrapped in a decadent salted caramel coating, studded with chopped almonds and biscuit pieces."
+        "description_en": "Premium Italian ice cream on a stick. Features a smooth vanilla center wrapped in a decadent salted caramel coating, studded with chopped almonds and biscuit pieces.",
+        "description_zh": "意大利高端雪糕，细腻香草冰淇淋外裹咸焦糖涂层，并加入杏仁碎和香脆饼干颗粒。"
     },
     {
         "id": 135,
@@ -1482,7 +1616,8 @@
         "name_en": "Carrefour Sensation High Protein Arachidi Peanut Ice Cream",
         "description_ru": "Низкокалорийное протеиновое мороженое с насыщенным вкусом арахиса. Содержит 11 г белка на порцию, помогая поддерживать форму без отказа от любимых десертов.",
         "description_uz": "To'yingan yer yong'oq ta'miga ega past kaloriyali proteinli muzqaymoq. Sevimli shirinlikingizdan voz kechmasdan qomatni saqlashga yordam beradigan har bir porsiyada 11 g oqsil mavjud.",
-        "description_en": "Low-calorie, high-protein ice cream with a rich peanut flavor. Packed with 11g of protein per serving, making it the perfect fitness-friendly dessert option."
+        "description_en": "Low-calorie, high-protein ice cream with a rich peanut flavor. Packed with 11g of protein per serving, making it the perfect fitness-friendly dessert option.",
+        "description_zh": "低热量高蛋白花生冰淇淋，每份含11克蛋白质，兼顾美味与健康，是健身人士的理想甜点。"
     },
     {
         "id": 136,
@@ -1493,7 +1628,8 @@
         "name_en": "Sammontana Barattolino Croccantino Ice Cream Tub",
         "description_ru": "Классическое итальянское джелато из Тосканы. Сочетание нежного сливочного вкуса с хрустящим крокантом и сицилийским миндалем в удобном семейном формате.",
         "description_uz": "Toskananing klassik Italiya jelatosi. Qulay oilaviy formatdagi qarsilloq krokant va Sitsiliya bodomlari bilan mayin qaymoqli ta'm uyg'unligi.",
-        "description_en": "Classic Italian gelato from Tuscany. A smooth, creamy base beautifully blended with crunchy caramelized brittle and premium Sicilian almonds in a family-sized tub."
+        "description_en": "Classic Italian gelato from Tuscany. A smooth, creamy base beautifully blended with crunchy caramelized brittle and premium Sicilian almonds in a family-sized tub.",
+        "description_zh": "来自托斯卡纳的经典意式冰淇淋，香浓奶香融合焦糖脆粒和西西里杏仁，家庭分享装更适合全家享用。"
     },
     {
         "id": 137,
@@ -1504,7 +1640,8 @@
         "name_en": "Cornetto Soft Strawberry Ice Cream Cones (4 pack)",
         "description_ru": "Невероятно мягкое сливочное мороженое в хрустящем вафельном рожке, политое ярким и ароматным клубничным соусом. В упаковке 4 порции.",
         "description_uz": "Qarsilloq vafli shoxobchasidagi ajoyib darajada yumshoq qaymoqli muzqaymoq, yorqin va xushbo'y qulupnayli sous bilan to'ldirilgan. Paketda 4 ta porsiya.",
-        "description_en": "Wonderfully soft and creamy ice cream served in a crunchy wafer cone, beautifully swirled with a vibrant, fruity strawberry sauce. Contains 4 cones."
+        "description_en": "Wonderfully soft and creamy ice cream served in a crunchy wafer cone, beautifully swirled with a vibrant, fruity strawberry sauce. Contains 4 cones.",
+        "description_zh": "香浓柔滑的草莓甜筒冰淇淋，搭配酥脆华夫筒和浓郁草莓酱，每盒4支。"
     },
     {
         "id": 138,
@@ -1515,7 +1652,8 @@
         "name_en": "Magnum Collection Intense Dark 70% Cocoa Ice Cream Bars (3 pack)",
         "description_ru": "Изысканное шоколадное мороженое, покрытое толстым слоем трескающегося премиального темного шоколада с содержанием какао 70%. Настоящее удовольствие для ценителей.",
         "description_uz": "Tarkibida 70% kakao bo'lgan premium to'q qorong'i shokoladning qalin qatlami bilan qoplangan nafis shokoladli muzqaymoq. Haqiqiy shokolad ixlosmandlari uchun ajoyib lazzat.",
-        "description_en": "An indulgent chocolate ice cream coated in a thick, cracking shell of premium dark chocolate crafted with 70% cocoa. A sophisticated treat for true chocolate connoisseurs."
+        "description_en": "An indulgent chocolate ice cream coated in a thick, cracking shell of premium dark chocolate crafted with 70% cocoa. A sophisticated treat for true chocolate connoisseurs.",
+        "description_zh": "浓郁巧克力冰淇淋外裹70%可可含量的优质黑巧克力脆皮，为巧克力爱好者带来极致享受。"
     },
     {
         "id": 139,
@@ -1526,7 +1664,8 @@
         "name_en": "Dinoabbo Olio Extra Vergine di Oliva Taggiasca Affiorato - 1L",
         "description_ru": "Эксклюзивное итальянское оливковое масло первого холодного отжима, произведенное из 100% итальянских оливок сорта Таджаска методом деликатного снятия верхнего слоя (Affiorato). Поставляется в изящной бутылке, обернутой в золотую фольгу.",
         "description_uz": "100% Italiyaning Tadjaska navli zaytunlaridan tayyorlangan eksklyuziv oliy navli sovuq presslangan (Affiorato uslubidagi) zaytun moyi. Oltin folgaga o'ralgan nafis shishada taqdim etiladi.",
-        "description_en": "Exclusive 100% Italian extra virgin olive oil made from premium Taggiasca olives using the traditional, delicate surface-skimming \"Affiorato\" method. Elegantly presented in a gold foil-wrapped bottle."
+        "description_en": "Exclusive 100% Italian extra virgin olive oil made from premium Taggiasca olives using the traditional, delicate surface-skimming \"Affiorato\" method. Elegantly presented in a gold foil-wrapped bottle.",
+        "description_zh": "采用100%意大利塔贾斯卡橄榄，以传统Affiorato工艺压榨而成的特级初榨橄榄油，金色锡箔包装尽显高端品质。"
     },
     {
         "id": 140,
@@ -1537,7 +1676,8 @@
         "name_en": "Ranieri Olio Extra Vergine di Oliva - 500ml",
         "description_ru": "Классическое итальянское оливковое масло высшего качества. Обладает сбалансированным вкусом с легкой горчинкой и приятным фруктовым ароматом, идеально подходящим для заправки салатов и готовых блюд.",
         "description_uz": "Yuqori sifatli klassik Italiya zaytun moyi. Salatlar va tayyor taomlarni ziravorlash uchun juda mos keladigan, engil achchiqlik va yoqimli meva aromati bilan muvozanatlashgan ta'mga ega.",
-        "description_en": "Classic Italian extra virgin olive oil of superior quality. Offers a well-balanced flavor profile with a gentle touch of bitterness and a pleasant fruity aroma, ideal for salads and drizzling over finished dishes."
+        "description_en": "Classic Italian extra virgin olive oil of superior quality. Offers a well-balanced flavor profile with a gentle touch of bitterness and a pleasant fruity aroma, ideal for salads and drizzling over finished dishes.",
+        "description_zh": "经典意大利特级初榨橄榄油，口感均衡，带有淡淡苦味和清新的果香，非常适合沙拉及各类料理。"
     },
     {
         "id": 141,
@@ -1548,7 +1688,8 @@
         "name_en": "Lorenzo No.3 Biancolilla Extra Virgin Olive Oil - 500ml",
         "description_ru": "Органическое сицилийское оливковое масло премиум-класса от Barbera, изготовленное из оливок сорта Бьянколилла (D.O.P. Val di Mazara). Имеет мягкий фруктовый вкус с нежным миндальным послевкусием.",
         "description_uz": "Barbera brendidan Biankolilla navli zaytunlardan tayyorlangan organik premium Sitsiliya zaytun moyi (D.O.P. Val di Mazara). Mayin bodom ta'miga ega yumshoq mevali ta'mga ega.",
-        "description_en": "Premium organic Sicilian extra virgin olive oil by Barbera, single-varietal crafted from 100% Biancolilla olives (D.O.P. Val di Mazara). Features a mild, fruity character with a delicate almond finish."
+        "description_en": "Premium organic Sicilian extra virgin olive oil by Barbera, single-varietal crafted from 100% Biancolilla olives (D.O.P. Val di Mazara). Features a mild, fruity character with a delicate almond finish.",
+        "description_zh": "Barbera出品的西西里有机特级初榨橄榄油，采用100% Biancolilla橄榄酿制，果香柔和，伴有细腻杏仁余韵。"
     },
     {
         "id": 142,
@@ -1559,7 +1700,8 @@
         "name_en": "Carapelli Unfiltered Extra Virgin Olive Oil - 500ml",
         "description_ru": "Натуральное нефильтрованное оливковое масло первого холодного отжима. Благодаря отсутствию фильтрации сохраняет первозданный густой аромат, насыщенный цвет и частицы спелых оливок. Сертифицировано USDA Organic.",
         "description_uz": "Tabiiy filtrlanmagan birinchi sovuq presslangan zaytun moyi. Filtratsiya qilinmaganligi sababli, u o'zining quyuq hidi, to'yingan rangi va pishgan zaytun zarrachalarini saqlab qoladi. USDA Organic sertifikatiga ega.",
-        "description_en": "Natural, unfiltered extra virgin olive oil from the first cold press. By skipping the filtration process, it retains its raw, rustic aroma, dense color, and subtle olive particles. Certified USDA Organic."
+        "description_en": "Natural, unfiltered extra virgin olive oil from the first cold press. By skipping the filtration process, it retains its raw, rustic aroma, dense color, and subtle olive particles. Certified USDA Organic.",
+        "description_zh": "天然未过滤特级初榨橄榄油，完整保留橄榄原始香气、浓郁色泽及天然果肉颗粒，并获得USDA有机认证。"
     },
     {
         "id": 143,
@@ -1570,7 +1712,8 @@
         "name_en": "Urban Gourmet Foods Extra Virgin Olive Oil Ceramic Bottle - 400ml",
         "description_ru": "Итальянское оливковое масло премиум-качества, представленное в многоразовой стильной керамической бутылке ручной работы с ярким полосатым принтом. Надежно защищает масло от света, сохраняя все полезные свойства.",
         "description_uz": "Yorqin yo'l-yo'l printli, qayta ishlatiladigan zamonaviy qo'lda ishlangan keramik shishada taqdim etilgan premium sifatli Italiya zaytun moyi. Moyni yorug'likdan samarali himoya qilib, foydali xususiyatlarini saqlaydi.",
-        "description_en": "Premium Italian extra virgin olive oil presented in a reusable, stylish handcrafted ceramic bottle with vibrant green and red stripes. The opaque ceramic protects the oil from light to preserve its peak freshness."
+        "description_en": "Premium Italian extra virgin olive oil presented in a reusable, stylish handcrafted ceramic bottle with vibrant green and red stripes. The opaque ceramic protects the oil from light to preserve its peak freshness.",
+        "description_zh": "优质意大利特级初榨橄榄油，盛装于手工陶瓷瓶中，可有效阻隔光线，保持橄榄油的新鲜与风味。"
     },
     {
         "id": 144,
@@ -1581,7 +1724,8 @@
         "name_en": "Figlia Elisso Extra Virgin Olive Oil - 1L",
         "description_ru": "Универсальное оливковое масло первого холодного отжима в удобном кувшине с ручкой. Обладает мягким, сбалансированным вкусом, который идеально подходит как для повседневной кулинарии, так и для жарки, гриля или заправок.",
         "description_uz": "Tutqichli qulay ko'zacha shaklidagi birinchi sovuq presslangan universal zaytun moyi. Kundalik pishiriqlar, qovurish, gril yoki salat ziravorlari uchun juda mos keladigan yumshoq, muvozanatli ta'mga ega.",
-        "description_en": "Versatile, first cold-pressed extra virgin olive oil packaged in a convenient glass jug with an integrated handle. Delivers a smooth, well-rounded everyday cooking profile perfect for sautéing, frying, grilling, or salads."
+        "description_en": "Versatile, first cold-pressed extra virgin olive oil packaged in a convenient glass jug with an integrated handle. Delivers a smooth, well-rounded everyday cooking profile perfect for sautéing, frying, grilling, or salads.",
+        "description_zh": "多用途特级初榨橄榄油，采用首次冷压工艺，口感柔和均衡，适用于煎炒、烧烤、烘焙及沙拉调味。"
     },
     {
         "id": 145,
@@ -1592,7 +1736,8 @@
         "name_en": "Beluga Black Caviar 'Tsarskaya' by Eliseev — 100g",
         "description_ru": "Уникальный сорт черной икры премиум-класса («Special Reserve»). Получена от зрелых осетровых рыб (20 лет выдержки) методом забойного помола. Малосольный изысканный вкус для самых искушенных гурманов.",
         "description_uz": "Premium klassga mansub noyob beluga qora ikrasi («Special Reserve»). 20 yillik yetuk osyotr balig'idan tayyorlangan. Haqiqiy gurmanlar uchun mo'ljallangan mayin va kam tuzlangan lazzat.",
-        "description_en": "A unique, premium-class black caviar ('Special Reserve') sourced from mature 20-year farmed Beluga sturgeon. Prepared with the traditional malossol (low-salt) method, offering an exceptionally refined taste."
+        "description_en": "A unique, premium-class black caviar ('Special Reserve') sourced from mature 20-year farmed Beluga sturgeon. Prepared with the traditional malossol (low-salt) method, offering an exceptionally refined taste.",
+        "description_zh": "珍稀顶级白鲸鲟黑鱼子酱（Special Reserve），取自20年成熟鲟鱼，采用传统低盐工艺制作，口感细腻奢华。"
     },
     {
         "id": 146,
@@ -1603,7 +1748,8 @@
         "name_en": "Russian Sturgeon Osetra Caviar 'Eliseevskaya' Aurum — 250g",
         "description_ru": "Легендарная черная икра русского осетра сорта премиум («Aurum»). Изготовлена методом малосольного забойного помола из рыб 9-летней выдержки. Обладает глубоким благородным вкусом и золотисто-черным оттенком.",
         "description_uz": "Rossiya osyotridan olingan afsonaviy premium («Aurum») qora ikra. 9 yillik baliqlardan kam tuzlangan usulda tayyorlangan. Chuqur aslzoda ta'mga va oltin-qora jiloga ega.",
-        "description_en": "Legendary Russian Sturgeon Osetra caviar from the premium 'Aurum' selection. Sourced from 9-year farmed fish and prepared using the malossol recipe, delivering a deep, sophisticated nutty flavor profile."
+        "description_en": "Legendary Russian Sturgeon Osetra caviar from the premium 'Aurum' selection. Sourced from 9-year farmed fish and prepared using the malossol recipe, delivering a deep, sophisticated nutty flavor profile.",
+        "description_zh": "传奇俄罗斯鲟鱼黑鱼子酱（Aurum系列），取自9年成熟鲟鱼，以传统低盐工艺制成，风味醇厚优雅，色泽金黑。"
     },
     {
         "id": 147,
@@ -1614,7 +1760,8 @@
         "name_en": "Ocean Bay Frozen Tiger Shrimps",
         "description_ru": "Крупные отборные тигровые креветки с сохранением панциря. Экологически чистый продукт из Бангладеш. Идеально подходят для жарки на гриле, запекания и добавления в экзотические морские блюда.",
         "description_uz": "Bangladeshdan keltirilgan, qobig'i saqlangan yirik saralangan yo'lbars krevetkalari. Grilda qovurish, pishirish va ekzotik dengiz taomlariga qo'shish uchun juda mos keladi.",
-        "description_en": "Premium, large-sized whole tiger shrimps with shell-on to preserve succulent juices. Responsibly sourced from Bangladesh, these are excellent for grilling, baking, or premium seafood stir-fries."
+        "description_en": "Premium, large-sized whole tiger shrimps with shell-on to preserve succulent juices. Responsibly sourced from Bangladesh, these are excellent for grilling, baking, or premium seafood stir-fries.",
+        "description_zh": "精选孟加拉国大型带壳虎虾，肉质鲜嫩饱满，非常适合烧烤、烘焙及各种海鲜料理。"
     },
     {
         "id": 148,
@@ -1625,7 +1772,8 @@
         "name_en": "Kaluga Black Caviar 'Tsarskaya' by Eliseev — 250g",
         "description_ru": "Роскошная черная икра крупного калибра (размер зерна 3.4 мм). Отобрана от лучших осетровых рыб семейства Калуга с 20-летней выдержкой. Отличается невероятно нежной текстурой и тающим малосольным вкусом.",
         "description_uz": "Yirik kalibrli hashamatli qora ikra (donacha o'lchami 3.4 mm). 20 yillik Kaluga oilasiga mansub osyotr baliqlaridan saralab olingan. Ajablanarli darajada yumshoq tuzilishga va og'izda eriydigan ta'mga ega.",
-        "description_en": "Luxury Royal Size (3.4 mm grain) black caviar, expertly selected from the finest 20-year farmed Kaluga sturgeon. Boasts an incredibly delicate texture with a rich, buttery, melts-in-your-mouth finish."
+        "description_en": "Luxury Royal Size (3.4 mm grain) black caviar, expertly selected from the finest 20-year farmed Kaluga sturgeon. Boasts an incredibly delicate texture with a rich, buttery, melts-in-your-mouth finish.",
+        "description_zh": "皇家级卡卢加黑鱼子酱，颗粒硕大（3.4毫米），精选20年成熟鲟鱼，口感细腻柔滑，入口即化。"
     },
     {
         "id": 149,
@@ -1636,7 +1784,8 @@
         "name_en": "Hot Smoked Sockeye Salmon Fillet Vacuum Packed",
         "description_ru": "Филе дикой камчатской нерки горячего копчения. Натуральное копчение на ольховой щепе придает рыбе плотную текстуру, яркий коралловый цвет и деликатный подкопченный аромат. Полностью готово к употреблению.",
         "description_uz": "Issiq usulda dudlangan yovvoyi Kamchatka nerka filesi. Olxa qipig'ida tabiiy dudlash baliqqa zich tekstura, yorqin marjon rangi va yoqimli hid beradi. Iste'molga butunlay tayyor.",
-        "description_en": "Premium hot-smoked wild sockeye salmon fillet. Naturally smoked over alder wood chips to lock in its firm texture, vibrant ruby-red color, and deeply savory, smoky aroma. Ready to serve."
+        "description_en": "Premium hot-smoked wild sockeye salmon fillet. Naturally smoked over alder wood chips to lock in its firm texture, vibrant ruby-red color, and deeply savory, smoky aroma. Ready to serve.",
+        "description_zh": "野生堪察加红鲑鱼热熏鱼柳，采用桤木天然熏制，肉质紧实，色泽鲜艳，烟熏香气浓郁，可直接食用。"
     },
     {
         "id": 150,
@@ -1647,7 +1796,8 @@
         "name_en": "Spiced Baked Salmon Fillet",
         "description_ru": "Сочное филе нежного лосося, маринованное в ароматных травах и специях, а затем бережно запеченное до золотистого оттенка. На подложке в вакуумной упаковке для сохранения сочности.",
         "description_uz": "Xushbo'y o'tlar va ziravorlar bilan marinadlangan, so'ngra oltin tusga kirguncha ehtiyotkorlik bilan pishirilgan sersuv losos filesi. Sersuvligini saqlash uchun vakuumli qadoqda taqdim etiladi.",
-        "description_en": "Succulent salmon fillet marinated with aromatic herbs and crushed spices, then gently baked to perfection. Vacuum-sealed on a gold board to preserve maximum moisture and flavor."
+        "description_en": "Succulent salmon fillet marinated with aromatic herbs and crushed spices, then gently baked to perfection. Vacuum-sealed on a gold board to preserve maximum moisture and flavor.",
+        "description_zh": "鲜嫩三文鱼鱼柳以香草和天然香料腌制后烘烤而成，真空包装锁住鲜嫩口感，可即食。"
     },
     {
         "id": 151,
@@ -1658,7 +1808,8 @@
         "name_en": "Cold Smoked Triple Fish Medley Block",
         "description_ru": "Изысканное кулинарное сочетание филе трех благородных рыб холодного копчения, выложенных слоями. Красивый многослойный срез и нежная текстура делают этот деликатес украшением праздничного стола.",
         "description_uz": "Sovuq usulda dudlangan uch turdagi aslzoda baliq filelarining nafis pazandachilik uyg'unligi. Chiroyli ko'p qatlamli ko'rinishi va mayin tuzilishi bu delikatesni bayram dasturxoni ko'rkiga aylantiradi.",
-        "description_en": "An exquisite layered block combining three premium varieties of cold-smoked fish. The beautiful multi-colored layers and delicate buttery texture make it a stunning centerpiece for any gourmet platter."
+        "description_en": "An exquisite layered block combining three premium varieties of cold-smoked fish. The beautiful multi-colored layers and delicate buttery texture make it a stunning centerpiece for any gourmet platter.",
+        "description_zh": "精选三种优质冷熏鱼片层层叠放而成的精致拼盘，色彩丰富、口感细腻，是节日餐桌和海鲜拼盘的理想之选。"
     },
     {
         "id": 152,
@@ -1669,7 +1820,8 @@
         "name_en": "Mosaic Seafood Chessboard Block",
         "description_ru": "Эксклюзивное рыбное плато, выложенное мозаикой в шахматном порядке из отборных кубиков тунца, лосося и палтуса. Неповторимый баланс вкусов разных сортов рыбы в одной упаковке.",
         "description_uz": "Saralangan tunets, losos va paltus bo'laklaridan shaxmat taxtasi ko'rinishida terilgan eksklyuziv baliq mozaikasi. Bir qadoqda turli xil baliq navlarining takrorlanmas ta'm muvozanati.",
-        "description_en": "An exclusive gourmet block artfully arranged in a chessboard mosaic pattern using premium cubes of tuna, salmon, and halibut. Offers a stunning presentation and a perfect balance of textures."
+        "description_en": "An exclusive gourmet block artfully arranged in a chessboard mosaic pattern using premium cubes of tuna, salmon, and halibut. Offers a stunning presentation and a perfect balance of textures.",
+        "description_zh": "精选金枪鱼、三文鱼和大比目鱼切块，以棋盘马赛克造型精心拼制而成，带来丰富层次与多样海鲜风味。"
     },
     {
         "id": 153,
@@ -1680,7 +1832,8 @@
         "name_en": "Cabo Vírgenes Wild Argentine Red Shrimps Gambon L1 — 2kg",
         "description_ru": "Крупные дикие аргентинские красные креветки размера L1, выловленные в экологически чистых водах Патагонии. Заморожены прямо на борту судна для сохранения свежести. Обладают сладковатым мясом, похожим на лангустинов.",
         "description_uz": "Patagoniyaning ekologik toza suvlaridan tutilgan yirik L1 o'lchamli Argentina yovvoyi qizil krevetkalari. Yangiligini saqlash uchun to'g'ridan-to'g'ri kemada muzlatilgan. Langustlarga o'xshash shirinroq go'shtga ega.",
-        "description_en": "Premium, extra-large wild-caught Argentine red shrimps (Size L1) from the pristine cold waters of Patagonia. Seafrozen directly on board to capture peak freshness. Known for their naturally sweet, lobster-like flavor."
+        "description_en": "Premium, extra-large wild-caught Argentine red shrimps (Size L1) from the pristine cold waters of Patagonia. Seafrozen directly on board to capture peak freshness. Known for their naturally sweet, lobster-like flavor.",
+        "description_zh": "来自巴塔哥尼亚纯净海域的超大L1级阿根廷野生红虾，船冻锁鲜，肉质鲜甜，口感犹如小龙虾。"
     },
     {
         "id": 154,
@@ -1691,7 +1844,8 @@
         "name_en": "Lemberg Gorbuscha Salmon Caviar Premium",
         "description_ru": "Традиционная немецкая красная икра горбуши высшего качества от бренда Lemberg. Крупные оранжевые зерна с тонкой оболочкой и нежным классическим вкусом. Идеальный выбор для праздничных закусок.",
         "description_uz": "Lemberg brendidan yuqori sifatli gorbusha balig'ining klassik nemis qizil ikrasi. Yupqa qobiqli va mayin klassik ta'mga ega yirik to'q sariq donachalar. Bayramona gazaklar uchun ajoyib tanlov.",
-        "description_en": "Premium quality wild-caught pink salmon (Gorbuscha) roe from the renowned German brand Lemberg. Features large, vibrant orange grains with a delicate pop and a classic, clean marine flavor."
+        "description_en": "Premium quality wild-caught pink salmon (Gorbuscha) roe from the renowned German brand Lemberg. Features large, vibrant orange grains with a delicate pop and a classic, clean marine flavor.",
+        "description_zh": "德国Lemberg品牌优质粉红鲑鱼籽，颗粒饱满、色泽橙红、外皮细腻，拥有经典鲜美的海洋风味，是节日餐桌的理想选择。"
     },
     {
         "id": 155,
@@ -1702,7 +1856,8 @@
         "name_en": "Krasnoe Zoloto Salmon Caviar — 500g",
         "description_ru": "Первосортная зернистая лососевая икра с классическим насыщенным вкусом. Крупные цельные икринки идеальной консистенции. Традиционная стеклянная банка с крафтовой бумагой и шпагатом — отличный подарок и украшение стола.",
         "description_uz": "Klassik boy ta'mga ega yuqori sifatli donador losos qizil ikrasi. Ideal mustahkamlikdagi yirik butun ikra donachalari. Kraft qog'oz va ip bilan bezatilgan an'anaviy shisha idish — ajoyib sovg'a va dasturxon ko'rki.",
-        "description_en": "Premium grain salmon caviar featuring a classic, rich savory taste. Large, whole eggs with perfect consistency. Packaged in a traditional glass jar wrapped with craft paper and twine, making it an excellent gift selection."
+        "description_en": "Premium grain salmon caviar featuring a classic, rich savory taste. Large, whole eggs with perfect consistency. Packaged in a traditional glass jar wrapped with craft paper and twine, making it an excellent gift selection.",
+        "description_zh": "优质颗粒三文鱼鱼子酱，颗粒完整饱满，口感鲜美浓郁。采用传统玻璃罐搭配牛皮纸与麻绳包装，是送礼和宴会的上佳选择。"
     },
     {
         "id": 156,
@@ -1713,7 +1868,8 @@
         "name_en": "Armadora Pereira Whole Patagonian Squid — 1kg",
         "description_ru": "Цельный патагонский кальмар (Calamar Patagónico) глубокой заморозки от известного испанского бренда. Экологически чистый морепродукт, сохранивший нежную текстуру и легкий сладковатый вкус. Подходит для фарширования, жарки и гриля.",
         "description_uz": "Taniqli Ispaniya brendidan chuqur muzlatilgan butun Patagoniya kalmari (Calamar Patagónico). Mayin tuzilishi va biroz shirin ta'mini saqlab qolgan ekologik toza dengiz mahsuloti. To'ldirish, qovurish va gril uchun juda mos keladi.",
-        "description_en": "Premium whole round Patagonian squid frozen at sea by the renowned Spanish brand Armadora Pereira. Retains its tender texture and naturally mild, sweet oceanic flavor. Perfect for stuffing, pan-searing, or grilling."
+        "description_en": "Premium whole round Patagonian squid frozen at sea by the renowned Spanish brand Armadora Pereira. Retains its tender texture and naturally mild, sweet oceanic flavor. Perfect for stuffing, pan-searing, or grilling.",
+        "description_zh": "西班牙Armadora Pereira品牌整只巴塔哥尼亚鱿鱼，船冻保鲜，肉质鲜嫩，带有天然微甜海鲜风味，适合酿制、煎烤或烧烤。"
     },
     {
         "id": 157,
@@ -1724,7 +1880,8 @@
         "name_en": "Concisa Cooked Octopus Tentacles — 150g",
         "description_ru": "Отварные щупальца осьминога (Tentáculo de Pulpo Cocido) ультразаморозки. Натуральный испанский продукт высокого качества, полностью готовый к кулинарной обработке. Идеально для быстрого обжаривания на гриле или сковороде.",
         "description_uz": "Ultra-muzlatilgan qaynatilgan sakkizoyoq paypaslagichlari (Tentáculo de Pulpo Cocido). Pazandachilik ishloviga butunlay tayyor bo'lgan yuqori sifatli tabiiy Ispaniya mahsuloti. Grilda yoki tavada tezda qovurish uchun juda mos keladi.",
-        "description_en": "Premium ultra-frozen cooked octopus tentacles produced in Spain by Concisa. Expertly pre-cooked to ensure a tender, non-chewy texture. Ready to be quickly seared on the grill or pan for gourmet Mediterranean dishes."
+        "description_en": "Premium ultra-frozen cooked octopus tentacles produced in Spain by Concisa. Expertly pre-cooked to ensure a tender, non-chewy texture. Ready to be quickly seared on the grill or pan for gourmet Mediterranean dishes.",
+        "description_zh": "西班牙Concisa品牌熟制章鱼触手，超低温冷冻锁鲜，口感柔嫩富有弹性，可直接煎烤或制作地中海风味料理。"
     },
     {
         "id": 158,
@@ -1735,7 +1892,8 @@
         "name_en": "Samyak Premium Chocolate — Gold Wrap",
         "description_ru": "Премиальный шоколад Samyak в элегантной золотой фольге. Халяль сертификат, без желатина и ГМО. Идеален для подарка или дегустации.",
         "description_uz": "Samyak premium shokoladi — nafis oltin folga qadoqda. Halol sertifikat, jelatinsiz va GMO yo'q. Sovg'a yoki degustatsiya uchun ideal.",
-        "description_en": "Samyak premium chocolate in elegant gold foil wrapping. Halal certified, gelatin-free and non-GMO. Perfect for gifting or tasting."
+        "description_en": "Samyak premium chocolate in elegant gold foil wrapping. Halal certified, gelatin-free and non-GMO. Perfect for gifting or tasting.",
+        "description_zh": "Samyak高端巧克力，采用优雅金色包装，获得清真认证，不含明胶和转基因成分，是送礼与品鉴的理想之选。"
     },
     {
         "id": 159,
@@ -1746,7 +1904,8 @@
         "name_en": "Samyak Premium Chocolate — Copper Wrap",
         "description_ru": "Квадратный шоколад Samyak в медной фольге с золотой лентой. Богатый вкус премиального какао, халяль состав.",
         "description_uz": "Mis folga va oltin lenta bilan o'ralgan kvadrat shakldagi Samyak shokoladi. Premium kakao ta'mi, halol tarkib.",
-        "description_en": "Square Samyak chocolate in copper foil with a gold band. Rich premium cocoa flavor with halal ingredients."
+        "description_en": "Square Samyak chocolate in copper foil with a gold band. Rich premium cocoa flavor with halal ingredients.",
+        "description_zh": "Samyak方形高端巧克力，采用铜色包装搭配金色饰带，精选优质可可制作，拥有浓郁醇厚的口感，并通过清真认证。"
     },
     {
         "id": 160,
@@ -1757,7 +1916,8 @@
         "name_en": "Samyak Pistachio Chocolate Wafer",
         "description_ru": "Хрустящая вафля с фисташковым шоколадом Samyak в треугольной подарочной упаковке. Натуральный фисташковый вкус и халяль сертификат.",
         "description_uz": "Samyak fistic shokoladli xrustali vafli — uchburchak sovg'a qadoqida. Tabiiy fistic ta'mi va halol sertifikat.",
-        "description_en": "Crispy wafer with Samyak pistachio chocolate in a triangular gift box. Natural pistachio flavor with halal certification."
+        "description_en": "Crispy wafer with Samyak pistachio chocolate in a triangular gift box. Natural pistachio flavor with halal certification.",
+        "description_zh": "香脆威化夹心搭配浓郁开心果巧克力，采用三角礼盒包装，天然开心果风味，并获得清真认证。"
     },
     {
         "id": 161,
@@ -1768,7 +1928,8 @@
         "name_en": "Samyak Premium Chocolate — Classic Wrap",
         "description_ru": "Классический квадратный шоколад Samyak в золотой фольге с геометрическим орнаментом. Премиальное качество и халяль состав.",
         "description_uz": "Geometrik naqshli oltin folga qadoqdagi klassik kvadrat Samyak shokoladi. Premium sifat va halol tarkib.",
-        "description_en": "Classic square Samyak chocolate in gold foil with a geometric pattern band. Premium quality with halal ingredients."
+        "description_en": "Classic square Samyak chocolate in gold foil with a geometric pattern band. Premium quality with halal ingredients.",
+        "description_zh": "经典方形Samyak高端巧克力，采用金色几何图案包装，精选优质可可原料，品质卓越，并通过清真认证。"
     },
     {
         "id": 162,
@@ -1779,7 +1940,8 @@
         "name_en": "Samyak Premium Chocolate — Mint Wrap",
         "description_ru": "Шоколад Samyak в светло-зелёной фольге с фирменной лентой. Нежная текстура и насыщенный вкус премиального какао.",
         "description_uz": "Yengil yashil folga va brend lentasi bilan o'ralgan Samyak shokoladi. Mayin tuzilish va boy premium kakao ta'mi.",
-        "description_en": "Samyak chocolate in light green foil with the signature brand band. Smooth texture and rich premium cocoa flavor."
+        "description_en": "Samyak chocolate in light green foil with the signature brand band. Smooth texture and rich premium cocoa flavor.",
+        "description_zh": "Samyak巧克力采用浅绿色品牌包装，质地细腻顺滑，带来浓郁醇香的优质可可风味。"
     },
     {
         "id": 163,
@@ -1790,6 +1952,7 @@
         "name_en": "Samyak Premium Chocolate — Collector's Wrap",
         "description_ru": "Элегантный шоколад Samyak в тёмно-зелёной упаковке с золотым орнаментом. Эксклюзивный дизайн и халяль сертификат.",
         "description_uz": "Oltin naqshli to'q yashil qadoqdagi nafis Samyak shokoladi. Eksklyuziv dizayn va halol sertifikat.",
-        "description_en": "Elegant Samyak chocolate in dark green packaging with gold ornament. Exclusive design with halal certification."
+        "description_en": "Elegant Samyak chocolate in dark green packaging with gold ornament. Exclusive design with halal certification.",
+        "description_zh": "Samyak典藏版高端巧克力，深绿色包装配以金色花纹设计，外观典雅，品质卓越，并获得清真认证。"
     }
 ]

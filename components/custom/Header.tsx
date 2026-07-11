@@ -99,6 +99,7 @@ export default function Header() {
         { code: 'ru', label: 'RU' },
         { code: 'en', label: 'EN' },
         { code: 'uz', label: 'UZ' },
+        { code: 'zh', label: 'ZH' },
     ];
 
     const handleLangChange = (code: string) => {

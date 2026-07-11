@@ -50,14 +50,14 @@ export function HeroIntro({ t, onTitleDone, onDescDone }: { t: any; onTitleDone:
     const audioReady = useRef(false)
 
     const tags = [t("tagImport"), t("tagPremium"), t("tagTabiiy")]
-    const rawTitle: string = t("title")
-    const words = rawTitle.split(" ")
-
+    const words = t.raw("titleWords") as string[]
+    
     const targetIdx = (() => {
         const idx = words.findIndex(w =>
             w.toLowerCase().replace(/[^a-z']/g, "").includes("sog") ||
             w.toLowerCase().includes("healthy") ||
-            w.toLowerCase().includes("здоровой")
+            w.toLowerCase().includes("здоровой") ||
+            w.includes("健康")
         )
         return idx >= 0 ? idx : 0
     })()
