@@ -214,6 +214,9 @@
         "home": {
             "title": "Samyak — jahon brendlaridan premium mahsulotlar",
             "description": "Original shokolad, asal, choy va qahva. O'zbekiston bo'ylab tezkor yetkazib berish. Halol, glyutensiz va shakarsiz mahsulotlar."
+        },
+        "business": {
+            "description": "Samarqanddagi import mahsulotlari va sog'liq uchun tovarlar bo'yicha premium, kuni-yu tuni ishlaydigan do'kon. Shokolad, asal, choy, qahva, BAD, sport ovqatlanishi, kosmetika. O'zbekiston bo'ylab yetkazib berish."
         }
     }
 }

@@ -215,6 +215,9 @@
         "home": {
             "title": "Samyak — Premium Products from World Brands",
             "description": "Authentic chocolate, honey, tea and coffee from the world's finest brands. Fast delivery across Uzbekistan. Halal, gluten-free, sugar-free."
+        },
+        "business": {
+            "description": "A premium, 24/7 store of imported products and health goods in Samarkand. Chocolate, honey, tea, coffee, supplements, sports nutrition, cosmetics. Delivery across Uzbekistan."
         }
     }
 }
