@@ -209,5 +209,11 @@
         "privacy": "Maxfiylik siyosati",
         "agreement": "Foydalanuvchi kelishuvi",
         "legal": "Huquqiy ma’lumotlar va mas’uliyatli oshkor etish"
+    },
+    "seo": {
+        "home": {
+            "title": "Samyak — jahon brendlaridan premium mahsulotlar",
+            "description": "Original shokolad, asal, choy va qahva. O'zbekiston bo'ylab tezkor yetkazib berish. Halol, glyutensiz va shakarsiz mahsulotlar."
+        }
     }
 }

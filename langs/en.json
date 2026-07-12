@@ -210,5 +210,11 @@
         "privacy": "Privacy",
         "agreement": "User agreement",
         "legal": "Legal Notice and Responsible Disclosure"
+    },
+    "seo": {
+        "home": {
+            "title": "Samyak — Premium Products from World Brands",
+            "description": "Authentic chocolate, honey, tea and coffee from the world's finest brands. Fast delivery across Uzbekistan. Halal, gluten-free, sugar-free."
+        }
     }
 }
