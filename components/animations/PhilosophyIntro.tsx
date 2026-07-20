@@ -98,15 +98,6 @@ function getWordImage(word: string): string | null {
     }
 
     if (
-        lower.includes("halal") ||
-        lower.includes("halol") ||
-        lower.includes("халал") ||
-        lower.includes("清真")
-    ) {
-        return "/logos/Halal_logo.webp"
-    }
-
-    if (
         lower.includes("gluten") ||
         lower.includes("глютен") ||
         lower.includes("glyuten") ||

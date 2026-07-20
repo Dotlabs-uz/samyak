@@ -1,22 +1,18 @@
 {
     "chocolate": {
         "ru": [
-            "Халяль сертификат",
             "Без желатина",
             "Без ГМО"
         ],
         "uz": [
-            "Halol sertifikat",
             "Jelatinsiz",
             "GMO yo'q"
         ],
         "en": [
-            "Halal certified",
             "Gelatin free",
             "Non-GMO"
         ],
         "zh": [
-            "清真认证",
             "不含明胶",
             "非转基因"
         ]
@@ -24,77 +20,63 @@
     "honey": {
         "ru": [
             "100% натуральный",
-            "Халяль",
             "Без консервантов"
         ],
         "uz": [
             "100% tabiiy",
-            "Halol",
             "Konservantlarsiz"
         ],
         "en": [
             "100% natural",
-            "Halal",
             "No preservatives"
         ],
         "zh": [
             "100%天然",
-            "清真",
             "不含防腐剂"
         ]
     },
     "drinks": {
         "ru": [
             "Без красителей",
-            "Халяль",
             "Натуральный состав"
         ],
         "uz": [
             "Bo'yoqsiz",
-            "Halol",
             "Tabiiy tarkib"
         ],
         "en": [
             "No colorants",
-            "Halal",
             "Natural ingredients"
         ],
         "zh": [
             "不含色素",
-            "清真",
             "天然配方"
         ]
     },
     "supplements": {
         "ru": [
             "Без ГМО",
-            "Халяль сертификат",
             "Без желатина"
         ],
         "uz": [
             "GMO yo'q",
-            "Halol sertifikat",
             "Jelatinsiz"
         ],
         "en": [
             "Non-GMO",
-            "Halal certified",
             "Gelatin free"
         ],
         "zh": [
             "非转基因",
-            "清真认证",
             "不含明胶"
         ]
     },
     "icecream": {
         "ru": [
-            "Халяль сертификат",
             "Без желатина",
             "Натуральные сливки"
         ],
         "uz": [
-            "Halol sertifikat",
             "Jelatinsiz",
             "Tabiiy qaymoq"
         ],
@@ -104,29 +86,24 @@
             "Natural cream"
         ],
         "zh": [
-            "清真认证",
             "不含明胶",
             "天然奶油"
         ]
     },
     "cheese": {
         "ru": [
-            "Халяль сычужный фермент",
             "Натуральное молоко",
             "Без консервантов"
         ],
         "uz": [
-            "Halol renin fermenti",
             "Tabiiy sut",
             "Konservantlarsiz"
         ],
         "en": [
-            "Halal rennet",
             "Natural milk",
             "No preservatives"
         ],
         "zh": [
-            "清真凝乳酶",
             "天然牛奶",
             "不含防腐剂"
         ]
@@ -156,22 +133,18 @@
     "fish": {
         "ru": [
             "Свежий вылов",
-            "Халяль обработка",
             "Без искусственных добавок"
         ],
         "uz": [
             "Yangi tutilgan",
-            "Halol ishlov",
             "Sun'iy qo'shimchalarsiz"
         ],
         "en": [
             "Fresh catch",
-            "Halal processed",
             "No artificial additives"
         ],
         "zh": [
             "新鲜捕捞",
-            "清真加工",
             "不含人工添加剂"
         ]
     },
@@ -200,45 +173,37 @@
     "glutenfree": {
         "ru": [
             "Без глютена",
-            "Халяль сертификат",
             "Безопасно для целиакии"
         ],
         "uz": [
             "Glutensiz",
-            "Halol sertifikat",
             "Sialikiya uchun xavfsiz"
         ],
         "en": [
             "Gluten-free",
-            "Halal certified",
             "Celiac safe"
         ],
         "zh": [
             "无麸质",
-            "清真认证",
             "适合乳糜泻患者"
         ]
     },
     "sugarfree": {
         "ru": [
             "Без сахара",
-            "Низкий гликемический индекс",
-            "Халяль"
+            "Низкий гликемический индекс"
         ],
         "uz": [
             "Shakarsiz",
-            "Past glikemik indeks",
-            "Halol"
+            "Past glikemik indeks"
         ],
         "en": [
             "Sugar-free",
-            "Low glycemic index",
-            "Halal"
+            "Low glycemic index"
         ],
         "zh": [
             "无糖",
-            "低升糖指数",
-            "清真"
+            "低升糖指数"
         ]
     },
     "vegan": {
@@ -266,87 +231,71 @@
     "protein": {
         "ru": [
             "Высокое содержание белка",
-            "Халяль сертификат",
             "Без искусственных добавок"
         ],
         "uz": [
             "Yuqori protein miqdori",
-            "Halol sertifikat",
             "Sun'iy qo'shimchalarsiz"
         ],
         "en": [
             "High protein content",
-            "Halal certified",
             "No artificial additives"
         ],
         "zh": [
             "高蛋白",
-            "清真认证",
             "不含人工添加剂"
         ]
     },
     "medicine": {
         "ru": [
             "Сертифицировано",
-            "Халяль состав",
             "Клинически проверено"
         ],
         "uz": [
             "Sertifikatlangan",
-            "Halol tarkib",
             "Klinik tekshirilgan"
         ],
         "en": [
             "Certified",
-            "Halal formulation",
             "Clinically tested"
         ],
         "zh": [
             "认证产品",
-            "清真配方",
             "临床验证"
         ]
     },
     "pastry": {
         "ru": [
-            "Халяль сертификат",
             "Без желатина",
             "Натуральный шоколад"
         ],
         "uz": [
-            "Halol sertifikat",
             "Jelatinsiz",
             "Tabiiy shokolad"
         ],
         "en": [
-            "Halal certified",
             "Gelatin free",
             "Natural chocolate"
         ],
         "zh": [
-            "清真认证",
             "不含明胶",
             "天然巧克力"
         ]
     },
     "care": {
         "ru": [
-            "Халяль сертификат",
             "Без спирта",
             "Без животных компонентов"
         ],
         "uz": [
-            "Halol sertifikat",
             "Spirtsiz",
             "Hayvon komponentlarisiz"
         ],
         "en": [
-            "Halal certified",
             "Alcohol-free",
             "No animal-derived ingredients"
         ],
         "zh": [
-            "清真认证",
             "不含酒精",
             "不含动物来源成分"
         ]
