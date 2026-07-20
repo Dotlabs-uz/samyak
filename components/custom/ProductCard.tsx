@@ -420,10 +420,10 @@ const ProductCard = ({
                     {name}
                 </h3>
                 <div className="flex gap-2 md:gap-4 text-xs md:text-sm text-[#5C5C5C] flex-wrap justify-center">
-                    <div className="flex items-center gap-1">
+                    {/* <div className="flex items-center gap-1">
                         <span className="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-[#BF9C66]" />
                         {t("halal")}
-                    </div>
+                    </div> */}
                     <div className="flex items-center gap-1">
                         <span className="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-[#BF9C66]" />
                         {t("gelatin_free")}
